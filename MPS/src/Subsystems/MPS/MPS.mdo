@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="186bf3d5-245d-441f-8550-bc63dda87e62">
+  <name>MPS</name>
+  <synonym>
+    <key>ru</key>
+    <value>MPS</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.Клиенты_МПС</content>
+</mdclass:Subsystem>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ed6aa1a-8844-4d7b-8f83-8e1e5712a937">
+  <producedTypes>
+    <objectType typeId="c9b55a51-e354-45b7-a212-78e67fa5086f" valueTypeId="4a187d0a-03c8-4ef2-b47d-9e82a273167c"/>
+    <refType typeId="87362a14-7813-41c4-8eb1-7fea8ebdb98c" valueTypeId="4cdebcdf-5d5b-4dbf-92c8-b73a7da01c0e"/>
+    <selectionType typeId="f4fe47c8-228d-48be-878b-ca6e7ac24ac5" valueTypeId="752414f5-fbe5-4157-94cd-49389b6caa89"/>
+    <listType typeId="ff977e87-476f-4359-ac79-b43f10e81348" valueTypeId="030c47c0-138e-473a-9af3-386969deb8b4"/>
+    <managerType typeId="03a433a4-645b-45b3-9164-b040f7c105fe" valueTypeId="05b60294-0a14-429c-9aaf-baca529ebd6f"/>
+  </producedTypes>
+  <name>ЗаказКлиента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказ клиента</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ЗаказКлиента.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecordsDeletion>AutoDeleteOff</registerRecordsDeletion>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>
