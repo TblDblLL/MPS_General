@@ -6,5 +6,6 @@
     <value>MPS</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
-  <content>CommonModule.Клиенты_МПС</content>
+  <content>CommonModule.КлиентыПКМП</content>
+  <content>Catalog.Константы</content>
 </mdclass:Subsystem>

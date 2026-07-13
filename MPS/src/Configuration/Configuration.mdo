@@ -929,7 +929,8 @@
   <commonModules>CommonModule.ШаблоныСообщенийСервер</commonModules>
   <commonModules>CommonModule.ШаблоныСообщенийСлужебный</commonModules>
   <commonModules>CommonModule.ШаблоныСообщенийСлужебныйПовтИсп</commonModules>
-  <commonModules>CommonModule.Клиенты_МПС</commonModules>
+  <commonModules>CommonModule.КлиентыПКМП</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияПКМП</commonModules>
   <commonAttributes>CommonAttribute.ОтредактированныеПредопределенныеРеквизиты</commonAttributes>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ApplicationExtensionsManifest_1_0_0_1</xDTOPackages>
@@ -1334,6 +1335,7 @@
   <catalogs>Catalog.ШаблоныСообщений</catalogs>
   <catalogs>Catalog.ШаблоныСообщенийПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.Клиенты</catalogs>
+  <catalogs>Catalog.Константы</catalogs>
   <documents>Document.ЗаказКлиента</documents>
   <enums>Enum.ВариантыВажностиЗадачи</enums>
   <enums>Enum.ВариантыВерсионированияОбъектов</enums>
