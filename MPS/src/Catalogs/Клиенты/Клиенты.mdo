@@ -213,7 +213,9 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:ReferenceValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ПолФизическогоЛица.EnumValue.Мужской</value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
