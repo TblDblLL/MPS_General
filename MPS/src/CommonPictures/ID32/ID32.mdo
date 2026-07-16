@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b21a2445-2ccc-4bcf-9635-3e5c7d381a32">
+  <name>ID32</name>
+  <synonym>
+    <key>ru</key>
+    <value>ID16</value>
+  </synonym>
+</mdclass:CommonPicture>
