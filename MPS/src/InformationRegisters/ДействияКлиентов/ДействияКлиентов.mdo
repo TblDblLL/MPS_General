@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="53f7b470-0e9c-418d-903e-a060af7c415a">
+  <producedTypes>
+    <selectionType typeId="af75efd5-d481-4738-afe0-424c1da72e74" valueTypeId="b77e3996-803c-44c4-9b91-453b6330bbfc"/>
+    <listType typeId="47576e4f-9006-45d3-9ee4-57f7839f7f61" valueTypeId="e1dce215-2032-4478-a0f6-d47c2f4d8ce1"/>
+    <managerType typeId="b7299e90-eadb-472f-9824-c5cdde139baa" valueTypeId="4213bb23-925e-4725-aac9-58bef65377f4"/>
+    <recordSetType typeId="2bf18b01-10fe-48a9-bb82-38136b419d47" valueTypeId="549e21f9-3871-4977-8c09-052cc1016e0b"/>
+    <recordKeyType typeId="512a4b48-07b3-4512-874a-09f72398130c" valueTypeId="446ce39c-1490-4156-b9f8-8c8d182f9943"/>
+    <recordType typeId="e77a9cc8-e0c0-4a35-8591-d97abb820100" valueTypeId="63385605-250b-4b71-aaeb-bf140950ef5b"/>
+    <recordManagerType typeId="f74f60d0-0a38-49be-8b6d-d1e4f65bec64" valueTypeId="cabfc6e2-2d6e-40de-8327-72bae97b1750"/>
+  </producedTypes>
+  <name>ДействияКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Действия</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="2f94d4e9-56fc-44f3-8e7a-b955f3f64bf1">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e3d75d42-953f-4cc9-804d-28818e6bc5a4">
+    <name>УИДДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>УИДДействия</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

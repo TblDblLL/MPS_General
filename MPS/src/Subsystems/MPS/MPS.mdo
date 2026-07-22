@@ -8,4 +8,5 @@
   <includeHelpInContents>true</includeHelpInContents>
   <content>CommonModule.КлиентыПКМП</content>
   <content>Catalog.Константы</content>
+  <content>InformationRegister.ДействияКлиентов</content>
 </mdclass:Subsystem>
