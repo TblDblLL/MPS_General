@@ -9,4 +9,6 @@
   <content>CommonModule.КлиентыПКМП</content>
   <content>Catalog.Константы</content>
   <content>InformationRegister.ДействияКлиентов</content>
+  <content>AccumulationRegister.Продажи</content>
+  <content>Document.ЗаказКлиента</content>
 </mdclass:Subsystem>

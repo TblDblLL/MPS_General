@@ -1535,6 +1535,7 @@
   <informationRegisters>InformationRegister.ФиксацияОбработкиДанныхОбработчиками</informationRegisters>
   <informationRegisters>InformationRegister.ХранилищеФайлов</informationRegisters>
   <informationRegisters>InformationRegister.ДействияКлиентов</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ОбъектыАдресацииЗадач</chartsOfCharacteristicTypes>
   <businessProcesses>BusinessProcess.Задание</businessProcesses>
