@@ -9,4 +9,13 @@
   <content>CommonModule.КлиентыПКМП</content>
   <content>Catalog.Константы</content>
   <content>InformationRegister.ДействияКлиентов</content>
+  <content>InformationRegister.НоменклатураСегмента</content>
+  <content>Catalog.СегментыНоменклатуры</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.Сценарии</content>
+  <content>Catalog.СегментыПартнеров</content>
+  <content>Report.ПересеченияСегментаНоменклатуры</content>
+  <content>Report.ПересеченияСегментаПартнеров</content>
+  <content>Report.СоставСегмента</content>
+  <content>InformationRegister.ПартнерыСегмента</content>
 </mdclass:Subsystem>

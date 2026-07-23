@@ -120,8 +120,13 @@
     <types>CatalogRef.ЗначенияСвойствОбъектов</types>
     <types>String</types>
     <types>Date</types>
+    <types>CatalogRef.СегментыНоменклатуры</types>
     <types>Number</types>
+    <types>CatalogRef.СегментыПартнеров</types>
     <types>CatalogRef.Пользователи</types>
+    <types>CatalogRef.Сценарии</types>
+    <types>CatalogRef.Номенклатура</types>
+    <types>CatalogRef.Клиенты</types>
     <numberQualifiers>
       <precision>17</precision>
       <scale>5</scale>

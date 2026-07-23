@@ -11,6 +11,8 @@
   <type>
     <types>TaskRef.ЗадачаИсполнителя</types>
     <types>CatalogRef.Файлы</types>
+    <types>CatalogRef.СегментыНоменклатуры</types>
+    <types>CatalogRef.СегментыПартнеров</types>
     <types>CatalogRef.Пользователи</types>
   </type>
 </mdclass:DefinedType>

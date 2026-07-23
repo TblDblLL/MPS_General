@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab2c3cf5-d747-494a-84f0-be8ce681fb52">
+  <producedTypes>
+    <objectType typeId="1726c089-55c6-46e6-85cc-6adf5455c166" valueTypeId="472474f7-3a8c-4b61-b6d0-ffa1833896e2"/>
+    <managerType typeId="f5bc5efc-edd6-4962-bb36-93dcdaea9a48" valueTypeId="30ce6211-4f26-4938-9bba-e91cabea6e8e"/>
+  </producedTypes>
+  <name>ПересеченияСегментаПартнеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пересечения сегмента партнеров</value>
+  </synonym>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ПересеченияСегментаПартнеров.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="9d8867ae-22d7-416a-83f4-7f41811c018b">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

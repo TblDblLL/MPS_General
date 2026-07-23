@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa140bd1-746d-4a60-b32f-1f1c946ab06b">
+  <producedTypes>
+    <selectionType typeId="fca9b08e-9c05-4e1b-9348-661b8ad511a1" valueTypeId="681848d5-f308-4af8-aaf0-77eea01ee04b"/>
+    <listType typeId="e2b1f5be-b3a8-4f84-9ad2-ba36814991c1" valueTypeId="c1a30459-4858-43c1-89d6-44e4ea021a44"/>
+    <managerType typeId="279250c8-4898-419e-a962-bd4c60ef6e11" valueTypeId="46ff6a13-08b4-4f0f-bb16-89b3b08dad0c"/>
+    <recordSetType typeId="aefc159b-1df3-432a-9f11-7a7757162f52" valueTypeId="dfb036ec-8307-49e5-8b96-2ab2f496bf26"/>
+    <recordKeyType typeId="08cb1f89-0735-4976-bc98-b655be148cef" valueTypeId="7b8af921-76ad-4b9f-bd2c-cc6f0d88df9c"/>
+    <recordType typeId="a5e47207-ecfe-4a78-93c5-4eea131829f9" valueTypeId="56cbec63-e1da-45b1-ae11-a38ad79bb29b"/>
+    <recordManagerType typeId="9457a47b-2eb6-4438-b797-91317fa88c73" valueTypeId="9f4a6f8f-4cb2-419f-b990-fce6c603b042"/>
+  </producedTypes>
+  <name>НоменклатураСегмента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура сегмента</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>InformationRegister.НоменклатураСегмента.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dimensions uuid="7035a5b9-45b8-4a97-b1b3-3be1ac924b8e">
+    <name>Сегмент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сегмент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СегментыНоменклатуры</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Периодически обновляемый или статический сегмент.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>d60d9606-e094-4846-a086-4d8b45c11952.00000000-0000-0000-0000-000000000000</value>
+    </fillValue>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d254573b-f888-4931-9698-6b1b93ea906b">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Номенклатурная позиция, отнесенная к сегменту.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>190a7469-3325-4d33-b5ec-28a63ac83b06.00000000-0000-0000-0000-000000000000</value>
+    </fillValue>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="23dcdc74-fdd3-4283-a31b-3a9ab5a8f693">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="94a8b62e-9973-4618-949c-8958681b7c84">
+    <name>СегментыНоменклатурыПараметрическая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сегменты номенклатуры параметрическая</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

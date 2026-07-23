@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00015aca-d38f-46f2-b4b2-d87b4e15db6e">
+  <name>Автоматизация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автоматизация</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Сценарии</content>
+  <parentSubsystem>Subsystem.Кампании</parentSubsystem>
+</mdclass:Subsystem>
