@@ -48,8 +48,9 @@
   <subsystems>Subsystem.Администрирование</subsystems>
   <subsystems>Subsystem.ПодключаемыеОтчетыИОбработки</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
-  <subsystems>Subsystem.Клиенты</subsystems>
   <subsystems>Subsystem.MPS</subsystems>
+  <subsystems>Subsystem.Данные</subsystems>
+  <subsystems>Subsystem.Кампании</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ВладелецФайловШрифт</styleItems>
   <styleItems>StyleItem.ВыполненнаяЗадача</styleItems>
@@ -698,10 +699,14 @@
   <commonModules>CommonModule.ЗапретРедактированияРеквизитовОбъектовПереопределяемый</commonModules>
   <commonModules>CommonModule.ЗапретРедактированияРеквизитовОбъектовСлужебный</commonModules>
   <commonModules>CommonModule.ЗапретРедактированияРеквизитовОбъектовСлужебныйКлиент</commonModules>
+  <commonModules>CommonModule.ЗначениеНастроекПовтИсп</commonModules>
   <commonModules>CommonModule.ИнтеграцияПодсистемБСП</commonModules>
   <commonModules>CommonModule.ИнтеграцияПодсистемБСПКлиент</commonModules>
   <commonModules>CommonModule.ИнтеграцияПодсистемБСПКлиентПовтИсп</commonModules>
   <commonModules>CommonModule.ИнтеграцияПодсистемБСППовтИсп</commonModules>
+  <commonModules>CommonModule.КлиентыПКМП</commonModules>
+  <commonModules>CommonModule.КомпоновкаДанныхКлиентСервер</commonModules>
+  <commonModules>CommonModule.КомпоновкаДанныхСервер</commonModules>
   <commonModules>CommonModule.КонструкторФормул</commonModules>
   <commonModules>CommonModule.КонструкторФормулВызовСервера</commonModules>
   <commonModules>CommonModule.КонструкторФормулКлиент</commonModules>
@@ -711,6 +716,9 @@
   <commonModules>CommonModule.КонтрольРаботыПользователей</commonModules>
   <commonModules>CommonModule.КонтрольРаботыПользователейСлужебный</commonModules>
   <commonModules>CommonModule.КонтрольРаботыПользователейСлужебныйКлиент</commonModules>
+  <commonModules>CommonModule.МониторингЦелевыхПоказателей</commonModules>
+  <commonModules>CommonModule.МониторингЦелевыхПоказателейКлиентСервер</commonModules>
+  <commonModules>CommonModule.МониторингЦелевыхПоказателейПовтИсп</commonModules>
   <commonModules>CommonModule.НастройкаПорядкаЭлементов</commonModules>
   <commonModules>CommonModule.НастройкаПорядкаЭлементовСлужебный</commonModules>
   <commonModules>CommonModule.НастройкиПрограммы</commonModules>
@@ -735,8 +743,14 @@
   <commonModules>CommonModule.ОбщегоНазначенияКлиентПовтИсп</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияПереопределяемый</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияПКМП</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияСлужебныйКлиентСервер</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияУТ</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияУТВызовСервера</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияУТКлиентПовтИсп</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияУТКлиентСервер</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияУТПовтИсп</commonModules>
   <commonModules>CommonModule.ОрганизацииПереопределяемый</commonModules>
   <commonModules>CommonModule.ОрганизацииСервер</commonModules>
   <commonModules>CommonModule.ОтправкаSMS</commonModules>
@@ -783,6 +797,9 @@
   <commonModules>CommonModule.ПользователиСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ПользователиСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ПользователиСлужебныйПовтИсп</commonModules>
+  <commonModules>CommonModule.ПраваПользователяПовтИсп</commonModules>
+  <commonModules>CommonModule.ПрефиксацияОбъектовКлиентСервер</commonModules>
+  <commonModules>CommonModule.ПрефиксацияОбъектовКлиентСерверПереопределяемый</commonModules>
   <commonModules>CommonModule.РаботаСАдресами</commonModules>
   <commonModules>CommonModule.РаботаСАдресамиКлиент</commonModules>
   <commonModules>CommonModule.РаботаСАдресамиКлиентСервер</commonModules>
@@ -822,6 +839,10 @@
   <commonModules>CommonModule.РаботаСФайламиСлужебныйПовтИсп</commonModules>
   <commonModules>CommonModule.РаботаСФайловымАрхивомКлиентСервер</commonModules>
   <commonModules>CommonModule.РаботаСФайловымАрхивомСервер</commonModules>
+  <commonModules>CommonModule.РаботаСФормулами</commonModules>
+  <commonModules>CommonModule.РаботаСФормуламиВызовСервера</commonModules>
+  <commonModules>CommonModule.РаботаСФормуламиКлиентСервер</commonModules>
+  <commonModules>CommonModule.РаботаСФормуламиПовтИсп</commonModules>
   <commonModules>CommonModule.РаботаСХранилищамиДвоичныхДанныхСервер</commonModules>
   <commonModules>CommonModule.РассылкаОтчетов</commonModules>
   <commonModules>CommonModule.РассылкаОтчетовВызовСервера</commonModules>
@@ -840,6 +861,8 @@
   <commonModules>CommonModule.РезервноеКопированиеИБКлиент</commonModules>
   <commonModules>CommonModule.РезервноеКопированиеИБКлиентПереопределяемый</commonModules>
   <commonModules>CommonModule.РезервноеКопированиеИБСервер</commonModules>
+  <commonModules>CommonModule.СегментыВызовСервера</commonModules>
+  <commonModules>CommonModule.СегментыСервер</commonModules>
   <commonModules>CommonModule.СерверныеОповещения</commonModules>
   <commonModules>CommonModule.СерверныеОповещенияГлобальный</commonModules>
   <commonModules>CommonModule.СерверныеОповещенияКлиент</commonModules>
@@ -847,6 +870,12 @@
   <commonModules>CommonModule.СерверныеОповещенияСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.СерверныеОповещенияСлужебныйПовтИсп</commonModules>
   <commonModules>CommonModule.СнимкиОтчетов</commonModules>
+  <commonModules>CommonModule.СобытияФорм</commonModules>
+  <commonModules>CommonModule.СобытияФормКлиент</commonModules>
+  <commonModules>CommonModule.СобытияФормКлиентЛокализация</commonModules>
+  <commonModules>CommonModule.СобытияФормКлиентСервер</commonModules>
+  <commonModules>CommonModule.СобытияФормКлиентСерверЛокализация</commonModules>
+  <commonModules>CommonModule.СобытияФормЛокализация</commonModules>
   <commonModules>CommonModule.СоединенияИБ</commonModules>
   <commonModules>CommonModule.СоединенияИБВызовСервера</commonModules>
   <commonModules>CommonModule.СоединенияИБКлиент</commonModules>
@@ -869,6 +898,7 @@
   <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
   <commonModules>CommonModule.СтроковыеФункцииКлиентСерверЛокализация</commonModules>
   <commonModules>CommonModule.СтроковыеФункцииКлиентСерверРФ</commonModules>
+  <commonModules>CommonModule.СхемыЗапросов</commonModules>
   <commonModules>CommonModule.ТекущиеДелаПереопределяемый</commonModules>
   <commonModules>CommonModule.ТекущиеДелаСервер</commonModules>
   <commonModules>CommonModule.ТекущиеДелаСлужебный</commonModules>
@@ -923,6 +953,8 @@
   <commonModules>CommonModule.ФайловаяСистемаСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ФизическиеЛицаКлиентСервер</commonModules>
   <commonModules>CommonModule.ФизическиеЛицаКлиентСерверЛокализация</commonModules>
+  <commonModules>CommonModule.ФинансоваяОтчетностьКлиентСервер</commonModules>
+  <commonModules>CommonModule.ФинансоваяОтчетностьСервер</commonModules>
   <commonModules>CommonModule.ШаблоныСообщений</commonModules>
   <commonModules>CommonModule.ШаблоныСообщенийКлиент</commonModules>
   <commonModules>CommonModule.ШаблоныСообщенийКлиентСервер</commonModules>
@@ -930,8 +962,6 @@
   <commonModules>CommonModule.ШаблоныСообщенийСервер</commonModules>
   <commonModules>CommonModule.ШаблоныСообщенийСлужебный</commonModules>
   <commonModules>CommonModule.ШаблоныСообщенийСлужебныйПовтИсп</commonModules>
-  <commonModules>CommonModule.КлиентыПКМП</commonModules>
-  <commonModules>CommonModule.ОбщегоНазначенияПКМП</commonModules>
   <commonAttributes>CommonAttribute.ОтредактированныеПредопределенныеРеквизиты</commonAttributes>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ApplicationExtensionsManifest_1_0_0_1</xDTOPackages>
@@ -1338,6 +1368,9 @@
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.Константы</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Сценарии</catalogs>
+  <catalogs>Catalog.СегментыНоменклатуры</catalogs>
+  <catalogs>Catalog.СегментыПартнеров</catalogs>
   <documents>Document.ЗаказКлиента</documents>
   <enums>Enum.ВариантыВажностиЗадачи</enums>
   <enums>Enum.ВариантыВерсионированияОбъектов</enums>
@@ -1394,6 +1427,7 @@
   <enums>Enum.ЦветаСвойств</enums>
   <enums>Enum.ЦветностиИзображения</enums>
   <enums>Enum.ПолФизическогоЛица</enums>
+  <enums>Enum.СпособыФормированияСегментов</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализПравДоступа</reports>
@@ -1422,6 +1456,9 @@
   <reports>Report.УниверсальныйОтчет</reports>
   <reports>Report.УчастникиГруппДоступа</reports>
   <reports>Report.УчастникиГруппПользователей</reports>
+  <reports>Report.ПересеченияСегментаНоменклатуры</reports>
+  <reports>Report.ПересеченияСегментаПартнеров</reports>
+  <reports>Report.СоставСегмента</reports>
   <dataProcessors>DataProcessor.АвтоматическоеИзвлечениеТекстов</dataProcessors>
   <dataProcessors>DataProcessor.АктивныеПользователи</dataProcessors>
   <dataProcessors>DataProcessor.БлокировкаРаботыПользователей</dataProcessors>
@@ -1535,6 +1572,8 @@
   <informationRegisters>InformationRegister.ФиксацияОбработкиДанныхОбработчиками</informationRegisters>
   <informationRegisters>InformationRegister.ХранилищеФайлов</informationRegisters>
   <informationRegisters>InformationRegister.ДействияКлиентов</informationRegisters>
+  <informationRegisters>InformationRegister.НоменклатураСегмента</informationRegisters>
+  <informationRegisters>InformationRegister.ПартнерыСегмента</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ОбъектыАдресацииЗадач</chartsOfCharacteristicTypes>

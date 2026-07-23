@@ -98,6 +98,8 @@
   <basedOn>Catalog.Файлы</basedOn>
   <basedOn>Catalog.Пользователи</basedOn>
   <basedOn>Task.ЗадачаИсполнителя</basedOn>
+  <basedOn>Catalog.СегментыНоменклатуры</basedOn>
+  <basedOn>Catalog.СегментыПартнеров</basedOn>
   <createOnInput>DontUse</createOnInput>
   <includeHelpInContents>true</includeHelpInContents>
   <help>

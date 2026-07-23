@@ -13,6 +13,8 @@
     <types>CatalogRef.ВнешниеПользователи</types>
     <types>CatalogRef.Файлы</types>
     <types>CatalogRef.ДополнительныеОтчетыИОбработки</types>
+    <types>CatalogRef.СегментыНоменклатуры</types>
+    <types>CatalogRef.СегментыПартнеров</types>
     <types>CatalogRef.Пользователи</types>
     <types>CatalogRef.Клиенты</types>
   </type>

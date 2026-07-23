@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c384b2e9-f074-4161-9bf6-84517f88e7ab">
+  <producedTypes>
+    <objectType typeId="48c475cd-0f30-499d-bdbf-a2c43079ba45" valueTypeId="476872c3-80a8-4aa2-8075-4598b242df36"/>
+    <managerType typeId="b7f6947c-993c-4614-8d95-62518764b02b" valueTypeId="85333eae-3e3f-47cc-ad3c-bfa91c8354de"/>
+  </producedTypes>
+  <name>СоставСегмента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состав сегмента</value>
+  </synonym>
+  <defaultForm>Report.СоставСегмента.Form.ФормаОтчета</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="810637a5-34bd-4879-84a5-12c28ec92673">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0736f808-6586-41f9-acb7-491a35580c16">
+    <name>ВыборНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор номенклатуры</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Report>

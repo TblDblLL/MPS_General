@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="22d2f55d-6b3e-442f-9c27-6d678448014f">
+  <name>Данные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.СостояниеПользователя15</picture>
+  </picture>
+  <subsystems>Клиенты</subsystems>
+  <subsystems>Продукты</subsystems>
+  <subsystems>ЗаказыИПродажи</subsystems>
+</mdclass:Subsystem>

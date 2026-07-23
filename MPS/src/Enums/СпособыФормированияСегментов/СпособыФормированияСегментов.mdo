@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="81cb9f9c-3b69-4454-a5c3-a8d769130b9d">
+  <producedTypes>
+    <refType typeId="74adad94-16c1-4a55-b17f-14b3561bb00c" valueTypeId="b13be12d-8b80-450e-a1e2-0886ac54e765"/>
+    <listType typeId="7a34f5e5-7325-43a0-87ae-0e2d97349b43" valueTypeId="de041528-e988-4a8c-a860-438d0269a2db"/>
+    <managerType typeId="e5a8b4f9-6cfb-4a80-9404-f5e98cbce163" valueTypeId="14c8ca7c-6a8f-4a43-8bc2-4291fc7454bd"/>
+  </producedTypes>
+  <name>СпособыФормированияСегментов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы формирования сегментов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a23619b8-d142-4430-9e17-12f6f76a2a1a">
+    <name>ФормироватьДинамически</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формировать динамически</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0e160133-1780-417a-a0f1-d0b8d9e6a8cd">
+    <name>ПериодическиОбновлять</name>
+    <synonym>
+      <key>ru</key>
+      <value>Периодически обновлять</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5aa81a81-abc8-4c7d-8bf1-fe061ee6f6cf">
+    <name>ФормироватьВручную</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формировать вручную</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
