@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="56e43475-6178-4c27-bfd8-b79d52bf86fc">
+  <producedTypes>
+    <objectType typeId="40fea756-b520-4bc4-bac5-7deb6b665133" valueTypeId="49c7761a-95ca-4ac2-b354-8eabb8c71dfa"/>
+    <refType typeId="faf68a37-507c-4be8-8866-be5ad2324e08" valueTypeId="1e32655e-1965-490b-b551-a5d449470e6c"/>
+    <selectionType typeId="c85bfb74-cb28-4868-9dab-03ecb2e33713" valueTypeId="dbe82d6c-6d32-42c6-bbff-311788612001"/>
+    <listType typeId="37f6c4e0-680a-40c0-a4b3-133299bb9882" valueTypeId="e4bd4638-ee56-4918-882b-5d9d8d35eca1"/>
+    <managerType typeId="a906f07d-4dea-4390-9b8a-0ca2251cdc27" valueTypeId="98fb032d-99f3-485f-b146-53285939f8df"/>
+  </producedTypes>
+  <name>АвтоматическиеРассылки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автоматические рассылки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.АвтоматическиеРассылки.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.АвтоматическиеРассылки.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f1f047f-fe2f-49b0-975b-75b6dc042ec4">
+  <producedTypes>
+    <objectType typeId="dcab03e5-192f-4a99-a0b9-dca3e91ce7cd" valueTypeId="d6bf104a-4b0f-40e9-a6ba-c44dc923a9af"/>
+    <refType typeId="f501011f-01fa-4fb2-a87f-3222ffd81928" valueTypeId="80f0d9d6-4148-45d8-8974-eb0c301560f7"/>
+    <selectionType typeId="037563bd-fae6-41a8-a1bd-a39b92f51121" valueTypeId="ccafa0c0-7f84-46b2-acaa-0c817bd38b43"/>
+    <listType typeId="dff1c82f-a5b8-47e1-a768-ccc09e1f91bf" valueTypeId="3a697920-1c68-4819-9c82-cef54da3fb6e"/>
+    <managerType typeId="ea575edf-ba8e-4a5f-9217-9385d43fae18" valueTypeId="2f5f52c0-65b0-437f-a5bd-e99eb84fa690"/>
+  </producedTypes>
+  <name>Виджеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виджеты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Виджеты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Виджеты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

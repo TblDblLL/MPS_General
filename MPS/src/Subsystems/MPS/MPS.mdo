@@ -20,4 +20,8 @@
   <content>Report.ПересеченияСегментаПартнеров</content>
   <content>Report.СоставСегмента</content>
   <content>InformationRegister.ПартнерыСегмента</content>
+  <content>Catalog.АвтоматическиеРассылки</content>
+  <content>Catalog.СообщенияНаСайт</content>
+  <content>Catalog.СообщенияВПриложение</content>
+  <content>Catalog.Виджеты</content>
 </mdclass:Subsystem>

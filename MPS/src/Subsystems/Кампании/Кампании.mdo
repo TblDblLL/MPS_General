@@ -8,4 +8,6 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <subsystems>Автоматизация</subsystems>
+  <subsystems>Персонализация</subsystems>
+  <subsystems>Лояльность</subsystems>
 </mdclass:Subsystem>

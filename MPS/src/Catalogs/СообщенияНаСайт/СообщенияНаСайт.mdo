@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16ab7bc6-cd97-4ad1-ae3f-e0a50fe35c27">
+  <producedTypes>
+    <objectType typeId="46bc4223-7018-4869-9175-ebe7784f5295" valueTypeId="9180d55a-d400-4dee-88db-af93ac4ebf59"/>
+    <refType typeId="b92afa40-ae47-46da-bcb7-1c4d8feef6ed" valueTypeId="4a5cccb5-93bc-4b85-9437-9f2429ea4970"/>
+    <selectionType typeId="83c528de-8483-403a-8234-98746b0aac7a" valueTypeId="c23755e2-517f-46fc-b3d2-c3876b3e96c4"/>
+    <listType typeId="8cc3f1c8-870d-426c-91cd-e27e42b7e641" valueTypeId="67df33e7-b4d5-44c6-bde7-7b7befe1791d"/>
+    <managerType typeId="8b3aeaff-8e80-4207-bb95-85c0c581f8d3" valueTypeId="e4865d96-db9d-4df9-b007-ba5736ddfe68"/>
+  </producedTypes>
+  <name>СообщенияНаСайт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сообщения на сайт</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СообщенияНаСайт.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.СообщенияНаСайт.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

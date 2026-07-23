@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="096ffa59-9d1b-468e-9d37-931ab11d0295">
+  <name>Персонализация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Персонализация</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Виджеты</content>
+  <content>Catalog.СообщенияВПриложение</content>
+  <content>Catalog.СообщенияНаСайт</content>
+  <parentSubsystem>Subsystem.Кампании</parentSubsystem>
+</mdclass:Subsystem>

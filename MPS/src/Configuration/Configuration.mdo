@@ -1371,6 +1371,10 @@
   <catalogs>Catalog.Сценарии</catalogs>
   <catalogs>Catalog.СегментыНоменклатуры</catalogs>
   <catalogs>Catalog.СегментыПартнеров</catalogs>
+  <catalogs>Catalog.АвтоматическиеРассылки</catalogs>
+  <catalogs>Catalog.СообщенияНаСайт</catalogs>
+  <catalogs>Catalog.СообщенияВПриложение</catalogs>
+  <catalogs>Catalog.Виджеты</catalogs>
   <documents>Document.ЗаказКлиента</documents>
   <enums>Enum.ВариантыВажностиЗадачи</enums>
   <enums>Enum.ВариантыВерсионированияОбъектов</enums>
