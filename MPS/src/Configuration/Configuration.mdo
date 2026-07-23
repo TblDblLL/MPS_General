@@ -1338,6 +1338,7 @@
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.Константы</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Сценарии</catalogs>
   <documents>Document.ЗаказКлиента</documents>
   <enums>Enum.ВариантыВажностиЗадачи</enums>
   <enums>Enum.ВариантыВерсионированияОбъектов</enums>
