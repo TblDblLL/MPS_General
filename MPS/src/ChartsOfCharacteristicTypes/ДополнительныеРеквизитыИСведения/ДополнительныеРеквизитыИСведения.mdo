@@ -118,6 +118,7 @@
     <types>CatalogRef.ЗначенияСвойствОбъектовИерархия</types>
     <types>Boolean</types>
     <types>CatalogRef.ЗначенияСвойствОбъектов</types>
+    <types>CatalogRef.ГруппыДоступаНоменклатуры</types>
     <types>String</types>
     <types>Date</types>
     <types>CatalogRef.СегментыНоменклатуры</types>
@@ -125,7 +126,6 @@
     <types>CatalogRef.СегментыПартнеров</types>
     <types>CatalogRef.Пользователи</types>
     <types>CatalogRef.Сценарии</types>
-    <types>CatalogRef.Номенклатура</types>
     <types>CatalogRef.Клиенты</types>
     <numberQualifiers>
       <precision>17</precision>

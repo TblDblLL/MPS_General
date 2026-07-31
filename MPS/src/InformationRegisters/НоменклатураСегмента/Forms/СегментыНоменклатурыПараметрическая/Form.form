@@ -1025,9 +1025,7 @@
       <value>Номенклатура</value>
     </title>
     <id>3</id>
-    <valueType>
-      <types>CatalogRef.Номенклатура</types>
-    </valueType>
+    <valueType/>
     <view>
       <common>true</common>
     </view>

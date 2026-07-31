@@ -12,7 +12,7 @@
   <name>НоменклатураСегмента</name>
   <synonym>
     <key>ru</key>
-    <value>Номенклатура сегмента</value>
+    <value>Состав сегмента номенклатуры</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultListForm>InformationRegister.НоменклатураСегмента.Form.ФормаСписка</defaultListForm>
@@ -69,9 +69,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillFromFillingValue>true</fillFromFillingValue>
-    <fillValue xsi:type="core:ReferenceValue">
-      <value>d60d9606-e094-4846-a086-4d8b45c11952.00000000-0000-0000-0000-000000000000</value>
-    </fillValue>
+    <fillValue xsi:type="core:ReferenceValue"/>
     <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>
@@ -94,9 +92,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillFromFillingValue>true</fillFromFillingValue>
-    <fillValue xsi:type="core:ReferenceValue">
-      <value>190a7469-3325-4d33-b5ec-28a63ac83b06.00000000-0000-0000-0000-000000000000</value>
-    </fillValue>
+    <fillValue xsi:type="core:ReferenceValue"/>
     <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>

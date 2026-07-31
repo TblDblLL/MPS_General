@@ -9,6 +9,7 @@
     <value>Владелец наборов значений доступа объект</value>
   </synonym>
   <type>
+    <types>CatalogObject.Номенклатура</types>
     <types>BusinessProcessObject.Задание</types>
     <types>CatalogObject.ИдентификаторыОбъектовМетаданных</types>
   </type>

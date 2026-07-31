@@ -12,7 +12,7 @@
   <name>ПартнерыСегмента</name>
   <synonym>
     <key>ru</key>
-    <value>Клиенты сегмента</value>
+    <value>Состав сегмента клиентов</value>
   </synonym>
   <defaultListForm>InformationRegister.ПартнерыСегмента.Form.ФормаСписка</defaultListForm>
   <standardAttributes>

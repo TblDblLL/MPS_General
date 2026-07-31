@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9a47e76d-48f1-4f25-b12a-eaee2a4cc541">
+  <producedTypes>
+    <managerType typeId="480aa54d-531d-4641-bdfe-3a18b4823375" valueTypeId="4d5e20b9-34b1-4d4e-b8df-d8ed62adf87e"/>
+    <valueManagerType typeId="25045012-01cd-477a-9a95-0e3f3ade9f60" valueTypeId="14dfe655-a36f-4a11-a917-5f50a5321e37"/>
+    <valueKeyType typeId="37f0a76f-eef6-4cfa-b80a-9bb2a58f6b63" valueTypeId="2fd4854a-64bf-4d66-9ccc-d701889c1402"/>
+  </producedTypes>
+  <name>ИспользоватьГруппыДоступаНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать группы доступа номенклатуры</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

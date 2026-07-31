@@ -13,7 +13,6 @@
   <content>Document.ЗаказКлиента</content>
   <content>InformationRegister.НоменклатураСегмента</content>
   <content>Catalog.СегментыНоменклатуры</content>
-  <content>Catalog.Номенклатура</content>
   <content>Catalog.Сценарии</content>
   <content>Catalog.СегментыПартнеров</content>
   <content>Report.ПересеченияСегментаНоменклатуры</content>
@@ -24,4 +23,7 @@
   <content>Catalog.СообщенияНаСайт</content>
   <content>Catalog.СообщенияВПриложение</content>
   <content>Catalog.Виджеты</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.ГруппыДоступаНоменклатуры</content>
+  <content>Catalog.ГруппыДоступаКлиентов</content>
 </mdclass:Subsystem>

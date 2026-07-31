@@ -385,14 +385,6 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <templates uuid="02549b26-9078-4d73-b926-23136a3ef891">
-    <name>ПоПродажам</name>
-    <synonym>
-      <key>ru</key>
-      <value>По продажам</value>
-    </synonym>
-    <templateType>DataCompositionSchema</templateType>
-  </templates>
   <templates uuid="edd5e336-2062-499b-b3a3-98e42a099e83">
     <name>ОсновнаяСхема</name>
     <synonym>

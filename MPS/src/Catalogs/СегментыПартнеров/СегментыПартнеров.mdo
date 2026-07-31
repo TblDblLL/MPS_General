@@ -78,9 +78,7 @@
       <value>Группа, которой принадлежит данный сегмент</value>
     </toolTip>
     <fillFromFillingValue>true</fillFromFillingValue>
-    <fillValue xsi:type="core:ReferenceValue">
-      <value>41aed0b9-4492-44a2-be9b-3ea55e15a8da.00000000-0000-0000-0000-000000000000</value>
-    </fillValue>
+    <fillValue xsi:type="core:ReferenceValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -241,9 +239,7 @@
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:ReferenceValue">
-      <value>604931cd-d4a8-48d0-bc59-2ac90e044abb.00000000-0000-0000-0000-000000000000</value>
-    </fillValue>
+    <fillValue xsi:type="core:ReferenceValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -264,9 +260,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fillFromFillingValue>true</fillFromFillingValue>
-    <fillValue xsi:type="core:ReferenceValue">
-      <value>46d31d4f-5fe3-4cb7-9e5f-34a99dbb7637.a3ece980-0d0c-4af3-9854-f6c332f7496d</value>
-    </fillValue>
+    <fillValue xsi:type="core:ReferenceValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -475,30 +469,6 @@
     <synonym>
       <key>ru</key>
       <value>Основная схема</value>
-    </synonym>
-    <templateType>DataCompositionSchema</templateType>
-  </templates>
-  <templates uuid="3fd39200-9373-43a7-b379-bb292551e114">
-    <name>ПоВзаимодействиям</name>
-    <synonym>
-      <key>ru</key>
-      <value>По взаимодействиям</value>
-    </synonym>
-    <templateType>DataCompositionSchema</templateType>
-  </templates>
-  <templates uuid="ffa92fb0-8122-4b47-b6cb-de0df92732a6">
-    <name>ПоПродажам</name>
-    <synonym>
-      <key>ru</key>
-      <value>По продажам</value>
-    </synonym>
-    <templateType>DataCompositionSchema</templateType>
-  </templates>
-  <templates uuid="28265704-2070-4d42-a8ea-be33f86ceb57">
-    <name>ПоРасчетам</name>
-    <synonym>
-      <key>ru</key>
-      <value>По расчетам</value>
     </synonym>
     <templateType>DataCompositionSchema</templateType>
   </templates>

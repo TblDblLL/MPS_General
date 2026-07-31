@@ -28,6 +28,7 @@
     <types>CatalogRef.УчетныеЗаписиЭлектроннойПочты</types>
     <types>CatalogRef.ВерсииФайлов</types>
     <types>CatalogRef.ПрофилиГруппДоступа</types>
+    <types>CatalogRef.Номенклатура</types>
     <types>CatalogRef.ШаблоныСообщенийПрисоединенныеФайлы</types>
   </type>
 </mdclass:DefinedType>

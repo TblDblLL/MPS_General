@@ -7,8 +7,8 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>Catalog.Номенклатура</content>
   <content>Catalog.СегментыНоменклатуры</content>
   <content>InformationRegister.НоменклатураСегмента</content>
+  <content>Catalog.Номенклатура</content>
   <parentSubsystem>Subsystem.Данные</parentSubsystem>
 </mdclass:Subsystem>

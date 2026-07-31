@@ -160,6 +160,13 @@
         <value></value>
       </code>
     </items>
+    <items id="2d61acf1-4254-4ab0-8941-66ca044ac3cc">
+      <name>Справочник_Номенклатура</name>
+      <description>Номенклатура</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>

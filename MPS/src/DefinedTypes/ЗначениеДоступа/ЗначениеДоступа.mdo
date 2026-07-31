@@ -18,11 +18,14 @@
     <types>CatalogRef.ГруппыПользователей</types>
     <types>EnumRef.ДополнительныеЗначенияДоступа</types>
     <types>ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</types>
+    <types>CatalogRef.ГруппыДоступаНоменклатуры</types>
     <types>CatalogRef.ДополнительныеОтчетыИОбработки</types>
+    <types>CatalogRef.ГруппыДоступаКлиентов</types>
     <types>CatalogRef.Пользователи</types>
     <types>CatalogRef.ГруппыИсполнителейЗадач</types>
     <types>CatalogRef.УчетныеЗаписиЭлектроннойПочты</types>
     <types>CatalogRef.Клиенты</types>
     <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+    <types>CatalogRef.Номенклатура</types>
   </type>
 </mdclass:DefinedType>

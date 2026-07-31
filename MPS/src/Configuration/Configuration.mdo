@@ -962,6 +962,7 @@
   <commonModules>CommonModule.ШаблоныСообщенийСервер</commonModules>
   <commonModules>CommonModule.ШаблоныСообщенийСлужебный</commonModules>
   <commonModules>CommonModule.ШаблоныСообщенийСлужебныйПовтИсп</commonModules>
+  <commonModules>CommonModule.ВариантыОтчетовУТПереопределяемый</commonModules>
   <commonAttributes>CommonAttribute.ОтредактированныеПредопределенныеРеквизиты</commonAttributes>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ApplicationExtensionsManifest_1_0_0_1</xDTOPackages>
@@ -1260,6 +1261,8 @@
   <constants>Constant.УчетнаяЗаписьДляВосстановленияПароля</constants>
   <constants>Constant.ХранитьИсториюРассылкиОтчетов</constants>
   <constants>Constant.ХранитьФайлыВТомахНаДиске</constants>
+  <constants>Constant.ИспользоватьГруппыДоступаНоменклатуры</constants>
+  <constants>Constant.ИспользоватьГруппыДоступаКлиентов</constants>
   <commonForms>CommonForm.БлокировкаРаботыСВнешнимиРесурсами</commonForms>
   <commonForms>CommonForm.Вопрос</commonForms>
   <commonForms>CommonForm.ВопросОбУстановкеВнешнейКомпоненты</commonForms>
@@ -1367,7 +1370,6 @@
   <catalogs>Catalog.ШаблоныСообщенийПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.Константы</catalogs>
-  <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Сценарии</catalogs>
   <catalogs>Catalog.СегментыНоменклатуры</catalogs>
   <catalogs>Catalog.СегментыПартнеров</catalogs>
@@ -1375,6 +1377,9 @@
   <catalogs>Catalog.СообщенияНаСайт</catalogs>
   <catalogs>Catalog.СообщенияВПриложение</catalogs>
   <catalogs>Catalog.Виджеты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.ГруппыДоступаНоменклатуры</catalogs>
+  <catalogs>Catalog.ГруппыДоступаКлиентов</catalogs>
   <documents>Document.ЗаказКлиента</documents>
   <enums>Enum.ВариантыВажностиЗадачи</enums>
   <enums>Enum.ВариантыВерсионированияОбъектов</enums>

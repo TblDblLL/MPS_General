@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41036f84-1eed-46b4-a011-252da43acc87">
+  <producedTypes>
+    <managerType typeId="48029cb9-fd32-4e8f-bf71-78a47fd53219" valueTypeId="320b4284-d40f-4dd3-897d-8eac3cf5ad52"/>
+    <valueManagerType typeId="408682b0-c02f-4ccc-88a9-7996235714e3" valueTypeId="be781798-99ef-4151-9c2a-ee38265703bf"/>
+    <valueKeyType typeId="e9b821eb-bd80-4cfe-a1e5-03de4a8e08e9" valueTypeId="2c39eaf2-3680-4c36-8581-0dd65e242a82"/>
+  </producedTypes>
+  <name>ИспользоватьГруппыДоступаКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать группы доступа клиентов</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

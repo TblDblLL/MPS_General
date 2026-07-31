@@ -9,6 +9,6 @@
     <value>Пользователь</value>
   </synonym>
   <type>
-    <types>CatalogRef.Клиенты</types>
+    <types>CatalogRef.Пользователи</types>
   </type>
 </mdclass:DefinedType>

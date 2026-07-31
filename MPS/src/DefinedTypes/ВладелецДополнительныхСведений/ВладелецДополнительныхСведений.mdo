@@ -17,5 +17,6 @@
     <types>CatalogRef.СегментыПартнеров</types>
     <types>CatalogRef.Пользователи</types>
     <types>CatalogRef.Клиенты</types>
+    <types>CatalogRef.Номенклатура</types>
   </type>
 </mdclass:DefinedType>

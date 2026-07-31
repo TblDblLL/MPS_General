@@ -9,6 +9,7 @@
     <value>Владелец значений ключей доступа объект</value>
   </synonym>
   <type>
+    <types>CatalogObject.Номенклатура</types>
     <types>CatalogObject.ВерсииФайлов</types>
     <types>CatalogObject.ПапкиФайлов</types>
     <types>CatalogObject.ШаблоныСообщений</types>
@@ -28,6 +29,7 @@
     <types>CatalogObject.Файлы</types>
     <types>CatalogObject.ВариантыОтчетов</types>
     <types>TaskObject.ЗадачаИсполнителя</types>
+    <types>CatalogObject.ГруппыДоступаНоменклатуры</types>
     <types>CatalogObject.Пользователи</types>
   </type>
 </mdclass:DefinedType>

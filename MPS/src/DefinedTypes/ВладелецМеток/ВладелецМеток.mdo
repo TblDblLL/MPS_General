@@ -10,5 +10,6 @@
   </synonym>
   <type>
     <types>CatalogRef.Клиенты</types>
+    <types>CatalogRef.Номенклатура</types>
   </type>
 </mdclass:DefinedType>

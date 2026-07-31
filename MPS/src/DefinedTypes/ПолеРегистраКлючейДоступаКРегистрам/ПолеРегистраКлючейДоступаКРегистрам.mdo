@@ -20,5 +20,6 @@
     <types>CatalogRef.УчетныеЗаписиЭлектроннойПочты</types>
     <types>CatalogRef.Клиенты</types>
     <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+    <types>CatalogRef.Номенклатура</types>
   </type>
 </mdclass:DefinedType>

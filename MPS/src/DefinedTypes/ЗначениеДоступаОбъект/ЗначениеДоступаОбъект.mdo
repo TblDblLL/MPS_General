@@ -9,6 +9,7 @@
     <value>Значение доступа объект</value>
   </synonym>
   <type>
+    <types>CatalogObject.Номенклатура</types>
     <types>CatalogObject.УчетныеЗаписиЭлектроннойПочты</types>
     <types>ChartOfCharacteristicTypesObject.ДополнительныеРеквизитыИСведения</types>
     <types>CatalogObject.ДополнительныеОтчетыИОбработки</types>
