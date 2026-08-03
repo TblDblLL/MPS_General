@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c808cca-df34-45bd-a6ee-08794ff7c1b9">
+  <producedTypes>
+    <containerType typeId="3468f535-f840-4b49-ac01-ce36432af9aa" valueTypeId="abc5fc20-d491-473b-9c7c-26eb2aab4708"/>
+  </producedTypes>
+  <name>Канал</name>
+  <synonym>
+    <key>ru</key>
+    <value>Канал</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

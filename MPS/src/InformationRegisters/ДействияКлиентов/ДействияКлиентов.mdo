@@ -16,7 +16,6 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
-  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
   <dataLockControlMode>Managed</dataLockControlMode>
   <dimensions uuid="2f94d4e9-56fc-44f3-8e7a-b955f3f64bf1">
     <name>Клиент</name>
@@ -49,5 +48,22 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="f35498d0-d3ae-4216-9eb0-2120c07d2615">
+    <name>ДатаДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата действия</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
   </dimensions>
 </mdclass:InformationRegister>

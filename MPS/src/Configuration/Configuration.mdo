@@ -1141,6 +1141,7 @@
   <definedTypes>DefinedType.ПрисоединенныйФайл</definedTypes>
   <definedTypes>DefinedType.ПрисоединенныйФайлОбъект</definedTypes>
   <definedTypes>DefinedType.ФизическоеЛицо</definedTypes>
+  <definedTypes>DefinedType.Канал</definedTypes>
   <commonCommands>CommonCommand.ВремяВПриложении</commonCommands>
   <commonCommands>CommonCommand.ВсеФайлы</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеОбработкиАдминистрирование</commonCommands>
@@ -1379,6 +1380,8 @@
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.ГруппыДоступаНоменклатуры</catalogs>
   <catalogs>Catalog.ГруппыДоступаКлиентов</catalogs>
+  <catalogs>Catalog.Магазины</catalogs>
+  <catalogs>Catalog.ВидыОперацийКлиента</catalogs>
   <documents>Document.ЗаказКлиента</documents>
   <enums>Enum.ВариантыВажностиЗадачи</enums>
   <enums>Enum.ВариантыВерсионированияОбъектов</enums>
