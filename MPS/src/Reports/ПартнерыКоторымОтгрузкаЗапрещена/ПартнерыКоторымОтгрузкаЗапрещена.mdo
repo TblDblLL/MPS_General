@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="76d9f08c-ecda-45ec-adb9-53a90f2bf8e7">
+  <producedTypes>
+    <objectType typeId="77f65651-e4fc-4417-a2d9-4bbeb303b3b4" valueTypeId="77bb5f05-3706-44d2-9717-f729e941b8b0"/>
+    <managerType typeId="6ccbeb97-38da-47e2-9f09-829b17fe89bf" valueTypeId="0e9470a5-4418-4f18-bd3f-42f8f732a69e"/>
+  </producedTypes>
+  <name>ПартнерыКоторымОтгрузкаЗапрещена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Клиенты, которым отгрузка запрещена</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ПартнерыКоторымОтгрузкаЗапрещена.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="f537bb27-e4a2-4fad-a953-3871788c9d70">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

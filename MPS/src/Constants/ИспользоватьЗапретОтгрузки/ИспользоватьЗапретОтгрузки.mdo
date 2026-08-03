@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3265e4cc-4a4f-4382-ae7e-347e1cb36da4">
+  <producedTypes>
+    <managerType typeId="c945a044-813a-414d-b3e0-9f7902f51c6c" valueTypeId="fca32fe6-7e8a-49b5-9e80-d32eb34ff5e2"/>
+    <valueManagerType typeId="fce89c23-0f6a-4aaa-abd2-517cac5bf735" valueTypeId="37c4c69c-1b87-42ff-8354-7d47e69d39c8"/>
+    <valueKeyType typeId="574f7bf0-3afb-4339-ae67-ae6490593775" valueTypeId="b74e5dfa-6648-4c94-89e9-714e5ad97b98"/>
+  </producedTypes>
+  <name>ИспользоватьЗапретОтгрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать запрет отгрузки</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

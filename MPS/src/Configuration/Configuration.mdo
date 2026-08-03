@@ -22,15 +22,11 @@
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
   <vendor>SAS</vendor>
   <version>1.0.1.1</version>
-  <usedMobileApplicationFunctionalities>
-    <functionality>
-      <use>true</use>
-    </functionality>
-    <functionality>
-      <functionality>OSBackup</functionality>
-      <use>true</use>
-    </functionality>
-  </usedMobileApplicationFunctionalities>
+  <reportsVariantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</reportsVariantsStorage>
+  <defaultReportForm>CommonForm.ФормаОтчета</defaultReportForm>
+  <defaultReportVariantForm>CommonForm.ФормаВариантаОтчета</defaultReportVariantForm>
+  <defaultReportSettingsForm>CommonForm.ФормаНастроекОтчета</defaultReportSettingsForm>
+  <usedMobileApplicationFunctionalities/>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
@@ -1094,6 +1090,7 @@
   <functionalOptions>FunctionalOption.СтандартныеПодсистемыВМоделиСервиса</functionalOptions>
   <functionalOptions>FunctionalOption.ХранитьИсториюРассылкиОтчетов</functionalOptions>
   <functionalOptions>FunctionalOption.ХранитьФайлыВТомахНаДиске</functionalOptions>
+  <functionalOptions>FunctionalOption.ИспользоватьЗапретОтгрузки</functionalOptions>
   <functionalOptionsParameters>FunctionalOptionsParameter.ДополнительныеОтчетыИОбработкиОбъектНазначения</functionalOptionsParameters>
   <functionalOptionsParameters>FunctionalOptionsParameter.ДополнительныеОтчетыИОбработкиТипФормы</functionalOptionsParameters>
   <functionalOptionsParameters>FunctionalOptionsParameter.ТипВерсионируемогоОбъекта</functionalOptionsParameters>
@@ -1263,6 +1260,7 @@
   <constants>Constant.ХранитьФайлыВТомахНаДиске</constants>
   <constants>Constant.ИспользоватьГруппыДоступаНоменклатуры</constants>
   <constants>Constant.ИспользоватьГруппыДоступаКлиентов</constants>
+  <constants>Constant.ИспользоватьЗапретОтгрузки</constants>
   <commonForms>CommonForm.БлокировкаРаботыСВнешнимиРесурсами</commonForms>
   <commonForms>CommonForm.Вопрос</commonForms>
   <commonForms>CommonForm.ВопросОбУстановкеВнешнейКомпоненты</commonForms>
@@ -1468,6 +1466,7 @@
   <reports>Report.ПересеченияСегментаНоменклатуры</reports>
   <reports>Report.ПересеченияСегментаПартнеров</reports>
   <reports>Report.СоставСегмента</reports>
+  <reports>Report.ПартнерыКоторымОтгрузкаЗапрещена</reports>
   <dataProcessors>DataProcessor.АвтоматическоеИзвлечениеТекстов</dataProcessors>
   <dataProcessors>DataProcessor.АктивныеПользователи</dataProcessors>
   <dataProcessors>DataProcessor.БлокировкаРаботыПользователей</dataProcessors>
