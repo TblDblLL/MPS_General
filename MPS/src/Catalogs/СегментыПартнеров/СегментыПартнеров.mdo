@@ -372,57 +372,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <tabularSections uuid="bd726beb-2bf1-4607-b577-7ff2bcd2557b">
-    <producedTypes>
-      <objectType typeId="6f10c653-9a31-4682-b7ca-09f728c69294" valueTypeId="71fd1eee-ae3e-43a3-bffa-82e92d4fcf8a"/>
-      <rowType typeId="e104a432-0a66-468c-b7ed-53985a87bd0e" valueTypeId="2b5a9917-712a-40ef-a74e-1d5b1210a442"/>
-    </producedTypes>
-    <name>ПартнерыПоСегменту</name>
-    <synonym>
-      <key>ru</key>
-      <value>Конкуренты</value>
-    </synonym>
-    <toolTip>
-      <key>ru</key>
-      <value>Справочная информация о конкурентах, работающих с сегментом.</value>
-    </toolTip>
-    <standardAttributes>
-      <dataHistory>Use</dataHistory>
-      <name>LineNumber</name>
-      <fillValue xsi:type="core:UndefinedValue"/>
-      <fullTextSearch>Use</fullTextSearch>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-    </standardAttributes>
-    <attributes uuid="3ae7a792-9d69-435f-a81e-3f812c934820">
-      <name>Партнер</name>
-      <synonym>
-        <key>ru</key>
-        <value>Конкурент</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>10</length>
-        </stringQualifiers>
-      </type>
-      <toolTip>
-        <key>ru</key>
-        <value>Конкурент, работающий с сегментом.</value>
-      </toolTip>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <fillChecking>ShowError</fillChecking>
-      <choiceParameters>
-        <name>Отбор.Конкурент</name>
-        <value xsi:type="core:BooleanValue">
-          <value>true</value>
-        </value>
-      </choiceParameters>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-  </tabularSections>
   <forms uuid="630387ba-13a8-46bb-9ef1-fc4a7b41ec61">
     <name>ФормаВыбора</name>
     <synonym>

@@ -1328,6 +1328,7 @@
   <commonForms>CommonForm.ФормаВыбораШрифта</commonForms>
   <commonForms>CommonForm.ФормаНастроекОтчета</commonForms>
   <commonForms>CommonForm.ФормаОтчета</commonForms>
+  <commonForms>CommonForm.УпрощеннаяНастройкаСхемыКомпоновкиДанных</commonForms>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.ВариантыОтчетов</catalogs>
   <catalogs>Catalog.ВерсииРасширений</catalogs>

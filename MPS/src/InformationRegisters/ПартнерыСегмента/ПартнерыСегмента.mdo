@@ -128,7 +128,9 @@
       <value>Сегменты</value>
     </synonym>
     <group>FormNavigationPanelSeeAlso</group>
-    <commandParameterType/>
+    <commandParameterType>
+      <types>CatalogRef.Клиенты</types>
+    </commandParameterType>
     <representation>Auto</representation>
   </commands>
 </mdclass:InformationRegister>
