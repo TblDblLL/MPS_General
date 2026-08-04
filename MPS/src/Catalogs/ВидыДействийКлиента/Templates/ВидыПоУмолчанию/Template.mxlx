@@ -10,7 +10,7 @@
 		</languageInfo>
 	</languageSettings>
 	<columns>
-		<size>3</size>
+		<size>4</size>
 		<columnsItem>
 			<index>0</index>
 			<column>
@@ -27,6 +27,12 @@
 			<index>2</index>
 			<column>
 				<formatIndex>3</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>3</index>
+			<column>
+				<formatIndex>4</formatIndex>
 			</column>
 		</columnsItem>
 	</columns>
@@ -66,6 +72,17 @@
 					</tl>
 				</c>
 			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ДопКоды</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
@@ -74,6 +91,12 @@
 			<c>
 				<c>
 					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>OpeningOfMarketingNewsletter</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
@@ -82,7 +105,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Открытие рассылки </v8:content>
+							<v8:content>Открытие рассылки</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -95,6 +118,12 @@
 			<c>
 				<c>
 					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ClickOnLinkInMarketingNewsletter</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
@@ -116,6 +145,12 @@
 			<c>
 				<c>
 					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>UnsubscribeFromMarketingNewsletter</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
@@ -137,6 +172,12 @@
 			<c>
 				<c>
 					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>UnusedPointsAutomaticWriteOff</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
@@ -158,6 +199,39 @@
 			<c>
 				<c>
 					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>CustomerAuthorization</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Авторизация клиента</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>6</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ActivateCard</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
@@ -171,10 +245,22 @@
 					</tl>
 				</c>
 			</c>
+			<c>
+				<i>3</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>RegisterCart,ActivateDiscountCard</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>6</index>
+		<index>7</index>
 		<row>
 			<c>
 				<c>
@@ -201,11 +287,17 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>7</index>
+		<index>8</index>
 		<row>
 			<c>
 				<c>
 					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ChangeEmail</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
@@ -222,11 +314,17 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>8</index>
+		<index>9</index>
 		<row>
 			<c>
 				<c>
 					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ChangeScoreBalance</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
@@ -240,14 +338,32 @@
 					</tl>
 				</c>
 			</c>
+			<c>
+				<i>3</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>IzmenenieBalansa*</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>9</index>
+		<index>10</index>
 		<row>
 			<c>
 				<c>
 					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ChangeOrderStatus</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
@@ -261,14 +377,32 @@
 					</tl>
 				</c>
 			</c>
+			<c>
+				<i>3</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>IzmenenieStatusaZakaza*</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>10</index>
+		<index>11</index>
 		<row>
 			<c>
 				<c>
 					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>TimeZoneChange</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
@@ -285,11 +419,17 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>11</index>
+		<index>12</index>
 		<row>
 			<c>
 				<c>
 					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ClickInapp</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
@@ -303,14 +443,32 @@
 					</tl>
 				</c>
 			</c>
+			<c>
+				<i>3</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Inapp*Click</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>12</index>
+		<index>13</index>
 		<row>
 			<c>
 				<c>
 					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ClickPopup</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
@@ -324,14 +482,32 @@
 					</tl>
 				</c>
 			</c>
+			<c>
+				<i>3</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>KlikVPopape*</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>13</index>
+		<index>14</index>
 		<row>
 			<c>
 				<c>
 					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ClickWidget</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
@@ -348,11 +524,17 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>14</index>
+		<index>15</index>
 		<row>
 			<c>
 				<c>
 					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>UserBalanceChangedFromAdminSite</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
@@ -369,11 +551,17 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>15</index>
+		<index>16</index>
 		<row>
 			<c>
 				<c>
 					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>AdvertisementDisagreement</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
@@ -390,11 +578,71 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>16</index>
+		<index>17</index>
 		<row>
 			<c>
 				<c>
 					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>CreateAuthorizedOrder</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Создание заказа</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>18</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>CreateUnauthorizedOrder</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Создание заказа неавторизованным пользователем</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>19</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>RetailOrderCancelled</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
@@ -411,11 +659,17 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>17</index>
+		<index>20</index>
 		<row>
 			<c>
 				<c>
 					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>WebsiteVisit</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
@@ -432,11 +686,17 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>18</index>
+		<index>21</index>
 		<row>
 			<c>
 				<c>
 					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ConfirmMobilePhone</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
@@ -453,11 +713,17 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>19</index>
+		<index>22</index>
 		<row>
 			<c>
 				<c>
 					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ShowInapp</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
@@ -471,14 +737,32 @@
 					</tl>
 				</c>
 			</c>
+			<c>
+				<i>3</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Inapp*Show</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>20</index>
+		<index>23</index>
 		<row>
 			<c>
 				<c>
 					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ShowWidget</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
@@ -492,14 +776,32 @@
 					</tl>
 				</c>
 			</c>
+			<c>
+				<i>3</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>PokazVidzheta*</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>21</index>
+		<index>24</index>
 		<row>
 			<c>
 				<c>
 					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ShowPopup</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
@@ -513,14 +815,32 @@
 					</tl>
 				</c>
 			</c>
+			<c>
+				<i>3</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>PokazPopapa*</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>22</index>
+		<index>25</index>
 		<row>
 			<c>
 				<c>
 					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>MobilePushPermissionDenied</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
@@ -537,11 +857,17 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>23</index>
+		<index>26</index>
 		<row>
 			<c>
 				<c>
 					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>MobilePushPermissionGranted</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
@@ -558,11 +884,17 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>24</index>
+		<index>27</index>
 		<row>
 			<c>
 				<c>
 					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ViewCatalog</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
@@ -576,14 +908,32 @@
 					</tl>
 				</c>
 			</c>
+			<c>
+				<i>3</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ProsmotrKategoriiProduktovV</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>25</index>
+		<index>28</index>
 		<row>
 			<c>
 				<c>
 					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ViewProduct</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
@@ -597,14 +947,32 @@
 					</tl>
 				</c>
 			</c>
+			<c>
+				<i>3</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ProsmotrProduktaVOperaciiWebsite</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>26</index>
+		<index>29</index>
 		<row>
 			<c>
 				<c>
 					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>RegisterCustomer</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
@@ -621,11 +989,17 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>27</index>
+		<index>30</index>
 		<row>
 			<c>
 				<c>
 					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>EditCustomer</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
@@ -642,11 +1016,17 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>28</index>
+		<index>31</index>
 		<row>
 			<c>
 				<c>
 					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>CustomerCreateByStaff</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
@@ -660,14 +1040,27 @@
 					</tl>
 				</c>
 			</c>
+			<c>
+				<i>3</i>
+				<c>
+					<f>0</f>
+					<tl/>
+				</c>
+			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>29</index>
+		<index>32</index>
 		<row>
 			<c>
 				<c>
 					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>SaveOrder</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
@@ -681,14 +1074,32 @@
 					</tl>
 				</c>
 			</c>
+			<c>
+				<i>3</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>SoxranenieZakazaVOperaciiSozdanieZakaz,SoxranenieZakazaVOperaciiSozdanieZakazNeavtorizovannym</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>30</index>
+		<index>33</index>
 		<row>
 			<c>
 				<c>
 					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>CreatedDuringMobileApplicationRegistration</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
@@ -705,11 +1116,17 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>31</index>
+		<index>34</index>
 		<row>
 			<c>
 				<c>
 					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>FixListOfProducts</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
@@ -723,20 +1140,35 @@
 					</tl>
 				</c>
 			</c>
+			<c>
+				<i>3</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>UstanovkaSpiskaProduktov</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>4</defaultFormatIndex>
-	<height>32</height>
-	<vgRows>32</vgRows>
+	<defaultFormatIndex>5</defaultFormatIndex>
+	<height>35</height>
+	<vgRows>35</vgRows>
 	<format>
-		<width>195</width>
+		<width>261</width>
 	</format>
 	<format>
 		<width>345</width>
 	</format>
 	<format>
 		<width>229</width>
+	</format>
+	<format>
+		<width>253</width>
 	</format>
 	<format>
 		<width>72</width>

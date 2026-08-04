@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1edb8019-4923-4820-a687-4ba010bcb1c4">
+  <producedTypes>
+    <objectType typeId="b35e6d85-c021-46c1-b340-2b39ebd06745" valueTypeId="3a802cd3-c032-4780-8473-e878aa89ab2b"/>
+    <refType typeId="00711def-e8c6-4894-824c-a974b50a6dfc" valueTypeId="48262789-4548-4e1d-882e-61c06af7b83e"/>
+    <selectionType typeId="92002c8c-f32a-44ee-a1a8-d20b8b5f0136" valueTypeId="8f3347e8-1a68-4a78-9ca5-dc3cba2167fc"/>
+    <listType typeId="d0a3251e-4c34-4bf0-9477-4151208cbaee" valueTypeId="3eaa7ca9-43ab-47fa-bf96-d3ee91dab1f1"/>
+    <managerType typeId="e85b2d4c-22e8-48c4-9a59-cfa2a3019abd" valueTypeId="3ffdd596-f26f-4921-95de-2af0d17e0605"/>
+  </producedTypes>
+  <name>СпискиПродуктов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Списки продуктов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СпискиПродуктов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.СпискиПродуктов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="0eae1849-2bcb-428d-bedb-c7f44eaa0072">
+      <name>Избранное</name>
+      <description>Избранное</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="e6abc826-94e4-487d-b884-3bd8212748cb">
+      <name>Корзина</name>
+      <description>Корзина</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="f606721d-9c0f-44e1-adc9-1a5a91f089e6">
+      <name>ПродуктыНаСайте</name>
+      <description>Продукты на сайте</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="5adda627-f66f-49f6-b19d-de6a38f68dd3">
+      <name>ЛистОжидания</name>
+      <description>Лист ожидания</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

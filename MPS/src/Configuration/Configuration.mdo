@@ -1382,6 +1382,7 @@
   <catalogs>Catalog.Магазины</catalogs>
   <catalogs>Catalog.ВидыДействийКлиента</catalogs>
   <catalogs>Catalog.ВидыКаналовВзаимодействия</catalogs>
+  <catalogs>Catalog.СпискиПродуктов</catalogs>
   <documents>Document.ЗаказКлиента</documents>
   <enums>Enum.ВариантыВажностиЗадачи</enums>
   <enums>Enum.ВариантыВерсионированияОбъектов</enums>

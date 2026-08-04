@@ -12,5 +12,6 @@
   <content>Catalog.СегментыПартнеров</content>
   <content>Catalog.ВидыДействийКлиента</content>
   <content>InformationRegister.УстройстваКлиентов</content>
+  <content>Catalog.СпискиПродуктов</content>
   <parentSubsystem>Subsystem.Данные</parentSubsystem>
 </mdclass:Subsystem>

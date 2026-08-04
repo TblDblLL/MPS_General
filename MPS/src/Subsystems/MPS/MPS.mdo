@@ -30,4 +30,5 @@
   <content>Catalog.ВидыКаналовВзаимодействия</content>
   <content>Enum.ДвиженияТоваровВДействииКлиента</content>
   <content>InformationRegister.УстройстваКлиентов</content>
+  <content>Catalog.СпискиПродуктов</content>
 </mdclass:Subsystem>
