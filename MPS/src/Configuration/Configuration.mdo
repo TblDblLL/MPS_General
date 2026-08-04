@@ -1141,7 +1141,6 @@
   <definedTypes>DefinedType.ПрисоединенныйФайл</definedTypes>
   <definedTypes>DefinedType.ПрисоединенныйФайлОбъект</definedTypes>
   <definedTypes>DefinedType.ФизическоеЛицо</definedTypes>
-  <definedTypes>DefinedType.Канал</definedTypes>
   <commonCommands>CommonCommand.ВремяВПриложении</commonCommands>
   <commonCommands>CommonCommand.ВсеФайлы</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеОбработкиАдминистрирование</commonCommands>
@@ -1381,7 +1380,8 @@
   <catalogs>Catalog.ГруппыДоступаНоменклатуры</catalogs>
   <catalogs>Catalog.ГруппыДоступаКлиентов</catalogs>
   <catalogs>Catalog.Магазины</catalogs>
-  <catalogs>Catalog.ВидыОперацийКлиента</catalogs>
+  <catalogs>Catalog.ВидыДействийКлиента</catalogs>
+  <catalogs>Catalog.ВидыКаналовВзаимодействия</catalogs>
   <documents>Document.ЗаказКлиента</documents>
   <enums>Enum.ВариантыВажностиЗадачи</enums>
   <enums>Enum.ВариантыВерсионированияОбъектов</enums>
@@ -1439,6 +1439,7 @@
   <enums>Enum.ЦветностиИзображения</enums>
   <enums>Enum.ПолФизическогоЛица</enums>
   <enums>Enum.СпособыФормированияСегментов</enums>
+  <enums>Enum.ДвиженияТоваровВДействииКлиента</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализПравДоступа</reports>
@@ -1583,9 +1584,11 @@
   <informationRegisters>InformationRegister.ФайлыВРабочемКаталоге</informationRegisters>
   <informationRegisters>InformationRegister.ФиксацияОбработкиДанныхОбработчиками</informationRegisters>
   <informationRegisters>InformationRegister.ХранилищеФайлов</informationRegisters>
-  <informationRegisters>InformationRegister.ДействияКлиентов</informationRegisters>
   <informationRegisters>InformationRegister.НоменклатураСегмента</informationRegisters>
   <informationRegisters>InformationRegister.ПартнерыСегмента</informationRegisters>
+  <informationRegisters>InformationRegister.ДействияКлиентов</informationRegisters>
+  <informationRegisters>InformationRegister.ТоварныйСоставПоДействиюКлиента</informationRegisters>
+  <informationRegisters>InformationRegister.УстройстваКлиентов</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ОбъектыАдресацииЗадач</chartsOfCharacteristicTypes>

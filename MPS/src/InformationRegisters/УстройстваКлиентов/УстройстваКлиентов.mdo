@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6d9c915-8fa6-4512-8541-74699d2df209">
+  <producedTypes>
+    <selectionType typeId="aad5861f-659a-480c-a777-e59e130324ba" valueTypeId="c31717a5-6322-49c4-b48c-aee17000817c"/>
+    <listType typeId="da9086e2-17ef-44ec-ab0f-5777cfd0ddb3" valueTypeId="201a32e2-9014-460e-99d6-390aa55ee259"/>
+    <managerType typeId="05b7006c-e1a2-4077-abcd-322d1c6110c2" valueTypeId="98e6147b-144d-4524-a574-485c742136ff"/>
+    <recordSetType typeId="2107830c-a252-47d7-ba7a-dfce45db31c6" valueTypeId="06fe2bd8-12c6-4bba-9fd5-c28293fb5091"/>
+    <recordKeyType typeId="13c0bfbf-a3e1-4e08-87b9-f9a3fed07aa0" valueTypeId="9008f503-b3c4-4c6c-8bf7-86dfdebb950a"/>
+    <recordType typeId="4ef77696-b5d8-4cb3-8e44-0d4a8ef3b5cd" valueTypeId="7c5e3bd2-9419-448d-984a-70935088dc53"/>
+    <recordManagerType typeId="e688890e-3bd1-46af-96db-9d5a6708e2fd" valueTypeId="fad44293-bdd5-4006-ab3d-6e88685e60a3"/>
+  </producedTypes>
+  <name>УстройстваКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Устройства клиентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="fa3f49cf-6f3c-46b7-ac9b-3dca0ed43438">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="ac9fd405-ad81-42dd-aead-a00e25c66554">
+    <name>ВидКанала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид канала</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыКаналовВзаимодействия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6d8a4fc2-caa1-4e45-83ed-6fefed495b0c">
+    <name>РазрешениеНаОповещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешение на оповещение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6807739d-85c9-4673-a5e4-db50babb3f57">
+    <name>ДатаИзмененияРазрешенияНаОповещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения разрешения на оповещение</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9e057701-afaf-4ed5-9edd-52bdf6a73ee6">
+    <name>ТокенУстройства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Токен устройства</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="6e0f7ff7-6017-4159-b7b4-dde88fe0256b">
+    <name>Активно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активно</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d13568cb-f018-46bc-b71c-85433f30bef9">
+    <name>ТоварныйКодУстройства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товарный код устройства</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="1f2a44c2-9bc6-43a0-822e-d54806bd77a4">
+    <name>ОС</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОС</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <dimensions uuid="6c79690a-76e1-46ad-9d5f-450c91e37b5f">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="2d322c52-61bd-4bb6-b4ba-d15ef37128a6">
+    <name>ИДУстройства</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИДУстройства</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

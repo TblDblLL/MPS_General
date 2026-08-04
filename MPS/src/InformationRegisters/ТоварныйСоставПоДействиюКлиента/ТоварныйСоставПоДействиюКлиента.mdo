@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b10e9a81-38a3-4986-a20c-d58de67d154c">
+  <producedTypes>
+    <selectionType typeId="9031efa0-df82-4c86-bc1f-3794caa89756" valueTypeId="a714f068-a9bc-4812-ba51-449c0c714317"/>
+    <listType typeId="c2c10e78-2133-428d-8b78-68339f064985" valueTypeId="51ba9e41-1317-4930-8275-e4a9de84b754"/>
+    <managerType typeId="b01bf875-dd88-40c2-a4b0-56f94a3add54" valueTypeId="e167075d-dd6d-49bd-b3d0-2ae72d38feed"/>
+    <recordSetType typeId="7635ae2e-472a-4de0-8305-68e6a577ee8e" valueTypeId="f7d12445-2904-4ea3-a6fa-ed8eb5cadb26"/>
+    <recordKeyType typeId="79ae5f7c-8eba-48ed-8d1b-1385fa334d1a" valueTypeId="3ad87890-1ec0-4c16-b349-d6b65da69d16"/>
+    <recordType typeId="fdc94f53-75ca-4326-8fb2-2d89ceb99491" valueTypeId="daf44b56-c7dd-46a9-877c-39a2b846694f"/>
+    <recordManagerType typeId="5dd79d22-ff7d-41bd-8342-c197b5ca1224" valueTypeId="41bfcb36-031c-4981-be70-638ca9943cff"/>
+  </producedTypes>
+  <name>ТоварныйСоставПоДействиюКлиента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товарный состав по действию клиента</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1c9775bd-410e-494b-834e-56492394ada2">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3320c328-8ef5-450e-b410-db4f0aef4612">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="bd02e6a6-20fc-441b-aa07-43c42b7945ba">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4774d22d-ed49-42de-a9d2-a41f380efc91">
+    <name>ВидДвижения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид движения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ДвиженияТоваровВДействииКлиента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b492aa8e-0dc8-4948-ac3d-fa04de423657">
+    <name>УИДДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>УИДДействия</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="6d054828-7fb9-4c7e-a731-ef558f8fbfb2">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

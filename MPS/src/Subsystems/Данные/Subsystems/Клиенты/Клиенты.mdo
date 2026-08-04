@@ -10,5 +10,7 @@
   <content>Catalog.Клиенты</content>
   <content>InformationRegister.ПартнерыСегмента</content>
   <content>Catalog.СегментыПартнеров</content>
+  <content>Catalog.ВидыДействийКлиента</content>
+  <content>InformationRegister.УстройстваКлиентов</content>
   <parentSubsystem>Subsystem.Данные</parentSubsystem>
 </mdclass:Subsystem>

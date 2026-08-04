@@ -17,6 +17,67 @@
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="455c8dfa-e1b8-407f-82e7-84ed9603b1fc">
+    <name>ВидДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид действия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыДействийКлиента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="265d510c-0969-40b4-8983-4f49c190b66f">
+    <name>ВидКанала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид канала</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыКаналовВзаимодействия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="87b0271c-471a-43fb-ba08-741fac52d4b2">
+    <name>Магазин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Магазин</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Магазины</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="fa23db11-42cf-4ed1-8233-835bdcb308f8">
+    <name>ОписаниеДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание действия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
   <dimensions uuid="2f94d4e9-56fc-44f3-8e7a-b955f3f64bf1">
     <name>Клиент</name>
     <synonym>
@@ -32,7 +93,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
-    <mainFilter>true</mainFilter>
   </dimensions>
   <dimensions uuid="e3d75d42-953f-4cc9-804d-28818e6bc5a4">
     <name>УИДДействия</name>
@@ -45,6 +105,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -61,9 +122,9 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
-    <mainFilter>true</mainFilter>
   </dimensions>
 </mdclass:InformationRegister>

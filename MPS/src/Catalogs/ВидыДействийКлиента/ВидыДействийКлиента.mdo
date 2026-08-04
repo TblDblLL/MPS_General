@@ -7,13 +7,14 @@
     <listType typeId="1afebd1b-2260-4c64-a962-3190afe9939f" valueTypeId="329589fe-701a-4998-b3db-4e891218f9e1"/>
     <managerType typeId="39822625-499d-4ed6-a566-082a1a2d26e1" valueTypeId="a41160f4-8104-4a5a-9ba3-01bb5e0ea243"/>
   </producedTypes>
-  <name>ВидыОперацийКлиента</name>
+  <name>ВидыДействийКлиента</name>
   <synonym>
     <key>ru</key>
-    <value>Виды операций клиента</value>
+    <value>Виды действий клиента</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.ВидыОперацийКлиента.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыДействийКлиента.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыДействийКлиента.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -76,7 +77,7 @@
     <name>Description</name>
     <synonym>
       <key>ru</key>
-      <value>Вид операции</value>
+      <value>Наименование вида</value>
     </synonym>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
@@ -87,6 +88,10 @@
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Code</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код вида</value>
+    </synonym>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -97,9 +102,12 @@
   <fullTextSearch>Use</fullTextSearch>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
+  <codeLength>50</codeLength>
   <descriptionLength>150</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
@@ -121,4 +129,11 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <templates uuid="c4177fee-7ae1-4eda-8d5f-4d43d65636de">
+    <name>ВидыПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Виды по умолчанию</value>
+    </synonym>
+  </templates>
 </mdclass:Catalog>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a54cbc8-7bca-4a01-9dd3-153e0e4db3ae">
+  <producedTypes>
+    <objectType typeId="42e2fe84-9bd2-45eb-bbb2-6de94523be3b" valueTypeId="0f5ab716-dd3a-4763-87ac-336941cf262f"/>
+    <refType typeId="4bd33e9a-928c-448f-8b51-5b0cd71e96be" valueTypeId="f0d64b0e-ef55-4190-87a3-db57ca7ccf03"/>
+    <selectionType typeId="affaf091-1f6c-4cb7-8995-82fe2c6f4402" valueTypeId="340baa79-f2f1-411f-b87b-1b0585177dae"/>
+    <listType typeId="5d6de5f6-7917-41b2-90d4-c134422b3188" valueTypeId="afdf111e-d014-4deb-91ec-9416e28f42f2"/>
+    <managerType typeId="d85b8ab9-1676-4448-9790-ddf8ce543e7e" valueTypeId="2ba85307-4f14-4f2c-98bf-56e1c525ff0b"/>
+  </producedTypes>
+  <name>ВидыКаналовВзаимодействия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды каналов взаимодействия</value>
+  </synonym>
+  <inputByString>Catalog.ВидыКаналовВзаимодействия.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВидыКаналовВзаимодействия.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="9143f9d8-a05d-458b-9854-6c03a3e4df7e">
+      <name>offLine</name>
+      <description>Касса магазина</description>
+      <code xsi:type="core:StringValue">
+        <value>offLine</value>
+      </code>
+    </items>
+    <items id="99b6e07e-bbf3-4c9b-acd9-3154a92fc306">
+      <name>Website</name>
+      <description>Cайт</description>
+      <code xsi:type="core:StringValue">
+        <value>Website</value>
+      </code>
+    </items>
+    <items id="ad66922a-a83d-47d9-8ea7-1f3ebbcf12d9">
+      <name>Mobile</name>
+      <description>Приложения iOS и Android</description>
+      <code xsi:type="core:StringValue">
+        <value>Mobile</value>
+      </code>
+    </items>
+    <items id="13aafc84-faa2-4a06-952c-b66df8a300b4">
+      <name>SMS</name>
+      <description>SMS</description>
+      <code xsi:type="core:StringValue">
+        <value>SMS</value>
+      </code>
+    </items>
+    <items id="fbd37c54-e02c-499f-93b9-69b83ff15ef4">
+      <name>Email</name>
+      <description>Email</description>
+      <code xsi:type="core:StringValue">
+        <value>Email</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -415,6 +415,22 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="62d87fc4-c56e-4936-be60-53f9a0765cca">
+    <name>ТикетАвторизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тикет авторизации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="a78b3f82-bd68-4398-a0f8-877b14d90e82">
     <producedTypes>
       <objectType typeId="ec4cf097-5b2e-4cb6-a878-7e094e26ef19" valueTypeId="42d0b66c-338f-4834-af3b-5d1d2364b37a"/>
