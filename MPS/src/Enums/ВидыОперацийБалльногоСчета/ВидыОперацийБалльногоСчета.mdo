@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0b87139-97a6-4a2d-8303-3d97ad26766a">
+  <producedTypes>
+    <refType typeId="3967448a-0c41-47eb-ae8e-42cf4c4f031e" valueTypeId="26109031-8afb-4f0f-8ec4-2e02194fe638"/>
+    <listType typeId="93693e6d-f0fa-4db9-906e-71bc1db20dd2" valueTypeId="daacd1c4-8558-480f-acee-cf3c9c69c96e"/>
+    <managerType typeId="0da09e27-80b4-40af-86fc-42a5560ce0c3" valueTypeId="489044c0-ccdb-4529-aa9b-9c971a06ac62"/>
+  </producedTypes>
+  <name>ВидыОперацийБалльногоСчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций балльного счета</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="51a5ba0b-4073-4f46-9a85-7b9adc736956">
+    <name>Начисление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начисление</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a4da2e42-78b5-4e5b-99b0-d6bf7022901b">
+    <name>СписаниеВСчетОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списание в счет оплаты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aa1b1815-cc40-4641-98b7-c11b1f9314d6">
+    <name>СписаниеПоСрокуДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списание по сроку действия</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

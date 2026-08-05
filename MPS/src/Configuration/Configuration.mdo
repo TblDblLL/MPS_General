@@ -1383,7 +1383,9 @@
   <catalogs>Catalog.ВидыДействийКлиента</catalogs>
   <catalogs>Catalog.ВидыКаналовВзаимодействия</catalogs>
   <catalogs>Catalog.СпискиПродуктов</catalogs>
+  <catalogs>Catalog.ВидыБальныхСчетов</catalogs>
   <documents>Document.ЗаказКлиента</documents>
+  <documents>Document.ОперацияБалльногоСчета</documents>
   <enums>Enum.ВариантыВажностиЗадачи</enums>
   <enums>Enum.ВариантыВерсионированияОбъектов</enums>
   <enums>Enum.ВариантыИспользованияВнешнихКомпонент</enums>
@@ -1441,6 +1443,7 @@
   <enums>Enum.ПолФизическогоЛица</enums>
   <enums>Enum.СпособыФормированияСегментов</enums>
   <enums>Enum.ДвиженияТоваровВДействииКлиента</enums>
+  <enums>Enum.ВидыОперацийБалльногоСчета</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализПравДоступа</reports>
@@ -1591,6 +1594,7 @@
   <informationRegisters>InformationRegister.ТоварныйСоставПоДействиюКлиента</informationRegisters>
   <informationRegisters>InformationRegister.УстройстваКлиентов</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.БалльныеСчета</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ОбъектыАдресацииЗадач</chartsOfCharacteristicTypes>
   <businessProcesses>BusinessProcess.Задание</businessProcesses>

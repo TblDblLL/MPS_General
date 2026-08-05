@@ -70,6 +70,24 @@
     </synonym>
     <type>
       <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="62415dcf-b84c-4d9e-9e9d-fb16996edd96">
+    <name>ТехнологическиеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Технологические данные</value>
+    </synonym>
+    <type>
+      <types>String</types>
       <stringQualifiers/>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -77,6 +95,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="f260ec74-8d42-49b6-9ffd-a41fe584a80a">
+    <name>Заказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказКлиента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <dimensions uuid="2f94d4e9-56fc-44f3-8e7a-b955f3f64bf1">
     <name>Клиент</name>

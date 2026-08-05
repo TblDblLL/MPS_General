@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73c7af15-c417-41ad-a100-023768ee2d2e">
+  <producedTypes>
+    <objectType typeId="a253b321-4404-45ff-a96f-0fdb8da82393" valueTypeId="170914a2-1540-4c3c-a837-f30e1d9ea0ef"/>
+    <refType typeId="a9417868-4b03-44a8-93c2-8cffd88ca0e1" valueTypeId="0a7480ce-2ef7-4499-9b5f-51a0dab9211f"/>
+    <selectionType typeId="f2edda4b-e775-41e6-9991-ca755c4d3ae8" valueTypeId="ae55de75-cfe8-42c9-be1b-719cac894599"/>
+    <listType typeId="1926366b-8192-4235-bd30-da4a2d8fc84e" valueTypeId="0d20ecf0-0fa6-4aaa-87f1-27038a4c417b"/>
+    <managerType typeId="bc11de73-e39c-42a8-a5bf-8ce9b64593d1" valueTypeId="1c402929-cf98-4647-8f5e-f0a96220abaa"/>
+  </producedTypes>
+  <name>ВидыБальныхСчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды бальных счетов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыБальныхСчетов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВидыБальныхСчетов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="b5b00943-03b5-4bf4-964f-be976398d287">
+      <name>Приветственный</name>
+      <description>Приветственный</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="7bee9984-7875-42c7-8f9a-220e3d33618c">
+      <name>Основной</name>
+      <description>Основной</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

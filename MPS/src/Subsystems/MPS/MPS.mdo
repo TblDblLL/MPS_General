@@ -31,4 +31,7 @@
   <content>Enum.ДвиженияТоваровВДействииКлиента</content>
   <content>InformationRegister.УстройстваКлиентов</content>
   <content>Catalog.СпискиПродуктов</content>
+  <content>Catalog.ВидыБальныхСчетов</content>
+  <content>AccumulationRegister.БалльныеСчета</content>
+  <content>Enum.ВидыОперацийБалльногоСчета</content>
 </mdclass:Subsystem>
