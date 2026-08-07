@@ -155,7 +155,7 @@
   <hierarchical>true</hierarchical>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
-  <codeLength>9</codeLength>
+  <codeLength>11</codeLength>
   <descriptionLength>100</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
@@ -167,42 +167,6 @@
   <defaultObjectForm>Catalog.Номенклатура.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.Номенклатура.Form.ФормаСписка</defaultListForm>
   <defaultChoiceForm>Catalog.Номенклатура.Form.ФормаСписка</defaultChoiceForm>
-  <attributes uuid="8f609274-26d6-48fc-8aa2-2a6e331ac2b3">
-    <name>ВидНоменклатуры</name>
-    <synonym>
-      <key>ru</key>
-      <value>Вид номенклатуры</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
-    </type>
-    <toolTip>
-      <key>ru</key>
-      <value>Указывается вид, к которому следует отнести данную позицию номенклатуры</value>
-    </toolTip>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <choiceParameterLinks>
-      <name>Отбор.НаОсновномСкладе</name>
-      <field>Catalog.Номенклатура.Attribute.НаОсновномСкладе</field>
-    </choiceParameterLinks>
-    <choiceParameters>
-      <name>Отбор.Предопределенный</name>
-      <value xsi:type="core:BooleanValue"/>
-    </choiceParameters>
-    <choiceParameters>
-      <name>Отбор.ПометкаУдаления</name>
-      <value xsi:type="core:BooleanValue"/>
-    </choiceParameters>
-    <fillValue xsi:type="core:StringValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <use>ForFolderAndItem</use>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="95f8c60a-1d0d-4359-b5a6-4c4967e0eadc">
     <name>НаОсновномСкладе</name>
     <synonym>
@@ -214,7 +178,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Номенклатура доступна на основном складе</value>
+      <value>Доступна на основном складе</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -245,7 +209,7 @@
     <name>Цена</name>
     <synonym>
       <key>ru</key>
-      <value>Цена</value>
+      <value>Базовая розн. цена</value>
     </synonym>
     <type>
       <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>
@@ -399,6 +363,67 @@
     <type>
       <types>String</types>
       <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="96f87e64-1703-43ec-8ed8-74606a5e64cb">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8d56c1ed-c91a-469a-a81a-5b8099fa6a2a">
+    <name>ЕстьКартинка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Есть картинка</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fae07294-5f9c-48a5-9204-4a2f3b07eadd">
+    <name>Производитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Производители</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ab6e97ca-90ba-490f-b8f0-fab5f06da91a">
+    <name>ТоварнаяКатегория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товарная категория</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТоварныеКатегории</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

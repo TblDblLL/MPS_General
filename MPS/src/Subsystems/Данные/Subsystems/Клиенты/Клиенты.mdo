@@ -13,5 +13,6 @@
   <content>Catalog.ВидыДействийКлиента</content>
   <content>InformationRegister.УстройстваКлиентов</content>
   <content>Catalog.СпискиПродуктов</content>
+  <content>Catalog.ЗоныДоставки</content>
   <parentSubsystem>Subsystem.Данные</parentSubsystem>
 </mdclass:Subsystem>

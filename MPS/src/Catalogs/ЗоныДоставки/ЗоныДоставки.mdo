@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48e9e6ef-e622-4acf-b043-60ba30f65cce">
+  <producedTypes>
+    <objectType typeId="d3f9dc8a-62c7-4146-883f-2f5f377c8391" valueTypeId="35add763-e516-47ef-b57e-18ee7354d669"/>
+    <refType typeId="f4e6e36b-e5b8-411a-8038-68e123df08cf" valueTypeId="37bfe423-5422-41e7-a4ba-1c3f24bd090e"/>
+    <selectionType typeId="f89b23e6-e4dc-4253-89df-a2d12b1df7ed" valueTypeId="1cc3e606-6f00-4ede-952a-12eb2ec9e56e"/>
+    <listType typeId="86ea0e69-be5f-4df0-9684-a7210842d81d" valueTypeId="2bae698d-3f07-4bfe-8918-eeedf4813a4b"/>
+    <managerType typeId="9ed8a1de-d964-49df-b474-522960fbd2f7" valueTypeId="ec533247-925b-4f60-b1f6-82780119453e"/>
+  </producedTypes>
+  <name>ЗоныДоставки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зоны доставки</value>
+  </synonym>
+  <comment>Зоны доставки (города, регионы и т.п.)</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЗоныДоставки.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ЗоныДоставки.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

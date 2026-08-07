@@ -229,7 +229,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ActivateCard</v8:content>
+							<v8:content>ActivateDiscountCard</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -252,7 +252,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>RegisterCart,ActivateDiscountCard</v8:content>
+							<v8:content>RegisterCart,ActivateCard</v8:content>
 						</v8:item>
 					</tl>
 				</c>

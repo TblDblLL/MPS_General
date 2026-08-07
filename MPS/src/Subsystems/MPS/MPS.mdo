@@ -34,4 +34,7 @@
   <content>Catalog.ВидыБальныхСчетов</content>
   <content>AccumulationRegister.БалльныеСчета</content>
   <content>Enum.ВидыОперацийБалльногоСчета</content>
+  <content>Catalog.Производители</content>
+  <content>Catalog.ТоварныеКатегории</content>
+  <content>Catalog.ЗоныДоставки</content>
 </mdclass:Subsystem>

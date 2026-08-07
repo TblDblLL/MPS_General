@@ -30,6 +30,8 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Сценарии.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.Сценарии.Form.ФормаЭлемента</defaultFolderForm>
   <attributes uuid="f82b9a39-ad21-4a88-ab3b-ba2b88dc3b15">
     <name>СхемаПроцесса</name>
     <synonym>
@@ -45,4 +47,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="23eb0677-5e7c-4398-a878-4c5acc2e3b79">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

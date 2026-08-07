@@ -1367,6 +1367,8 @@
   <catalogs>Catalog.ХранилищеДвоичныхДанных</catalogs>
   <catalogs>Catalog.ШаблоныСообщений</catalogs>
   <catalogs>Catalog.ШаблоныСообщенийПрисоединенныеФайлы</catalogs>
+  <catalogs>Catalog.ГруппыДоступаНоменклатуры</catalogs>
+  <catalogs>Catalog.ГруппыДоступаКлиентов</catalogs>
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.Константы</catalogs>
   <catalogs>Catalog.Сценарии</catalogs>
@@ -1377,13 +1379,14 @@
   <catalogs>Catalog.СообщенияВПриложение</catalogs>
   <catalogs>Catalog.Виджеты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
-  <catalogs>Catalog.ГруппыДоступаНоменклатуры</catalogs>
-  <catalogs>Catalog.ГруппыДоступаКлиентов</catalogs>
   <catalogs>Catalog.Магазины</catalogs>
   <catalogs>Catalog.ВидыДействийКлиента</catalogs>
   <catalogs>Catalog.ВидыКаналовВзаимодействия</catalogs>
   <catalogs>Catalog.СпискиПродуктов</catalogs>
   <catalogs>Catalog.ВидыБальныхСчетов</catalogs>
+  <catalogs>Catalog.Производители</catalogs>
+  <catalogs>Catalog.ТоварныеКатегории</catalogs>
+  <catalogs>Catalog.ЗоныДоставки</catalogs>
   <documents>Document.ЗаказКлиента</documents>
   <documents>Document.ОперацияБалльногоСчета</documents>
   <enums>Enum.ВариантыВажностиЗадачи</enums>

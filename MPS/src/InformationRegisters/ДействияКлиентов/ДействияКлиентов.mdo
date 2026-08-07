@@ -111,6 +111,21 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
+  <resources uuid="fcd785c6-1410-41eb-a76b-591b9cacb03b">
+    <name>СписокПродуктов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список продуктов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СпискиПродуктов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
   <dimensions uuid="2f94d4e9-56fc-44f3-8e7a-b955f3f64bf1">
     <name>Клиент</name>
     <synonym>
