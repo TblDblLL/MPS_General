@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c557499-edf4-4176-ab05-c9104809fae3">
+  <producedTypes>
+    <objectType typeId="9a7af5b3-946f-4304-a6e1-31a21a2b00b1" valueTypeId="de2788c1-ed8a-4291-8215-06ba1bccb387"/>
+    <refType typeId="ed67c7bc-03e6-4fab-99c6-c85d2822681b" valueTypeId="6eb787d9-33d4-41cf-bbaa-4b2d8483228f"/>
+    <selectionType typeId="face9ec4-a224-45fb-8e17-45fa2d7d8ea9" valueTypeId="ae017888-f496-478f-ab98-9f868fd97fd4"/>
+    <listType typeId="0a988e51-a632-41c3-bcc4-8bf3490696c8" valueTypeId="fb476c27-094c-45e8-a395-cd5f82a70c04"/>
+    <managerType typeId="43e0abb8-d5f0-4e05-b1d1-40f8b687e3f7" valueTypeId="6401aee5-2293-42e8-bbdc-fe34a6d522d9"/>
+  </producedTypes>
+  <name>ПрограммыБалловЛояльности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Программы баллов лояльности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПрограммыБалловЛояльности.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ПрограммыБалловЛояльности.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

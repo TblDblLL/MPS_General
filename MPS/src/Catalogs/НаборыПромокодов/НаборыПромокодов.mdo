@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f11d94f-2919-47f7-b321-d7ef736248bd">
+  <producedTypes>
+    <objectType typeId="ee72b867-95aa-4238-9dbe-8a8ef9d02407" valueTypeId="76fd6f7d-a048-451a-8e64-d62a6ebf9d08"/>
+    <refType typeId="c98c53c0-1aa3-4345-8f02-1b8021faabc7" valueTypeId="7b9da81b-0168-4961-af7c-0167b0b5b1b2"/>
+    <selectionType typeId="a249d0e6-b91f-4a27-a4f0-15bb04cd046c" valueTypeId="651ab7da-fae6-462e-a91d-fb5c24fda8d0"/>
+    <listType typeId="2d1bc4ee-7464-47b2-af63-300408e22d8f" valueTypeId="80725a01-d336-4572-8e3e-4d0b0952cfd5"/>
+    <managerType typeId="34e8b097-f8a0-4ee3-a5be-5218c9dab270" valueTypeId="e4635e94-2a0c-4194-96c7-1fc0268dece5"/>
+  </producedTypes>
+  <name>НаборыПромокодов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наборы промокодов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НаборыПромокодов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.НаборыПромокодов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

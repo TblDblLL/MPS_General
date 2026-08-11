@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ae817a0-8b99-4a4b-aa53-0a8d29250b37">
+  <producedTypes>
+    <refType typeId="8e51b1a0-edb4-45a9-8ce5-acd3301315eb" valueTypeId="b4d5eb65-1496-4c72-9a37-2736bcfa746b"/>
+    <listType typeId="6fc19d7e-d7ab-4920-a80f-29eef695d1a9" valueTypeId="b9503b64-5c70-4c11-831c-4c6773048041"/>
+    <managerType typeId="d77c34a7-da6a-44ac-b33f-ea29ae27f36e" valueTypeId="a59cbf0e-c7ee-4f16-93b6-34a26366ffbc"/>
+  </producedTypes>
+  <name>СтатусыСценариев</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы сценариев</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e3bc0359-71dc-432c-8f5f-a5eb807ce11b">
+    <name>ГотовКЗапуску</name>
+    <synonym>
+      <key>ru</key>
+      <value>Готов к запуску</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1bab5693-1781-43e7-8608-54bb2b636a73">
+    <name>Запущен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запущен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="43449aca-ebe1-4ea7-9674-ce25e82ffa57">
+    <name>Остановлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остановлен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a1185506-8063-4d6e-b6ab-4b32730a7360">
+    <name>Черновик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Черновик</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

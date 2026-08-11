@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="57a7351a-1e66-4e0c-be44-10485d98ad72">
+  <producedTypes>
+    <refType typeId="a43be95d-880d-4491-887c-17d9a6343466" valueTypeId="01f0b49b-b1c2-4e77-961c-0996c246bb54"/>
+    <listType typeId="80630862-2bb3-4dc4-b4fa-8030a8d44074" valueTypeId="745db238-2a13-499f-980d-751288951e5c"/>
+    <managerType typeId="679c9a6c-a06a-495e-8bc1-f886c10df7f7" valueTypeId="b2f7d1f7-0f8b-48b8-aa28-d3c2d47a4b40"/>
+  </producedTypes>
+  <name>СтатусыРассылокПоКлиентам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы рассылок по клиентам</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="48fbd865-9fee-4d40-897c-da59d0f5d182">
+    <name>Отправлена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f531edf4-acae-41ad-b064-f3449b0f013e">
+    <name>НеОтправлена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не отправлена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6f1a7874-4659-45c7-88b5-79fea50461bb">
+    <name>Открыта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открыта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="56fd35aa-e5ef-4a8f-8807-4f6fe0848ca0">
+    <name>КликПоСсылке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клик по ссылке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1964fca6-2c17-47e2-afe2-48b78a0f15a0">
+    <name>НеДоставлена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не доставлена</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9555a6a8-df6e-4568-b53e-40c7a388c901">
+  <producedTypes>
+    <selectionType typeId="93130fb1-dc33-4740-8f23-e1b103c3366e" valueTypeId="89cb6aff-1a79-48ac-8a1e-e49703c501ce"/>
+    <listType typeId="54f24908-a8ac-4384-8571-09a827c17a3a" valueTypeId="3d516718-5aeb-4c05-930f-b49558950128"/>
+    <managerType typeId="ae5d481f-5cf7-4d1f-8d7b-b6d2c04f79e5" valueTypeId="8bc80879-6c30-40bf-8bd3-7532e34a231b"/>
+    <recordSetType typeId="7756e5f6-a13b-4bf0-8a34-b45eb5dd485d" valueTypeId="536f8b80-4e6a-4444-88b2-4cfa876e9793"/>
+    <recordKeyType typeId="62598b8a-292a-4c96-9855-bb43359067eb" valueTypeId="0b93ee46-aa60-4511-8709-0580172771af"/>
+    <recordType typeId="1e5c25f3-8e33-4aad-9393-223cba6b2edf" valueTypeId="de8dc055-0212-4f53-8105-94c9826e5114"/>
+    <recordManagerType typeId="ef7c1bb0-8ae7-4ff6-8f1c-dc1d953cc630" valueTypeId="1f28636e-6a25-4529-9ea4-3b609a65ce7a"/>
+  </producedTypes>
+  <name>СостояниеНаборовПромокодов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние наборов промокодов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="377e6a12-5b93-4624-8e3d-35dbfd661245">
+    <name>Выдано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдано</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2d5eb73b-bd8e-4c40-aa60-393473eb701d">
+    <name>Использовано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовано</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5d143fff-c14b-4499-9e1f-81f398910d8c">
+    <name>Доступно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступно для выдачи</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ab72a483-4442-48c2-be72-5782bfc07619">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыПрограммЛояльности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="c37786e8-0e1e-4a65-963e-e6dbc7de377a">
+    <name>НаборПромокодов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор промокодов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НаборыПромокодов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

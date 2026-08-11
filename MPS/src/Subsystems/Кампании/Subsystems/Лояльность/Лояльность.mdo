@@ -7,5 +7,9 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.СостояниеПрограммБалловЛояльности</content>
+  <content>Catalog.НаборыПромокодов</content>
+  <content>Catalog.ПрограммыСкидок</content>
+  <content>InformationRegister.СостояниеПрограммСкидок</content>
   <parentSubsystem>Subsystem.Кампании</parentSubsystem>
 </mdclass:Subsystem>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="135c1d84-2ba6-468a-9e83-c2fbdd2b7b63">
+  <producedTypes>
+    <selectionType typeId="2b09d306-0e75-47a0-90c2-1cd8bf8545d7" valueTypeId="52b27229-7d4b-49d9-9606-21798166c5ae"/>
+    <listType typeId="b6a72f4d-7e18-43f0-9c28-a2e3d9335124" valueTypeId="59c5e144-f221-4f00-ba8b-4036f7be4e0a"/>
+    <managerType typeId="3fc799b3-6996-4fc3-97b6-121624593f80" valueTypeId="cce9851e-5fc9-4d45-853e-3d53c7abc036"/>
+    <recordSetType typeId="443dea71-0045-4065-9610-dec5dba24078" valueTypeId="f34a874d-9d6a-4e85-86ae-7bddfb7171ee"/>
+    <recordKeyType typeId="2df9918f-6908-4e91-84c2-d6ce97e17e59" valueTypeId="a0c0180f-04c3-4ccd-b051-622074f0bb25"/>
+    <recordType typeId="83e2a810-2cba-4244-8a3a-3325f7a7b210" valueTypeId="070fafbb-fd04-46ad-8e87-1b5a1bee9f6d"/>
+    <recordManagerType typeId="98d42cdd-d41b-4cd1-b724-d4608dc32e4b" valueTypeId="330ae843-93b7-46a1-a140-63dc01b3d823"/>
+  </producedTypes>
+  <name>СостояниеПрограммСкидок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние программ скидок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a9d5c8e3-8be0-46f5-a5c6-eaa694ade385">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыПрограммЛояльности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="40c1439d-8aa2-4c94-a7fe-1614de6ba0e8">
+    <name>ПрограммаСкидок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Программа скидок</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПрограммыСкидок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

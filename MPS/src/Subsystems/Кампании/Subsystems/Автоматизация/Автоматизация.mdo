@@ -9,5 +9,6 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Сценарии</content>
   <content>Catalog.АвтоматическиеРассылки</content>
+  <content>InformationRegister.СостояниеРассылокПоКлиентам</content>
   <parentSubsystem>Subsystem.Кампании</parentSubsystem>
 </mdclass:Subsystem>

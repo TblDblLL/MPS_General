@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c9c3cb4-05f0-473c-9b59-c754225c6928">
+  <producedTypes>
+    <refType typeId="d353b2f5-0d96-4e25-a178-d46856778992" valueTypeId="e2b9e13f-d64b-43ad-b366-973db2ec81dc"/>
+    <listType typeId="bf16344b-2aba-4f9a-ae6f-1740eafe676c" valueTypeId="f96322eb-0fef-44da-aea0-5acaaab90669"/>
+    <managerType typeId="db9c5f5e-51de-43a2-8bf4-ac2d665b56da" valueTypeId="82c45480-180a-4e87-91fe-0a22260eebe1"/>
+  </producedTypes>
+  <name>СтатусыПрограммПерсонализации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы программ персонализации</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4371adfe-3b64-40a6-ab12-b24f43db3265">
+    <name>Запущен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запущен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8b99c367-7bb5-4f48-a169-57643583321a">
+    <name>Отключен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отключен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="03b5f30f-1eda-4c7f-9a87-f14aae51ba78">
+    <name>Черновик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Черновик</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -10,5 +10,6 @@
   <content>Catalog.Виджеты</content>
   <content>Catalog.СообщенияВПриложение</content>
   <content>Catalog.СообщенияНаСайт</content>
+  <content>InformationRegister.СостоянияПерсонализаций</content>
   <parentSubsystem>Subsystem.Кампании</parentSubsystem>
 </mdclass:Subsystem>

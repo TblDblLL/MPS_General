@@ -1141,6 +1141,7 @@
   <definedTypes>DefinedType.ПрисоединенныйФайл</definedTypes>
   <definedTypes>DefinedType.ПрисоединенныйФайлОбъект</definedTypes>
   <definedTypes>DefinedType.ФизическоеЛицо</definedTypes>
+  <definedTypes>DefinedType.Персонализация</definedTypes>
   <commonCommands>CommonCommand.ВремяВПриложении</commonCommands>
   <commonCommands>CommonCommand.ВсеФайлы</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеОбработкиАдминистрирование</commonCommands>
@@ -1388,6 +1389,9 @@
   <catalogs>Catalog.ТоварныеКатегории</catalogs>
   <catalogs>Catalog.ЗоныДоставки</catalogs>
   <catalogs>Catalog.ВидыПодписок</catalogs>
+  <catalogs>Catalog.ПрограммыСкидок</catalogs>
+  <catalogs>Catalog.НаборыПромокодов</catalogs>
+  <catalogs>Catalog.ПрограммыБалловЛояльности</catalogs>
   <documents>Document.ЗаказКлиента</documents>
   <documents>Document.ОперацияБалльногоСчета</documents>
   <enums>Enum.ВариантыВажностиЗадачи</enums>
@@ -1448,7 +1452,11 @@
   <enums>Enum.СпособыФормированияСегментов</enums>
   <enums>Enum.ДвиженияТоваровВДействииКлиента</enums>
   <enums>Enum.ВидыОперацийБалльногоСчета</enums>
+  <enums>Enum.СтатусыРассылокПоКлиентам</enums>
+  <enums>Enum.СтатусыПрограммЛояльности</enums>
+  <enums>Enum.СтатусыСценариев</enums>
   <enums>Enum.СтатусыРассылок</enums>
+  <enums>Enum.СтатусыПрограммПерсонализации</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализПравДоступа</reports>
@@ -1600,7 +1608,11 @@
   <informationRegisters>InformationRegister.УстройстваКлиентов</informationRegisters>
   <informationRegisters>InformationRegister.ПодпискиКлиентов</informationRegisters>
   <informationRegisters>InformationRegister.СоставСпискаПродуктовКлиента</informationRegisters>
-  <informationRegisters>InformationRegister.СтатусыРассылок</informationRegisters>
+  <informationRegisters>InformationRegister.СостояниеРассылокПоКлиентам</informationRegisters>
+  <informationRegisters>InformationRegister.СостояниеПрограммБалловЛояльности</informationRegisters>
+  <informationRegisters>InformationRegister.СостояниеПрограммСкидок</informationRegisters>
+  <informationRegisters>InformationRegister.СостояниеНаборовПромокодов</informationRegisters>
+  <informationRegisters>InformationRegister.СостоянияПерсонализаций</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.БалльныеСчета</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>

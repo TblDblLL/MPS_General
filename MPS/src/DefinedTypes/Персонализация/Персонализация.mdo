@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="104c78d9-ed46-4dc7-904f-3f2495ba53f6">
+  <producedTypes>
+    <containerType typeId="29afa7c2-5464-49b0-adfd-0743c829fb28" valueTypeId="368aab7f-3d4c-47f0-a539-7614aa9b73fc"/>
+  </producedTypes>
+  <name>Персонализация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Персонализация</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.СообщенияВПриложение</types>
+    <types>CatalogRef.СообщенияНаСайт</types>
+    <types>CatalogRef.Виджеты</types>
+  </type>
+</mdclass:DefinedType>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca354d7f-05f2-4c42-be00-94bc4da8c38b">
+  <producedTypes>
+    <selectionType typeId="d0e85fbb-55e7-4880-927d-6a816af4ab48" valueTypeId="c2b63f10-9376-4115-9912-54362181a52d"/>
+    <listType typeId="09d3d3ce-e871-4f8c-b1b3-bd1619bdfe1e" valueTypeId="6c1faff1-961f-4a0e-82c9-cbd575ba0bae"/>
+    <managerType typeId="d1867ccb-9e1a-4946-a6e4-ae84e682b286" valueTypeId="14a2eeee-ca16-4ad6-b9b3-34ad24891f94"/>
+    <recordSetType typeId="9d6c3836-d870-4da2-b14c-3eb49693bfa9" valueTypeId="97268f32-c1d5-4886-9347-b68789a31961"/>
+    <recordKeyType typeId="46ffb792-b41e-4034-b7c9-733425dee8e5" valueTypeId="f8df5507-ba14-49c5-964b-8aa4a2faec8a"/>
+    <recordType typeId="89f1a6cb-fdb5-4efe-a89f-3ac6ee4b063e" valueTypeId="65c75632-9bfd-4a24-bd0e-ff9b71124089"/>
+    <recordManagerType typeId="75d53163-32ad-4212-8a4a-a128f5b1fed1" valueTypeId="37fc6d72-1786-4949-97a6-2f936e49bfc4"/>
+  </producedTypes>
+  <name>СостоянияПерсонализаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния персонализаций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c5bdf745-7e94-4eb0-9abe-2004a85d4bb8">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыПрограммПерсонализации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e195a357-2527-4bc6-aff9-36428da19d3d">
+    <name>Персонализация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Персонализация</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Персонализация</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

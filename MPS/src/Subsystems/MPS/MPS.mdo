@@ -39,7 +39,15 @@
   <content>Catalog.ЗоныДоставки</content>
   <content>Catalog.ВидыПодписок</content>
   <content>InformationRegister.ПодпискиКлиентов</content>
-  <content>Enum.СтатусыРассылок</content>
-  <content>InformationRegister.СтатусыРассылок</content>
+  <content>Enum.СтатусыРассылокПоКлиентам</content>
+  <content>InformationRegister.СостояниеРассылокПоКлиентам</content>
   <content>InformationRegister.СоставСпискаПродуктовКлиента</content>
+  <content>Enum.СтатусыПрограммЛояльности</content>
+  <content>InformationRegister.СостояниеПрограммБалловЛояльности</content>
+  <content>Catalog.НаборыПромокодов</content>
+  <content>Catalog.ПрограммыСкидок</content>
+  <content>Enum.СтатусыСценариев</content>
+  <content>Enum.СтатусыРассылок</content>
+  <content>InformationRegister.СостояниеПрограммСкидок</content>
+  <content>InformationRegister.СостоянияПерсонализаций</content>
 </mdclass:Subsystem>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="deb8507f-a3b7-4171-b580-8a85bd07829c">
+  <producedTypes>
+    <refType typeId="9358fa12-3e59-41d7-b339-d1ffe3cf2751" valueTypeId="ad62f079-92b2-4560-a129-b87b9f91b502"/>
+    <listType typeId="17bfba1d-eed4-4e60-86b9-5b8d60a76c95" valueTypeId="3baae6d9-7278-4713-937a-798ab3f559cc"/>
+    <managerType typeId="987724e6-633d-4bda-b7e6-bdd6782ca8f7" valueTypeId="b7eb3db4-c0ac-4e17-b459-aab22debde45"/>
+  </producedTypes>
+  <name>СтатусыПрограммЛояльности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы программ лояльности</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="029cc757-ca65-4bcd-88a2-6ffc024edea2">
+    <name>Запущено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запущено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="61cc643b-cc0a-4c81-9de4-6ae5f9c5c92a">
+    <name>Остановлено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остановлено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9772b660-59b2-444a-8509-5042288d3131">
+    <name>НаПаузе</name>
+    <synonym>
+      <key>ru</key>
+      <value>На паузе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="334e94ac-9a17-4e2d-b2a9-e8ba2e033395">
+    <name>Черновик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Черновик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0e6dce11-8afd-48a7-a88a-2a30b6b090d5">
+    <name>Отключено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отключено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f63f64dc-206d-4799-a500-628fef54ec88">
+    <name>Начнется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начнется</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

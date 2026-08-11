@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b5f0b84-a9a9-4772-848c-0d5d1e925f3b">
+  <producedTypes>
+    <selectionType typeId="a03f299c-5258-4ad1-95d0-8b6333c1fc69" valueTypeId="c333b6f3-4e3b-464e-9163-1627199bf2f4"/>
+    <listType typeId="39e79e82-bb96-4d62-b95c-0c23ea13a50a" valueTypeId="62af7a17-fe90-4708-8ca4-85f8a4853b93"/>
+    <managerType typeId="ebb9692e-80c5-4e4e-be24-149e0edce390" valueTypeId="e5c5359b-70b9-4a20-840a-eb94241e6878"/>
+    <recordSetType typeId="18598dfc-18af-43ff-a577-29dda3d8a747" valueTypeId="d2322b06-48aa-4562-a0fb-c3666b825d57"/>
+    <recordKeyType typeId="cf17aff3-a638-4aa5-a9ab-adbbd57288db" valueTypeId="771fb01b-5d39-4202-8b0b-a88a1709b71b"/>
+    <recordType typeId="0df6ecc7-29b7-4a22-9daa-6df3dae3c358" valueTypeId="50dd6a88-0898-447b-8f0d-44f51399c790"/>
+    <recordManagerType typeId="410631d8-fc4a-4610-8ba6-3d46d2d8bb11" valueTypeId="60a3c516-1312-42ae-9650-f67c2e415c65"/>
+  </producedTypes>
+  <name>СостояниеПрограммБалловЛояльности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние программ баллов лояльности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d56fc147-3f6d-4018-8b54-74545a154ea6">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыПрограммЛояльности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="801d0cc7-38e2-42b5-9f6e-96268d539d72">
+    <name>ПрограммаБалловЛояльности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Программа баллов лояльности</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПрограммыБалловЛояльности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
