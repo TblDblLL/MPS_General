@@ -27,14 +27,19 @@
   <content>Catalog.ГруппыДоступаНоменклатуры</content>
   <content>Catalog.ГруппыДоступаКлиентов</content>
   <content>Catalog.ВидыДействийКлиента</content>
-  <content>Catalog.ВидыКаналовВзаимодействия</content>
+  <content>Catalog.КаналыВзаимодействия</content>
   <content>Enum.ДвиженияТоваровВДействииКлиента</content>
   <content>InformationRegister.УстройстваКлиентов</content>
   <content>Catalog.СпискиПродуктов</content>
-  <content>Catalog.ВидыБальныхСчетов</content>
+  <content>Catalog.ВидыБалльныхСчетов</content>
   <content>AccumulationRegister.БалльныеСчета</content>
   <content>Enum.ВидыОперацийБалльногоСчета</content>
   <content>Catalog.Производители</content>
   <content>Catalog.ТоварныеКатегории</content>
   <content>Catalog.ЗоныДоставки</content>
+  <content>Catalog.ВидыПодписок</content>
+  <content>InformationRegister.ПодпискиКлиентов</content>
+  <content>Enum.СтатусыРассылок</content>
+  <content>InformationRegister.СтатусыРассылок</content>
+  <content>InformationRegister.СоставСпискаПродуктовКлиента</content>
 </mdclass:Subsystem>

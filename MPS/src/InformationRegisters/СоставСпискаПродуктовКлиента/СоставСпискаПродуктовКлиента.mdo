@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b10e9a81-38a3-4986-a20c-d58de67d154c">
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4945a294-3ef2-4f82-91d2-714556782f89">
   <producedTypes>
-    <selectionType typeId="9031efa0-df82-4c86-bc1f-3794caa89756" valueTypeId="a714f068-a9bc-4812-ba51-449c0c714317"/>
-    <listType typeId="c2c10e78-2133-428d-8b78-68339f064985" valueTypeId="51ba9e41-1317-4930-8275-e4a9de84b754"/>
-    <managerType typeId="b01bf875-dd88-40c2-a4b0-56f94a3add54" valueTypeId="e167075d-dd6d-49bd-b3d0-2ae72d38feed"/>
-    <recordSetType typeId="7635ae2e-472a-4de0-8305-68e6a577ee8e" valueTypeId="f7d12445-2904-4ea3-a6fa-ed8eb5cadb26"/>
-    <recordKeyType typeId="79ae5f7c-8eba-48ed-8d1b-1385fa334d1a" valueTypeId="3ad87890-1ec0-4c16-b349-d6b65da69d16"/>
-    <recordType typeId="fdc94f53-75ca-4326-8fb2-2d89ceb99491" valueTypeId="daf44b56-c7dd-46a9-877c-39a2b846694f"/>
-    <recordManagerType typeId="5dd79d22-ff7d-41bd-8342-c197b5ca1224" valueTypeId="41bfcb36-031c-4981-be70-638ca9943cff"/>
+    <selectionType typeId="b71e8532-a6d8-4691-89a1-d3496e2e1c88" valueTypeId="411b4ac1-03a4-434b-94de-2ae004d3ccd9"/>
+    <listType typeId="53b5dc7e-c9d8-4f1e-bd47-52e1251e0a1e" valueTypeId="4076c71e-b8a2-4e03-a9d3-ba59567a2825"/>
+    <managerType typeId="fd970985-2380-452c-a743-d42c5f929923" valueTypeId="9759a529-92a2-437d-85b8-7d138060c122"/>
+    <recordSetType typeId="a3c22606-9bf7-4a1d-a338-4f418be024bc" valueTypeId="a8966e49-d02d-46d7-9f53-0182457a0648"/>
+    <recordKeyType typeId="4d491fbe-4103-4e00-b415-8ff9eea1fc22" valueTypeId="84dcdf3f-30cf-4a22-8ce0-b6af34014a74"/>
+    <recordType typeId="468a704c-d010-4160-9e66-8a388cd817e3" valueTypeId="aefa9c69-6074-408e-b869-8cfaead2f2e7"/>
+    <recordManagerType typeId="fe7a1648-8c90-466e-87a6-c8c47559498a" valueTypeId="0fe5adbe-948a-43f2-bc02-cead2e19ec68"/>
   </producedTypes>
-  <name>ТоварныйСоставПоДействиюКлиента</name>
+  <name>СоставСпискаПродуктовКлиента</name>
   <synonym>
     <key>ru</key>
-    <value>Товарный состав по действию клиента</value>
+    <value>Состав списка продуктов клиента</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <resources uuid="1c9775bd-410e-494b-834e-56492394ada2">
+  <resources uuid="7089e6c0-aca9-486d-aca9-71f25d6c2816">
     <name>Номенклатура</name>
     <synonym>
       <key>ru</key>
@@ -33,7 +33,7 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <resources uuid="3320c328-8ef5-450e-b410-db4f0aef4612">
+  <resources uuid="96d7b445-02a6-49fa-8cb6-0044e687f996">
     <name>Количество</name>
     <synonym>
       <key>ru</key>
@@ -49,7 +49,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <resources uuid="bd02e6a6-20fc-441b-aa07-43c42b7945ba">
+  <resources uuid="c6f01f27-6cfb-4aaa-99dc-16b9ea13dc94">
     <name>Цена</name>
     <synonym>
       <key>ru</key>
@@ -69,22 +69,7 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <resources uuid="4774d22d-ed49-42de-a9d2-a41f380efc91">
-    <name>ВидДвижения</name>
-    <synonym>
-      <key>ru</key>
-      <value>Вид движения</value>
-    </synonym>
-    <type>
-      <types>EnumRef.ДвиженияТоваровВДействииКлиента</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </resources>
-  <resources uuid="33af0397-24eb-411b-b731-70e9b945adb7">
+  <resources uuid="474e2e86-6df7-41f0-9570-6ed64075325b">
     <name>ЦенаБазовая</name>
     <synonym>
       <key>ru</key>
@@ -104,23 +89,7 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <dimensions uuid="b492aa8e-0dc8-4948-ac3d-fa04de423657">
-    <name>УИДДействия</name>
-    <synonym>
-      <key>ru</key>
-      <value>УИДДействия</value>
-    </synonym>
-    <type>
-      <types>UUID</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <denyIncompleteValues>true</denyIncompleteValues>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </dimensions>
-  <dimensions uuid="6d054828-7fb9-4c7e-a731-ef558f8fbfb2">
+  <dimensions uuid="97caa436-c101-4a53-b511-42aeba99850c">
     <name>Клиент</name>
     <synonym>
       <key>ru</key>
@@ -131,9 +100,25 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <denyIncompleteValues>true</denyIncompleteValues>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4fd9a392-8804-44e4-8217-d4ae1ed394c0">
+    <name>СписокПродуктов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список продуктов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СпискиПродуктов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
   </dimensions>
 </mdclass:InformationRegister>

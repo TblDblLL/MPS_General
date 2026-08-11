@@ -7,13 +7,13 @@
     <listType typeId="5d6de5f6-7917-41b2-90d4-c134422b3188" valueTypeId="afdf111e-d014-4deb-91ec-9416e28f42f2"/>
     <managerType typeId="d85b8ab9-1676-4448-9790-ddf8ce543e7e" valueTypeId="2ba85307-4f14-4f2c-98bf-56e1c525ff0b"/>
   </producedTypes>
-  <name>ВидыКаналовВзаимодействия</name>
+  <name>КаналыВзаимодействия</name>
   <synonym>
     <key>ru</key>
-    <value>Виды каналов взаимодействия</value>
+    <value>Каналы взаимодействия</value>
   </synonym>
-  <inputByString>Catalog.ВидыКаналовВзаимодействия.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.ВидыКаналовВзаимодействия.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КаналыВзаимодействия.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.КаналыВзаимодействия.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>

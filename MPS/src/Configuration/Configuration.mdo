@@ -1381,12 +1381,13 @@
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Магазины</catalogs>
   <catalogs>Catalog.ВидыДействийКлиента</catalogs>
-  <catalogs>Catalog.ВидыКаналовВзаимодействия</catalogs>
+  <catalogs>Catalog.КаналыВзаимодействия</catalogs>
   <catalogs>Catalog.СпискиПродуктов</catalogs>
-  <catalogs>Catalog.ВидыБальныхСчетов</catalogs>
+  <catalogs>Catalog.ВидыБалльныхСчетов</catalogs>
   <catalogs>Catalog.Производители</catalogs>
   <catalogs>Catalog.ТоварныеКатегории</catalogs>
   <catalogs>Catalog.ЗоныДоставки</catalogs>
+  <catalogs>Catalog.ВидыПодписок</catalogs>
   <documents>Document.ЗаказКлиента</documents>
   <documents>Document.ОперацияБалльногоСчета</documents>
   <enums>Enum.ВариантыВажностиЗадачи</enums>
@@ -1447,6 +1448,7 @@
   <enums>Enum.СпособыФормированияСегментов</enums>
   <enums>Enum.ДвиженияТоваровВДействииКлиента</enums>
   <enums>Enum.ВидыОперацийБалльногоСчета</enums>
+  <enums>Enum.СтатусыРассылок</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализПравДоступа</reports>
@@ -1596,6 +1598,9 @@
   <informationRegisters>InformationRegister.ДействияКлиентов</informationRegisters>
   <informationRegisters>InformationRegister.ТоварныйСоставПоДействиюКлиента</informationRegisters>
   <informationRegisters>InformationRegister.УстройстваКлиентов</informationRegisters>
+  <informationRegisters>InformationRegister.ПодпискиКлиентов</informationRegisters>
+  <informationRegisters>InformationRegister.СоставСпискаПродуктовКлиента</informationRegisters>
+  <informationRegisters>InformationRegister.СтатусыРассылок</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.БалльныеСчета</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d740448a-4e33-422f-baa1-b7ec44132d78">
+  <producedTypes>
+    <selectionType typeId="fe74b2a1-2a85-4e51-a7f5-eed580a290ab" valueTypeId="910ccc11-fa5f-45f9-a317-0bb1c1200e09"/>
+    <listType typeId="880c6736-7fb9-4c3b-8472-fbe13e04427c" valueTypeId="0d3f52eb-45b3-49ba-8bb0-1c0cc5d0fbae"/>
+    <managerType typeId="3ee733eb-f0cb-41cc-a9bc-8fe83a096d30" valueTypeId="644ea8fb-6489-4fdf-8638-83ec6e90bac9"/>
+    <recordSetType typeId="03a2e18c-78e7-43b3-83e1-00ae9283571d" valueTypeId="2a55021d-9833-425a-90bb-4e54975a9cdf"/>
+    <recordKeyType typeId="98166e17-cb6d-4d23-b5b5-f6e9d63c326f" valueTypeId="dd535c8a-a822-4302-a9fb-c1c0003f99a3"/>
+    <recordType typeId="3a0e0567-51f7-4dea-9e20-237f7d3c0aff" valueTypeId="81d2ced8-eb84-4577-9c92-a12cb5de1867"/>
+    <recordManagerType typeId="6aaef2cd-d4f2-4937-84cf-65632eb7ec5f" valueTypeId="6dc56cbd-998f-4c81-be52-e60d4c196abe"/>
+  </producedTypes>
+  <name>ПодпискиКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подписки клиентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b3116080-c118-45db-8064-a3f8c56a2045">
+    <name>Действует</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действует</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e306563f-4016-40cd-bfc9-59d28983c7b4">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1488391a-275c-4e8a-8577-bbb543717392">
+    <name>ВидПодписки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид подписки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыПодписок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1a03e97f-9aaf-4ab3-8c43-2fa28ab58288">
+    <name>КаналВзаимодействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Канал взаимодействия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КаналыВзаимодействия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4fc692ad-d388-4967-897c-be9300f4e7a7">
+  <producedTypes>
+    <selectionType typeId="6023d48c-01ee-44ba-b93b-794b9b1eb447" valueTypeId="e5ced4df-5fe4-4d4e-a3c1-513c0d6d7a1e"/>
+    <listType typeId="154087f7-c9a3-4e17-8fd3-a4358f11cbbd" valueTypeId="efa0cc4f-2272-48a6-8c19-475b0a3898f6"/>
+    <managerType typeId="38c8004f-2fcc-4b41-a41d-417414cbdc60" valueTypeId="75c0e197-3551-4365-9ff0-6f6e3414ef3b"/>
+    <recordSetType typeId="1c728415-a39b-4f08-b068-e153f31ef5bb" valueTypeId="2db2f53d-1879-4e64-9ccf-0badbf3b3b21"/>
+    <recordKeyType typeId="7c6f52df-2b9d-4ebb-b8c0-d40fd42b5eee" valueTypeId="f1bfb651-4a27-474b-a658-3aa3d149372b"/>
+    <recordType typeId="5029c25c-4256-4936-9f34-33a659d33e79" valueTypeId="6791d5f4-b953-4fe5-9feb-48cd11581541"/>
+    <recordManagerType typeId="d1e8e8c2-2f72-4ba7-af71-ba36c1f2843c" valueTypeId="54ccff34-01fd-43f7-8a7a-3eb2f71f581f"/>
+  </producedTypes>
+  <name>СтатусыРассылок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы рассылок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="cd005ceb-eee3-42c8-9420-c2d7774a1662">
+    <name>СтатусРассылки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус рассылки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыРассылок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="1fcffcb9-7eda-4ae2-8df9-c1208e4edc3b">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="ea4662bb-28d0-4dab-b8cf-d7c8a4aadda8">
+    <name>Рассылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рассылка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.АвтоматическиеРассылки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

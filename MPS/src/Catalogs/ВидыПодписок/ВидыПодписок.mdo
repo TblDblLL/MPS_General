@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c598bd07-72ad-4738-b7f9-e922f05898b9">
+  <producedTypes>
+    <objectType typeId="d729a51a-25f4-43c8-b754-b8808a4641de" valueTypeId="b577df0d-4712-4afd-8a70-5d2e78cdaa67"/>
+    <refType typeId="2c400d3a-caf9-4f67-b152-b73bab2a707a" valueTypeId="a990d858-d5ae-43eb-9d05-d1e05a2aafdd"/>
+    <selectionType typeId="90f4b0bd-4055-4599-9980-1651dcdb4fc6" valueTypeId="2c3e402d-2d42-4c4f-b737-e5899a0d7300"/>
+    <listType typeId="ec4a0ad6-9977-46cb-bf5f-df5f979c0790" valueTypeId="1c99e850-2d7a-4a8f-8ca7-a2bc51e04207"/>
+    <managerType typeId="c4a1e526-c33d-40fc-8596-f20d9d2181e8" valueTypeId="1559096f-91b2-4c2d-8ff9-1b3674a2b048"/>
+  </producedTypes>
+  <name>ВидыПодписок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды подписок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыПодписок.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВидыПодписок.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="acfba06b-fea8-41b0-aaa1-ea97071aefad">
+      <name>Глобальная</name>
+      <description>Глобальная подписка</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -14,5 +14,9 @@
   <content>InformationRegister.УстройстваКлиентов</content>
   <content>Catalog.СпискиПродуктов</content>
   <content>Catalog.ЗоныДоставки</content>
+  <content>Catalog.ВидыПодписок</content>
+  <content>InformationRegister.ПодпискиКлиентов</content>
+  <content>InformationRegister.СтатусыРассылок</content>
+  <content>InformationRegister.СоставСпискаПродуктовКлиента</content>
   <parentSubsystem>Subsystem.Данные</parentSubsystem>
 </mdclass:Subsystem>

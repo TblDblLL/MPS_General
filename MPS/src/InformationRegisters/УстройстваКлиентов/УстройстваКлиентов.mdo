@@ -42,7 +42,7 @@
       <value>Вид канала</value>
     </synonym>
     <type>
-      <types>CatalogRef.ВидыКаналовВзаимодействия</types>
+      <types>CatalogRef.КаналыВзаимодействия</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
