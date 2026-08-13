@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11668961-6b30-4479-8f67-209255fe6dc3">
+  <producedTypes>
+    <objectType typeId="dbd33b8d-4b9e-4972-a5f2-580e74a83bdb" valueTypeId="338f74b6-ce50-4b49-b221-8cce918b2281"/>
+    <refType typeId="93a472a5-32e9-45de-b4f9-659747f74b6b" valueTypeId="1a7393f0-4917-425b-9f0f-1e80a033f38a"/>
+    <selectionType typeId="beb3f75c-83e7-4ceb-970e-7ba09544e8d4" valueTypeId="a9d4ed62-df7b-4a08-931f-37c9d0e10aba"/>
+    <listType typeId="9b0cdab5-6e2d-4f7f-8e6a-297f99952caa" valueTypeId="511a0526-8f99-423f-a214-14baab8bfa5d"/>
+    <managerType typeId="e5a469ab-2d19-4f2a-963b-b254e7944da1" valueTypeId="b51c1552-5c54-44d8-a48a-853ca3abc3da"/>
+  </producedTypes>
+  <name>ПродуктовыеРекомендации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продуктовые рекомендации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПродуктовыеРекомендации.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ПродуктовыеРекомендации.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

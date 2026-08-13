@@ -7,6 +7,7 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ПродуктовыеРекомендации</content>
   <subsystems>Автоматизация</subsystems>
   <subsystems>Персонализация</subsystems>
   <subsystems>Лояльность</subsystems>

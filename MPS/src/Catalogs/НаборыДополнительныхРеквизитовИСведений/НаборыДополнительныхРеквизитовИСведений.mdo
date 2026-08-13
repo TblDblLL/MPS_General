@@ -167,6 +167,20 @@
         <value></value>
       </code>
     </items>
+    <items id="9d8228c8-0da6-47f8-980b-b346c7891b79">
+      <name>Справочник_СегментыНоменклатуры</name>
+      <description>Сегменты номенклатуры</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="4fa09b2c-cce2-45be-a0f1-bd5ea132ef83">
+      <name>Справочник_СегментыПартнеров</name>
+      <description>Сегменты партнеров</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>

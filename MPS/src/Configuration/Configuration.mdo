@@ -1392,6 +1392,7 @@
   <catalogs>Catalog.ПрограммыСкидок</catalogs>
   <catalogs>Catalog.НаборыПромокодов</catalogs>
   <catalogs>Catalog.ПрограммыБалловЛояльности</catalogs>
+  <catalogs>Catalog.ПродуктовыеРекомендации</catalogs>
   <documents>Document.ЗаказКлиента</documents>
   <documents>Document.ОперацияБалльногоСчета</documents>
   <enums>Enum.ВариантыВажностиЗадачи</enums>

@@ -50,4 +50,5 @@
   <content>Enum.СтатусыРассылок</content>
   <content>InformationRegister.СостояниеПрограммСкидок</content>
   <content>InformationRegister.СостоянияПерсонализаций</content>
+  <content>Catalog.ПродуктовыеРекомендации</content>
 </mdclass:Subsystem>
