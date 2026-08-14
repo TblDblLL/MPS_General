@@ -51,4 +51,6 @@
   <content>InformationRegister.СостояниеПрограммСкидок</content>
   <content>InformationRegister.СостоянияПерсонализаций</content>
   <content>Catalog.ПродуктовыеРекомендации</content>
+  <content>InformationRegister.ЦеныНоменклатуры</content>
+  <content>InformationRegister.СоставНоменклатурыПромоакций</content>
 </mdclass:Subsystem>

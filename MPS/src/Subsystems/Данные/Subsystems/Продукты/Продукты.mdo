@@ -12,5 +12,7 @@
   <content>Catalog.Номенклатура</content>
   <content>Catalog.Производители</content>
   <content>Catalog.ТоварныеКатегории</content>
+  <content>InformationRegister.ЦеныНоменклатуры</content>
+  <content>InformationRegister.СоставНоменклатурыПромоакций</content>
   <parentSubsystem>Subsystem.Данные</parentSubsystem>
 </mdclass:Subsystem>

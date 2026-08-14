@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a0f95063-abe5-4bc1-b859-728020a589e1">
+  <producedTypes>
+    <selectionType typeId="aed00d70-9187-4f97-b4fe-4935fd7731b6" valueTypeId="75e0d60e-2caa-477e-b7c1-107863a2d644"/>
+    <listType typeId="fb10a4d5-d738-4baf-b3f8-fc57cfc35278" valueTypeId="4406dbc8-4ed2-4e04-8e00-7d319cb15e34"/>
+    <managerType typeId="492cf614-b160-472b-855e-6096d0ca8c5c" valueTypeId="a2d99c3a-caca-43bb-a35d-b8d3fddea8fa"/>
+    <recordSetType typeId="23cfde34-da32-4972-927a-52b86149ddba" valueTypeId="45baea41-9776-44bd-bae3-819de50a732e"/>
+    <recordKeyType typeId="64e77af7-8021-4adf-b053-594f0ff054d6" valueTypeId="20a90373-24c2-46f6-96c4-f0e52256506a"/>
+    <recordType typeId="f92ce1fa-87d5-41f7-9c0d-af7a1151dff7" valueTypeId="a0e47e1e-135a-4240-a77e-2145f157c2da"/>
+    <recordManagerType typeId="24db91f1-c246-49f9-a464-1f1d435a3129" valueTypeId="c837d7b1-e5a2-4ac3-900f-3cd923aeeea0"/>
+  </producedTypes>
+  <name>СоставНоменклатурыПромоакций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состав номенклатуры промоакций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="ce01c6f5-23c0-48b5-b8be-14bc9e4bda21">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7a7bf440-0b50-486e-b949-86c3e234296e">
+    <name>ПрограммаСкидок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Программа скидок</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПрограммыСкидок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

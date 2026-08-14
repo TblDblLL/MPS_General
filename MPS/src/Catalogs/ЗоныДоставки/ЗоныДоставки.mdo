@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48e9e6ef-e622-4acf-b043-60ba30f65cce">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48e9e6ef-e622-4acf-b043-60ba30f65cce">
   <producedTypes>
     <objectType typeId="d3f9dc8a-62c7-4146-883f-2f5f377c8391" valueTypeId="35add763-e516-47ef-b57e-18ee7354d669"/>
     <refType typeId="f4e6e36b-e5b8-411a-8038-68e123df08cf" valueTypeId="37bfe423-5422-41e7-a4ba-1c3f24bd090e"/>
@@ -31,4 +31,29 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ЗоныДоставки.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="7921b9cb-b8f5-4091-b686-69bc3b6db79f">
+    <name>ВалютаЗоныДоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта зоны доставки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="d8d307f2-ff69-419f-a995-476a093e7a1e">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

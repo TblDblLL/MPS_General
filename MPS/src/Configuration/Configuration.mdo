@@ -1393,6 +1393,8 @@
   <catalogs>Catalog.НаборыПромокодов</catalogs>
   <catalogs>Catalog.ПрограммыБалловЛояльности</catalogs>
   <catalogs>Catalog.ПродуктовыеРекомендации</catalogs>
+  <catalogs>Catalog.КлиентыПрисоединенныеФайлы</catalogs>
+  <catalogs>Catalog.НоменклатураПрисоединенныеФайлы</catalogs>
   <documents>Document.ЗаказКлиента</documents>
   <documents>Document.ОперацияБалльногоСчета</documents>
   <enums>Enum.ВариантыВажностиЗадачи</enums>
@@ -1614,6 +1616,8 @@
   <informationRegisters>InformationRegister.СостояниеПрограммСкидок</informationRegisters>
   <informationRegisters>InformationRegister.СостояниеНаборовПромокодов</informationRegisters>
   <informationRegisters>InformationRegister.СостоянияПерсонализаций</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
+  <informationRegisters>InformationRegister.СоставНоменклатурыПромоакций</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.БалльныеСчета</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>

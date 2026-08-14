@@ -12,5 +12,7 @@
     <types>CatalogObject.ВерсииФайлов</types>
     <types>CatalogObject.ШаблоныСообщенийПрисоединенныеФайлы</types>
     <types>CatalogObject.Файлы</types>
+    <types>CatalogObject.НоменклатураПрисоединенныеФайлы</types>
+    <types>CatalogObject.КлиентыПрисоединенныеФайлы</types>
   </type>
 </mdclass:DefinedType>

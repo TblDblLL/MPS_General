@@ -11,6 +11,5 @@
   <type>
     <types>BusinessProcessRef.Задание</types>
     <types>CatalogRef.ПапкиФайлов</types>
-    <types>CatalogRef.Клиенты</types>
   </type>
 </mdclass:DefinedType>

@@ -11,6 +11,8 @@
   <type>
     <types>CatalogRef.Файлы</types>
     <types>CatalogRef.ВерсииФайлов</types>
+    <types>CatalogRef.НоменклатураПрисоединенныеФайлы</types>
     <types>CatalogRef.ШаблоныСообщенийПрисоединенныеФайлы</types>
+    <types>CatalogRef.КлиентыПрисоединенныеФайлы</types>
   </type>
 </mdclass:DefinedType>
