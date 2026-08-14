@@ -63,9 +63,7 @@
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
+          <userVisible/>
           <dataPath xsi:type="form:DataPath">
             <segments>Список.Метка1</segments>
           </dataPath>
@@ -111,9 +109,7 @@
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
+          <userVisible/>
           <dataPath xsi:type="form:DataPath">
             <segments>Список.Метка2</segments>
           </dataPath>
@@ -159,9 +155,7 @@
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
+          <userVisible/>
           <dataPath xsi:type="form:DataPath">
             <segments>Список.Метка3</segments>
           </dataPath>
@@ -200,9 +194,7 @@
         </items>
         <visible>true</visible>
         <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
+        <userVisible/>
         <title>
           <key>ru</key>
           <value>Метки</value>
