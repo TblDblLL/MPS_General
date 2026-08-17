@@ -152,23 +152,26 @@
           <id>185</id>
           <autoFill>true</autoFill>
         </contextMenu>
-        <type>LabelField</type>
+        <type>InputField</type>
         <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:LabelFieldExtInfo">
-          <autoMaxWidth>true</autoMaxWidth>
+        <extInfo xsi:type="form:InputFieldExtInfo">
           <autoMaxHeight>true</autoMaxHeight>
-          <hyperlink>true</hyperlink>
-          <border xsi:type="core:BorderDef">
-            <width>1</width>
-          </border>
+          <wrap>true</wrap>
+          <multiLine>true</multiLine>
+          <openButton>true</openButton>
+          <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
+          <textEdit>true</textEdit>
           <textColor xsi:type="core:ColorDef">
             <red>51</red>
             <green>153</green>
             <blue>102</blue>
           </textColor>
+          <heightControlVariant>ByContent</heightControlVariant>
+          <specialTextInputMode>URL</specialTextInputMode>
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
@@ -776,6 +779,7 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.Code</segments>
           </dataPath>
+          <skipOnInput>true</skipOnInput>
           <extendedTooltip>
             <name>КодРасширеннаяПодсказка</name>
             <id>37</id>
@@ -803,6 +807,58 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>URLПродукта</name>
+          <id>214</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.URLПродукта</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>URLПродуктаРасширеннаяПодсказка</name>
+            <id>216</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>URLПродуктаКонтекстноеМеню</name>
+            <id>215</id>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>InputField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:InputFieldExtInfo">
+            <autoMaxHeight>true</autoMaxHeight>
+            <wrap>true</wrap>
+            <multiLine>true</multiLine>
+            <openButton>true</openButton>
+            <chooseType>true</chooseType>
+            <typeDomainEnabled>true</typeDomainEnabled>
+            <textEdit>true</textEdit>
+            <textColor xsi:type="core:ColorDef">
+              <red>51</red>
+              <green>153</green>
+              <blue>102</blue>
+            </textColor>
+            <font xsi:type="core:FontRef">
+              <font>Style.NormalTextFont</font>
+              <underline>true</underline>
+            </font>
+            <heightControlVariant>ByContent</heightControlVariant>
+            <specialTextInputMode>URL</specialTextInputMode>
           </extInfo>
         </items>
         <items xsi:type="form:FormGroup">

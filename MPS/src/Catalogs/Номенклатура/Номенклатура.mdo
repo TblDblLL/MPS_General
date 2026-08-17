@@ -357,7 +357,7 @@
     <name>URLПродукта</name>
     <synonym>
       <key>ru</key>
-      <value>URLПродукта</value>
+      <value>URL продукта</value>
     </synonym>
     <type>
       <types>String</types>

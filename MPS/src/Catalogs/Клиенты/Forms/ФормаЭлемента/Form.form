@@ -54,6 +54,7 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <specialTextInputMode>PhoneNumber</specialTextInputMode>
             </extInfo>
           </items>
           <items xsi:type="form:Decoration">
@@ -131,6 +132,10 @@
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <extInfo xsi:type="form:PictureDecorationExtInfo">
+              <handlers>
+                <event>Click</event>
+                <name>КопироватьВБуферКартинкаНажатие</name>
+              </handlers>
               <picture xsi:type="core:PictureRef">
                 <picture>CommonPicture.СкопироватьВБуферОбмена</picture>
               </picture>
@@ -179,6 +184,7 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <specialTextInputMode>Email</specialTextInputMode>
             </extInfo>
           </items>
           <items xsi:type="form:Decoration">
@@ -262,7 +268,7 @@
             <extInfo xsi:type="form:PictureDecorationExtInfo">
               <handlers>
                 <event>Click</event>
-                <name>КопироватьПочтуКартинкаНажатие</name>
+                <name>КопироватьВБуферКартинкаНажатие</name>
               </handlers>
               <picture xsi:type="core:PictureRef">
                 <picture>CommonPicture.СкопироватьВБуферОбмена</picture>
