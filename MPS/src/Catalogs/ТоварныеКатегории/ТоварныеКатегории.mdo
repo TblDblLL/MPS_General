@@ -20,6 +20,7 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
   <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
@@ -31,4 +32,14 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ТоварныеКатегории.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="108034b7-21a1-4efa-858e-9dcff44586e4">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
