@@ -115,6 +115,7 @@
   </objectPresentation>
   <characteristicExtValues>Catalog.ЗначенияСвойствОбъектов</characteristicExtValues>
   <type>
+    <types>EnumRef.ПолФизическогоЛица</types>
     <types>CatalogRef.ЗначенияСвойствОбъектовИерархия</types>
     <types>Boolean</types>
     <types>CatalogRef.ЗначенияСвойствОбъектов</types>

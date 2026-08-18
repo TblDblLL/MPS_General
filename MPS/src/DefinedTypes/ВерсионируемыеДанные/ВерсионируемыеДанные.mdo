@@ -10,6 +10,7 @@
   </synonym>
   <type>
     <types>CatalogRef.РассылкиОтчетов</types>
+    <types>CatalogRef.Номенклатура</types>
     <types>CatalogRef.Клиенты</types>
     <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
     <types>CatalogRef.ВидыКонтактнойИнформации</types>
