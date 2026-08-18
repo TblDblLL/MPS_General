@@ -117,7 +117,7 @@
     <keyField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения.Attribute.Свойство</keyField>
     <typesFilterField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения.Attribute.ИмяПредопределенногоНабора</typesFilterField>
     <typesFilterValue xsi:type="core:StringValue">
-      <value>Справочник__ДемоНоменклатура</value>
+      <value>Справочник_Номенклатура</value>
     </typesFilterValue>
     <dataPathField>-1</dataPathField>
     <multipleValuesUseField>-1</multipleValuesUseField>
@@ -133,7 +133,7 @@
     <keyField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</keyField>
     <typesFilterField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеРеквизиты.Attribute.ИмяПредопределенногоНабора</typesFilterField>
     <typesFilterValue xsi:type="core:StringValue">
-      <value>Справочник__ДемоНоменклатура</value>
+      <value>Справочник_Номенклатура</value>
     </typesFilterValue>
     <dataPathField>-1</dataPathField>
     <multipleValuesUseField>-1</multipleValuesUseField>
