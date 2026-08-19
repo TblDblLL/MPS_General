@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="03a660b3-1bef-4788-9324-a21ebd22954d">
+  <producedTypes>
+    <containerType typeId="0802dda6-9cf3-4552-b2eb-9cf856f068f2" valueTypeId="2b033be9-63f8-41cf-8720-830dbeb45252"/>
+  </producedTypes>
+  <name>МестаЗапасов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Места запасов</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Магазины</types>
+    <types>CatalogRef.ЗоныДоставки</types>
+  </type>
+</mdclass:DefinedType>

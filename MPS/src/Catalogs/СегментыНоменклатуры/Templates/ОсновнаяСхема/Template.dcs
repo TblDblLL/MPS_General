@@ -9,44 +9,122 @@
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Номенклатура</dataPath>
 			<field>Номенклатура</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Номенклатура</v8:content>
-				</v8:item>
-			</title>
-			<orderExpression>
-				<dcscom:expression>Номенклатура</dcscom:expression>
-				<dcscom:orderType>Asc</dcscom:orderType>
-				<dcscom:autoOrder>true</dcscom:autoOrder>
-			</orderExpression>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Номенклатура.ВерсияДанных</dataPath>
-			<field>ВерсияДанных</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Версия данных</v8:content>
-				</v8:item>
-			</title>
-			<useRestriction>
-				<field>true</field>
-				<condition>true</condition>
-				<group>true</group>
-				<order>true</order>
-			</useRestriction>
+			<dataPath>МестоЗапасов</dataPath>
+			<field>МестоЗапасов</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВНаличии</dataPath>
+			<field>ВНаличии</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Поступит</dataPath>
+			<field>Поступит</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Заказано</dataPath>
+			<field>Заказано</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Свободно</dataPath>
+			<field>Свободно</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СвободноСУчетомПоступлений</dataPath>
+			<field>СвободноСУчетомПоступлений</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Описание</dataPath>
+			<field>Описание</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Артикул</dataPath>
+			<field>Артикул</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЕстьКартинка</dataPath>
+			<field>ЕстьКартинка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Цена</dataPath>
+			<field>Цена</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЦенаРеальная</dataPath>
+			<field>ЦенаРеальная</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Производитель</dataPath>
+			<field>Производитель</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Наименование</dataPath>
+			<field>Наименование</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТоварнаяКатегория</dataPath>
+			<field>ТоварнаяКатегория</field>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
-	Номенклатура.Ссылка КАК Номенклатура,
-	Номенклатура.ВерсияДанных КАК ВерсияДанных
+	СправочникНоменклатура.Ссылка КАК Номенклатура,
+	ЕСТЬNULL(Остатки.МестоЗапасов, ЗНАЧЕНИЕ(Справочник.ЗоныДоставки.ПустаяСсылка)) КАК МестоЗапасов,
+	ЕСТЬNULL(Остатки.ВНаличииОстаток, 0) КАК ВНаличии,
+	ЕСТЬNULL(Остатки.ПоступитОстаток, 0) КАК Поступит,
+	ЕСТЬNULL(Остатки.ЗаказаноОстаток, 0) КАК Заказано,
+	ЕСТЬNULL(Остатки.ВНаличииОстаток, 0) - ЕСТЬNULL(Остатки.ЗаказаноОстаток, 0) КАК Свободно,
+	ЕСТЬNULL(Остатки.ВНаличииОстаток, 0) + ЕСТЬNULL(Остатки.ПоступитОстаток, 0) - ЕСТЬNULL(Остатки.ЗаказаноОстаток,
+		0) КАК СвободноСУчетомПоступлений,
+	СправочникНоменклатура.Описание КАК Описание,
+	СправочникНоменклатура.Артикул КАК Артикул,
+	СправочникНоменклатура.ЕстьКартинка КАК ЕстьКартинка,
+	СправочникНоменклатура.Цена КАК Цена,
+	СправочникНоменклатура.ЦенаРеальная КАК ЦенаРеальная,
+	СправочникНоменклатура.Производитель КАК Производитель,
+	СправочникНоменклатура.Наименование КАК Наименование,
+	СправочникНоменклатура.ТоварнаяКатегория КАК ТоварнаяКатегория
 {ВЫБРАТЬ
-	Номенклатура}
+	Номенклатура.*,
+	МестоЗапасов,
+	ВНаличии,
+	Поступит,
+	Заказано,
+	Свободно,
+	СвободноСУчетомПоступлений,
+	Описание,
+	Артикул,
+	ЕстьКартинка,
+	Цена,
+	ЦенаРеальная,
+	Производитель.*,
+	Наименование,
+	ТоварнаяКатегория.*}
 ИЗ
-	Справочник.Номенклатура КАК Номенклатура
+	Справочник.Номенклатура КАК СправочникНоменклатура
+		{ЛЕВОЕ СОЕДИНЕНИЕ РегистрНакопления.ЗапасыИПотребности.Остатки() КАК Остатки
+		ПО СправочникНоменклатура.Ссылка = Остатки.Номенклатура}
 {ГДЕ
-	Номенклатура.Ссылка.* КАК Номенклатура}</query>
+	СправочникНоменклатура.Ссылка.* КАК Номенклатура,
+	ЕСТЬNULL(Остатки.МестоЗапасов, ЗНАЧЕНИЕ(Справочник.ЗоныДоставки.ПустаяСсылка)) КАК МестоЗапасов,
+	ЕСТЬNULL(Остатки.ВНаличииОстаток, 0) КАК ВНаличии,
+	ЕСТЬNULL(Остатки.ПоступитОстаток, 0) КАК Поступит,
+	ЕСТЬNULL(Остатки.ЗаказаноОстаток, 0) КАК Заказано,
+	ЕСТЬNULL(Остатки.ВНаличииОстаток, 0) - ЕСТЬNULL(Остатки.ЗаказаноОстаток, 0) КАК Свободно,
+	ЕСТЬNULL(Остатки.ВНаличииОстаток, 0) + ЕСТЬNULL(Остатки.ПоступитОстаток, 0) - ЕСТЬNULL(Остатки.ЗаказаноОстаток, 0)
+		КАК СвободноСУчетомПоступлений,
+	СправочникНоменклатура.Описание КАК Описание,
+	СправочникНоменклатура.Артикул КАК Артикул,
+	СправочникНоменклатура.ЕстьКартинка КАК ЕстьКартинка,
+	СправочникНоменклатура.Цена КАК Цена,
+	СправочникНоменклатура.ЦенаРеальная КАК ЦенаРеальная,
+	СправочникНоменклатура.Производитель.* КАК Производитель,
+	СправочникНоменклатура.Наименование КАК Наименование,
+	СправочникНоменклатура.ТоварнаяКатегория.* КАК ТоварнаяКатегория}</query>
+		<autoFillFields>false</autoFillFields>
 	</dataSet>
 	<dataSet xsi:type="DataSetQuery">
 		<name>ВыводСегмента</name>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="72520e5d-c14e-421a-b750-253da5b15ef2">
+  <producedTypes>
+    <objectType typeId="ed74029d-6faa-416b-81a3-145f8fbe093f" valueTypeId="2da5d710-a73c-4d2d-9ecf-3529cea0e71f"/>
+    <refType typeId="7e7c7ac9-67ef-446f-a88a-8510aec254cc" valueTypeId="f87497dc-cac4-4d49-9a26-ab540b33fa59"/>
+    <selectionType typeId="495a43b0-1122-4df0-bf13-b041f1a86358" valueTypeId="dc0cab74-20de-4219-869e-c3d4c07f3144"/>
+    <listType typeId="a8b79fd0-5726-4da7-ad0b-213c0efc004f" valueTypeId="1f19bc82-223e-4395-99cd-a4de760d9451"/>
+    <managerType typeId="88922ca4-6050-4c67-8467-dfcc51ab76e7" valueTypeId="dbe88a54-83d0-4908-8967-9972a4195d9d"/>
+  </producedTypes>
+  <name>ЧасовыеПояса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Часовые пояса</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЧасовыеПояса.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ЧасовыеПояса.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>50</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

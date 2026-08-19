@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="116d7556-0170-4624-82f5-f972606cced6">
+  <producedTypes>
+    <selectionType typeId="e3cae76d-b33d-4fc1-b10b-ce530c9d0b17" valueTypeId="c97b3964-c134-4705-be44-c1572b8c1189"/>
+    <listType typeId="dbdb67c1-396d-4c1d-b275-380ae363df1b" valueTypeId="88f64c7f-5a5e-4e78-8139-1a912867bdc4"/>
+    <managerType typeId="efe93ec9-20bc-43cc-a408-9664edf84315" valueTypeId="e822b464-0f79-43b4-ac2e-bd5cb2888373"/>
+    <recordSetType typeId="f9ecc4de-bedf-4352-80d3-db998c78872f" valueTypeId="c4055a27-d605-422a-abf4-075d7694eedf"/>
+    <recordKeyType typeId="b4e8ab5e-c2dc-41d3-a2ba-f53aa96f7188" valueTypeId="37ab0699-d24e-4cff-8f51-0e9d49b3aa13"/>
+    <recordType typeId="03fbf03a-4110-4ffa-8a0c-b782b3bcbfa5" valueTypeId="4b2ec25a-3b30-45f5-ab1e-5230c817931d"/>
+  </producedTypes>
+  <name>ЗапасыИПотребности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запасы и потребности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="1d9a789b-1a34-471b-942a-ed3e3c792e88">
+    <name>ВНаличии</name>
+    <synonym>
+      <key>ru</key>
+      <value>В наличии</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="6953a4f6-7d30-4261-98f0-06bd9d19a385">
+    <name>Поступит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступит</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="0104e041-e062-4f7e-915e-42112fe8d4cf">
+    <name>Заказано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказано</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="f2511e08-cad6-40eb-ae1d-93cbd98af994">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="b47fe467-bf0c-4526-929d-5f08e4a791c1">
+    <name>МестоЗапасов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место запасов</value>
+    </synonym>
+    <type>
+      <types>DefinedType.МестаЗапасов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="2c67d042-8c87-4ac0-86dc-871c9672fced">
+    <name>Заказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказКлиента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="a42bb83d-016c-40ee-8bdc-3e3d811b0014">
+    <name>ДатаСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата события</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

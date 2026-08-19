@@ -21,15 +21,50 @@
 				<dcscom:autoOrder>true</dcscom:autoOrder>
 			</orderExpression>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Наименование</dataPath>
+			<field>Наименование</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Пол</dataPath>
+			<field>Пол</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаРождения</dataPath>
+			<field>ДатаРождения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЧасовойПояс</dataPath>
+			<field>ЧасовойПояс</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаРегистрации</dataPath>
+			<field>ДатаРегистрации</field>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
-	Партнеры.Ссылка КАК Партнер
+	Партнеры.Ссылка КАК Партнер,
+	Партнеры.Наименование КАК Наименование,
+	Партнеры.Пол КАК Пол,
+	Партнеры.ДатаРождения КАК ДатаРождения,
+	Партнеры.ЧасовойПояс КАК ЧасовойПояс,
+	Партнеры.ДатаРегистрации КАК ДатаРегистрации
 {ВЫБРАТЬ
-	Партнер}
+	Партнер.*,
+	Наименование,
+	Пол,
+	ДатаРождения,
+	ЧасовойПояс.*,
+	ДатаРегистрации}
 ИЗ
 	Справочник.Клиенты КАК Партнеры
 {ГДЕ
-	Партнеры.Ссылка.* КАК Партнер}</query>
+	Партнеры.Ссылка.* КАК Партнер,
+	Партнеры.Наименование КАК Наименование,
+	Партнеры.Пол КАК Пол,
+	Партнеры.ДатаРождения КАК ДатаРождения,
+	Партнеры.ЧасовойПояс.* КАК ЧасовойПояс,
+	Партнеры.ДатаРегистрации КАК ДатаРегистрации}</query>
 		<autoFillFields>false</autoFillFields>
 	</dataSet>
 	<dataSet xsi:type="DataSetQuery">

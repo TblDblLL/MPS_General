@@ -1,48 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ed6aa1a-8844-4d7b-8f83-8e1e5712a937">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0496b64b-fa30-40da-b6e3-d5b3e276f250">
   <producedTypes>
-    <objectType typeId="c9b55a51-e354-45b7-a212-78e67fa5086f" valueTypeId="4a187d0a-03c8-4ef2-b47d-9e82a273167c"/>
-    <refType typeId="87362a14-7813-41c4-8eb1-7fea8ebdb98c" valueTypeId="4cdebcdf-5d5b-4dbf-92c8-b73a7da01c0e"/>
-    <selectionType typeId="f4fe47c8-228d-48be-878b-ca6e7ac24ac5" valueTypeId="752414f5-fbe5-4157-94cd-49389b6caa89"/>
-    <listType typeId="ff977e87-476f-4359-ac79-b43f10e81348" valueTypeId="030c47c0-138e-473a-9af3-386969deb8b4"/>
-    <managerType typeId="03a433a4-645b-45b3-9164-b040f7c105fe" valueTypeId="05b60294-0a14-429c-9aaf-baca529ebd6f"/>
+    <objectType typeId="e6e46964-200b-41b8-970a-01ecab924fb7" valueTypeId="549ad9fd-fc5a-472a-8303-d5888dd03c6d"/>
+    <refType typeId="322e8282-a52f-47a9-bebb-cc6e31fb7225" valueTypeId="47e06b23-d63f-4fac-b693-74b317815453"/>
+    <selectionType typeId="ffc6f90b-1ed3-4f88-807d-7b4c67b06c55" valueTypeId="832ce313-3741-463b-8edc-4b907bf66598"/>
+    <listType typeId="a332fe96-4bc6-4ead-b460-3d2471c4c57b" valueTypeId="a4993a08-4ba1-4b14-880d-3f2c88640031"/>
+    <managerType typeId="c48aee13-dddc-4ec0-84e7-eee171d4b2a9" valueTypeId="74345dd7-152e-4051-8c0a-f79494c7c6f2"/>
   </producedTypes>
-  <name>ЗаказКлиента</name>
+  <name>АктуализацияОстатков</name>
   <synonym>
     <key>ru</key>
-    <value>Заказ клиента</value>
+    <value>Актуализация остатков</value>
   </synonym>
+  <comment>Отражение выгрузки остатков корректировкой существующих</comment>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.ЗаказКлиента.StandardAttribute.Number</inputByString>
-  <searchStringModeOnInputByString>AnyPart</searchStringModeOnInputByString>
+  <inputByString>Document.АктуализацияОстатков.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
-  <createOnInput>DontUse</createOnInput>
+  <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
   <numberType>String</numberType>
-  <numberLength>15</numberLength>
+  <numberLength>9</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>
+  <numberPeriodicity>Year</numberPeriodicity>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <realTimePosting>Deny</realTimePosting>
   <registerRecordsDeletion>AutoDeleteOff</registerRecordsDeletion>
-  <registerRecords>AccumulationRegister.Продажи</registerRecords>
-  <registerRecords>AccumulationRegister.БалльныеСчета</registerRecords>
   <registerRecords>AccumulationRegister.ЗапасыИПотребности</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
-  <tabularSections uuid="6dca61e1-bc34-45bb-b222-766990c2e314">
+  <tabularSections uuid="bbe70567-457c-4321-8975-fde12169a496">
     <producedTypes>
-      <objectType typeId="7ba39b90-55b8-4695-9dcc-a46179bf7926" valueTypeId="9807af42-3295-405c-ab56-08c8f35b3f78"/>
-      <rowType typeId="072c96b3-d363-4d6d-a92d-753a84a2b9fd" valueTypeId="4d732558-589f-4b29-baaa-d2b0297257dc"/>
+      <objectType typeId="87645621-34b4-4087-82bd-233f494c485a" valueTypeId="c32f224b-4aae-4c78-875b-18d92480b449"/>
+      <rowType typeId="f5f4db5f-9f86-4083-b9f6-25179a509228" valueTypeId="f406cf39-9406-4871-9d46-ecff93bc3650"/>
     </producedTypes>
     <name>Товары</name>
     <synonym>
       <key>ru</key>
       <value>Товары</value>
     </synonym>
-    <attributes uuid="15f3d1a4-cd2a-43ee-aec1-467c7845744f">
+    <attributes uuid="ffa96abf-f40d-418e-b6bd-69ae7bf63b89">
       <name>Номенклатура</name>
       <synonym>
         <key>ru</key>
@@ -55,7 +53,7 @@
       <maxValue xsi:type="core:UndefinedValue"/>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="679753c9-962a-4f29-9d38-a45cb2cce373">
+    <attributes uuid="e92272be-ae75-40b1-916e-05ee140f4e67">
       <name>Количество</name>
       <synonym>
         <key>ru</key>

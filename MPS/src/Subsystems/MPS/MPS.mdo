@@ -53,4 +53,6 @@
   <content>Catalog.ПродуктовыеРекомендации</content>
   <content>InformationRegister.ЦеныНоменклатуры</content>
   <content>InformationRegister.СоставНоменклатурыПромоакций</content>
+  <content>AccumulationRegister.ЗапасыИПотребности</content>
+  <content>Document.АктуализацияОстатков</content>
 </mdclass:Subsystem>
