@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47ac35be-8368-40ce-b243-664e70dc04b2">
+  <producedTypes>
+    <containerType typeId="3629ea55-e096-415a-8d36-1a87ba884036" valueTypeId="b1f1ae14-c525-4eb2-b2a8-5c585a39893f"/>
+  </producedTypes>
+  <name>Сегменты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сегменты</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.СегментыНоменклатуры</types>
+    <types>CatalogRef.СегментыПартнеров</types>
+  </type>
+</mdclass:DefinedType>

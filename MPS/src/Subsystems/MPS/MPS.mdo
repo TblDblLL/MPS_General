@@ -55,4 +55,5 @@
   <content>InformationRegister.СоставНоменклатурыПромоакций</content>
   <content>AccumulationRegister.ЗапасыИПотребности</content>
   <content>Document.АктуализацияОстатков</content>
+  <content>InformationRegister.ИерархияСегментов</content>
 </mdclass:Subsystem>

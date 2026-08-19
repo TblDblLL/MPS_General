@@ -1144,6 +1144,7 @@
   <definedTypes>DefinedType.ФизическоеЛицо</definedTypes>
   <definedTypes>DefinedType.Персонализация</definedTypes>
   <definedTypes>DefinedType.МестаЗапасов</definedTypes>
+  <definedTypes>DefinedType.Сегменты</definedTypes>
   <commonCommands>CommonCommand.ВремяВПриложении</commonCommands>
   <commonCommands>CommonCommand.ВсеФайлы</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеОбработкиАдминистрирование</commonCommands>
@@ -1622,6 +1623,7 @@
   <informationRegisters>InformationRegister.СостоянияПерсонализаций</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
   <informationRegisters>InformationRegister.СоставНоменклатурыПромоакций</informationRegisters>
+  <informationRegisters>InformationRegister.ИерархияСегментов</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.БалльныеСчета</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ЗапасыИПотребности</accumulationRegisters>

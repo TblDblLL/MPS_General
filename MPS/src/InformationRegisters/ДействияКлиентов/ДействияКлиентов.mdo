@@ -142,22 +142,6 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </dimensions>
-  <dimensions uuid="e3d75d42-953f-4cc9-804d-28818e6bc5a4">
-    <name>УИДДействия</name>
-    <synonym>
-      <key>ru</key>
-      <value>УИДДействия</value>
-    </synonym>
-    <type>
-      <types>UUID</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <denyIncompleteValues>true</denyIncompleteValues>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </dimensions>
   <dimensions uuid="f35498d0-d3ae-4216-9eb0-2120c07d2615">
     <name>ДатаДействия</name>
     <synonym>
@@ -167,6 +151,22 @@
     <type>
       <types>Date</types>
       <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="e3d75d42-953f-4cc9-804d-28818e6bc5a4">
+    <name>УИДДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>УИДДействия</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7404a377-02a1-42bb-bdda-0d18edd9f6f4">
+  <producedTypes>
+    <selectionType typeId="c505ab15-2441-40fb-95b9-a76bfe34814b" valueTypeId="47a98b4f-7f57-4ac3-ac18-0a2424e9b743"/>
+    <listType typeId="8d399a9b-81db-40d6-b4c3-424225a757ff" valueTypeId="cdcf7c4f-be76-4df1-ad91-2867bee16843"/>
+    <managerType typeId="9c573542-b136-4743-a4fe-9162709cb6fe" valueTypeId="3b87369f-171c-4af1-b9f7-438e98b4d02b"/>
+    <recordSetType typeId="633191b6-9b36-4874-a8e6-d291fdb98bca" valueTypeId="8ae53db8-c548-49aa-b76a-71b11397136b"/>
+    <recordKeyType typeId="54a98ccc-cb2f-4fdf-98be-0cb920668259" valueTypeId="960ee268-9efa-4816-8268-21a572524785"/>
+    <recordType typeId="58aeae23-3d82-4002-b5f4-9a009a9727a0" valueTypeId="94089102-497d-4655-9a50-ac309e77357a"/>
+    <recordManagerType typeId="3da0de30-ca4c-48c6-8a4f-49f332361768" valueTypeId="67f86b81-58f6-4a32-bc8d-16f13208e548"/>
+  </producedTypes>
+  <name>ИерархияСегментов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Иерархия сегментов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <explanation>
+    <key>ru</key>
+    <value>Формируется по данным СКД из правил формирований сегментов</value>
+  </explanation>
+  <resources uuid="88408cfc-5b79-4356-bae9-c32c5f1eedfb">
+    <name>СегментПотомок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сегмент потомок</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Сегменты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d321b983-7308-4e60-a944-a79e8e49c705">
+    <name>СегментРодитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сегмент родитель</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Сегменты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
