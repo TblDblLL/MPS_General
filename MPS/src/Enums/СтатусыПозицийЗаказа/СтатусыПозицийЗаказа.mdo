@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b9304df0-d88e-449a-908b-956e15cda092">
+  <producedTypes>
+    <refType typeId="b0848e68-c845-4129-9c62-202063e6b19e" valueTypeId="c1217bd1-b3fb-41cf-8090-2710ae5d459f"/>
+    <listType typeId="59560283-374d-4535-a021-55437ae8b26a" valueTypeId="c9b44b17-00f8-4d9f-88d0-ba75f01405e9"/>
+    <managerType typeId="5bec8ca5-6e5f-44bd-bb4b-900c5b874f34" valueTypeId="b825f2aa-81f6-47b1-b988-6c34be91b965"/>
+  </producedTypes>
+  <name>СтатусыПозицийЗаказа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы позиций заказа</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9f5d1bc7-7b3c-4104-afc7-631cd63cdff6">
+    <name>Оформлена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оформлена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b7aa9080-7dcb-4656-a5b0-37630bade79c">
+    <name>Оплачена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплачена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0238f664-7a0a-4215-98fc-6c1701e86015">
+    <name>Отменена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="27140c51-59c0-4a71-bd6f-79a3a75a1564">
+    <name>Доставлена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доставлена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ee856506-27a7-4aa5-bbc3-cf538a745cca">
+    <name>Возврат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

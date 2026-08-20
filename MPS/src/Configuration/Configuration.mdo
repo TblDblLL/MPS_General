@@ -1465,6 +1465,7 @@
   <enums>Enum.СтатусыСценариев</enums>
   <enums>Enum.СтатусыРассылок</enums>
   <enums>Enum.СтатусыПрограммПерсонализации</enums>
+  <enums>Enum.СтатусыПозицийЗаказа</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализПравДоступа</reports>
