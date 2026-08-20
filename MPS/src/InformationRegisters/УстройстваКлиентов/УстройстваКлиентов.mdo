@@ -36,10 +36,10 @@
     <fillValue xsi:type="core:StringValue"/>
   </resources>
   <resources uuid="ac9fd405-ad81-42dd-aead-a00e25c66554">
-    <name>ВидКанала</name>
+    <name>КаналВзаимодействия</name>
     <synonym>
       <key>ru</key>
-      <value>Вид канала</value>
+      <value>Канал взаимодействия</value>
     </synonym>
     <type>
       <types>CatalogRef.КаналыВзаимодействия</types>
@@ -147,6 +147,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="b65f2060-9d17-4d47-8c0b-df3d2ad5f930">
+    <name>ВидПриложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид приложения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыПриложений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <dimensions uuid="6c79690a-76e1-46ad-9d5f-450c91e37b5f">
     <name>Клиент</name>

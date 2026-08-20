@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b18fa62-6ac4-4ab2-abf2-5bc83e108419">
+  <producedTypes>
+    <objectType typeId="9e0ed483-4196-4e3a-b83b-6c3f12489cd6" valueTypeId="92ebcdcd-7a2f-479e-b94f-3767afbf54f7"/>
+    <refType typeId="477b39cf-b4ca-4e12-aa04-cfa767c3d684" valueTypeId="b152a21a-e0f3-44b6-9535-9dc085ac44e9"/>
+    <selectionType typeId="fff19a10-29f6-4228-86ad-b13e99498b2e" valueTypeId="2d085271-421b-484c-b55b-d214f979d535"/>
+    <listType typeId="5d00f349-3088-457d-8305-7b90d1f8388c" valueTypeId="bf3ee93b-9aaf-4173-84e7-197145c24e40"/>
+    <managerType typeId="c3b82b44-fb0b-4e2f-ab4c-802f78b78666" valueTypeId="a61426ee-8b10-45c3-8784-886fa83d95f4"/>
+  </producedTypes>
+  <name>ТочкиСценария</name>
+  <synonym>
+    <key>ru</key>
+    <value>Точки сценария</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТочкиСценария.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ТочкиСценария.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Сценарии</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="8472411f-90f7-4bdf-bb3c-12b3ed0385ba">
+    <name>ВидТочкиСценария</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид точки сценария</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыТочекСценария</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

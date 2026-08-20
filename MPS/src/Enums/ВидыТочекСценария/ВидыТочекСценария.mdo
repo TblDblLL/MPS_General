@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d4310332-ff19-4596-b8bc-cdb8676bcf60">
+  <producedTypes>
+    <refType typeId="34ddae15-4ad9-42a3-aff7-6a6ad4303f5e" valueTypeId="ef03f562-2361-425c-9253-8ddb94c793bf"/>
+    <listType typeId="d84496ed-7e27-48c0-b20b-9a5332af1b4d" valueTypeId="a8655d75-f004-499a-99e4-df0e79f913f3"/>
+    <managerType typeId="d4aa6cfa-5ae1-4dce-b9f2-23a01b9373a9" valueTypeId="b7da150e-a0e6-43bf-90f9-2d11ca546e29"/>
+  </producedTypes>
+  <name>ВидыТочекСценария</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды точек сценария</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4675a9da-abd1-4567-95f4-f4866354cb93">
+    <name>Старт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Старт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bcaa3e67-3970-48f4-a4cc-1994971a53b1">
+    <name>Ожидание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="13c1146d-cfdc-4bc7-ba06-f69c08891518">
+    <name>Условие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="796d0075-b38e-4879-b66c-fad7760c71eb">
+    <name>Действие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действие</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

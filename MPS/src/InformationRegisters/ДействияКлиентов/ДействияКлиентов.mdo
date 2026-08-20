@@ -33,10 +33,10 @@
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="265d510c-0969-40b4-8983-4f49c190b66f">
-    <name>ВидКанала</name>
+    <name>КаналВзаимодействия</name>
     <synonym>
       <key>ru</key>
-      <value>Вид канала</value>
+      <value>Канал взаимодействия</value>
     </synonym>
     <type>
       <types>CatalogRef.КаналыВзаимодействия</types>

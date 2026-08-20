@@ -7,8 +7,8 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>Catalog.Сценарии</content>
   <content>Catalog.АвтоматическиеРассылки</content>
   <content>InformationRegister.СостояниеРассылокПоКлиентам</content>
+  <content>Catalog.Сценарии</content>
   <parentSubsystem>Subsystem.Кампании</parentSubsystem>
 </mdclass:Subsystem>

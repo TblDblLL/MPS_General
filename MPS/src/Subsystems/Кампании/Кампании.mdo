@@ -8,6 +8,7 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.ПродуктовыеРекомендации</content>
+  <content>Catalog.ТочкиСценария</content>
   <subsystems>Автоматизация</subsystems>
   <subsystems>Персонализация</subsystems>
   <subsystems>Лояльность</subsystems>

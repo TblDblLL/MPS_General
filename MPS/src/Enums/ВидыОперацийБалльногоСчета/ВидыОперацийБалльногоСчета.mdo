@@ -33,4 +33,11 @@
       <value>Списание по сроку действия</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="c6838b3d-5856-43df-ad54-6556e6fae000">
+    <name>Прочее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочее</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

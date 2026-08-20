@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b104ee62-35c2-409d-9c38-cb86741e5183">
+  <producedTypes>
+    <objectType typeId="a7bcd951-027a-43d9-953b-6f5717b9d9fa" valueTypeId="eb220b65-2b86-4b76-91a6-80556488f63b"/>
+    <refType typeId="e1308dbe-d15c-4ed9-a05f-cd14100933e5" valueTypeId="d5d6f4fc-06f9-41ca-b36c-bfc2def02038"/>
+    <selectionType typeId="83891813-d768-48b9-9b3c-273e2d6849af" valueTypeId="5cbd69a0-6215-49b6-8967-a585326ce151"/>
+    <listType typeId="a967da5b-6f51-4471-a51a-04d027a8d95d" valueTypeId="42b770c1-ed72-4000-8fac-5255084dc3b7"/>
+    <managerType typeId="ac30f493-c063-4b51-bc88-0a4b7f0c1916" valueTypeId="b6cab49d-d58d-4169-865f-a02161c09c2a"/>
+  </producedTypes>
+  <name>ВидыПриложений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды приложений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыПриложений.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВидыПриложений.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
