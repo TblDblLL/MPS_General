@@ -40,4 +40,11 @@
       <value>Действие</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="9d189672-fdf6-4669-9b3a-61d21f5d924a">
+    <name>Разделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разделение</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

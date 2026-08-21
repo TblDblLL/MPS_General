@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee82c2cc-c85b-475a-bc3d-ec90ca2b531e">
+  <producedTypes>
+    <refType typeId="277f3a63-46d1-4815-bc98-062a7e94ba09" valueTypeId="0d95dd4a-a846-417e-a889-1cdcc99450b8"/>
+    <listType typeId="a779329f-f158-4b34-a9d2-8f734d768c20" valueTypeId="e7d86a2e-7e8b-4add-ac6c-0de803e20bfb"/>
+    <managerType typeId="1f0d48bf-7562-4374-9426-b967b7821584" valueTypeId="582c798b-613f-48e4-95f7-539b31041e8a"/>
+  </producedTypes>
+  <name>ВидыТочкиОжидания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды точки ожидания</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e82d76cb-5b71-4b89-b06d-0b60c9730ecf">
+    <name>Фиксированное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фиксированное ожидание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0b40d8af-82e6-4392-bcaf-ebd75e936e53">
+    <name>Динамическое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Динамическое ожидание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9826f3ea-9bac-40bc-8431-3a654b45d0a8">
+    <name>Интервал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Временной интервал</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

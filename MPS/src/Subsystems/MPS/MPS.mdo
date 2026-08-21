@@ -60,4 +60,5 @@
   <content>Catalog.ВидыПриложений</content>
   <content>Catalog.ТочкиСценария</content>
   <content>Enum.ВидыТочекСценария</content>
+  <content>Enum.ВидыТочкиОжидания</content>
 </mdclass:Subsystem>

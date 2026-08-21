@@ -109,6 +109,84 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <tabularSections uuid="aecd22fa-76eb-434c-a246-f925eb987818">
+    <producedTypes>
+      <objectType typeId="f929c988-40f0-444b-8978-4ee57094c15e" valueTypeId="471e41bc-6a73-4c74-87b6-36f3136630aa"/>
+      <rowType typeId="185c79af-2798-4756-8769-2304468567cd" valueTypeId="e8fbed54-10dd-4179-ace2-63dde23a940f"/>
+    </producedTypes>
+    <name>Точки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точки</value>
+    </synonym>
+    <attributes uuid="3406cff4-83fd-446b-85a3-36288c9141b1">
+      <name>ИмяТочки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя точки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4a346c33-bda1-459b-816e-b912ad48b7c4">
+      <name>Точка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Точка</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ТочкиСценария</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="371b616d-0364-4ae6-98c9-889b7afa7a8f">
+      <name>ИмяТочкиРодителя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя точки родителя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6ade5180-1f63-4eb5-b370-0731e16768e5">
+      <name>ПроцентВероятностиПерехода</name>
+      <synonym>
+        <key>ru</key>
+        <value>Процент вероятности перехода</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
   <forms uuid="23eb0677-5e7c-4398-a878-4c5acc2e3b79">
     <name>ФормаЭлемента</name>
     <synonym>
