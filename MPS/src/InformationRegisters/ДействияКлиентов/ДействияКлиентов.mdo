@@ -126,6 +126,21 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
+  <resources uuid="83a34606-7eeb-4487-aab2-d7af68eb26b7">
+    <name>МероприятиеДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мероприятие действия</value>
+    </synonym>
+    <type>
+      <types>DefinedType.МероприятияДействий</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
   <dimensions uuid="2f94d4e9-56fc-44f3-8e7a-b955f3f64bf1">
     <name>Клиент</name>
     <synonym>

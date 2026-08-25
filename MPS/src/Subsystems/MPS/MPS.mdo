@@ -61,4 +61,8 @@
   <content>Catalog.ТочкиСценария</content>
   <content>Enum.ВидыТочекСценария</content>
   <content>Enum.ВидыТочкиОжидания</content>
+  <content>DefinedType.МероприятияДействий</content>
+  <content>DefinedType.Сегменты</content>
+  <content>DefinedType.МестаЗапасов</content>
+  <content>DefinedType.Персонализация</content>
 </mdclass:Subsystem>

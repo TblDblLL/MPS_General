@@ -76,4 +76,35 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <tabularSections uuid="b669e213-08d3-4253-8e01-c525f73b7796">
+    <producedTypes>
+      <objectType typeId="64f66358-080f-4535-9221-dc00e8075911" valueTypeId="9a6a25b8-f9bc-4c32-878d-52a868f9586a"/>
+      <rowType typeId="44fdd1c3-9365-42bb-8891-c32cdb7bba7e" valueTypeId="161012fb-6dd1-4753-a599-6c3c855ad91b"/>
+    </producedTypes>
+    <name>Параметры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры</value>
+    </synonym>
+    <attributes uuid="9ada45b6-e752-49e3-a6b3-c11b0621e821">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СпискиПродуктов</types>
+        <types>String</types>
+        <types>CatalogRef.Номенклатура</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
 </mdclass:Catalog>

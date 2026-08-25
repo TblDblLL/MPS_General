@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cedc857d-2191-4ad9-a2d8-701e93548594">
+  <producedTypes>
+    <containerType typeId="d26d319f-a543-4caf-817e-db472d9dc969" valueTypeId="fed5dbb8-de0b-4274-9f02-7d2710309432"/>
+  </producedTypes>
+  <name>МероприятияДействий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мероприятия действий</value>
+  </synonym>
+  <comment>Перечень действий в рамках MPS (рассылки, виджеты, акции, операции с балльными счетами, операции с промокодами)</comment>
+  <type>
+    <types>CatalogRef.Магазины</types>
+    <types>CatalogRef.ПродуктовыеРекомендации</types>
+    <types>CatalogRef.СообщенияВПриложение</types>
+    <types>CatalogRef.ПрограммыСкидок</types>
+    <types>CatalogRef.СообщенияНаСайт</types>
+    <types>CatalogRef.НаборыПромокодов</types>
+    <types>CatalogRef.ПрограммыБалловЛояльности</types>
+  </type>
+</mdclass:DefinedType>
