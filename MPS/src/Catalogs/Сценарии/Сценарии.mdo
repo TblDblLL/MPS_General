@@ -143,7 +143,21 @@
         <value>Точка</value>
       </synonym>
       <type>
-        <types>CatalogRef.ТочкиСценария</types>
+        <types>DefinedType.ТочкиСценария</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="704fd953-877f-447c-9874-b8927048a13e">
+      <name>ВидТочки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид точки</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ВидыТочекСценария</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -168,17 +182,16 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="6ade5180-1f63-4eb5-b370-0731e16768e5">
-      <name>ПроцентВероятностиПерехода</name>
+      <name>НаименованиеТочки</name>
       <synonym>
         <key>ru</key>
-        <value>Процент вероятности перехода</value>
+        <value>Наименование точки</value>
       </synonym>
       <type>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>2</precision>
-          <nonNegative>true</nonNegative>
-        </numberQualifiers>
+        <types>String</types>
+        <stringQualifiers>
+          <length>500</length>
+        </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

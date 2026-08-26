@@ -58,11 +58,17 @@
   <content>InformationRegister.ИерархияСегментов</content>
   <content>Enum.СтатусыПозицийЗаказа</content>
   <content>Catalog.ВидыПриложений</content>
-  <content>Catalog.ТочкиСценария</content>
+  <content>Catalog.ТочкиСценарияСтарт</content>
   <content>Enum.ВидыТочекСценария</content>
   <content>Enum.ВидыТочкиОжидания</content>
   <content>DefinedType.МероприятияДействий</content>
   <content>DefinedType.Сегменты</content>
   <content>DefinedType.МестаЗапасов</content>
   <content>DefinedType.Персонализация</content>
+  <content>Catalog.МассовыеРассылки</content>
+  <content>Catalog.ТочкиСценарияДействие</content>
+  <content>DefinedType.ТочкиСценария</content>
+  <content>Catalog.ТочкиСценарияРазделение</content>
+  <content>Catalog.ТочкиСценарияОбработка</content>
+  <content>Catalog.ТочкиСценарияУсловие</content>
 </mdclass:Subsystem>

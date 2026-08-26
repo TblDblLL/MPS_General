@@ -612,7 +612,7 @@
               <common>true</common>
             </userVisible>
             <dataPath xsi:type="form:DataPath">
-              <segments>ЗапускПоРасписанию_СТАРТ</segments>
+              <segments>СТАРТ_ЗапускПоРасписанию</segments>
             </dataPath>
             <titleLocation>None</titleLocation>
             <extendedTooltip>
@@ -774,7 +774,7 @@
               <common>true</common>
             </userVisible>
             <dataPath xsi:type="form:DataPath">
-              <segments>ВидОжидания_ОЖИДАНИЕ</segments>
+              <segments>ОЖИДАНИЕ_ВидОжидания</segments>
             </dataPath>
             <extendedTooltip>
               <name>ВидОжидания_ОЖИДАНИЕРасширеннаяПодсказка</name>
@@ -1133,7 +1133,7 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ЗапускПоРасписанию_СТАРТ</name>
+    <name>СТАРТ_ЗапускПоРасписанию</name>
     <title>
       <key>ru</key>
       <value>Запуск по расписанию</value>
@@ -1150,7 +1150,7 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ВидОжидания_ОЖИДАНИЕ</name>
+    <name>ОЖИДАНИЕ_ВидОжидания</name>
     <title>
       <key>ru</key>
       <value>Вид ожидания</value>
@@ -1158,6 +1158,23 @@
     <id>6</id>
     <valueType>
       <types>EnumRef.ВидыТочкиОжидания</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>СсылкаНаТекущуюТочку</name>
+    <title>
+      <key>ru</key>
+      <value>Ссылка на текущую точку</value>
+    </title>
+    <id>9</id>
+    <valueType>
+      <types>DefinedType.ТочкиСценария</types>
     </valueType>
     <view>
       <common>true</common>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aindex:AdditionalIndexes xmlns:aindex="http://g5.1c.ru/v8/dt/md/aindex">
+  <indexes>
+    <id>57668476-6355-4dfc-a801-3e67352c4f96</id>
+    <name>ШаблонДействия</name>
+    <table>InformationRegister.ДействияКлиентов</table>
+    <indexedFields>
+      <path>МероприятиеДействия</path>
+    </indexedFields>
+    <indexedFields>
+      <path>ВидДействия</path>
+    </indexedFields>
+  </indexes>
+</aindex:AdditionalIndexes>

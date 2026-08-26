@@ -10,5 +10,6 @@
   <content>Catalog.АвтоматическиеРассылки</content>
   <content>InformationRegister.СостояниеРассылокПоКлиентам</content>
   <content>Catalog.Сценарии</content>
+  <content>Catalog.МассовыеРассылки</content>
   <parentSubsystem>Subsystem.Кампании</parentSubsystem>
 </mdclass:Subsystem>

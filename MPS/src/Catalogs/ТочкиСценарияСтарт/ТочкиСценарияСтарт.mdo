@@ -7,14 +7,13 @@
     <listType typeId="5d00f349-3088-457d-8305-7b90d1f8388c" valueTypeId="bf3ee93b-9aaf-4173-84e7-197145c24e40"/>
     <managerType typeId="c3b82b44-fb0b-4e2f-ab4c-802f78b78666" valueTypeId="a61426ee-8b10-45c3-8784-886fa83d95f4"/>
   </producedTypes>
-  <name>ТочкиСценария</name>
+  <name>ТочкиСценарияСтарт</name>
   <synonym>
     <key>ru</key>
-    <value>Точки сценария</value>
+    <value>Точки сценария (старт)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.ТочкиСценария.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.ТочкиСценария.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТочкиСценарияСтарт.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -22,53 +21,20 @@
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <owners>Catalog.Сценарии</owners>
-  <codeLength>9</codeLength>
   <descriptionLength>25</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
-  <checkUnique>true</checkUnique>
-  <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="8472411f-90f7-4bdf-bb3c-12b3ed0385ba">
-    <name>ВидТочкиСценария</name>
-    <synonym>
-      <key>ru</key>
-      <value>Вид точки сценария</value>
-    </synonym>
-    <type>
-      <types>EnumRef.ВидыТочекСценария</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="8f69916e-1a5f-45e4-b8be-bb38369de7fa">
-    <name>ЗапускПоРасписанию_СТАРТ</name>
+    <name>ЗапускПоРасписанию</name>
     <synonym>
       <key>ru</key>
       <value>Запуск по расписанию</value>
     </synonym>
     <type>
       <types>Boolean</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="367985c9-7a6a-463e-9599-245dcbec7e60">
-    <name>ВидОжидания_ОЖИДАНИЕ</name>
-    <synonym>
-      <key>ru</key>
-      <value>Вид ожидания</value>
-    </synonym>
-    <type>
-      <types>EnumRef.ВидыТочкиОжидания</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -86,6 +52,23 @@
       <key>ru</key>
       <value>Параметры</value>
     </synonym>
+    <attributes uuid="b7989da0-17df-4e0f-b4f0-aee1f703ffe3">
+      <name>Имя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
     <attributes uuid="9ada45b6-e752-49e3-a6b3-c11b0621e821">
       <name>Значение</name>
       <synonym>
@@ -94,11 +77,7 @@
       </synonym>
       <type>
         <types>CatalogRef.СпискиПродуктов</types>
-        <types>String</types>
         <types>CatalogRef.Номенклатура</types>
-        <stringQualifiers>
-          <length>10</length>
-        </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

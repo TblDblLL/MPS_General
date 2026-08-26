@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bccca245-df7f-4fc7-b963-ca66c3912861">
+  <producedTypes>
+    <objectType typeId="6035f619-d8fd-4429-9989-a312d111c5e1" valueTypeId="f07f670a-5fcf-40a8-81f7-7c7b6248fb04"/>
+    <refType typeId="7fd80b69-c29e-4bdf-993a-a62f87089c81" valueTypeId="8909129b-8362-45cf-a606-d30d338bd511"/>
+    <selectionType typeId="e93efa64-3198-4c5e-9b95-fc16ce12afa0" valueTypeId="6cca01e2-de39-4401-8de9-f95a73506aa7"/>
+    <listType typeId="2d14aa4a-5c7a-4f69-a9fb-8280c14bb2dd" valueTypeId="69a41e63-d322-456f-9696-e0e362b24492"/>
+    <managerType typeId="b523ea56-7a10-4005-bb24-49a6e9252d2b" valueTypeId="b465f344-91c5-42f6-909e-59a4385263ad"/>
+  </producedTypes>
+  <name>ТочкиСценарияДействие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Точки сценария (действие)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТочкиСценарияДействие.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Сценарии</owners>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="562ccc6e-ee70-4a58-9674-cdff97e04646">
+    <name>ЗапускПоРасписанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запуск по расписанию</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="1f082ab6-444c-48a4-92ed-551bb35f0d39">
+    <producedTypes>
+      <objectType typeId="a2673ebe-b48b-4565-afba-645b322f9474" valueTypeId="6263404b-0e49-4b1c-9c7e-a7254cba73aa"/>
+      <rowType typeId="b7bce321-e040-4a17-8be3-caf5c66b5adb" valueTypeId="b8b7c123-cd7b-4240-9745-8278c50bf782"/>
+    </producedTypes>
+    <name>Параметры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры</value>
+    </synonym>
+    <attributes uuid="23e29a8b-a978-4b6a-abf1-4a5f6acc958d">
+      <name>Имя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c028eb5d-8c00-4d1c-bcd1-b8013398b4b7">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СпискиПродуктов</types>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Catalog>

@@ -1146,6 +1146,7 @@
   <definedTypes>DefinedType.МестаЗапасов</definedTypes>
   <definedTypes>DefinedType.Сегменты</definedTypes>
   <definedTypes>DefinedType.МероприятияДействий</definedTypes>
+  <definedTypes>DefinedType.ТочкиСценария</definedTypes>
   <commonCommands>CommonCommand.ВремяВПриложении</commonCommands>
   <commonCommands>CommonCommand.ВсеФайлы</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеОбработкиАдминистрирование</commonCommands>
@@ -1377,9 +1378,14 @@
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.Константы</catalogs>
   <catalogs>Catalog.Сценарии</catalogs>
-  <catalogs>Catalog.ТочкиСценария</catalogs>
+  <catalogs>Catalog.ТочкиСценарияСтарт</catalogs>
+  <catalogs>Catalog.ТочкиСценарияДействие</catalogs>
+  <catalogs>Catalog.ТочкиСценарияРазделение</catalogs>
+  <catalogs>Catalog.ТочкиСценарияОбработка</catalogs>
+  <catalogs>Catalog.ТочкиСценарияУсловие</catalogs>
   <catalogs>Catalog.СегментыНоменклатуры</catalogs>
   <catalogs>Catalog.СегментыПартнеров</catalogs>
+  <catalogs>Catalog.МассовыеРассылки</catalogs>
   <catalogs>Catalog.АвтоматическиеРассылки</catalogs>
   <catalogs>Catalog.СообщенияНаСайт</catalogs>
   <catalogs>Catalog.СообщенияВПриложение</catalogs>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e632d68-e6b9-40c4-afc5-f6ce0f78556e">
+  <producedTypes>
+    <containerType typeId="0932d3ad-2634-4601-bb9b-022f59dc88d1" valueTypeId="ce2dfb10-d1fe-412a-a10b-227e42c299e2"/>
+  </producedTypes>
+  <name>ТочкиСценария</name>
+  <synonym>
+    <key>ru</key>
+    <value>Точки сценария</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ТочкиСценарияУсловие</types>
+    <types>CatalogRef.ТочкиСценарияСтарт</types>
+    <types>CatalogRef.ТочкиСценарияОбработка</types>
+    <types>CatalogRef.ТочкиСценарияДействие</types>
+    <types>CatalogRef.ТочкиСценарияРазделение</types>
+  </type>
+</mdclass:DefinedType>

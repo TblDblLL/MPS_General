@@ -8,7 +8,11 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.ПродуктовыеРекомендации</content>
-  <content>Catalog.ТочкиСценария</content>
+  <content>Catalog.ТочкиСценарияСтарт</content>
+  <content>Catalog.ТочкиСценарияДействие</content>
+  <content>Catalog.ТочкиСценарияРазделение</content>
+  <content>Catalog.ТочкиСценарияОбработка</content>
+  <content>Catalog.ТочкиСценарияУсловие</content>
   <subsystems>Автоматизация</subsystems>
   <subsystems>Персонализация</subsystems>
   <subsystems>Лояльность</subsystems>

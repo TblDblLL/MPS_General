@@ -10,12 +10,13 @@
   </synonym>
   <comment>Перечень действий в рамках MPS (рассылки, виджеты, акции, операции с балльными счетами, операции с промокодами)</comment>
   <type>
-    <types>CatalogRef.Магазины</types>
     <types>CatalogRef.ПродуктовыеРекомендации</types>
     <types>CatalogRef.СообщенияВПриложение</types>
     <types>CatalogRef.ПрограммыСкидок</types>
     <types>CatalogRef.СообщенияНаСайт</types>
     <types>CatalogRef.НаборыПромокодов</types>
+    <types>CatalogRef.МассовыеРассылки</types>
     <types>CatalogRef.ПрограммыБалловЛояльности</types>
+    <types>CatalogRef.АвтоматическиеРассылки</types>
   </type>
 </mdclass:DefinedType>
