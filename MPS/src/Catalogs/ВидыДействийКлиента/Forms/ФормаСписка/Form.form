@@ -48,6 +48,42 @@
     <defaultItem>true</defaultItem>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
+      <name>КодДействия</name>
+      <id>19</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.КодДействия</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>КодДействияРасширеннаяПодсказка</name>
+        <id>21</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>КодДействияКонтекстноеМеню</name>
+        <id>20</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
       <name>Наименование</name>
       <id>16</id>
       <visible>true</visible>
@@ -85,19 +121,19 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>КодДействия</name>
-      <id>19</id>
+      <name>КодДействияMindBox</name>
+      <id>30</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.КодДействия</segments>
+        <segments>Список.КодДействияMindBox</segments>
       </dataPath>
       <extendedTooltip>
-        <name>КодДействияРасширеннаяПодсказка</name>
-        <id>21</id>
+        <name>КодДействияMindBoxРасширеннаяПодсказка</name>
+        <id>32</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -106,12 +142,12 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>КодДействияКонтекстноеМеню</name>
-        <id>20</id>
+        <name>КодДействияMindBoxКонтекстноеМеню</name>
+        <id>31</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>LabelField</type>
-      <editMode>Enter</editMode>
+      <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
@@ -129,7 +165,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.ДополнительныеКоды</segments>
+        <segments>Список.ДополнительныеКодыMindBox</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДополнительныеКодыРасширеннаяПодсказка</name>
@@ -161,9 +197,7 @@
       <id>25</id>
       <visible>true</visible>
       <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
+      <userVisible/>
       <dataPath xsi:type="form:DataPath">
         <segments>Список.ОписаниеВидаОперации</segments>
       </dataPath>
@@ -184,6 +218,40 @@
       </contextMenu>
       <type>LabelField</type>
       <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Ссылка</name>
+      <id>33</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible/>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Ref</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>СсылкаРасширеннаяПодсказка</name>
+        <id>35</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СсылкаКонтекстноеМеню</name>
+        <id>34</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>

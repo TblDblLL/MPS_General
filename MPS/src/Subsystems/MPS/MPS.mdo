@@ -61,7 +61,7 @@
   <content>Catalog.ТочкиСценарияСтарт</content>
   <content>Enum.ВидыТочекСценария</content>
   <content>Enum.ВидыТочкиОжидания</content>
-  <content>DefinedType.МероприятияДействий</content>
+  <content>DefinedType.Кампании</content>
   <content>DefinedType.Сегменты</content>
   <content>DefinedType.МестаЗапасов</content>
   <content>DefinedType.Персонализация</content>

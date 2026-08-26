@@ -27,12 +27,14 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ТочкиСценарияСтарт.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="8f69916e-1a5f-45e4-b8be-bb38369de7fa">
     <name>ЗапускПоРасписанию</name>
     <synonym>
       <key>ru</key>
       <value>Запуск по расписанию</value>
     </synonym>
+    <comment>Флаг запуска по расписанию, иначе - по действию</comment>
     <type>
       <types>Boolean</types>
     </type>
@@ -47,16 +49,56 @@
       <objectType typeId="64f66358-080f-4535-9221-dc00e8075911" valueTypeId="9a6a25b8-f9bc-4c32-878d-52a868f9586a"/>
       <rowType typeId="44fdd1c3-9365-42bb-8891-c32cdb7bba7e" valueTypeId="161012fb-6dd1-4753-a599-6c3c855ad91b"/>
     </producedTypes>
-    <name>Параметры</name>
+    <name>ФильтрДействийВКампаниях</name>
     <synonym>
       <key>ru</key>
-      <value>Параметры</value>
+      <value>Фильтр действий в кампаниях</value>
     </synonym>
     <attributes uuid="b7989da0-17df-4e0f-b4f0-aee1f703ffe3">
-      <name>Имя</name>
+      <name>ВидДействия</name>
       <synonym>
         <key>ru</key>
-        <value>Имя</value>
+        <value>Вид действия</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыДействийКлиента</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9ada45b6-e752-49e3-a6b3-c11b0621e821">
+      <name>Кампания</name>
+      <synonym>
+        <key>ru</key>
+        <value>Кампания</value>
+      </synonym>
+      <type>
+        <types>DefinedType.Кампании</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+  <tabularSections uuid="2eed2ca6-ea73-4736-a0d3-bcc0eb6712cc">
+    <producedTypes>
+      <objectType typeId="9df08701-1559-44a1-8932-9427f3a19123" valueTypeId="355683d8-91a7-4512-af11-47af31fc3789"/>
+      <rowType typeId="e62cadc1-a442-43ad-aa7d-f62518afa655" valueTypeId="93b758fd-d97a-4636-8fd1-644bc66e6d69"/>
+    </producedTypes>
+    <name>ПараметрыТочки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры точки</value>
+    </synonym>
+    <attributes uuid="7cdb4b6d-f00d-4cd7-b73c-31d7b0503939">
+      <name>ИмяПараметра</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя параметра</value>
       </synonym>
       <type>
         <types>String</types>
@@ -69,15 +111,17 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="9ada45b6-e752-49e3-a6b3-c11b0621e821">
-      <name>Значение</name>
+    <attributes uuid="02c13f1a-0009-4a08-9c10-3a34159b258c">
+      <name>ЗначениеПараметра</name>
       <synonym>
         <key>ru</key>
-        <value>Значение</value>
+        <value>Значение параметра</value>
       </synonym>
       <type>
-        <types>CatalogRef.СпискиПродуктов</types>
-        <types>CatalogRef.Номенклатура</types>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -86,4 +130,13 @@
     </attributes>
     <lineNumberLength>9</lineNumberLength>
   </tabularSections>
+  <forms uuid="4b0f3f64-cdff-4ad8-97a1-ab36c601eaf0">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

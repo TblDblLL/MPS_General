@@ -127,13 +127,13 @@
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="83a34606-7eeb-4487-aab2-d7af68eb26b7">
-    <name>МероприятиеДействия</name>
+    <name>Кампания</name>
     <synonym>
       <key>ru</key>
-      <value>Мероприятие действия</value>
+      <value>Кампания</value>
     </synonym>
     <type>
-      <types>DefinedType.МероприятияДействий</types>
+      <types>DefinedType.Кампании</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

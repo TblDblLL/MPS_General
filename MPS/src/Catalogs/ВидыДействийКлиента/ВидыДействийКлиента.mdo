@@ -130,10 +130,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="bcf9ece2-6679-4b3d-806f-5531442185c2">
-    <name>ДополнительныеКоды</name>
+    <name>ДополнительныеКодыMindBox</name>
     <synonym>
       <key>ru</key>
-      <value>Дополнительные коды</value>
+      <value>Дополнительные коды MindBox</value>
     </synonym>
     <type>
       <types>String</types>
@@ -163,33 +163,22 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="8348dced-06a4-4f71-900c-66c57cbb7502">
-    <name>ДляРассылок</name>
+  <attributes uuid="61c42ae0-ae2d-4dcf-860c-29020559336e">
+    <name>КодДействияMindBox</name>
     <synonym>
       <key>ru</key>
-      <value>Для рассылок</value>
+      <value>Код действия MindBox</value>
     </synonym>
     <type>
-      <types>Boolean</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="5e3fa347-37ec-4d08-933b-ef53134dc925">
-    <name>ДляБаллов</name>
-    <synonym>
-      <key>ru</key>
-      <value>Для баллов</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>

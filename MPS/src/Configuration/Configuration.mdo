@@ -1145,7 +1145,7 @@
   <definedTypes>DefinedType.Персонализация</definedTypes>
   <definedTypes>DefinedType.МестаЗапасов</definedTypes>
   <definedTypes>DefinedType.Сегменты</definedTypes>
-  <definedTypes>DefinedType.МероприятияДействий</definedTypes>
+  <definedTypes>DefinedType.Кампании</definedTypes>
   <definedTypes>DefinedType.ТочкиСценария</definedTypes>
   <commonCommands>CommonCommand.ВремяВПриложении</commonCommands>
   <commonCommands>CommonCommand.ВсеФайлы</commonCommands>

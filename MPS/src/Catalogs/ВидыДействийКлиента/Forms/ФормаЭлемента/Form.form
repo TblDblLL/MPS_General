@@ -91,7 +91,7 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ДополнительныеКоды</segments>
+      <segments>Объект.ДополнительныеКодыMindBox</segments>
     </dataPath>
     <extendedTooltip>
       <name>ДополнительныеКодыРасширеннаяПодсказка</name>

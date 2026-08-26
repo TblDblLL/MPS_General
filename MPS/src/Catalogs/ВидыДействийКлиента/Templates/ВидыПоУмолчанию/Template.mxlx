@@ -10,7 +10,7 @@
 		</languageInfo>
 	</languageSettings>
 	<columns>
-		<size>4</size>
+		<size>5</size>
 		<columnsItem>
 			<index>0</index>
 			<column>
@@ -35,13 +35,19 @@
 				<formatIndex>4</formatIndex>
 			</column>
 		</columnsItem>
+		<columnsItem>
+			<index>4</index>
+			<column>
+				<formatIndex>5</formatIndex>
+			</column>
+		</columnsItem>
 	</columns>
 	<rowsItem>
 		<index>0</index>
 		<row>
 			<c>
 				<c>
-					<f>0</f>
+					<f>6</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -52,7 +58,7 @@
 			</c>
 			<c>
 				<c>
-					<f>0</f>
+					<f>7</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -63,7 +69,7 @@
 			</c>
 			<c>
 				<c>
-					<f>0</f>
+					<f>8</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -74,11 +80,22 @@
 			</c>
 			<c>
 				<c>
-					<f>0</f>
+					<f>9</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ДополнительныеКоды</v8:content>
+							<v8:content>КодДействияMindBox</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>10</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ДополнительныеКодыMindBox</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -94,7 +111,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>OpeningOfMarketingNewsletter</v8:content>
+							<v8:content>ОткрытиеРассылки</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -110,6 +127,18 @@
 					</tl>
 				</c>
 			</c>
+			<c>
+				<i>3</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>OpeningOfMarketingNewsletter</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
@@ -117,7 +146,34 @@
 		<row>
 			<c>
 				<c>
-					<f>0</f>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>КликПоСсылкеВРассылке</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Клик по ссылке в рассылке</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -128,13 +184,7 @@
 			</c>
 			<c>
 				<c>
-					<f>0</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Клик по ссылке в рассылке</v8:content>
-						</v8:item>
-					</tl>
+					<f>5</f>
 				</c>
 			</c>
 		</row>
@@ -144,7 +194,34 @@
 		<row>
 			<c>
 				<c>
-					<f>0</f>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ОтпискаОтРассылки</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отписка от рассылки</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -155,13 +232,7 @@
 			</c>
 			<c>
 				<c>
-					<f>0</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Отписка от рассылки</v8:content>
-						</v8:item>
-					</tl>
+					<f>5</f>
 				</c>
 			</c>
 		</row>
@@ -175,7 +246,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>UnusedPointsAutomaticWriteOff</v8:content>
+							<v8:content>ОтправкаРассылки</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -186,7 +257,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Автоматическое списание неиспользованных баллов</v8:content>
+							<v8:content>ОтправкаРассылки</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -202,7 +273,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>CustomerAuthorization</v8:content>
+							<v8:content>РассылкаНеДоставлена</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -213,7 +284,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Авторизация клиента</v8:content>
+							<v8:content>Рассылка не доставлена</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -225,34 +296,22 @@
 		<row>
 			<c>
 				<c>
-					<f>0</f>
+					<f>1</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ActivateDiscountCard</v8:content>
+							<v8:content>РассылкаНеОтправлялась</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>0</f>
+					<f>2</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Активация карты</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<i>3</i>
-				<c>
-					<f>0</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>RegisterCart,ActivateCard</v8:content>
+							<v8:content>Рассылка не отправлялась</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -261,64 +320,92 @@
 	</rowsItem>
 	<rowsItem>
 		<index>7</index>
+		<indexTo>9</indexTo>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>10</index>
 		<row>
 			<c>
 				<c>
-					<f>0</f>
+					<f>1</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>SendMobilePhoneAuthorizationCode</v8:content>
+							<v8:content>АвтоматическоеСписаниеНеиспользованныхБаллов</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>0</f>
+					<f>2</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Запрошен код авторизации в операции</v8:content>
+							<v8:content>Автоматическое списание неиспользованных баллов</v8:content>
 						</v8:item>
 					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>UnusedPointsAutomaticWriteOff</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>8</index>
+		<index>11</index>
 		<row>
 			<c>
 				<c>
-					<f>0</f>
+					<f>1</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ChangeEmail</v8:content>
+							<v8:content>ИзменениеБалансаБалловПоДействию</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>0</f>
+					<f>2</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Изменение Email</v8:content>
+							<v8:content>Изменение баланса баллов по действию</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>9</index>
-		<row>
 			<c>
 				<c>
-					<f>0</f>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -329,19 +416,7 @@
 			</c>
 			<c>
 				<c>
-					<f>0</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Изменение баланса баллов по действию</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<i>3</i>
-				<c>
-					<f>0</f>
+					<f>5</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -353,182 +428,38 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>10</index>
-		<row>
-			<c>
-				<c>
-					<f>0</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>ChangeOrderStatus</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>0</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Изменение статуса заказа</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<i>3</i>
-				<c>
-					<f>0</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>IzmenenieStatusaZakaza*</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>11</index>
-		<row>
-			<c>
-				<c>
-					<f>0</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>TimeZoneChange</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>0</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Изменение часового пояса клиентов при изменении региона</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
 		<index>12</index>
 		<row>
 			<c>
 				<c>
-					<f>0</f>
+					<f>1</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ClickInapp</v8:content>
+							<v8:content>КорректировкаБаланса</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>0</f>
+					<f>2</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Клик в in-app</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<i>3</i>
-				<c>
-					<f>0</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Inapp*Click</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>13</index>
-		<row>
-			<c>
-				<c>
-					<f>0</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>ClickPopup</v8:content>
+							<v8:content>Корректировка баланса</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>0</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Клик в popup</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<i>3</i>
-				<c>
-					<f>0</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>KlikVPopape*</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>14</index>
-		<row>
-			<c>
-				<c>
-					<f>0</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>ClickWidget</v8:content>
-						</v8:item>
-					</tl>
+					<f>3</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>0</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Клик по продукту в виджете</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>15</index>
-		<row>
-			<c>
-				<c>
-					<f>0</f>
+					<f>4</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -539,13 +470,110 @@
 			</c>
 			<c>
 				<c>
-					<f>0</f>
+					<f>5</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>13</index>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>14</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Корректировка баланса</v8:content>
+							<v8:content>СозданиеКлиента</v8:content>
 						</v8:item>
 					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Создание клиента</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>CustomerCreateByStaff</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl/>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>15</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>РегистрацияКлиента</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Регистрация клиента</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>RegisterCustomer</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
 				</c>
 			</c>
 		</row>
@@ -555,24 +583,45 @@
 		<row>
 			<c>
 				<c>
-					<f>0</f>
+					<f>1</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>AdvertisementDisagreement</v8:content>
+							<v8:content>АвторизацияКлиента</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>0</f>
+					<f>2</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Отказ от рекламы</v8:content>
+							<v8:content>Авторизация клиента</v8:content>
 						</v8:item>
 					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>CustomerAuthorization</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
 				</c>
 			</c>
 		</row>
@@ -582,22 +631,49 @@
 		<row>
 			<c>
 				<c>
-					<f>0</f>
+					<f>1</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>CreateAuthorizedOrder</v8:content>
+							<v8:content>АктивацияКарты</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>0</f>
+					<f>2</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Создание заказа</v8:content>
+							<v8:content>Активация карты</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ActivateDiscountCard</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>RegisterCart,ActivateCard</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -609,24 +685,45 @@
 		<row>
 			<c>
 				<c>
-					<f>0</f>
+					<f>1</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>CreateUnauthorizedOrder</v8:content>
+							<v8:content>ЗапрошенКодАвторизацииВОперации</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>0</f>
+					<f>2</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Создание заказа неавторизованным пользователем</v8:content>
+							<v8:content>Запрошен код авторизации в операции</v8:content>
 						</v8:item>
 					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>SendMobilePhoneAuthorizationCode</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
 				</c>
 			</c>
 		</row>
@@ -636,24 +733,39 @@
 		<row>
 			<c>
 				<c>
-					<f>0</f>
+					<f>1</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>RetailOrderCancelled</v8:content>
+							<v8:content>ИзменениеМобильногоТелефона</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>0</f>
+					<f>2</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Отмена заказа</v8:content>
+							<v8:content>Изменение мобильного телефона</v8:content>
 						</v8:item>
 					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
 				</c>
 			</c>
 		</row>
@@ -663,24 +775,45 @@
 		<row>
 			<c>
 				<c>
-					<f>0</f>
+					<f>1</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>WebsiteVisit</v8:content>
+							<v8:content>ИзменениеEmail</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>0</f>
+					<f>2</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Переход на сайт</v8:content>
+							<v8:content>Изменение Email</v8:content>
 						</v8:item>
 					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ChangeEmail</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
 				</c>
 			</c>
 		</row>
@@ -690,7 +823,82 @@
 		<row>
 			<c>
 				<c>
-					<f>0</f>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ИзменениеЧасовогоПоясаКлиентовПриИзмененииРегиона</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Изменение часового пояса клиентов при изменении региона</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>TimeZoneChange</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>22</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ПодтверждениеМобильногоТелефона</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Подтверждение мобильного телефона</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -701,52 +909,7 @@
 			</c>
 			<c>
 				<c>
-					<f>0</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Подтверждение мобильного телефона</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>22</index>
-		<row>
-			<c>
-				<c>
-					<f>0</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>ShowInapp</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>0</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Показ in-app</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<i>3</i>
-				<c>
-					<f>0</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Inapp*Show</v8:content>
-						</v8:item>
-					</tl>
+					<f>5</f>
 				</c>
 			</c>
 		</row>
@@ -756,36 +919,39 @@
 		<row>
 			<c>
 				<c>
-					<f>0</f>
+					<f>1</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ShowWidget</v8:content>
+							<v8:content>ПодтверждениеEmail</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>0</f>
+					<f>2</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Показ виджета</v8:content>
+							<v8:content>Подтверждение Email</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
-				<i>3</i>
 				<c>
-					<f>0</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>PokazVidzheta*</v8:content>
-						</v8:item>
-					</tl>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
 				</c>
 			</c>
 		</row>
@@ -795,36 +961,45 @@
 		<row>
 			<c>
 				<c>
-					<f>0</f>
+					<f>1</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ShowPopup</v8:content>
+							<v8:content>РедактированиеКлиента</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>0</f>
+					<f>2</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Показ popup</v8:content>
+							<v8:content>Изменение данных клиента</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
-				<i>3</i>
 				<c>
-					<f>0</f>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>PokazPopapa*</v8:content>
+							<v8:content>EditCustomer</v8:content>
 						</v8:item>
 					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
 				</c>
 			</c>
 		</row>
@@ -838,7 +1013,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>MobilePushPermissionDenied</v8:content>
+							<v8:content>СтатусПодпискиИзменен</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -849,7 +1024,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Пользователь запретил получение мобильных пушей</v8:content>
+							<v8:content>Статус подписки изменен</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -858,107 +1033,9 @@
 	</rowsItem>
 	<rowsItem>
 		<index>26</index>
+		<indexTo>28</indexTo>
 		<row>
-			<c>
-				<c>
-					<f>0</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>MobilePushPermissionGranted</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>0</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Пользователь разрешил получение мобильных пушей</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>27</index>
-		<row>
-			<c>
-				<c>
-					<f>0</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>ViewCatalog</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>0</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Просмотр категории продуктов</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<i>3</i>
-				<c>
-					<f>0</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>ProsmotrKategoriiProduktovV</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>28</index>
-		<row>
-			<c>
-				<c>
-					<f>0</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>ViewProduct</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>0</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Просмотр продукта в операции</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<i>3</i>
-				<c>
-					<f>0</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>ProsmotrProduktaVOperaciiWebsite</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
+			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<rowsItem>
@@ -966,24 +1043,45 @@
 		<row>
 			<c>
 				<c>
-					<f>0</f>
+					<f>1</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>RegisterCustomer</v8:content>
+							<v8:content>СозданиеЗаказа</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>0</f>
+					<f>2</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Регистрация клиента</v8:content>
+							<v8:content>Создание заказа</v8:content>
 						</v8:item>
 					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>CreateAuthorizedOrder</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
 				</c>
 			</c>
 		</row>
@@ -993,24 +1091,45 @@
 		<row>
 			<c>
 				<c>
-					<f>0</f>
+					<f>1</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>EditCustomer</v8:content>
+							<v8:content>СозданиеЗаказаНеавторизованнымПользователем</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>0</f>
+					<f>2</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Редактирование клиента</v8:content>
+							<v8:content>Создание заказа неавторизованным пользователем</v8:content>
 						</v8:item>
 					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>CreateUnauthorizedOrder</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
 				</c>
 			</c>
 		</row>
@@ -1020,41 +1139,34 @@
 		<row>
 			<c>
 				<c>
-					<f>0</f>
+					<f>1</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>CustomerCreateByStaff</v8:content>
+							<v8:content>СохранениеЗаказа</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>0</f>
+					<f>2</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Создание клиента</v8:content>
+							<v8:content>Сохранение заказа</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
-				<i>3</i>
 				<c>
-					<f>0</f>
-					<tl/>
+					<f>3</f>
 				</c>
 			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>32</index>
-		<row>
 			<c>
 				<c>
-					<f>0</f>
+					<f>4</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1065,19 +1177,7 @@
 			</c>
 			<c>
 				<c>
-					<f>0</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Сохранение заказа</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<i>3</i>
-				<c>
-					<f>0</f>
+					<f>5</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1089,11 +1189,998 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
+		<index>32</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ИзменениеСтатусаЗаказа</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Изменение статуса заказа</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ChangeOrderStatus</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>IzmenenieStatusaZakaza*</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
 		<index>33</index>
 		<row>
 			<c>
 				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ОтменаЗаказа</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отмена заказа</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>RetailOrderCancelled</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>34</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ИзменениеДанныхЗаказа</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Изменение данных заказа</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ChangeOrderData</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>35</index>
+		<row>
+			<c>
+				<c>
 					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ПродуктВЗаказеОплачен</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Продукт в заказе оплачен</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>36</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ПродуктВЗаказеДоставлен</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Продукт в заказе доставлен</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>37</index>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>38</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>КлиентПопалВСегмент</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Клиент попал в сегмент</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>39</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>КлиентВышелИзСегмента</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Клиент вышел из сегмента</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>40</index>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>41</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>42</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>КликВInApp</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Клик в in-app</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ClickInapp</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Inapp*Click</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>43</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>КликВPopup</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Клик в popup</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ClickPopup</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>KlikVPopape*</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>44</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>КликПоПродуктуВВиджете</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Клик по продукту в виджете</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ClickWidget</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>45</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ОтказОтРекламы</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отказ от рекламы</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>AdvertisementDisagreement</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>46</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ПереходНаСайт</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Переход на сайт</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>WebsiteVisit</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>47</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>КлиентПокинулСайтИлиПриложение</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Клиент покинул сайт (приложение)</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>48</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ПоказInApp</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Показ in-app</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ShowInapp</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Inapp*Show</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>49</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ПоказВиджета</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Показ виджета</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ShowWidget</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>PokazVidzheta*</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>50</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ПоказPopup</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Показ popup</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ShowPopup</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>PokazPopapa*</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>51</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ПользовательЗапретилПолучениеМобильныхПушей</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пользователь запретил получение мобильных пушей</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>MobilePushPermissionDenied</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>52</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ПользовательРазрешилПолучениеМобильныхПушей</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пользователь разрешил получение мобильных пушей</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>MobilePushPermissionGranted</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>53</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ПросмотрКатегорииПродуктов</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Просмотр категории продуктов</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ViewCatalog</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ProsmotrKategoriiProduktovV</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>54</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ПросмотрПродуктаВОперации</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Просмотр продукта в операции</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ViewProduct</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ProsmotrProduktaVOperaciiWebsite</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>55</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>УстановкаМобильногоПриложения</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Установка мобильного приложения</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1104,23 +2191,44 @@
 			</c>
 			<c>
 				<c>
-					<f>0</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Установка мобильного приложения</v8:content>
-						</v8:item>
-					</tl>
+					<f>5</f>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>34</index>
+		<index>56</index>
 		<row>
 			<c>
 				<c>
-					<f>0</f>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>УстановкаСпискаПродуктов</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Установка списка продуктов</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1131,19 +2239,7 @@
 			</c>
 			<c>
 				<c>
-					<f>0</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Установка списка продуктов</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<i>3</i>
-				<c>
-					<f>0</f>
+					<f>5</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1154,10 +2250,59 @@
 			</c>
 		</row>
 	</rowsItem>
+	<rowsItem>
+		<index>57</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ДобавлениеПродуктаВСписок</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Добавление продукта в список</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>58</index>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>5</defaultFormatIndex>
-	<height>35</height>
-	<vgRows>35</vgRows>
+	<defaultFormatIndex>11</defaultFormatIndex>
+	<height>59</height>
+	<vgRows>59</vgRows>
+	<font faceName="Arial" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<format>
 		<width>261</width>
 	</format>
@@ -1168,7 +2313,30 @@
 		<width>164</width>
 	</format>
 	<format>
-		<width>183</width>
+		<width>229</width>
+	</format>
+	<format>
+		<width>214</width>
+	</format>
+	<format>
+		<font>0</font>
+		<width>261</width>
+	</format>
+	<format>
+		<font>0</font>
+		<width>345</width>
+	</format>
+	<format>
+		<font>0</font>
+		<width>164</width>
+	</format>
+	<format>
+		<font>0</font>
+		<width>229</width>
+	</format>
+	<format>
+		<font>0</font>
+		<width>214</width>
 	</format>
 	<format>
 		<width>72</width>

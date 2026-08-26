@@ -3,10 +3,10 @@
   <producedTypes>
     <containerType typeId="d26d319f-a543-4caf-817e-db472d9dc969" valueTypeId="fed5dbb8-de0b-4274-9f02-7d2710309432"/>
   </producedTypes>
-  <name>МероприятияДействий</name>
+  <name>Кампании</name>
   <synonym>
     <key>ru</key>
-    <value>Мероприятия действий</value>
+    <value>Кампании</value>
   </synonym>
   <comment>Перечень действий в рамках MPS (рассылки, виджеты, акции, операции с балльными счетами, операции с промокодами)</comment>
   <type>
