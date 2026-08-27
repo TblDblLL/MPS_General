@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="196b5872-f566-4e8b-a9ba-89d1cf067f9f">
+  <producedTypes>
+    <refType typeId="7a93cf55-c78b-431a-a7b3-3f0627abcb8b" valueTypeId="affa9a73-7968-40de-a87d-78f619a2ee2f"/>
+    <listType typeId="87da885e-6e2c-47c7-a580-f507f7888cff" valueTypeId="75a3068b-0952-4ed9-ba41-c16476578874"/>
+    <managerType typeId="0081d46c-c906-4548-bd00-e38a61e52be0" valueTypeId="72945c67-ba6b-4e8b-8e23-b419a29c37c2"/>
+  </producedTypes>
+  <name>ВидЧастотыЗапускаСценарияНаКлиенте</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид частоты запуска сценария на клиенте</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d7f59a05-763b-4779-8b57-e32a9af4250d">
+    <name>КаждыйРаз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каждый раз</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="92fa9217-cf2e-48ce-a94e-3d8d92a05ed7">
+    <name>ОдинРаз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Один раз</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="627bb622-bc4c-46c8-b714-6a2c2a6e0538">
+    <name>ОдинРазЗаПериод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Один раз за период</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -44,15 +44,98 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="5ba7ba08-e1a0-417a-8812-fcf3f1208fce">
+    <name>ЛимитСрабатыванияНаКлиенте</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лимит срабатывания на клиенте</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a1d6fb0c-f56f-4710-9dc9-22e43ac5af95">
+    <name>ВидЧастотыЗапускаСценарияНаКлиенте</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид частоты запуска сценария на клиенте</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидЧастотыЗапускаСценарияНаКлиенте</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0a5fdb13-422b-4008-8a4a-25badffce70c">
+    <name>ПериодЗапускаСценарияНаКлиенте</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период запуска сценария на клиенте</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПериодыДействий</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2f309537-a8d8-4dc2-8272-b4b68cb7edaa">
+    <name>ЧастотаЗапуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Частота запуска</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d41683d0-b369-42e4-a69d-e11e924684d1">
+    <name>РегламентноеЗаданиеGUID</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регламентное задание GUID</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="b669e213-08d3-4253-8e01-c525f73b7796">
     <producedTypes>
       <objectType typeId="64f66358-080f-4535-9221-dc00e8075911" valueTypeId="9a6a25b8-f9bc-4c32-878d-52a868f9586a"/>
       <rowType typeId="44fdd1c3-9365-42bb-8891-c32cdb7bba7e" valueTypeId="161012fb-6dd1-4753-a599-6c3c855ad91b"/>
     </producedTypes>
-    <name>ФильтрДействийВКампаниях</name>
+    <name>ФильтрПоДействиямВКампаниях</name>
     <synonym>
       <key>ru</key>
-      <value>Фильтр действий в кампаниях</value>
+      <value>Фильтр по действиям в кампаниях</value>
     </synonym>
     <attributes uuid="b7989da0-17df-4e0f-b4f0-aee1f703ffe3">
       <name>ВидДействия</name>

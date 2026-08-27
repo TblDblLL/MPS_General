@@ -71,4 +71,6 @@
   <content>Catalog.ТочкиСценарияРазделение</content>
   <content>Catalog.ТочкиСценарияОбработка</content>
   <content>Catalog.ТочкиСценарияУсловие</content>
+  <content>Enum.ВидЧастотыЗапускаСценарияНаКлиенте</content>
+  <content>Enum.ПериодыДействий</content>
 </mdclass:Subsystem>
