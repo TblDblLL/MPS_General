@@ -172,10 +172,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="13c46e2c-abbe-4376-8d38-b7992af0cf8a">
-    <name>ВремяДо</name>
+    <name>ВремяПо</name>
     <synonym>
       <key>ru</key>
-      <value>Время до</value>
+      <value>Время по</value>
     </synonym>
     <type>
       <types>Date</types>
@@ -194,6 +194,39 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e7f255a0-15fa-45a1-84da-f1259ee33375">
+    <name>ЧасовойПояс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Часовой пояс</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЧасовыеПояса</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9b4348ac-328e-4139-86da-7c721c1fb10d">
+    <name>ДниНедели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дни недели</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>7</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>

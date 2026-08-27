@@ -700,7 +700,6 @@
   <commonModules>CommonModule.ИнтеграцияПодсистемБСПКлиент</commonModules>
   <commonModules>CommonModule.ИнтеграцияПодсистемБСПКлиентПовтИсп</commonModules>
   <commonModules>CommonModule.ИнтеграцияПодсистемБСППовтИсп</commonModules>
-  <commonModules>CommonModule.КлиентыПКМП</commonModules>
   <commonModules>CommonModule.КомпоновкаДанныхКлиентСервер</commonModules>
   <commonModules>CommonModule.КомпоновкаДанныхСервер</commonModules>
   <commonModules>CommonModule.КонструкторФормул</commonModules>
@@ -739,7 +738,6 @@
   <commonModules>CommonModule.ОбщегоНазначенияКлиентПовтИсп</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияПереопределяемый</commonModules>
-  <commonModules>CommonModule.ОбщегоНазначенияПКМП</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияУТ</commonModules>
@@ -959,7 +957,10 @@
   <commonModules>CommonModule.ШаблоныСообщенийСлужебный</commonModules>
   <commonModules>CommonModule.ШаблоныСообщенийСлужебныйПовтИсп</commonModules>
   <commonModules>CommonModule.ВариантыОтчетовУТПереопределяемый</commonModules>
+  <commonModules>CommonModule.КлиентыПКМП</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияПКМП</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияПКМПКлиент</commonModules>
+  <commonModules>CommonModule.УправлениеФормамиПКМП</commonModules>
   <commonAttributes>CommonAttribute.ОтредактированныеПредопределенныеРеквизиты</commonAttributes>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ApplicationExtensionsManifest_1_0_0_1</xDTOPackages>

@@ -27,6 +27,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ТочкиСценарияРазделение.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="ebe13cc2-1220-452a-969d-5db4a5cdd615">
     <name>ЗапускПоРасписанию</name>
     <synonym>
@@ -86,4 +87,13 @@
     </attributes>
     <lineNumberLength>9</lineNumberLength>
   </tabularSections>
+  <forms uuid="3f28e076-8b7d-48a6-a16b-d7a655ccc410">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

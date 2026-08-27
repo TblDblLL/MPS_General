@@ -30,4 +30,21 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.ЧасовыеПояса.Form.ФормаСписка</defaultListForm>
+  <forms uuid="a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="33f79aea-6e30-4b63-94d4-a1ffbf1fb1d6">
+    <name>ЧасовыеПоясаПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Часовые пояса по умолчанию</value>
+    </synonym>
+  </templates>
 </mdclass:Catalog>
