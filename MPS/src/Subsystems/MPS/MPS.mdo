@@ -69,8 +69,9 @@
   <content>Catalog.ТочкиСценарияДействие</content>
   <content>DefinedType.ТочкиСценария</content>
   <content>Catalog.ТочкиСценарияРазделение</content>
-  <content>Catalog.ТочкиСценарияОбработка</content>
+  <content>Catalog.ТочкиСценарияОжидание</content>
   <content>Catalog.ТочкиСценарияУсловие</content>
-  <content>Enum.ВидЧастотыЗапускаСценарияНаКлиенте</content>
+  <content>Enum.ВидыЧастотыЗапускаСценарияНаКлиенте</content>
   <content>Enum.ПериодыДействий</content>
+  <content>Enum.ПередСразуПосле</content>
 </mdclass:Subsystem>

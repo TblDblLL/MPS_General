@@ -191,7 +191,7 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Страница по событию</value>
+        <value>Событие</value>
       </title>
       <extendedTooltip>
         <name>СтраницаПоСобытиюРасширеннаяПодсказка</name>
@@ -212,6 +212,45 @@
     <items xsi:type="form:FormGroup">
       <name>СтраницаПоРасписанию</name>
       <id>39</id>
+      <items xsi:type="form:FormField">
+        <name>ПредставлениеРасписания</name>
+        <id>70</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ПредставлениеРасписания</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>ПредставлениеРасписанияРасширеннаяПодсказка</name>
+          <id>72</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ПредставлениеРасписанияКонтекстноеМеню</name>
+          <id>71</id>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>InputField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo">
+          <wrap>true</wrap>
+          <multiLine>true</multiLine>
+          <choiceButton>true</choiceButton>
+          <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
+        </extInfo>
+      </items>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -219,7 +258,7 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Страница по расписанию</value>
+        <value>Расписание</value>
       </title>
       <extendedTooltip>
         <name>СтраницаПоРасписаниюРасширеннаяПодсказка</name>
@@ -260,39 +299,6 @@
     <extInfo xsi:type="form:PagesGroupExtInfo">
       <pagesRepresentation>Auto</pagesRepresentation>
       <currentRowUse>Auto</currentRowUse>
-    </extInfo>
-  </items>
-  <items xsi:type="form:Decoration">
-    <name>Декорация1</name>
-    <id>67</id>
-    <title>
-      <key>ru</key>
-      <value>Декорация1</value>
-    </title>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <extendedTooltip>
-      <name>Декорация1РасширеннаяПодсказка</name>
-      <id>69</id>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <contextMenu>
-      <name>Декорация1КонтекстноеМеню</name>
-      <id>68</id>
-      <autoFill>true</autoFill>
-    </contextMenu>
-    <autoMaxWidth>true</autoMaxWidth>
-    <autoMaxHeight>true</autoMaxHeight>
-    <extInfo xsi:type="form:PictureDecorationExtInfo">
-      <fileDragMode>AsFileRef</fileDragMode>
     </extInfo>
   </items>
   <autoCommandBar>
@@ -360,6 +366,24 @@
       <stringQualifiers>
         <length>200</length>
       </stringQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПредставлениеРасписания</name>
+    <title>
+      <key>ru</key>
+      <value>Представление расписания</value>
+    </title>
+    <id>4</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
     </valueType>
     <view>
       <common>true</common>

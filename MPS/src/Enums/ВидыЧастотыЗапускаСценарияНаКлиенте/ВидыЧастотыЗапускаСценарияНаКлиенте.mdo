@@ -5,10 +5,10 @@
     <listType typeId="87da885e-6e2c-47c7-a580-f507f7888cff" valueTypeId="75a3068b-0952-4ed9-ba41-c16476578874"/>
     <managerType typeId="0081d46c-c906-4548-bd00-e38a61e52be0" valueTypeId="72945c67-ba6b-4e8b-8e23-b419a29c37c2"/>
   </producedTypes>
-  <name>ВидЧастотыЗапускаСценарияНаКлиенте</name>
+  <name>ВидыЧастотыЗапускаСценарияНаКлиенте</name>
   <synonym>
     <key>ru</key>
-    <value>Вид частоты запуска сценария на клиенте</value>
+    <value>Виды частоты запуска сценария на клиенте</value>
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>

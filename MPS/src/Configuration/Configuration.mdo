@@ -1381,7 +1381,7 @@
   <catalogs>Catalog.ТочкиСценарияСтарт</catalogs>
   <catalogs>Catalog.ТочкиСценарияДействие</catalogs>
   <catalogs>Catalog.ТочкиСценарияРазделение</catalogs>
-  <catalogs>Catalog.ТочкиСценарияОбработка</catalogs>
+  <catalogs>Catalog.ТочкиСценарияОжидание</catalogs>
   <catalogs>Catalog.ТочкиСценарияУсловие</catalogs>
   <catalogs>Catalog.СегментыНоменклатуры</catalogs>
   <catalogs>Catalog.СегментыПартнеров</catalogs>
@@ -1477,8 +1477,9 @@
   <enums>Enum.СтатусыПозицийЗаказа</enums>
   <enums>Enum.ВидыТочекСценария</enums>
   <enums>Enum.ВидыТочкиОжидания</enums>
-  <enums>Enum.ВидЧастотыЗапускаСценарияНаКлиенте</enums>
+  <enums>Enum.ВидыЧастотыЗапускаСценарияНаКлиенте</enums>
   <enums>Enum.ПериодыДействий</enums>
+  <enums>Enum.ПередСразуПосле</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализПравДоступа</reports>

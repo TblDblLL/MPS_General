@@ -70,7 +70,7 @@
       <value>Вид частоты запуска сценария на клиенте</value>
     </synonym>
     <type>
-      <types>EnumRef.ВидЧастотыЗапускаСценарияНаКлиенте</types>
+      <types>EnumRef.ВидыЧастотыЗапускаСценарияНаКлиенте</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

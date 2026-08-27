@@ -11,7 +11,7 @@
   <content>Catalog.ТочкиСценарияСтарт</content>
   <content>Catalog.ТочкиСценарияДействие</content>
   <content>Catalog.ТочкиСценарияРазделение</content>
-  <content>Catalog.ТочкиСценарияОбработка</content>
+  <content>Catalog.ТочкиСценарияОжидание</content>
   <content>Catalog.ТочкиСценарияУсловие</content>
   <subsystems>Автоматизация</subsystems>
   <subsystems>Персонализация</subsystems>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91e0eefe-6dd7-4d15-a6e0-dffbf2b97d00">
+  <producedTypes>
+    <refType typeId="345e2ab2-e0aa-4495-ab59-d6adbaa1b8e4" valueTypeId="c9d64974-bcf3-423e-bbe4-9e43be078516"/>
+    <listType typeId="f1d1583d-60f9-4077-823a-92b58c79ea4b" valueTypeId="993918f2-2f4a-46c6-936e-ed195e8c0dd6"/>
+    <managerType typeId="2b53ba49-4e6c-4d85-b874-121bbe2b94cb" valueTypeId="48e1a000-6c4d-42be-abc8-e653b1be0bf1"/>
+  </producedTypes>
+  <name>ПередСразуПосле</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перед сразу после</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9185090f-b40e-433a-b59b-5b3424bf19be">
+    <name>Перед</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перед</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8748da85-c018-4dd5-a1f3-9fae3196dcb4">
+    <name>Сразу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сразу</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0d91f027-cc46-49f3-b196-a7c53df81a1c">
+    <name>После</name>
+    <synonym>
+      <key>ru</key>
+      <value>После</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

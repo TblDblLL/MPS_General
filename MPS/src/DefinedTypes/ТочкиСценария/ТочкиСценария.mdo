@@ -11,7 +11,7 @@
   <type>
     <types>CatalogRef.ТочкиСценарияУсловие</types>
     <types>CatalogRef.ТочкиСценарияСтарт</types>
-    <types>CatalogRef.ТочкиСценарияОбработка</types>
+    <types>CatalogRef.ТочкиСценарияОжидание</types>
     <types>CatalogRef.ТочкиСценарияДействие</types>
     <types>CatalogRef.ТочкиСценарияРазделение</types>
   </type>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9565666-149c-4235-be8d-e21c454d4051">
+  <producedTypes>
+    <objectType typeId="ef1ccadd-81a4-42a2-ae24-7bc0cd4bd7d2" valueTypeId="d440d0b5-bdae-4a24-967b-3fd2a20f1a0a"/>
+    <refType typeId="706abf98-7004-4880-b1a8-fb719cc3ebab" valueTypeId="b5a724e5-8a52-4f7c-a45d-21ffd0e89a9b"/>
+    <selectionType typeId="0c01cf49-b114-4e72-bfc5-40d1d8ab9686" valueTypeId="7bf08ea4-afa9-42d0-98ea-54c014ce761f"/>
+    <listType typeId="6fe31a4e-eb27-436e-8331-d459b519d003" valueTypeId="42c993c9-e77a-480e-894a-8833e5694c5b"/>
+    <managerType typeId="82e93109-35df-4552-ba4d-156f2706d29c" valueTypeId="adaf0b31-5e9a-400c-abd7-f648f9f404e9"/>
+  </producedTypes>
+  <name>ТочкиСценарияОжидание</name>
+  <synonym>
+    <key>ru</key>
+    <value>Точки сценария (ожидание)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТочкиСценарияОжидание.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Сценарии</owners>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ТочкиСценарияОжидание.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="236fdb38-60ba-4d78-a1f1-e9a0148e43f5">
+    <name>ВидТочкиОжидания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид точки ожидания</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыТочкиОжидания</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ВидыТочкиОжидания.EnumValue.Фиксированное</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5eeb5d48-98a7-4a1d-9811-8e4614aaa9ff">
+    <name>КоличествоПериодовДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество периодов действия</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fb0bd610-42f1-4da8-aee3-4e58f3727b2f">
+    <name>ПериодДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период действия</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПериодыДействий</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="31442d1d-5b07-4e76-9467-2f67c0d19ba1">
+    <name>ГраницаСрабатыванияДинамически</name>
+    <synonym>
+      <key>ru</key>
+      <value>Граница срабатывания динамически</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПередСразуПосле</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="86751d06-4e0e-45a2-90da-d87d05531839">
+    <name>ПолеКлиентаДляДинамического</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле клиента для динамического</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="80a51953-d240-4cd6-b1b6-5b2258f6a177">
+    <name>ОграничитьПоВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ограничить по времени</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b62340da-e327-4a61-87d4-edb599605144">
+    <name>НеОграничиватьВремяСрабатывания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не ограничивать время срабатывания</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="24225957-7e44-429a-84a3-b478ce4788a1">
+    <name>ВремяС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время С</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ДФ=HH:mm</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДФ=HH:mm</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="13c46e2c-abbe-4376-8d38-b7992af0cf8a">
+    <name>ВремяДо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время до</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>HH:mm</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>HH:mm</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="86186a30-e65a-47b5-8dfc-c4200eb75c03">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
