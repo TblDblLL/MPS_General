@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>ФормированиеСегмента</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Партнер</dataPath>
+			<field>Партнер</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Наименование</dataPath>
+			<field>Наименование</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Пол</dataPath>
+			<field>Пол</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаРождения</dataPath>
+			<field>ДатаРождения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЧасовойПояс</dataPath>
+			<field>ЧасовойПояс</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаРегистрации</dataPath>
+			<field>ДатаРегистрации</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Сегмент</dataPath>
+			<field>Сегмент</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидПоследнегоДействия</dataPath>
+			<field>ВидПоследнегоДействия</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КаналВзаимодействияПоследнегоДействия</dataPath>
+			<field>КаналВзаимодействияПоследнегоДействия</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаПоследнегоДействия</dataPath>
+			<field>ДатаПоследнегоДействия</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтатусТовараВЗаказе</dataPath>
+			<field>СтатусТовараВЗаказе</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Товар</dataPath>
+			<field>Товар</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоТовараВЗаказе</dataPath>
+			<field>КоличествоТовараВЗаказе</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЦенаТовараВЗаказе</dataPath>
+			<field>ЦенаТовараВЗаказе</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидПриложенияУстройства</dataPath>
+			<field>ВидПриложенияУстройства</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидПодписки</dataPath>
+			<field>ВидПодписки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КаналВзаимодействияПодписки</dataPath>
+			<field>КаналВзаимодействияПодписки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПодпискаДействует</dataPath>
+			<field>ПодпискаДействует</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	Клиент КАК Клиент,
+	МАКСИМУМ(ДатаДействия) КАК ДатаДействия
+ПОМЕСТИТЬ ВТ_ДатыПоследнихДействий
+ИЗ
+	РегистрСведений.ДействияКлиентов КАК ДействияКлиентов
+СГРУППИРОВАТЬ ПО
+	Клиент
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	РегистрДействия.Клиент КАК Клиент,
+	РегистрДействия.ДатаДействия КАК ДатаДействия,
+	МАКСИМУМ(РегистрДействия.УИДДействия) КАК УИДДействия
+ПОМЕСТИТЬ ВТ_ИдПоследнегоДействия
+ИЗ
+	РегистрСведений.ДействияКлиентов КАК РегистрДействия
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ ВТ_ДатыПоследнихДействий КАК ВТ_ДатыПоследнихДействий
+		ПО РегистрДействия.Клиент = ВТ_ДатыПоследнихДействий.Клиент
+		И РегистрДействия.ДатаДействия = ВТ_ДатыПоследнихДействий.ДатаДействия
+СГРУППИРОВАТЬ ПО
+	РегистрДействия.Клиент,
+	РегистрДействия.ДатаДействия
+
+ИНДЕКСИРОВАТЬ ПО
+	Клиент
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	РегистрДействия.Клиент КАК Клиент,
+	РегистрДействия.ДатаДействия КАК ДатаДействия,
+	РегистрДействия.УИДДействия КАК УИДДействия,
+	РегистрДействия.ВидДействия КАК ВидДействия,
+	РегистрДействия.КаналВзаимодействия КАК КаналВзаимодействия,
+	РегистрДействия.Магазин КАК Магазин,
+	РегистрДействия.ОписаниеДействия КАК ОписаниеДействия,
+	РегистрДействия.ТехнологическиеДанные КАК ТехнологическиеДанные,
+	РегистрДействия.Заказ КАК Заказ,
+	РегистрДействия.СписокПродуктов КАК СписокПродуктов
+ПОМЕСТИТЬ ВТ_ПоследниеДействия
+ИЗ
+	РегистрСведений.ДействияКлиентов КАК РегистрДействия
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ ВТ_ИдПоследнегоДействия КАК ВТ_ИдПоследнегоДействия
+		ПО РегистрДействия.Клиент = ВТ_ИдПоследнегоДействия.Клиент
+		И РегистрДействия.ДатаДействия = ВТ_ИдПоследнегоДействия.ДатаДействия
+		И РегистрДействия.УИДДействия = ВТ_ИдПоследнегоДействия.УИДДействия
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	Партнеры.Ссылка КАК Партнер,
+	Партнеры.Наименование КАК Наименование,
+	Партнеры.Пол КАК Пол,
+	Партнеры.ДатаРождения КАК ДатаРождения,
+	Партнеры.ЧасовойПояс КАК ЧасовойПояс,
+	Партнеры.ДатаРегистрации КАК ДатаРегистрации,
+	ПартнерыСегмента.Сегмент КАК Сегмент,
+	ВТ_ПоследниеДействия.ВидДействия КАК ВидПоследнегоДействия,
+	ВТ_ПоследниеДействия.КаналВзаимодействия КАК КаналВзаимодействияПоследнегоДействия,
+	ВТ_ПоследниеДействия.ДатаДействия КАК ДатаПоследнегоДействия,
+	ЗаказКлиентаТовары.Статус КАК СтатусТовараВЗаказе,
+	ЗаказКлиентаТовары.Номенклатура КАК Товар,
+	ЗаказКлиентаТовары.Количество КАК КоличествоТовараВЗаказе,
+	ЗаказКлиентаТовары.Цена КАК ЦенаТовараВЗаказе,
+	УстройстваКлиентов.ВидПриложения КАК ВидПриложенияУстройства,
+	ПодпискиКлиентовСрезПоследних.ВидПодписки КАК ВидПодписки,
+	ПодпискиКлиентовСрезПоследних.КаналВзаимодействия КАК КаналВзаимодействияПодписки,
+	ПодпискиКлиентовСрезПоследних.Действует КАК ПодпискаДействует
+{ВЫБРАТЬ
+	Партнер.*,
+	Наименование,
+	Пол,
+	ДатаРождения,
+	ЧасовойПояс.*,
+	ДатаРегистрации,
+	Сегмент.* КАК Сегмент,
+	ВидПоследнегоДействия.* КАК ВидПоследнегоДействия,
+	КаналВзаимодействияПоследнегоДействия.* КАК КаналВзаимодействияПоследнегоДействия,
+	ДатаПоследнегоДействия КАК ДатаПоследнегоДействия,
+	СтатусТовараВЗаказе.* КАК СтатусТовараВЗаказе,
+	Товар.* КАК Товар,
+	КоличествоТовараВЗаказе КАК КоличествоТовараВЗаказе,
+	ЦенаТовараВЗаказе КАК ЦенаТовараВЗаказе,
+	ВидПриложенияУстройства.* КАК ВидПриложенияУстройства,
+	ВидПодписки.* КАК ВидПодписки,
+	КаналВзаимодействияПодписки.* КАК КаналВзаимодействияПодписки,
+	ПодпискаДействует КАК ПодпискаДействует}
+ИЗ
+	Справочник.Клиенты КАК Партнеры
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ПартнерыСегмента КАК ПартнерыСегмента
+		ПО ПартнерыСегмента.Партнер = Партнеры.Ссылка
+		{ЛЕВОЕ СОЕДИНЕНИЕ ВТ_ПоследниеДействия КАК ВТ_ПоследниеДействия
+		ПО Партнеры.Ссылка = ВТ_ПоследниеДействия.Клиент
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.ЗаказКлиента КАК ЗаказКлиента
+		ПО Партнеры.Ссылка = ЗаказКлиента.Клиент
+		И ЗаказКлиента.Проведен
+		И ( &amp;ГлубинаАнализаЗаказовВДнях = 0 или ЗаказКлиента.Дата &gt; ДОБАВИТЬКДАТЕ(&amp;ТекущаяДата, ДЕНЬ, -1 * &amp;ГлубинаАнализаЗаказовВДнях))
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.ЗаказКлиента.Товары КАК ЗаказКлиентаТовары
+		ПО ЗаказКлиентаТовары.Ссылка = ЗаказКлиента.Ссылка
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.УстройстваКлиентов КАК УстройстваКлиентов
+		ПО Партнеры.Ссылка = УстройстваКлиентов.Клиент
+		И УстройстваКлиентов.Активно
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ПодпискиКлиентов.СрезПоследних КАК ПодпискиКлиентовСрезПоследних
+		ПО Партнеры.Ссылка = ПодпискиКлиентовСрезПоследних.Клиент}
+{ГДЕ
+	Партнеры.Ссылка.* КАК Партнер,
+	Партнеры.Наименование КАК Наименование,
+	Партнеры.Пол КАК Пол,
+	Партнеры.ДатаРождения КАК ДатаРождения,
+	Партнеры.ЧасовойПояс.* КАК ЧасовойПояс,
+	Партнеры.ДатаРегистрации КАК ДатаРегистрации,
+	ПартнерыСегмента.Сегмент.* КАК Сегмент,
+	ВТ_ПоследниеДействия.ВидДействия.* КАК ВидПоследнегоДействия,
+	ВТ_ПоследниеДействия.КаналВзаимодействия.* КАК КаналВзаимодействияПоследнегоДействия,
+	ВТ_ПоследниеДействия.ДатаДействия КАК ДатаПоследнегоДействия,
+	ЗаказКлиентаТовары.Статус.* КАК СтатусТовараВЗаказе,
+	ЗаказКлиентаТовары.Номенклатура.* КАК Товар,
+	ЗаказКлиентаТовары.Количество КАК КоличествоТовараВЗаказе,
+	ЗаказКлиентаТовары.Цена КАК ЦенаТовараВЗаказе,
+	УстройстваКлиентов.ВидПриложения.* КАК ВидПриложенияУстройства,
+	ПодпискиКлиентовСрезПоследних.ВидПодписки.* КАК ВидПодписки,
+	ПодпискиКлиентовСрезПоследних.КаналВзаимодействия.* КАК КаналВзаимодействияПодписки,
+	ПодпискиКлиентовСрезПоследних.Действует КАК ПодпискаДействует}</query>
+		<autoFillFields>false</autoFillFields>
+	</dataSet>
+	<dataSet xsi:type="DataSetQuery">
+		<name>ВыводСегмента</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Сегмент</dataPath>
+			<field>Сегмент</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сегмент</v8:content>
+				</v8:item>
+			</title>
+			<useRestriction>
+				<condition>true</condition>
+			</useRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПартнерСегмента</dataPath>
+			<field>ПартнерСегмента</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Клиент сегмента</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	ПартнерыСегмента.Партнер
+ПОМЕСТИТЬ СоставСегмента
+ИЗ
+	РегистрСведений.ПартнерыСегмента КАК ПартнерыСегмента
+{ГДЕ
+	ПартнерыСегмента.Сегмент}
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	СоставСегмента.Партнер КАК Партнер
+{ВЫБРАТЬ
+	Партнер.* КАК ПартнерСегмента}
+ИЗ
+	СоставСегмента КАК СоставСегмента</query>
+		<autoFillFields>false</autoFillFields>
+	</dataSet>
+	<parameter>
+		<name>ГлубинаАнализаЗаказовВДнях</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Глубина анализа заказов в днях</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>0</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</valueType>
+		<value xsi:type="xs:decimal">90</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ТекущаяДата</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Текущая дата</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<useRestriction>true</useRestriction>
+		<expression>ТекущаяДата()</expression>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>ФормированиеСегмента</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Формирование сегмента</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Партнер</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">Партнер.ПометкаУдаления</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+					<dcsset:viewMode>Inaccessible</dcsset:viewMode>
+					<dcsset:userSettingPresentation xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пометка удаления</v8:content>
+						</v8:item>
+					</dcsset:userSettingPresentation>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ГлубинаАнализаЗаказовВДнях</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">90</dcscor:value>
+					<dcsset:userSettingID>290c7837-da72-4c6d-a85d-7c550250809d</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Партнер</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+	<settingsVariant>
+		<dcsset:name>ВыводСегмента</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Вывод сегмента</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПартнерСегмента</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПартнерСегмента.ОсновнойМенеджер</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПартнерСегмента.ДатаРегистрации</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПартнерСегмента.Клиент</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПартнерСегмента.Конкурент</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПартнерСегмента.Поставщик</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПартнерСегмента.НаименованиеПолное</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>РасположениеРеквизитов</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionAttributesPlacement">Separately</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьОтбор</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ПартнерСегмента</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

@@ -185,11 +185,11 @@
     </type>
     <format>
       <key>ru</key>
-      <value>HH:mm</value>
+      <value>ДФ=HH:mm</value>
     </format>
     <editFormat>
       <key>ru</key>
-      <value>HH:mm</value>
+      <value>ДФ=HH:mm</value>
     </editFormat>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -201,7 +201,7 @@
     <name>ЧасовойПояс</name>
     <synonym>
       <key>ru</key>
-      <value>Часовой пояс</value>
+      <value>Часовой пояс по умолчанию</value>
     </synonym>
     <type>
       <types>CatalogRef.ЧасовыеПояса</types>

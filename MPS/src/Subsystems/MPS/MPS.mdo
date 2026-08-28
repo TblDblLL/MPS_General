@@ -74,4 +74,6 @@
   <content>Enum.ВидыЧастотыЗапускаСценарияНаКлиенте</content>
   <content>Enum.ПериодыДействий</content>
   <content>Enum.ПередСразуПосле</content>
+  <content>Constant.ЧасовойПоясПоУмолчанию</content>
+  <content>Enum.ВидыТочкиУсловия</content>
 </mdclass:Subsystem>

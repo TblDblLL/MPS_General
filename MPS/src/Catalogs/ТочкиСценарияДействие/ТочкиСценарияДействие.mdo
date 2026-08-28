@@ -27,14 +27,14 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="562ccc6e-ee70-4a58-9674-cdff97e04646">
-    <name>ЗапускПоРасписанию</name>
+  <attributes uuid="1b7d68ce-7a18-4f86-a585-dcfd2496747b">
+    <name>ПериодАктуальности</name>
     <synonym>
       <key>ru</key>
-      <value>Запуск по расписанию</value>
+      <value>Период актуальности</value>
     </synonym>
     <type>
-      <types>Boolean</types>
+      <types>EnumRef.ПериодыДействий</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -42,42 +42,86 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <tabularSections uuid="1f082ab6-444c-48a4-92ed-551bb35f0d39">
-    <producedTypes>
-      <objectType typeId="a2673ebe-b48b-4565-afba-645b322f9474" valueTypeId="6263404b-0e49-4b1c-9c7e-a7254cba73aa"/>
-      <rowType typeId="b7bce321-e040-4a17-8be3-caf5c66b5adb" valueTypeId="b8b7c123-cd7b-4240-9745-8278c50bf782"/>
-    </producedTypes>
-    <name>Параметры</name>
+  <attributes uuid="ad19c3ae-d9d2-4748-a04e-91ab791cbc1c">
+    <name>КоличествоПериодовАктуальности</name>
     <synonym>
       <key>ru</key>
-      <value>Параметры</value>
+      <value>Количество периодов актуальности</value>
     </synonym>
-    <attributes uuid="23e29a8b-a978-4b6a-abf1-4a5f6acc958d">
-      <name>Имя</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="11a31547-6c72-405a-935f-08512933e0e2">
+    <producedTypes>
+      <objectType typeId="003fb8e2-f8c3-4c04-bfd1-ddf4f33aa301" valueTypeId="eea8792e-8bd0-4039-b54c-d42ccb92f61b"/>
+      <rowType typeId="3724d028-bbee-4fdb-b623-ded100d25352" valueTypeId="d4c32baa-23e5-4a24-a342-543fd986b1af"/>
+    </producedTypes>
+    <name>ФильтрПоДействиямВКампаниях</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фильтр по действиям в кампаниях</value>
+    </synonym>
+    <attributes uuid="85c1f3b7-750b-4cbb-bb23-ca0599947a32">
+      <name>ВидДействия</name>
       <synonym>
         <key>ru</key>
-        <value>Имя</value>
+        <value>Вид действия</value>
       </synonym>
       <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>100</length>
-        </stringQualifiers>
+        <types>CatalogRef.ВидыДействийКлиента</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="c028eb5d-8c00-4d1c-bcd1-b8013398b4b7">
-      <name>Значение</name>
+    <attributes uuid="c23d6cb6-9c02-405f-84ac-cb88d25f5849">
+      <name>Кампания</name>
       <synonym>
         <key>ru</key>
-        <value>Значение</value>
+        <value>Кампания</value>
       </synonym>
       <type>
-        <types>CatalogRef.СпискиПродуктов</types>
-        <types>CatalogRef.Номенклатура</types>
+        <types>DefinedType.Кампании</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+  <tabularSections uuid="f0ab3d65-13f1-428e-90c2-b62205e0c73f">
+    <producedTypes>
+      <objectType typeId="0a79d3a1-5686-4c62-b0c1-16df1d35a7df" valueTypeId="c5050d69-8dd3-4962-966e-2c59b567f084"/>
+      <rowType typeId="9ff513ae-a2f1-49c8-82a4-71a3d5039698" valueTypeId="db03fbd9-eab5-410d-a193-bff16fbf8643"/>
+    </producedTypes>
+    <name>ПоследовательностьДействий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Последовательность действий</value>
+    </synonym>
+    <attributes uuid="c8ab0215-c89c-4811-8d15-f70b462db977">
+      <name>ВидДействия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид действия</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

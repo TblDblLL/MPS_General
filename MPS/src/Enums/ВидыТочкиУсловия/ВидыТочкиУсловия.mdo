@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="526eeefc-d958-4076-be99-bc697ebdc202">
+  <producedTypes>
+    <refType typeId="39e0bf03-7a00-4d73-821b-7baefdfb045a" valueTypeId="64bd6ac7-f282-4da6-99f8-201cc16966f3"/>
+    <listType typeId="43fd2843-be15-4abb-9ad7-3978e08d0d2d" valueTypeId="0d5b01e5-1e69-4b9f-b906-ea96d1208805"/>
+    <managerType typeId="d736881b-0274-4b99-81e8-6ec96ccb744a" valueTypeId="68b2b03b-12ba-400d-aea9-98ba7887dade"/>
+  </producedTypes>
+  <name>ВидыТочкиУсловия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды точки условия</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e9ead3e7-40e7-4c99-9a0c-ffe6c928e977">
+    <name>ПоКлиенту</name>
+    <synonym>
+      <key>ru</key>
+      <value>По клиенту</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="397b1416-91a0-463d-9b4c-91b8212eda4d">
+    <name>ПоДоступностиПромокода</name>
+    <synonym>
+      <key>ru</key>
+      <value>По доступности промокода</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f82d8558-2bb7-4508-97b5-51410d97f7af">
+    <name>ПоНаличиюПродуктов</name>
+    <synonym>
+      <key>ru</key>
+      <value>По наличию продуктов в сегменте</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -106,6 +106,212 @@
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="82546bee-e588-4061-bd9d-4a3f79fb33bb">
+      <name>ОткрытиеРассылки</name>
+      <description>Открытие рассылки</description>
+    </items>
+    <items id="7f05a087-93af-4ab1-8a27-ac8ed0dec972">
+      <name>КликПоСсылкеВРассылке</name>
+      <description>Клик по ссылке в рассылке</description>
+    </items>
+    <items id="33fe5204-c14a-4f3d-a754-a63eedfacd94">
+      <name>ОтпискаОтРассылки</name>
+      <description>Отписка от рассылки</description>
+    </items>
+    <items id="0c97ad69-9a10-4c66-ba70-9498b29fb699">
+      <name>ОтправкаРассылки</name>
+      <description>Отправка рассылки</description>
+    </items>
+    <items id="1b83d737-d361-4f02-8c00-dae01ccdc5cb">
+      <name>РассылкаНеДоставлена</name>
+      <description>Рассылка не доставлена</description>
+    </items>
+    <items id="05ef8036-3230-46fb-b303-d4a3ea077f61">
+      <name>РассылкаНеОтправлялась</name>
+      <description>Рассылка не отправлялась</description>
+    </items>
+    <items id="105e7f52-3d55-4ace-9677-6f872d5df11a">
+      <name>АвтоматическоеСписаниеНеиспользованныхБаллов</name>
+      <description>Автоматическое списание неиспользованных баллов</description>
+    </items>
+    <items id="b2c84277-0109-4f00-afe2-bf7b37a2a99e">
+      <name>ИзменениеБалансаБалловПоДействию</name>
+      <description>Изменение баланса баллов по действию</description>
+    </items>
+    <items id="986f4f4f-c266-4a31-b6ec-0696c942460c">
+      <name>КорректировкаБаланса</name>
+      <description>Корректировка баланса</description>
+    </items>
+    <items id="28c33a59-2fd8-4cd7-9495-81c91571be6a">
+      <name>КлиентПрименилПромокод</name>
+      <description>Клиент применил промокод</description>
+    </items>
+    <items id="defcf25c-8293-4d36-91ab-f2e4ee2a702e">
+      <name>КлиентуВыданПромокод</name>
+      <description>Клиенту выдан промокод</description>
+    </items>
+    <items id="3e57716a-cd47-464a-8e7d-5ffa1bdf7a0e">
+      <name>СозданиеКлиента</name>
+      <description>Создание клиента</description>
+    </items>
+    <items id="a73dbaf1-13a3-40e4-9b00-246bcba6016f">
+      <name>РегистрацияКлиента</name>
+      <description>Регистрация клиента</description>
+    </items>
+    <items id="d63b543d-b306-4910-9c3d-0e84854231db">
+      <name>АвторизацияКлиента</name>
+      <description>Авторизация клиента</description>
+    </items>
+    <items id="332dab28-6ef1-4ecd-8885-f69ccfa5ef45">
+      <name>АктивацияКарты</name>
+      <description>Активация карты</description>
+    </items>
+    <items id="e0737dce-b06d-4da4-be50-93d12b586815">
+      <name>ЗапрошенКодАвторизацииВОперации</name>
+      <description>Запрошен код авторизации в операции</description>
+    </items>
+    <items id="50c31997-4c83-48bb-ae77-2867bddc33e9">
+      <name>ИзменениеМобильногоТелефона</name>
+      <description>Изменение мобильного телефона</description>
+    </items>
+    <items id="2ab3e554-841f-47f9-a176-82d21d38f297">
+      <name>ИзменениеEmail</name>
+      <description>Изменение Email</description>
+    </items>
+    <items id="de4d59f7-f301-46de-8a36-19119282747b">
+      <name>ИзменениеЧасовогоПоясаКлиентовПриИзмененииРегиона</name>
+      <description>Изменение часового пояса клиентов при изменении региона</description>
+    </items>
+    <items id="dbb67591-a812-4c8d-a68b-658da0ff4bb6">
+      <name>ПодтверждениеМобильногоТелефона</name>
+      <description>Подтверждение мобильного телефона</description>
+    </items>
+    <items id="076f16aa-ed95-4298-a998-820737c16662">
+      <name>ПодтверждениеEmail</name>
+      <description>Подтверждение Email</description>
+    </items>
+    <items id="d2095471-5e57-4037-9374-c044c5e441e4">
+      <name>РедактированиеКлиента</name>
+      <description>Изменение данных клиента</description>
+    </items>
+    <items id="5a28661a-8a30-4b63-ac04-2b2d06c8babd">
+      <name>СтатусПодпискиИзменен</name>
+      <description>Статус подписки изменен</description>
+    </items>
+    <items id="c677313d-d2ec-4cb1-a6b4-d667871eacec">
+      <name>СозданиеЗаказа</name>
+      <description>Создание заказа</description>
+    </items>
+    <items id="2dab107f-9032-4431-ae3b-3b37d911974e">
+      <name>СозданиеЗаказаНеавторизованнымПользователем</name>
+      <description>Создание заказа неавторизованным пользователем</description>
+    </items>
+    <items id="565bf7b3-531b-4172-af06-dc19f093b771">
+      <name>СохранениеЗаказа</name>
+      <description>Сохранение заказа</description>
+    </items>
+    <items id="d09f38c0-40a1-47f1-b0e5-c0e037856ae4">
+      <name>ИзменениеСтатусаЗаказа</name>
+      <description>Изменение статуса заказа</description>
+    </items>
+    <items id="1f57220c-90c3-492f-b733-55181a7d7f45">
+      <name>ОтменаЗаказа</name>
+      <description>Отмена заказа</description>
+    </items>
+    <items id="854c137b-7c31-4d1d-9300-e3dad285fdd7">
+      <name>ИзменениеДанныхЗаказа</name>
+      <description>Изменение данных заказа</description>
+    </items>
+    <items id="a3337f9f-9d7a-4018-81dc-2fd41af57241">
+      <name>ПродуктВЗаказеОплачен</name>
+      <description>Продукт в заказе оплачен</description>
+    </items>
+    <items id="0b2cd8ec-f4a7-4e1f-97ea-856033e4e00b">
+      <name>ПродуктВЗаказеДоставлен</name>
+      <description>Продукт в заказе доставлен</description>
+    </items>
+    <items id="41bb7c48-c46d-4792-970a-4e9cc540cb5a">
+      <name>КлиентПопалВСегмент</name>
+      <description>Клиент попал в сегмент</description>
+    </items>
+    <items id="37b898f0-0696-497f-a621-84456d82efba">
+      <name>КлиентВышелИзСегмента</name>
+      <description>Клиент вышел из сегмента</description>
+    </items>
+    <items id="85e2d222-8822-4456-b99a-30b74d87980b">
+      <name>КликВInApp</name>
+      <description>Клик в in-app</description>
+    </items>
+    <items id="03a253b4-6892-49f0-b55a-acc5895a25ae">
+      <name>КликВPopup</name>
+      <description>Клик в popup</description>
+    </items>
+    <items id="9deb3ef3-245a-4c91-bb2a-fbcd2775eff7">
+      <name>КликПоПродуктуВВиджете</name>
+      <description>Клик по продукту в виджете</description>
+    </items>
+    <items id="15375dd2-4ace-4bda-8bd3-c2701aa0074d">
+      <name>ОтказОтРекламы</name>
+      <description>Отказ от рекламы</description>
+    </items>
+    <items id="ebb40872-d68b-433e-b90e-4f2d8137df56">
+      <name>ПереходНаСайт</name>
+      <description>Переход на сайт</description>
+    </items>
+    <items id="e088c85a-a342-4269-9ec6-8e7da62acfe0">
+      <name>КлиентПокинулСайтИлиПриложение</name>
+      <description>Клиент покинул сайт (приложение)</description>
+    </items>
+    <items id="c9b23a3e-14a3-4199-9067-d55080132e59">
+      <name>ПоказInApp</name>
+      <description>Показ in-app</description>
+    </items>
+    <items id="55abb0c1-74c6-4455-9b0b-51a725332f2a">
+      <name>ПоказВиджета</name>
+      <description>Показ виджета</description>
+    </items>
+    <items id="5238392f-f79b-4533-a800-cd914a5d3a74">
+      <name>ПоказPopup</name>
+      <description>Показ popup</description>
+    </items>
+    <items id="8be440f9-53e2-4b1f-93d3-ad2627d90d16">
+      <name>ПользовательЗапретилПолучениеМобильныхПушей</name>
+      <description>Пользователь запретил получение мобильных пушей</description>
+    </items>
+    <items id="4d6bf603-c255-4d52-af9e-911132eef4b9">
+      <name>ПользовательРазрешилПолучениеМобильныхПушей</name>
+      <description>Пользователь разрешил получение мобильных пушей</description>
+    </items>
+    <items id="01a4c7ef-ccd2-436e-ae8c-832b1ae6b9a5">
+      <name>ПросмотрКатегорииПродуктов</name>
+      <description>Просмотр категории продуктов</description>
+    </items>
+    <items id="131cc3e2-e6fa-433a-836c-899529c6f638">
+      <name>ПросмотрПродуктаВОперации</name>
+      <description>Просмотр продукта в операции</description>
+    </items>
+    <items id="d84af2d8-6437-4d20-8eef-4917facd848a">
+      <name>УстановкаМобильногоПриложения</name>
+      <description>Установка мобильного приложения</description>
+    </items>
+    <items id="0cb98d07-181e-4a87-a48e-9fb2d0185f34">
+      <name>УстановкаСпискаПродуктов</name>
+      <description>Установка списка продуктов</description>
+    </items>
+    <items id="b10698b8-afb1-4523-9047-27e3be3f6a4a">
+      <name>ДобавлениеПродуктаВСписок</name>
+      <description>Добавление продукта в список</description>
+    </items>
+    <items id="10dfd873-d1ff-4a9b-85b1-be4035e1d68a">
+      <name>ИзменилсяПродуктВСписке</name>
+      <description>Изменился продукт в списке</description>
+    </items>
+    <items id="ed48e6ec-b854-4c02-8552-a677c7ab84c8">
+      <name>ИзменилсяПросмотренныйПродукт</name>
+      <description>Изменился просмотренный продукт</description>
+    </items>
+  </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.ВидыДействийКлиента.Form.ФормаЭлемента</defaultObjectForm>
@@ -214,7 +420,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <templates uuid="c4177fee-7ae1-4eda-8d5f-4d43d65636de">
+  <templates uuid="183f29d4-8ed0-42ba-b441-421af33e4c98">
     <name>ВидыПоУмолчанию</name>
     <synonym>
       <key>ru</key>

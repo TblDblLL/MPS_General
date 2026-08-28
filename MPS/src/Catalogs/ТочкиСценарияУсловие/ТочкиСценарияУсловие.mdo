@@ -27,14 +27,70 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="c0340bb3-240d-4129-ad0d-6c7b0610fab7">
-    <name>ЗапускПоРасписанию</name>
+  <defaultObjectForm>Catalog.ТочкиСценарияУсловие.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="bfbdf279-e359-444d-9fb7-abf91c784835">
+    <name>ВидТочкиУсловия</name>
     <synonym>
       <key>ru</key>
-      <value>Запуск по расписанию</value>
+      <value>Вид точки условия</value>
     </synonym>
     <type>
-      <types>Boolean</types>
+      <types>EnumRef.ВидыТочкиУсловия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ВидыТочкиУсловия.EnumValue.ПоКлиенту</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d7f1ac74-0356-4e14-bc24-da32f24b64df">
+    <name>СхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема компоновки данных</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Схема компоновки данных, определяющая состав списка номенклатуры, отнесенной к сегменту и форму его отображения.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4261d40b-72b9-4c01-a309-17d49efdafa8">
+    <name>ХранилищеНастроекКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранилище настроек компоновки данных</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Настройки компоновки данных для схемы компоновки данных</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7ea89a1a-e7ef-415b-b2fd-d3f03d86f2a2">
+    <name>СегментПродуктов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сегмент продуктов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СегментыНоменклатуры</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -42,48 +98,74 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <tabularSections uuid="581ffd69-e228-4dc3-8f05-077d8450e95b">
-    <producedTypes>
-      <objectType typeId="68265121-d601-4f9f-8621-c411939786df" valueTypeId="04c342fc-ade8-468d-be04-58786d1b153c"/>
-      <rowType typeId="f801f4fa-ab1f-42a1-9604-b2cd0768a268" valueTypeId="f5a37ab5-310d-4d21-98f5-a358da46765e"/>
-    </producedTypes>
-    <name>Параметры</name>
+  <attributes uuid="a058996b-3fd4-4ca6-84c9-b57be32225ff">
+    <name>КоличествоПродуктовВСегментеОт</name>
     <synonym>
       <key>ru</key>
-      <value>Параметры</value>
+      <value>Количество продуктов в сегменте от</value>
     </synonym>
-    <attributes uuid="fa6e23c7-a2fc-4bb6-b84a-308a34e5501d">
-      <name>Имя</name>
-      <synonym>
-        <key>ru</key>
-        <value>Имя</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>100</length>
-        </stringQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="a15e4780-8744-46c5-b099-5343636e15e6">
-      <name>Значение</name>
-      <synonym>
-        <key>ru</key>
-        <value>Значение</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.СпискиПродуктов</types>
-        <types>CatalogRef.Номенклатура</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <lineNumberLength>9</lineNumberLength>
-  </tabularSections>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f5d7fc62-779c-45de-a405-a2835c1bf4cd">
+    <name>КоличествоПродуктовВСегментеДо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество продуктов в сегменте до</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a53cb08a-326b-4ddd-be91-6f4a06315a81">
+    <name>НаборПромокодв</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор промокодв</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НаборыПромокодов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="51bdb90c-6ce6-4c06-92f7-52fdad3c7735">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="68dce22a-248c-45df-8d00-1584d05a7db0">
+    <name>Клиенты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиенты</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
 </mdclass:Catalog>

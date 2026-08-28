@@ -463,7 +463,6 @@
         <dataPath xsi:type="form:DataPath">
           <segments>ГС</segments>
         </dataPath>
-        <defaultItem>true</defaultItem>
         <titleLocation>None</titleLocation>
         <excludedCommands>InsertItemCompletion</excludedCommands>
         <excludedCommands>InsertItemSwitch</excludedCommands>

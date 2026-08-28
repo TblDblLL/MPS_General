@@ -115,8 +115,8 @@
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
     <extInfo xsi:type="form:RadioButtonsFieldExtInfo">
-      <radioButtonsType>RadioButtons</radioButtonsType>
-      <columnsCount>1</columnsCount>
+      <radioButtonsType>Tumbler</radioButtonsType>
+      <columnsCount>3</columnsCount>
       <equalElementsWidth>true</equalElementsWidth>
       <choiceList>
         <presentation>
@@ -173,40 +173,12 @@
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <group>Vertical</group>
       <behavior>Auto</behavior>
+      <representation>StrongSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
-  </items>
-  <items xsi:type="form:Button">
-    <name>Кнопка1</name>
-    <id>37</id>
-    <title>
-      <key>ru</key>
-      <value>Кнопка1</value>
-    </title>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <extendedTooltip>
-      <name>Кнопка1РасширеннаяПодсказка</name>
-      <id>38</id>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <type>UsualButton</type>
-    <representation>Auto</representation>
-    <autoMaxWidth>true</autoMaxWidth>
-    <autoMaxHeight>true</autoMaxHeight>
-    <placementArea>UserCmds</placementArea>
-    <representationInContextMenu>Auto</representationInContextMenu>
   </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
@@ -247,8 +219,10 @@
     <name>Реквизит1</name>
     <id>2</id>
     <valueType>
-      <types>String</types>
-      <stringQualifiers/>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
     </valueType>
     <view>
       <common>true</common>

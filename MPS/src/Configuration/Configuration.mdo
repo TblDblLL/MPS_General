@@ -1268,6 +1268,7 @@
   <constants>Constant.ИспользоватьГруппыДоступаНоменклатуры</constants>
   <constants>Constant.ИспользоватьГруппыДоступаКлиентов</constants>
   <constants>Constant.ИспользоватьЗапретОтгрузки</constants>
+  <constants>Constant.ЧасовойПоясПоУмолчанию</constants>
   <commonForms>CommonForm.БлокировкаРаботыСВнешнимиРесурсами</commonForms>
   <commonForms>CommonForm.Вопрос</commonForms>
   <commonForms>CommonForm.ВопросОбУстановкеВнешнейКомпоненты</commonForms>
@@ -1481,6 +1482,7 @@
   <enums>Enum.ВидыЧастотыЗапускаСценарияНаКлиенте</enums>
   <enums>Enum.ПериодыДействий</enums>
   <enums>Enum.ПередСразуПосле</enums>
+  <enums>Enum.ВидыТочкиУсловия</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализПравДоступа</reports>

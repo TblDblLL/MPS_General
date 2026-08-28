@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="597007bc-f2df-461e-9541-0f4c310c618e">
+  <producedTypes>
+    <managerType typeId="5e9d4c6c-a748-4def-95d8-cf2fb2cc8417" valueTypeId="789db38c-70ea-4d69-abb3-644831396c87"/>
+    <valueManagerType typeId="72f603c9-42a9-434e-97b8-b03d6a000391" valueTypeId="d23e9e69-6b81-4fbc-8da1-ae411e9c3942"/>
+    <valueKeyType typeId="e25f9c96-6e05-462b-aefb-815685f9dbca" valueTypeId="ed935beb-16ce-4d7c-add5-f065140bee97"/>
+  </producedTypes>
+  <name>ЧасовойПоясПоУмолчанию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Часовой пояс по умолчанию</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ЧасовыеПояса</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
