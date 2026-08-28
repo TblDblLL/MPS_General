@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d610d285-2df6-4307-a361-2cd430beb3fe">
+  <producedTypes>
+    <refType typeId="a15e6600-02c6-4213-a35a-481c2fbde552" valueTypeId="e489b500-096b-4e80-a7c3-5a09654c2252"/>
+    <listType typeId="1f0036be-a0f7-4ddf-8c11-575ca5a46475" valueTypeId="6e3241d4-885c-446a-9a86-f384903c5700"/>
+    <managerType typeId="4b5c2f69-896a-44b4-8d1e-2a3155027920" valueTypeId="3963c6aa-9a21-41d8-8b6b-f2b908c9c946"/>
+  </producedTypes>
+  <name>ВидыСроковНачисленияБаллов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды сроков начисления баллов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c37294e9-5678-40f6-b74e-1457527f1fbd">
+    <name>Бессрочно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бессрочно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="12d110e1-85bc-4f5d-a664-422ba9f0bb59">
+    <name>ВТечение</name>
+    <synonym>
+      <key>ru</key>
+      <value>В течение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="714a62d2-32c3-4b98-9c0d-663dbf0a5dc3">
+    <name>ДоДаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>До даты</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

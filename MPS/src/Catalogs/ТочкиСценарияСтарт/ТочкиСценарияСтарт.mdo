@@ -44,6 +44,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="8336b803-d836-4f23-9a96-44634258065c">
+    <name>ДействиеЗапуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действие запуска</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыДействийКлиента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="5ba7ba08-e1a0-417a-8812-fcf3f1208fce">
     <name>ЛимитСрабатыванияНаКлиенте</name>
     <synonym>
@@ -70,7 +85,7 @@
       <value>Вид частоты запуска сценария на клиенте</value>
     </synonym>
     <type>
-      <types>EnumRef.ВидыЧастотыЗапускаСценарияНаКлиенте</types>
+      <types>EnumRef.ЧастотаЗапускаСценарияНаКлиенте</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

@@ -1479,10 +1479,12 @@
   <enums>Enum.СтатусыПозицийЗаказа</enums>
   <enums>Enum.ВидыТочекСценария</enums>
   <enums>Enum.ВидыТочкиОжидания</enums>
-  <enums>Enum.ВидыЧастотыЗапускаСценарияНаКлиенте</enums>
+  <enums>Enum.ВидыТочкиУсловия</enums>
+  <enums>Enum.ЧастотаЗапускаСценарияНаКлиенте</enums>
   <enums>Enum.ПериодыДействий</enums>
   <enums>Enum.ПередСразуПосле</enums>
-  <enums>Enum.ВидыТочкиУсловия</enums>
+  <enums>Enum.СпособыИзмененияКоличества</enums>
+  <enums>Enum.ВидыСроковНачисленияБаллов</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализПравДоступа</reports>

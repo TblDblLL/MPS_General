@@ -71,9 +71,10 @@
   <content>Catalog.ТочкиСценарияРазделение</content>
   <content>Catalog.ТочкиСценарияОжидание</content>
   <content>Catalog.ТочкиСценарияУсловие</content>
-  <content>Enum.ВидыЧастотыЗапускаСценарияНаКлиенте</content>
+  <content>Enum.ЧастотаЗапускаСценарияНаКлиенте</content>
   <content>Enum.ПериодыДействий</content>
   <content>Enum.ПередСразуПосле</content>
   <content>Constant.ЧасовойПоясПоУмолчанию</content>
   <content>Enum.ВидыТочкиУсловия</content>
+  <content>Enum.СпособыИзмененияКоличества</content>
 </mdclass:Subsystem>

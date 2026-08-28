@@ -27,6 +27,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ТочкиСценарияДействие.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="1b7d68ce-7a18-4f86-a585-dcfd2496747b">
     <name>ПериодАктуальности</name>
     <synonym>
@@ -118,10 +119,200 @@
         <value>Вид действия</value>
       </synonym>
       <type>
+        <types>CatalogRef.ВидыДействийКлиента</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1d4cc4ba-493f-484a-9f0e-5a7f7a0aa57c">
+      <name>Канал</name>
+      <synonym>
+        <key>ru</key>
+        <value>Канал</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.КаналыВзаимодействия</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0eba3679-345d-40f8-a20b-ea72de26e672">
+      <name>Рассылка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Рассылка</value>
+      </synonym>
+      <type>
+        <types>DefinedType.Кампании</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="91f4d5cf-20b4-43a2-a533-6e1f01dde17d">
+      <name>СегментПартнеров</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сегмент партнеров</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СегментыПартнеров</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="03b31449-a27a-408e-a474-364a2af6fcf9">
+      <name>СписокПродуктов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Список продуктов</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СпискиПродуктов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d0013ad1-989f-470b-8e39-d307ce0bbd47">
+      <name>НаборПромокодов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Набор промокодов</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.НаборыПромокодов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a29f1f4b-532e-4ef1-a9c4-8a7ee250b213">
+      <name>БалльныйСчет</name>
+      <synonym>
+        <key>ru</key>
+        <value>Балльный счет</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыБалльныхСчетов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="38f63850-5a57-4648-b597-d53c5cfccb4e">
+      <name>СпособИзмененияКоличества</name>
+      <synonym>
+        <key>ru</key>
+        <value>Способ изменения количества</value>
+      </synonym>
+      <type>
+        <types>EnumRef.СпособыИзмененияКоличества</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="97a0876b-4a45-4b4b-a9f0-4d2fed8afe66">
+      <name>ИзменениеКоличества</name>
+      <synonym>
+        <key>ru</key>
+        <value>Изменение количества</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="83e4273c-5347-46e3-bd9f-8aa479269df3">
+      <name>ВидСрокаНачисленияБаллов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид срока начисления баллов</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ВидыСроковНачисленияБаллов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="298883c8-105a-4971-83c0-d682a809a16d">
+      <name>ДатаСрокаНачисленияБаллов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата срока начисления баллов</value>
+      </synonym>
+      <comment>До этой даты будут действовать начисленные баллы</comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9b405b94-949f-4c61-9cc3-697891958b9a">
+      <name>КоличествоПериодовДействияНачисленныхБаллов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество периодов действия начисленных баллов</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8db15cb0-7e6b-486a-9438-72fbeebc1720">
+      <name>ПериодДействияНачисленныхБаллов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Период действия начисленных баллов</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ПериодыДействий</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e2c79d23-7ce8-4f9f-89f0-32d1b366404e">
+      <name>ОписаниеПараметровДействия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Описание параметров действия</value>
+      </synonym>
+      <type>
         <types>String</types>
-        <stringQualifiers>
-          <length>10</length>
-        </stringQualifiers>
+        <stringQualifiers/>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -130,4 +321,13 @@
     </attributes>
     <lineNumberLength>9</lineNumberLength>
   </tabularSections>
+  <forms uuid="121de934-3353-41e3-a86f-bc781065dc3d">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

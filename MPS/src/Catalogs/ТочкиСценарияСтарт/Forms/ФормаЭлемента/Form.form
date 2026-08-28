@@ -129,19 +129,19 @@
       <name>СтраницаПоСобытию</name>
       <id>37</id>
       <items xsi:type="form:FormField">
-        <name>Событие</name>
-        <id>64</id>
+        <name>ДействиеЗапуска</name>
+        <id>73</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Событие</segments>
+          <segments>Объект.ДействиеЗапуска</segments>
         </dataPath>
         <extendedTooltip>
-          <name>СобытиеРасширеннаяПодсказка</name>
-          <id>66</id>
+          <name>ДействиеЗапускаРасширеннаяПодсказка</name>
+          <id>75</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -150,8 +150,8 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>СобытиеКонтекстноеМеню</name>
-          <id>65</id>
+          <name>ДействиеЗапускаКонтекстноеМеню</name>
+          <id>74</id>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
@@ -160,28 +160,16 @@
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
         <extInfo xsi:type="form:InputFieldExtInfo">
-          <handlers>
-            <event>ChoiceProcessing</event>
-            <name>СобытиеОбработкаВыбора</name>
-          </handlers>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <wrap>true</wrap>
           <dropListButton>true</dropListButton>
           <choiceButton>false</choiceButton>
-          <clearButton>true</clearButton>
-          <spinButton>false</spinButton>
-          <openButton>false</openButton>
           <createButton>false</createButton>
           <listChoiceMode>true</listChoiceMode>
-          <autoMarkIncomplete>true</autoMarkIncomplete>
           <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
-          <inputHint>
-            <key>ru</key>
-            <value>&lt;не выбрано></value>
-          </inputHint>
-          <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -346,26 +334,6 @@
     <valueType>
       <types>String</types>
       <stringQualifiers/>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>Событие</name>
-    <title>
-      <key>ru</key>
-      <value>Событие</value>
-    </title>
-    <id>3</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers>
-        <length>200</length>
-      </stringQualifiers>
     </valueType>
     <view>
       <common>true</common>
