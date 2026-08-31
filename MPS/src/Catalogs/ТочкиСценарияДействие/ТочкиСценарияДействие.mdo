@@ -72,28 +72,28 @@
       <key>ru</key>
       <value>Фильтр по действиям в кампаниях</value>
     </synonym>
-    <attributes uuid="85c1f3b7-750b-4cbb-bb23-ca0599947a32">
-      <name>ВидДействия</name>
+    <attributes uuid="865eb609-50c4-4869-a583-4242226dc590">
+      <name>ВидДействияВКампании</name>
       <synonym>
         <key>ru</key>
-        <value>Вид действия</value>
+        <value>Вид действия в кампании</value>
       </synonym>
       <type>
-        <types>CatalogRef.ВидыДействийКлиента</types>
+        <types>CatalogRef.ВидыДействияВКампаниях</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="c23d6cb6-9c02-405f-84ac-cb88d25f5849">
-      <name>Кампания</name>
+    <attributes uuid="966fc2e7-8704-4446-9ba4-b640a935e109">
+      <name>ИД</name>
       <synonym>
         <key>ru</key>
-        <value>Кампания</value>
+        <value>ИД</value>
       </synonym>
       <type>
-        <types>DefinedType.Кампании</types>
+        <types>UUID</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -313,6 +313,20 @@
       <type>
         <types>String</types>
         <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1d33197f-2884-4174-9c5b-0325c9a47597">
+      <name>ИД</name>
+      <synonym>
+        <key>ru</key>
+        <value>ИД</value>
+      </synonym>
+      <type>
+        <types>UUID</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

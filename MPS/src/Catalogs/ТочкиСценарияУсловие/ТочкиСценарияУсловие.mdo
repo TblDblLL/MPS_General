@@ -137,10 +137,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="a53cb08a-326b-4ddd-be91-6f4a06315a81">
-    <name>НаборПромокодв</name>
+    <name>НаборПромокодов</name>
     <synonym>
       <key>ru</key>
-      <value>Набор промокодв</value>
+      <value>Набор промокодов</value>
     </synonym>
     <type>
       <types>CatalogRef.НаборыПромокодов</types>

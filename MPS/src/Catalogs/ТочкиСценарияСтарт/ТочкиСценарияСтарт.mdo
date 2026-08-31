@@ -153,27 +153,13 @@
       <value>Фильтр по действиям в кампаниях</value>
     </synonym>
     <attributes uuid="b7989da0-17df-4e0f-b4f0-aee1f703ffe3">
-      <name>ВидДействия</name>
+      <name>ВидДействияВКампании</name>
       <synonym>
         <key>ru</key>
-        <value>Вид действия</value>
+        <value>Вид действия в кампании</value>
       </synonym>
       <type>
-        <types>CatalogRef.ВидыДействийКлиента</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="9ada45b6-e752-49e3-a6b3-c11b0621e821">
-      <name>Кампания</name>
-      <synonym>
-        <key>ru</key>
-        <value>Кампания</value>
-      </synonym>
-      <type>
-        <types>DefinedType.Кампании</types>
+        <types>CatalogRef.ВидыДействияВКампаниях</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

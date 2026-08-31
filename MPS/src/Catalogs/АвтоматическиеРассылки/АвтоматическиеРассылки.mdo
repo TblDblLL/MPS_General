@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="56e43475-6178-4c27-bfd8-b79d52bf86fc">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="56e43475-6178-4c27-bfd8-b79d52bf86fc">
   <producedTypes>
     <objectType typeId="40fea756-b520-4bc4-bac5-7deb6b665133" valueTypeId="49c7761a-95ca-4ac2-b354-8eabb8c71dfa"/>
     <refType typeId="faf68a37-507c-4be8-8866-be5ad2324e08" valueTypeId="1e32655e-1965-490b-b551-a5d449470e6c"/>
@@ -30,4 +30,19 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="49df44dd-4788-4a8f-a597-a174d35374a4">
+    <name>Канал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Канал</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КаналыВзаимодействия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>

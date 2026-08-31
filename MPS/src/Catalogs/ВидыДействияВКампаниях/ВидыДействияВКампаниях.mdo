@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a6c205ba-4e75-46dc-af16-22a23d529bee">
+  <producedTypes>
+    <objectType typeId="d6d2c582-f1b0-44e3-a895-03ff684d0a00" valueTypeId="cef456a1-18f0-43c6-9048-81b0009fc0a1"/>
+    <refType typeId="13cb6da3-0e42-4780-b37b-f040a41b59d6" valueTypeId="3b6b51f5-78b2-4a6e-8131-d22c9ab9ff07"/>
+    <selectionType typeId="54eb6e48-2505-408e-b117-26b12f2c6fe9" valueTypeId="23985c04-48c2-489d-8cab-65e19012c426"/>
+    <listType typeId="dc66d7ac-f082-4c94-908a-e2246e79e0cc" valueTypeId="8ea7e1bb-6520-48c8-a027-decd0f76cb26"/>
+    <managerType typeId="48e525ec-d9c1-4121-88f5-937fd96797a1" valueTypeId="55b383d3-84de-44bb-83b2-3f91e848b3fe"/>
+  </producedTypes>
+  <name>ВидыДействияВКампаниях</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды действия в кампаниях</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыДействияВКампаниях.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="510449df-093f-4d97-977b-0251c6767ef6">
+    <name>Кампания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кампания</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Кампании</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ec536ae5-b7c1-4e5a-a624-0353f7bcafdf">
+    <name>ВидДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид действия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыДействийКлиента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

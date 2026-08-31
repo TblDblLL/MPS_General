@@ -311,6 +311,13 @@
       <name>ИзменилсяПросмотренныйПродукт</name>
       <description>Изменился просмотренный продукт</description>
     </items>
+    <items id="d8748b1d-f08c-403e-a51d-eff072a4c639">
+      <name>ДействиеВКампании</name>
+      <description>Действие в кампании...</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>

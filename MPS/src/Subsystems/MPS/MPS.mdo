@@ -77,4 +77,5 @@
   <content>Constant.ЧасовойПоясПоУмолчанию</content>
   <content>Enum.ВидыТочкиУсловия</content>
   <content>Enum.СпособыИзмененияКоличества</content>
+  <content>Catalog.ВидыДействияВКампаниях</content>
 </mdclass:Subsystem>
