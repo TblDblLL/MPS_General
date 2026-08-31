@@ -318,6 +318,20 @@
         <value></value>
       </code>
     </items>
+    <items id="35986e5a-ad58-4d6c-b974-611ede5494db">
+      <name>ВызватьВебхук</name>
+      <description>Вызвать вебхук</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="fe368a84-3450-496c-90a9-feaee3c13a36">
+      <name>СгенерироватьКодАвторизации</name>
+      <description>Сгенерировать код авторизации</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>

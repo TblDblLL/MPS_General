@@ -1411,6 +1411,7 @@
   <catalogs>Catalog.ЧасовыеПояса</catalogs>
   <catalogs>Catalog.ВидыПриложений</catalogs>
   <catalogs>Catalog.ВидыДействияВКампаниях</catalogs>
+  <catalogs>Catalog.Вебхуки</catalogs>
   <documents>Document.ЗаказКлиента</documents>
   <documents>Document.ОперацияБалльногоСчета</documents>
   <documents>Document.АктуализацияОстатков</documents>

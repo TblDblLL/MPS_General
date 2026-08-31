@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa214511-f2db-4fe3-9950-bac49f64e3a2">
+  <producedTypes>
+    <objectType typeId="338b08fc-1579-456b-91af-6c2f2820dd37" valueTypeId="88c43e7f-23c3-46e2-921d-9c84e3f3e683"/>
+    <refType typeId="345c714e-4553-4ce6-a0b2-9a77c7467153" valueTypeId="d7daf081-0d3b-43d3-ae9c-e3dbc580c341"/>
+    <selectionType typeId="c040314f-2f10-40c8-a24c-ca9b1d6f52e6" valueTypeId="80a3b753-ce81-47e2-be8c-3512cfa77196"/>
+    <listType typeId="1f13d242-7477-4b40-9674-18f31586603f" valueTypeId="64b9c0f4-bfb0-4e70-8d4b-55e2216211f1"/>
+    <managerType typeId="f2d942e9-016a-48e6-a189-1ebc77013a1b" valueTypeId="5bba3ff0-3b1a-4ac2-a7e7-fe4b96aead4d"/>
+  </producedTypes>
+  <name>Вебхуки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вебхуки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Вебхуки.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

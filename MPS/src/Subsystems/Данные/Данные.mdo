@@ -11,6 +11,7 @@
     <picture>CommonPicture.СостояниеПользователя15</picture>
   </picture>
   <content>Catalog.ВидыДействияВКампаниях</content>
+  <content>Catalog.Вебхуки</content>
   <subsystems>Клиенты</subsystems>
   <subsystems>Продукты</subsystems>
   <subsystems>ЗаказыИПродажи</subsystems>

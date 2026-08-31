@@ -126,6 +126,23 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
+    <attributes uuid="dee30d61-8b05-431b-b84f-70d8a91abbb5">
+      <name>НазваниеДействия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Название действия</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
     <attributes uuid="1d4cc4ba-493f-484a-9f0e-5a7f7a0aa57c">
       <name>Канал</name>
       <synonym>
@@ -147,7 +164,7 @@
         <value>Рассылка</value>
       </synonym>
       <type>
-        <types>DefinedType.Кампании</types>
+        <types>CatalogRef.АвтоматическиеРассылки</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -176,6 +193,52 @@
       </synonym>
       <type>
         <types>CatalogRef.СпискиПродуктов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4be402a9-8916-48b1-ba03-00755bbe24e4">
+      <name>Вебхук</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вебхук</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Вебхуки</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ac06d958-9ea2-4534-899a-f3ccf4a3f158">
+      <name>КоличествоПериодовДействияКодаАвторизации</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество периодов действия кода авторизации</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8101a061-184d-44b1-b8f1-287621ca26ad">
+      <name>ПериодДействияКодаАвторизации</name>
+      <synonym>
+        <key>ru</key>
+        <value>Период действия кода авторизации</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ПериодыДействий</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
