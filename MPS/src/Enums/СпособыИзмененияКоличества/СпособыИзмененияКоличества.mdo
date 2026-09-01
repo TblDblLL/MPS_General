@@ -23,14 +23,14 @@
     <name>Увеличить</name>
     <synonym>
       <key>ru</key>
-      <value>Увеличить</value>
+      <value>Увеличить на</value>
     </synonym>
   </enumValues>
   <enumValues uuid="0ea37f3c-c538-4ca9-be8b-ad407e367448">
     <name>Уменьшить</name>
     <synonym>
       <key>ru</key>
-      <value>Уменьшить</value>
+      <value>Уменьшить на</value>
     </synonym>
   </enumValues>
   <enumValues uuid="c1dee961-9f9c-438a-b780-89a9ca5569d8">

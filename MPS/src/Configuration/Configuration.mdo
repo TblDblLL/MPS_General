@@ -961,6 +961,7 @@
   <commonModules>CommonModule.ОбщегоНазначенияПКМП</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияПКМПКлиент</commonModules>
   <commonModules>CommonModule.УправлениеФормамиПКМП</commonModules>
+  <commonModules>CommonModule.ФормыСлужебныйПКМП</commonModules>
   <commonAttributes>CommonAttribute.ОтредактированныеПредопределенныеРеквизиты</commonAttributes>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ApplicationExtensionsManifest_1_0_0_1</xDTOPackages>

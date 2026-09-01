@@ -143,6 +143,23 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
+    <attributes uuid="4c36445c-103c-45d7-85b4-d4686d88dae9">
+      <name>НаборПараметров</name>
+      <synonym>
+        <key>ru</key>
+        <value>Набор параметров</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
     <attributes uuid="1d4cc4ba-493f-484a-9f0e-5a7f7a0aa57c">
       <name>Канал</name>
       <synonym>
@@ -368,15 +385,16 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="e2c79d23-7ce8-4f9f-89f0-32d1b366404e">
-      <name>ОписаниеПараметровДействия</name>
+      <name>Описание</name>
       <synonym>
         <key>ru</key>
-        <value>Описание параметров действия</value>
+        <value>Описание</value>
       </synonym>
       <type>
         <types>String</types>
         <stringQualifiers/>
       </type>
+      <multiLine>true</multiLine>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
@@ -390,6 +408,20 @@
       </synonym>
       <type>
         <types>UUID</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2f6bc99b-91da-448b-b5db-da6ba5706157">
+      <name>ОшибкаВПараметрах</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ошибка в параметрах</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
