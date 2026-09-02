@@ -305,6 +305,41 @@
           <textEdit>true</textEdit>
         </extInfo>
       </items>
+      <items xsi:type="form:FormField">
+        <name>ПоследовательностьДействийИД</name>
+        <id>152</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible/>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.ПоследовательностьДействий.ИД</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>ПоследовательностьДействийИДРасширеннаяПодсказка</name>
+          <id>154</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ПоследовательностьДействийИДКонтекстноеМеню</name>
+          <id>153</id>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>LabelField</type>
+        <readOnly>true</readOnly>
+        <editMode>EnterOnInput</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:LabelFieldExtInfo">
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+        </extInfo>
+      </items>
       <autoCommandBar>
         <name>ПоследовательностьДействийКоманднаяПанель</name>
         <id>15</id>
@@ -577,9 +612,7 @@
             <id>50</id>
             <visible>true</visible>
             <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
+            <userVisible/>
             <dataPath xsi:type="form:DataPath">
               <segments>Объект.ФильтрПоДействиямВКампаниях.LineNumber</segments>
             </dataPath>
@@ -645,6 +678,7 @@
             <showInFooter>true</showInFooter>
             <extInfo xsi:type="form:InputFieldExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
+              <height>3</height>
               <autoMaxHeight>true</autoMaxHeight>
               <wrap>true</wrap>
               <autoMarkIncomplete>true</autoMarkIncomplete>
@@ -694,6 +728,10 @@
             <horizontalAlign>Left</horizontalAlign>
             <autoFill>true</autoFill>
           </autoCommandBar>
+          <handlers>
+            <event>OnStartEdit</event>
+            <name>ФильтрПоДействиямВКампанияхПриНачалеРедактирования</name>
+          </handlers>
           <handlers>
             <event>OnChange</event>
             <name>ОбработатьИзменениеПараметровДействия</name>
@@ -797,7 +835,6 @@
           <verticalScrollBar>AutoUse</verticalScrollBar>
           <horizontalLines>true</horizontalLines>
           <verticalLines>true</verticalLines>
-          <autoInsertNewRow>true</autoInsertNewRow>
           <autoMarkIncomplete>true</autoMarkIncomplete>
           <searchOnInput>Auto</searchOnInput>
           <initialListView>Auto</initialListView>
