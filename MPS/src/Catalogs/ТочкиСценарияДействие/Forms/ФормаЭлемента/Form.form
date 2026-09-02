@@ -3,6 +3,40 @@
   <items xsi:type="form:FormGroup">
     <name>ГруппаАктуальность</name>
     <id>147</id>
+    <items xsi:type="form:Decoration">
+      <name>Декорация3</name>
+      <id>149</id>
+      <title>
+        <key>ru</key>
+        <value>в течение</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>Декорация3РасширеннаяПодсказка</name>
+        <id>151</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>Декорация3КонтекстноеМеню</name>
+        <id>150</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </items>
     <items xsi:type="form:FormField">
       <name>КоличествоПериодовАктуальности</name>
       <id>10</id>
@@ -1791,6 +1825,14 @@
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <wrap>true</wrap>
+                <format>
+                  <key>ru</key>
+                  <value>ДФ='dd.MM.yyyy HH.mm'</value>
+                </format>
+                <editFormat>
+                  <key>ru</key>
+                  <value>ДФ='dd.MM.yyyy HH.mm'</value>
+                </editFormat>
                 <autoMarkIncomplete>true</autoMarkIncomplete>
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
