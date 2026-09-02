@@ -126,23 +126,6 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="dee30d61-8b05-431b-b84f-70d8a91abbb5">
-      <name>НазваниеДействия</name>
-      <synonym>
-        <key>ru</key>
-        <value>Название действия</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>50</length>
-        </stringQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
     <attributes uuid="4c36445c-103c-45d7-85b4-d4686d88dae9">
       <name>НаборПараметров</name>
       <synonym>
@@ -291,10 +274,10 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="38f63850-5a57-4648-b597-d53c5cfccb4e">
-      <name>СпособИзмененияКоличества</name>
+      <name>СпособИзмененияКоличестваБаллов</name>
       <synonym>
         <key>ru</key>
-        <value>Способ изменения количества</value>
+        <value>Способ изменения количества баллов</value>
       </synonym>
       <type>
         <types>EnumRef.СпособыИзмененияКоличества</types>
@@ -305,10 +288,10 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="97a0876b-4a45-4b4b-a9f0-4d2fed8afe66">
-      <name>ИзменениеКоличества</name>
+      <name>КоличествоИзмененияБаллов</name>
       <synonym>
         <key>ru</key>
-        <value>Изменение количества</value>
+        <value>Количество изменения баллов</value>
       </synonym>
       <type>
         <types>Number</types>
@@ -395,6 +378,7 @@
         <stringQualifiers/>
       </type>
       <multiLine>true</multiLine>
+      <extendedEdit>true</extendedEdit>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>

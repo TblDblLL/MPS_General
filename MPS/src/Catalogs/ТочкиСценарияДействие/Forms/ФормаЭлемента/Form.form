@@ -97,20 +97,102 @@
         <segments>Объект.ПоследовательностьДействий</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
-      <items xsi:type="form:FormField">
-        <name>ПоследовательностьДействийВидДействия</name>
-        <id>26</id>
+      <items xsi:type="form:FormGroup">
+        <name>КолонкиНаименование</name>
+        <id>142</id>
+        <items xsi:type="form:FormField">
+          <name>ПоследовательностьДействийВидДействия</name>
+          <id>26</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ПоследовательностьДействий.ВидДействия</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>ПоследовательностьДействийВидДействияРасширеннаяПодсказка</name>
+            <id>28</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ПоследовательностьДействийВидДействияКонтекстноеМеню</name>
+            <id>27</id>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>InputField</type>
+          <editMode>EnterOnInput</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:InputFieldExtInfo">
+            <handlers>
+              <event>Clearing</event>
+              <name>ПоследовательностьДействийВидДействияОчистка</name>
+            </handlers>
+            <handlers>
+              <event>ChoiceProcessing</event>
+              <name>ПоследовательностьДействийВидДействияОбработкаВыбора</name>
+            </handlers>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <wrap>true</wrap>
+            <multiLine>true</multiLine>
+            <extendedEditMultipleValues>true</extendedEditMultipleValues>
+            <choiceButton>false</choiceButton>
+            <createButton>false</createButton>
+            <listChoiceMode>true</listChoiceMode>
+            <chooseType>true</chooseType>
+            <typeDomainEnabled>true</typeDomainEnabled>
+            <textEdit>true</textEdit>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>ПоследовательностьДействийНазваниеДействия</name>
+          <id>144</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ПоследовательностьДействийНазваниеДействияРасширеннаяПодсказка</name>
+            <id>146</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ПоследовательностьДействийНазваниеДействияКонтекстноеМеню</name>
+            <id>145</id>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+        </items>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ПоследовательностьДействий.ВидДействия</segments>
-        </dataPath>
+        <title>
+          <key>ru</key>
+          <value>Колонки наименование</value>
+        </title>
         <extendedTooltip>
-          <name>ПоследовательностьДействийВидДействияРасширеннаяПодсказка</name>
-          <id>28</id>
+          <name>КолонкиНаименованиеРасширеннаяПодсказка</name>
+          <id>143</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -118,36 +200,10 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <contextMenu>
-          <name>ПоследовательностьДействийВидДействияКонтекстноеМеню</name>
-          <id>27</id>
-          <autoFill>true</autoFill>
-        </contextMenu>
-        <type>InputField</type>
-        <editMode>EnterOnInput</editMode>
-        <showInHeader>true</showInHeader>
-        <headerHorizontalAlign>Left</headerHorizontalAlign>
-        <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:InputFieldExtInfo">
-          <handlers>
-            <event>Clearing</event>
-            <name>ПоследовательностьДействийВидДействияОчистка</name>
-          </handlers>
-          <handlers>
-            <event>ChoiceProcessing</event>
-            <name>ПоследовательностьДействийВидДействияОбработкаВыбора</name>
-          </handlers>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <wrap>true</wrap>
-          <multiLine>true</multiLine>
-          <extendedEditMultipleValues>true</extendedEditMultipleValues>
-          <choiceButton>false</choiceButton>
-          <createButton>false</createButton>
-          <listChoiceMode>true</listChoiceMode>
-          <chooseType>true</chooseType>
-          <typeDomainEnabled>true</typeDomainEnabled>
-          <textEdit>true</textEdit>
+        <type>ColumnGroup</type>
+        <extInfo xsi:type="form:ColumnGroupExtInfo">
+          <group>Vertical</group>
+          <showTitle>true</showTitle>
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
@@ -177,12 +233,14 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
+        <readOnly>true</readOnly>
         <editMode>EnterOnInput</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
         <extInfo xsi:type="form:InputFieldExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
+          <height>3</height>
           <autoMaxHeight>true</autoMaxHeight>
           <wrap>true</wrap>
           <chooseType>true</chooseType>
@@ -196,6 +254,14 @@
         <horizontalAlign>Left</horizontalAlign>
         <autoFill>true</autoFill>
       </autoCommandBar>
+      <handlers>
+        <event>OnEditEnd</event>
+        <name>ПоследовательностьДействийПриОкончанииРедактирования</name>
+      </handlers>
+      <handlers>
+        <event>BeforeDeleteRow</event>
+        <name>ПоследовательностьДействийПередУдалением</name>
+      </handlers>
       <handlers>
         <event>OnActivateRow</event>
         <name>ПоследовательностьДействийПриАктивизацииСтроки</name>
@@ -298,7 +364,6 @@
       <horizontalScrollBar>AutoUse</horizontalScrollBar>
       <verticalScrollBar>AutoUse</verticalScrollBar>
       <horizontalLines>true</horizontalLines>
-      <verticalLines>true</verticalLines>
       <autoInsertNewRow>true</autoInsertNewRow>
       <searchOnInput>Auto</searchOnInput>
       <initialListView>Auto</initialListView>
@@ -959,6 +1024,10 @@
               <segments>Items.ПоследовательностьДействий.CurrentData.КоличествоПериодовДействияКодаАвторизации</segments>
             </dataPath>
             <titleLocation>None</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>ПоследовательностьДействийКоличествоПериодовДействияКодаАвторизацииПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>ПоследовательностьДействийКоличествоПериодовДействияКодаАвторизацииРасширеннаяПодсказка</name>
               <id>84</id>
@@ -1028,6 +1097,21 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <choiceList>
+                <value xsi:type="core:ReferenceValue">
+                  <value>Enum.ПериодыДействий.EnumValue.Минута</value>
+                </value>
+              </choiceList>
+              <choiceList>
+                <value xsi:type="core:ReferenceValue">
+                  <value>Enum.ПериодыДействий.EnumValue.День</value>
+                </value>
+              </choiceList>
+              <choiceList>
+                <value xsi:type="core:ReferenceValue">
+                  <value>Enum.ПериодыДействий.EnumValue.Час</value>
+                </value>
+              </choiceList>
             </extInfo>
           </items>
           <visible>true</visible>
@@ -1209,7 +1293,7 @@
               <common>true</common>
             </userVisible>
             <dataPath xsi:type="form:DataPath">
-              <segments>Items.ПоследовательностьДействий.CurrentData.СпособИзмененияКоличества</segments>
+              <segments>Items.ПоследовательностьДействий.CurrentData.СпособИзмененияКоличестваБаллов</segments>
             </dataPath>
             <titleLocation>None</titleLocation>
             <extendedTooltip>
@@ -1254,7 +1338,7 @@
               <common>true</common>
             </userVisible>
             <dataPath xsi:type="form:DataPath">
-              <segments>Items.ПоследовательностьДействий.CurrentData.ИзменениеКоличества</segments>
+              <segments>Items.ПоследовательностьДействий.CurrentData.КоличествоИзмененияБаллов</segments>
             </dataPath>
             <titleLocation>Right</titleLocation>
             <extendedTooltip>
@@ -1327,6 +1411,10 @@
             <segments>Items.ПоследовательностьДействий.CurrentData.ВидСрокаНачисленияБаллов</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
+          <handlers>
+            <event>OnChange</event>
+            <name>ПоследовательностьДействийВидСрокаНачисленияБалловПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>ПоследовательностьДействийВидСрокаНачисленияБалловРасширеннаяПодсказка</name>
             <id>111</id>
@@ -1457,6 +1545,10 @@
                 <segments>Items.ПоследовательностьДействий.CurrentData.КоличествоПериодовДействияНачисленныхБаллов</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>ПоследовательностьДействийКоличествоПериодовДействияНачисленныхБалловПриИзменении</name>
+              </handlers>
               <extendedTooltip>
                 <name>ПоследовательностьДействийКоличествоПериодовДействияНачисленныхБалловРасширеннаяПодсказка</name>
                 <id>117</id>
@@ -1525,6 +1617,26 @@
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
+                <choiceList>
+                  <value xsi:type="core:ReferenceValue">
+                    <value>Enum.ПериодыДействий.EnumValue.Минута</value>
+                  </value>
+                </choiceList>
+                <choiceList>
+                  <value xsi:type="core:ReferenceValue">
+                    <value>Enum.ПериодыДействий.EnumValue.Час</value>
+                  </value>
+                </choiceList>
+                <choiceList>
+                  <value xsi:type="core:ReferenceValue">
+                    <value>Enum.ПериодыДействий.EnumValue.День</value>
+                  </value>
+                </choiceList>
+                <choiceList>
+                  <value xsi:type="core:ReferenceValue">
+                    <value>Enum.ПериодыДействий.EnumValue.Месяц</value>
+                  </value>
+                </choiceList>
               </extInfo>
             </items>
             <visible>true</visible>
