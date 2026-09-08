@@ -142,6 +142,44 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="8580ce54-11e2-4a6f-aab9-b18cb50a56fc">
+    <name>СхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема компоновки данных</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Схема компоновки данных, определяющая состав списка номенклатуры, отнесенной к сегменту и форму его отображения.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9d65fd7f-d6b2-4aa7-916c-731de8d042dc">
+    <name>ХранилищеНастроекКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранилище настроек компоновки данных</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Настройки компоновки данных для схемы компоновки данных</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="b669e213-08d3-4253-8e01-c525f73b7796">
     <producedTypes>
       <objectType typeId="64f66358-080f-4535-9221-dc00e8075911" valueTypeId="9a6a25b8-f9bc-4c32-878d-52a868f9586a"/>
@@ -160,52 +198,6 @@
       </synonym>
       <type>
         <types>CatalogRef.ВидыДействияВКампаниях</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <lineNumberLength>9</lineNumberLength>
-  </tabularSections>
-  <tabularSections uuid="2eed2ca6-ea73-4736-a0d3-bcc0eb6712cc">
-    <producedTypes>
-      <objectType typeId="9df08701-1559-44a1-8932-9427f3a19123" valueTypeId="355683d8-91a7-4512-af11-47af31fc3789"/>
-      <rowType typeId="e62cadc1-a442-43ad-aa7d-f62518afa655" valueTypeId="93b758fd-d97a-4636-8fd1-644bc66e6d69"/>
-    </producedTypes>
-    <name>ПараметрыТочки</name>
-    <synonym>
-      <key>ru</key>
-      <value>Параметры точки</value>
-    </synonym>
-    <attributes uuid="7cdb4b6d-f00d-4cd7-b73c-31d7b0503939">
-      <name>ИмяПараметра</name>
-      <synonym>
-        <key>ru</key>
-        <value>Имя параметра</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>100</length>
-        </stringQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="02c13f1a-0009-4a08-9c10-3a34159b258c">
-      <name>ЗначениеПараметра</name>
-      <synonym>
-        <key>ru</key>
-        <value>Значение параметра</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>10</length>
-        </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
