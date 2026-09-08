@@ -79,4 +79,5 @@
   <content>Enum.СпособыИзмененияКоличества</content>
   <content>Catalog.ВидыДействияВКампаниях</content>
   <content>Catalog.Вебхуки</content>
+  <content>DefinedType.Рассылки</content>
 </mdclass:Subsystem>

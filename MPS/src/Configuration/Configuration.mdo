@@ -1149,6 +1149,7 @@
   <definedTypes>DefinedType.Сегменты</definedTypes>
   <definedTypes>DefinedType.Кампании</definedTypes>
   <definedTypes>DefinedType.ТочкиСценария</definedTypes>
+  <definedTypes>DefinedType.Рассылки</definedTypes>
   <commonCommands>CommonCommand.ВремяВПриложении</commonCommands>
   <commonCommands>CommonCommand.ВсеФайлы</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеОбработкиАдминистрирование</commonCommands>

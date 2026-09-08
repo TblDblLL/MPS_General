@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e5e2fe5-a141-420d-a14b-0ee38ed1f4b7">
+  <producedTypes>
+    <containerType typeId="3065d3fe-92b4-43ba-89c3-7464b0801c06" valueTypeId="c0e1277e-2d54-414f-a462-5e5616bd01c8"/>
+  </producedTypes>
+  <name>Рассылки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рассылки</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.МассовыеРассылки</types>
+    <types>CatalogRef.АвтоматическиеРассылки</types>
+  </type>
+</mdclass:DefinedType>
