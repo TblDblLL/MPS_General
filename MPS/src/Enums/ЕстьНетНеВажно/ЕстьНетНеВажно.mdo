@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca736054-a6f1-44f7-8ee5-543e61b68ffc">
+  <producedTypes>
+    <refType typeId="fb718765-ca4c-4dff-9050-dd156c4883cf" valueTypeId="d2ecc336-2071-4a55-b402-9fa9489871c9"/>
+    <listType typeId="e2ee9fa2-d34e-4161-8a40-a2975f2c3f8c" valueTypeId="f25e1991-7808-495c-ba3e-e42c0531bf8c"/>
+    <managerType typeId="230fe298-b011-4eda-8808-053177ef9650" valueTypeId="88f16f8c-8923-4a9b-ad57-8715fe9b0225"/>
+  </producedTypes>
+  <name>ЕстьНетНеВажно</name>
+  <synonym>
+    <key>ru</key>
+    <value>Есть/нет/не важно</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b43486a7-a28b-404f-bd43-d1b5fd57591d">
+    <name>Есть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Есть</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e3483873-1d57-4838-a70d-2d97a683c500">
+    <name>Нет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4d9f3414-5fd3-409c-a455-7b1f79478627">
+    <name>НеВажно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не важно</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

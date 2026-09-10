@@ -80,4 +80,5 @@
   <content>Catalog.ВидыДействияВКампаниях</content>
   <content>Catalog.Вебхуки</content>
   <content>DefinedType.Рассылки</content>
+  <content>Enum.ЕстьНетНеВажно</content>
 </mdclass:Subsystem>

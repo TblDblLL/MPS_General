@@ -12,6 +12,10 @@
       <segments>Объект.ВидТочкиУсловия</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
+    <handlers>
+      <event>OnChange</event>
+      <name>ВидТочкиУсловияПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>ВидТочкиУсловияРасширеннаяПодсказка</name>
       <id>9</id>
@@ -416,6 +420,10 @@
       <items xsi:type="form:FormField">
         <name>СегментПродуктов</name>
         <id>10</id>
+        <title>
+          <key>ru</key>
+          <value>в сегменте</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -600,6 +608,10 @@
   <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
+  </handlers>
+  <handlers>
+    <event>OnOpen</event>
+    <name>ПриОткрытии</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>

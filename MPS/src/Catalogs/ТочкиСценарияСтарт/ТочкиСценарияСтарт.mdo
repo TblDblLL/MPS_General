@@ -197,32 +197,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <tabularSections uuid="b669e213-08d3-4253-8e01-c525f73b7796">
-    <producedTypes>
-      <objectType typeId="64f66358-080f-4535-9221-dc00e8075911" valueTypeId="9a6a25b8-f9bc-4c32-878d-52a868f9586a"/>
-      <rowType typeId="44fdd1c3-9365-42bb-8891-c32cdb7bba7e" valueTypeId="161012fb-6dd1-4753-a599-6c3c855ad91b"/>
-    </producedTypes>
-    <name>ФильтрПоДействиямВКампаниях</name>
-    <synonym>
-      <key>ru</key>
-      <value>Фильтр по действиям в кампаниях</value>
-    </synonym>
-    <attributes uuid="b7989da0-17df-4e0f-b4f0-aee1f703ffe3">
-      <name>ВидДействияВКампании</name>
-      <synonym>
-        <key>ru</key>
-        <value>Вид действия в кампании</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.ВидыДействияВКампаниях</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <lineNumberLength>9</lineNumberLength>
-  </tabularSections>
   <tabularSections uuid="4f5d61d0-6f58-4f4e-815a-c3237298cb99">
     <producedTypes>
       <objectType typeId="af11a235-9c2a-47a2-a032-1cb9f77f1dca" valueTypeId="4f575085-0201-49da-8c46-9bdd205a4e91"/>
@@ -283,6 +257,96 @@
         <stringQualifiers>
           <length>10</length>
         </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+  <tabularSections uuid="0b1147f8-d5de-4621-bb57-23121e9756b4">
+    <producedTypes>
+      <objectType typeId="75fe308d-7cce-4a87-a78e-93e0eca7b0b0" valueTypeId="39ff6d1d-2157-44d6-b551-099debabfee6"/>
+      <rowType typeId="e90f9ecf-1280-485a-84e4-e29c6bac8bb1" valueTypeId="04427886-0da3-4be8-beae-a9bcc9ed361e"/>
+    </producedTypes>
+    <name>НаборыПромокодовПриРасписании</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наборы промокодов, доступные для выдачи</value>
+    </synonym>
+    <comment>Условие выполнения расписания: Наборы, из которых доступна выдача промокода</comment>
+    <attributes uuid="d978f5b8-cdd5-485c-9678-72a9175b706a">
+      <name>НаборПромокодов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Набор промокодов</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.НаборыПромокодов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+  <tabularSections uuid="258dd5de-1509-48d1-a92a-1a23ea4a9720">
+    <producedTypes>
+      <objectType typeId="61f4e2b5-7aed-42ea-ba3d-2186ae1758f6" valueTypeId="6a5078aa-6d09-487f-a4c0-5a6f3f5e75ea"/>
+      <rowType typeId="892d2c18-ebea-4f85-a079-af239e3f48a5" valueTypeId="1856952c-f32c-4f20-8b7c-80ac3e14f66f"/>
+    </producedTypes>
+    <name>НаличиеПродуктовВСегментеПриРасписании</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наличие продуктов в сегменте </value>
+    </synonym>
+    <comment>Условие выполнения расписания: наличие продуктов</comment>
+    <attributes uuid="f949b4d3-9cc9-4df1-875e-636efae6297c">
+      <name>Сегмент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сегмент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СегментыНоменклатуры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3f9dea80-72d7-4c4e-954c-ad55e0d59612">
+      <name>КоличествоОт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество от</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="10da0486-7c03-4214-b419-54964d805566">
+      <name>КоличествоДо</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество до</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
