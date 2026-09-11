@@ -1414,6 +1414,7 @@
   <catalogs>Catalog.ВидыПриложений</catalogs>
   <catalogs>Catalog.ВидыДействияВКампаниях</catalogs>
   <catalogs>Catalog.Вебхуки</catalogs>
+  <catalogs>Catalog.СтатусыПозицийЗаказа</catalogs>
   <documents>Document.ЗаказКлиента</documents>
   <documents>Document.ОперацияБалльногоСчета</documents>
   <documents>Document.АктуализацияОстатков</documents>
@@ -1480,7 +1481,6 @@
   <enums>Enum.СтатусыСценариев</enums>
   <enums>Enum.СтатусыРассылок</enums>
   <enums>Enum.СтатусыПрограммПерсонализации</enums>
-  <enums>Enum.СтатусыПозицийЗаказа</enums>
   <enums>Enum.ВидыТочекСценария</enums>
   <enums>Enum.ВидыТочкиОжидания</enums>
   <enums>Enum.ВидыТочкиУсловия</enums>

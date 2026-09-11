@@ -56,7 +56,6 @@
   <content>AccumulationRegister.ЗапасыИПотребности</content>
   <content>Document.АктуализацияОстатков</content>
   <content>InformationRegister.ИерархияСегментов</content>
-  <content>Enum.СтатусыПозицийЗаказа</content>
   <content>Catalog.ВидыПриложений</content>
   <content>Catalog.ТочкиСценарияСтарт</content>
   <content>Enum.ВидыТочекСценария</content>
@@ -81,4 +80,5 @@
   <content>Catalog.Вебхуки</content>
   <content>DefinedType.Рассылки</content>
   <content>Enum.ЕстьНетНеВажно</content>
+  <content>Catalog.СтатусыПозицийЗаказа</content>
 </mdclass:Subsystem>

@@ -101,6 +101,10 @@
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
         <extInfo xsi:type="form:InputFieldExtInfo">
+          <handlers>
+            <event>ChoiceProcessing</event>
+            <name>СобытиеОбработкаВыбора</name>
+          </handlers>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <wrap>true</wrap>
@@ -274,8 +278,8 @@
             </contextMenu>
             <changeRowSet>true</changeRowSet>
             <changeRowOrder>true</changeRowOrder>
-            <autoMaxHeight>true</autoMaxHeight>
-            <autoMaxRowsCount>true</autoMaxRowsCount>
+            <heightInTableRows>4</heightInTableRows>
+            <maxRowsCount>5</maxRowsCount>
             <selectionMode>MultiRow</selectionMode>
             <header>true</header>
             <headerHeight>1</headerHeight>
@@ -506,6 +510,10 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <inputHint>
+                <key>ru</key>
+                <value>Выберите список продуктов</value>
+              </inputHint>
             </extInfo>
           </items>
           <items xsi:type="form:FormField">
@@ -637,6 +645,210 @@
         <items xsi:type="form:FormGroup">
           <name>ИзменениеСтатусаЗаказа_Страница</name>
           <id>130</id>
+          <items xsi:type="form:FormField">
+            <name>ВсеПозицииЗаказа_ИзменениеСтатусаЗаказа</name>
+            <id>287</id>
+            <title>
+              <key>ru</key>
+              <value>Режим</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ВсеПозицииЗаказа_ИзменениеСтатусаЗаказа</segments>
+            </dataPath>
+            <titleLocation>Top</titleLocation>
+            <extendedTooltip>
+              <name>ВсеПозицииЗаказа_ИзменениеСтатусаЗаказаРасширеннаяПодсказка</name>
+              <id>289</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ВсеПозицииЗаказа_ИзменениеСтатусаЗаказаКонтекстноеМеню</name>
+              <id>288</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>CheckBoxField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:CheckBoxFieldExtInfo">
+              <checkBoxType>Tumbler</checkBoxType>
+              <editFormat>
+                <key>ru</key>
+                <value>БЛ='Любая позиция заказа перешла'; БИ='Все позиции перешли'</value>
+              </editFormat>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>Категория_ИзменениеСтатусаЗаказа</name>
+            <id>290</id>
+            <title>
+              <key>ru</key>
+              <value>в категорию</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Категория_ИзменениеСтатусаЗаказа</segments>
+            </dataPath>
+            <titleLocation>Top</titleLocation>
+            <extendedTooltip>
+              <name>Категория_ИзменениеСтатусаЗаказаРасширеннаяПодсказка</name>
+              <id>292</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>Категория_ИзменениеСтатусаЗаказаКонтекстноеМеню</name>
+              <id>291</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <createButton>false</createButton>
+              <autoMarkIncomplete>true</autoMarkIncomplete>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+              <choiceParameters>
+                <name>Отбор.Родитель</name>
+                <value xsi:type="form:FormChoiceListDesTimeValue">
+                  <value xsi:type="core:ReferenceValue">
+                    <value>Catalog.СтатусыПозицийЗаказа.EmptyRef</value>
+                  </value>
+                </value>
+              </choiceParameters>
+              <inputHint>
+                <key>ru</key>
+                <value>Выберите категорию</value>
+              </inputHint>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>Статус_ИзменениеСтатусаЗаказа</name>
+            <id>293</id>
+            <title>
+              <key>ru</key>
+              <value>в статус</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Статус_ИзменениеСтатусаЗаказа</segments>
+            </dataPath>
+            <titleLocation>Top</titleLocation>
+            <extendedTooltip>
+              <name>Статус_ИзменениеСтатусаЗаказаРасширеннаяПодсказка</name>
+              <id>295</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>Статус_ИзменениеСтатусаЗаказаКонтекстноеМеню</name>
+              <id>294</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <createButton>false</createButton>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+              <choiceParameterLinks>
+                <name>Отбор.Родитель</name>
+                <datapath xsi:type="form:DataPath">
+                  <segments>Категория_ИзменениеСтатусаЗаказа</segments>
+                </datapath>
+              </choiceParameterLinks>
+              <autoShowClearButtonMode>FilledOnly</autoShowClearButtonMode>
+              <inputHint>
+                <key>ru</key>
+                <value>Любой</value>
+              </inputHint>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>СработаетКаждыйРаз_ИзменениеСтатусаЗаказа</name>
+            <id>296</id>
+            <title>
+              <key>ru</key>
+              <value>Сценарий сработает при изменении статуса</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>СработаетКаждыйРаз_ИзменениеСтатусаЗаказа</segments>
+            </dataPath>
+            <titleLocation>Top</titleLocation>
+            <extendedTooltip>
+              <name>СработаетКаждыйРаз_ИзменениеСтатусаЗаказаРасширеннаяПодсказка</name>
+              <id>298</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>СработаетКаждыйРаз_ИзменениеСтатусаЗаказаКонтекстноеМеню</name>
+              <id>297</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>CheckBoxField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:CheckBoxFieldExtInfo">
+              <checkBoxType>Tumbler</checkBoxType>
+              <editFormat>
+                <key>ru</key>
+                <value>БЛ='Один раз'; БИ='Каждый раз'</value>
+              </editFormat>
+            </extInfo>
+          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -665,11 +877,119 @@
         <items xsi:type="form:FormGroup">
           <name>ИзменениеДанныхЗаказа_Страница</name>
           <id>138</id>
+          <items xsi:type="form:FormField">
+            <name>ПоляИзменения_ИзменениеДанныхЗаказа</name>
+            <id>299</id>
+            <title>
+              <key>ru</key>
+              <value>Изменились данные</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ПоляИзменения_ИзменениеДанныхЗаказа</segments>
+            </dataPath>
+            <titleLocation>Top</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>ПоляИзменения_ИзменениеДанныхЗаказаПриИзменении</name>
+            </handlers>
+            <extendedTooltip>
+              <name>ПоляИзменения_ИзменениеДанныхЗаказаРасширеннаяПодсказка</name>
+              <id>301</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ПоляИзменения_ИзменениеДанныхЗаказаКонтекстноеМеню</name>
+              <id>300</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <maxWidth>80</maxWidth>
+              <maxHeight>4</maxHeight>
+              <verticalStretch>true</verticalStretch>
+              <wrap>true</wrap>
+              <multiLine>true</multiLine>
+              <extendedEditMultipleValues>true</extendedEditMultipleValues>
+              <showCheckBoxesInDropList>true</showCheckBoxesInDropList>
+              <createButton>false</createButton>
+              <listChoiceMode>true</listChoiceMode>
+              <chooseType>true</chooseType>
+              <multipleValuesHyperlink>false</multipleValuesHyperlink>
+              <heightControlVariant>ByContent</heightControlVariant>
+              <inputHint>
+                <key>ru</key>
+                <value>Любые</value>
+              </inputHint>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>СработаетКаждыйРаз_ИзменениеДанныхЗаказа</name>
+            <id>308</id>
+            <title>
+              <key>ru</key>
+              <value>Сценарий сработает при изменении данных заказа</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>СработаетКаждыйРаз_ИзменениеДанныхЗаказа</segments>
+            </dataPath>
+            <titleLocation>Top</titleLocation>
+            <extendedTooltip>
+              <name>СработаетКаждыйРаз_ИзменениеДанныхЗаказаРасширеннаяПодсказка</name>
+              <id>310</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>СработаетКаждыйРаз_ИзменениеДанныхЗаказаКонтекстноеМеню</name>
+              <id>309</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>CheckBoxField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:CheckBoxFieldExtInfo">
+              <checkBoxType>Tumbler</checkBoxType>
+              <editFormat>
+                <key>ru</key>
+                <value>БЛ='Один раз'; БИ='Каждый раз'</value>
+              </editFormat>
+            </extInfo>
+          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>ИзменениеДанныхЗаказа</value>
+          </title>
           <extendedTooltip>
             <name>ИзменениеДанныхЗаказа_СтраницаРасширеннаяПодсказка</name>
             <id>139</id>
@@ -689,11 +1009,48 @@
         <items xsi:type="form:FormGroup">
           <name>СозданиеЗаказа_Страница</name>
           <id>140</id>
+          <items xsi:type="form:Decoration">
+            <name>Декорация3</name>
+            <id>311</id>
+            <title>
+              <key>ru</key>
+              <value>Декорация1</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>Декорация3РасширеннаяПодсказка</name>
+              <id>313</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>Декорация3КонтекстноеМеню</name>
+              <id>312</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <horizontalStretch>false</horizontalStretch>
+            <verticalStretch>false</verticalStretch>
+            <extInfo xsi:type="form:PictureDecorationExtInfo">
+              <fileDragMode>AsFileRef</fileDragMode>
+            </extInfo>
+          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>СозданиеЗаказа</value>
+          </title>
           <extendedTooltip>
             <name>СозданиеЗаказа_СтраницаРасширеннаяПодсказка</name>
             <id>141</id>
@@ -711,37 +1068,111 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormGroup">
-          <name>ПродуктВЗаказеОплачен_Страница</name>
-          <id>142</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <extendedTooltip>
-            <name>ПродуктВЗаказеОплачен_СтраницаРасширеннаяПодсказка</name>
-            <id>143</id>
+          <name>ПродуктВЗаказеДоставлен_Страница</name>
+          <id>144</id>
+          <items xsi:type="form:FormField">
+            <name>СегментыНоменклатуры_ПродуктВЗаказеДоставлен</name>
+            <id>314</id>
+            <title>
+              <key>ru</key>
+              <value>Продукты из сегмента</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>СегментыНоменклатуры_ПродуктВЗаказеДоставлен</segments>
+            </dataPath>
+            <titleLocation>Top</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>СегментыНоменклатуры_ПродуктВЗаказеДоставленПриИзменении</name>
+            </handlers>
+            <extendedTooltip>
+              <name>СегментыНоменклатуры_ПродуктВЗаказеДоставленРасширеннаяПодсказка</name>
+              <id>316</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>СегментыНоменклатуры_ПродуктВЗаказеДоставленКонтекстноеМеню</name>
+              <id>315</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <maxWidth>80</maxWidth>
+              <maxHeight>4</maxHeight>
+              <verticalStretch>true</verticalStretch>
+              <wrap>true</wrap>
+              <multiLine>true</multiLine>
+              <extendedEditMultipleValues>true</extendedEditMultipleValues>
+              <showCheckBoxesInDropList>false</showCheckBoxesInDropList>
+              <createButton>false</createButton>
+              <chooseType>true</chooseType>
+              <textEdit>true</textEdit>
+              <multipleValuesHyperlink>false</multipleValuesHyperlink>
+              <heightControlVariant>ByContent</heightControlVariant>
+              <inputHint>
+                <key>ru</key>
+                <value>Из любого сегмента</value>
+              </inputHint>
+            </extInfo>
+          </items>
+          <items xsi:type="form:Decoration">
+            <name>Надпись_ПродуктВЗаказеДоставлен</name>
+            <id>317</id>
+            <title>
+              <key>ru</key>
+              <value>перешли в статус &quot;Доставка завершена&quot; категории &quot;Доставка&quot;</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>Надпись_ПродуктВЗаказеДоставленРасширеннаяПодсказка</name>
+              <id>319</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>Надпись_ПродуктВЗаказеДоставленКонтекстноеМеню</name>
+              <id>318</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <extInfo xsi:type="form:LabelDecorationExtInfo">
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
-          </extendedTooltip>
-          <type>Page</type>
-          <extInfo xsi:type="form:PageGroupExtInfo">
-            <group>Vertical</group>
-            <showTitle>true</showTitle>
-          </extInfo>
-        </items>
-        <items xsi:type="form:FormGroup">
-          <name>ПродуктВЗаказеДоставлен_Страница</name>
-          <id>144</id>
+          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>ПродуктВЗаказеДоставлен</value>
+          </title>
           <extendedTooltip>
             <name>ПродуктВЗаказеДоставлен_СтраницаРасширеннаяПодсказка</name>
             <id>145</id>
@@ -759,13 +1190,199 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormGroup">
-          <name>КлиентПопалВСегмент_Страница</name>
-          <id>146</id>
+          <name>ПродуктВЗаказеОплачен_Страница</name>
+          <id>142</id>
+          <items xsi:type="form:FormField">
+            <name>СегментыНоменклатуры_ПродуктВЗаказеОплачен</name>
+            <id>320</id>
+            <title>
+              <key>ru</key>
+              <value>Продукты из сегмента</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>СегментыНоменклатуры_ПродуктВЗаказеОплачен</segments>
+            </dataPath>
+            <titleLocation>Top</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>СегментыНоменклатуры_ПродуктВЗаказеОплаченПриИзменении</name>
+            </handlers>
+            <extendedTooltip>
+              <name>СегментыНоменклатуры_ПродуктВЗаказеОплаченРасширеннаяПодсказка</name>
+              <id>322</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>СегментыНоменклатуры_ПродуктВЗаказеОплаченКонтекстноеМеню</name>
+              <id>321</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <maxWidth>80</maxWidth>
+              <maxHeight>4</maxHeight>
+              <verticalStretch>true</verticalStretch>
+              <wrap>true</wrap>
+              <multiLine>true</multiLine>
+              <extendedEditMultipleValues>true</extendedEditMultipleValues>
+              <showCheckBoxesInDropList>false</showCheckBoxesInDropList>
+              <createButton>false</createButton>
+              <chooseType>true</chooseType>
+              <textEdit>true</textEdit>
+              <multipleValuesHyperlink>false</multipleValuesHyperlink>
+              <heightControlVariant>ByContent</heightControlVariant>
+              <inputHint>
+                <key>ru</key>
+                <value>Из любого сегмента</value>
+              </inputHint>
+            </extInfo>
+          </items>
+          <items xsi:type="form:Decoration">
+            <name>Надпись_ПродуктВЗаказеОплачен</name>
+            <id>323</id>
+            <title>
+              <key>ru</key>
+              <value>перешли в статус &quot;Оплачена&quot; категории &quot;Оплата&quot;</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>Надпись_ПродуктВЗаказеОплаченРасширеннаяПодсказка</name>
+              <id>325</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>Надпись_ПродуктВЗаказеОплаченКонтекстноеМеню</name>
+              <id>324</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>ПродуктВЗаказеОплачен</value>
+          </title>
+          <extendedTooltip>
+            <name>ПродуктВЗаказеОплачен_СтраницаРасширеннаяПодсказка</name>
+            <id>143</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>Page</type>
+          <extInfo xsi:type="form:PageGroupExtInfo">
+            <group>Vertical</group>
+            <showTitle>true</showTitle>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormGroup">
+          <name>КлиентПопалВСегмент_Страница</name>
+          <id>146</id>
+          <items xsi:type="form:FormField">
+            <name>СегментыКлиентов_КлиентПопалВСегмент</name>
+            <id>326</id>
+            <title>
+              <key>ru</key>
+              <value>Клиенты из сегмента</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>СегментыКлиентов_КлиентПопалВСегмент</segments>
+            </dataPath>
+            <titleLocation>None</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>СегментыКлиентов_КлиентПопалВСегментПриИзменении</name>
+            </handlers>
+            <extendedTooltip>
+              <name>СегментыКлиентов_КлиентПопалВСегментРасширеннаяПодсказка</name>
+              <id>328</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>СегментыКлиентов_КлиентПопалВСегментКонтекстноеМеню</name>
+              <id>327</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <maxWidth>80</maxWidth>
+              <maxHeight>4</maxHeight>
+              <verticalStretch>true</verticalStretch>
+              <wrap>true</wrap>
+              <multiLine>true</multiLine>
+              <extendedEditMultipleValues>true</extendedEditMultipleValues>
+              <showCheckBoxesInDropList>false</showCheckBoxesInDropList>
+              <createButton>false</createButton>
+              <chooseType>true</chooseType>
+              <textEdit>true</textEdit>
+              <multipleValuesHyperlink>false</multipleValuesHyperlink>
+              <heightControlVariant>ByContent</heightControlVariant>
+              <inputHint>
+                <key>ru</key>
+                <value>В любой сегмент</value>
+              </inputHint>
+            </extInfo>
+          </items>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>ru</key>
+            <value>КлиентПопалВСегмент</value>
+          </title>
           <extendedTooltip>
             <name>КлиентПопалВСегмент_СтраницаРасширеннаяПодсказка</name>
             <id>147</id>
@@ -785,6 +1402,66 @@
         <items xsi:type="form:FormGroup">
           <name>КлиентВышелИзСегмента_Страница</name>
           <id>148</id>
+          <items xsi:type="form:FormField">
+            <name>СегментыКлиентов_КлиентВышелИзСегмента</name>
+            <id>329</id>
+            <title>
+              <key>ru</key>
+              <value>Клиенты из сегмента</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>СегментыКлиентов_КлиентВышелИзСегмента</segments>
+            </dataPath>
+            <titleLocation>None</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>СегментыКлиентов_КлиентВышелИзСегментаПриИзменении</name>
+            </handlers>
+            <extendedTooltip>
+              <name>СегментыКлиентов_КлиентВышелИзСегментаРасширеннаяПодсказка</name>
+              <id>331</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>СегментыКлиентов_КлиентВышелИзСегментаКонтекстноеМеню</name>
+              <id>330</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <maxWidth>80</maxWidth>
+              <maxHeight>4</maxHeight>
+              <verticalStretch>true</verticalStretch>
+              <wrap>true</wrap>
+              <multiLine>true</multiLine>
+              <extendedEditMultipleValues>true</extendedEditMultipleValues>
+              <showCheckBoxesInDropList>false</showCheckBoxesInDropList>
+              <createButton>false</createButton>
+              <chooseType>true</chooseType>
+              <textEdit>true</textEdit>
+              <multipleValuesHyperlink>false</multipleValuesHyperlink>
+              <heightControlVariant>ByContent</heightControlVariant>
+              <inputHint>
+                <key>ru</key>
+                <value>Из любого сегмента</value>
+              </inputHint>
+            </extInfo>
+          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1248,7 +1925,6 @@
         </extendedTooltip>
         <type>Pages</type>
         <extInfo xsi:type="form:PagesGroupExtInfo">
-          <pagesRepresentation>Auto</pagesRepresentation>
           <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
@@ -1339,7 +2015,7 @@
           <id>240</id>
           <title>
             <key>ru</key>
-            <value>Промокод доступен для выдачииз наборов</value>
+            <value>Промокод оступен для выдачи из наборов</value>
           </title>
           <titleTextColor xsi:type="core:ColorDef">
             <red>51</red>
@@ -1536,7 +2212,7 @@
           <changeRowOrder>true</changeRowOrder>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
-          <autoMaxRowsCount>true</autoMaxRowsCount>
+          <heightInTableRows>5</heightInTableRows>
           <selectionMode>MultiRow</selectionMode>
           <header>true</header>
           <headerHeight>1</headerHeight>
@@ -1837,6 +2513,7 @@
           <changeRowOrder>true</changeRowOrder>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
+          <heightInTableRows>5</heightInTableRows>
           <autoMaxRowsCount>true</autoMaxRowsCount>
           <selectionMode>MultiRow</selectionMode>
           <header>true</header>
@@ -1919,8 +2596,6 @@
       <key>ru</key>
       <value>Страницы расписания</value>
     </title>
-    <horizontalStretch>true</horizontalStretch>
-    <verticalStretch>true</verticalStretch>
     <extendedTooltip>
       <name>СтраницыРасписанияРасширеннаяПодсказка</name>
       <id>36</id>
@@ -1933,7 +2608,6 @@
     </extendedTooltip>
     <type>Pages</type>
     <extInfo xsi:type="form:PagesGroupExtInfo">
-      <pagesRepresentation>Auto</pagesRepresentation>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
@@ -2561,6 +3235,204 @@
     <edit>
       <common>true</common>
     </edit>
+  </attributes>
+  <attributes>
+    <name>ВсеПозицииЗаказа_ИзменениеСтатусаЗаказа</name>
+    <title>
+      <key>ru</key>
+      <value>Все позиции заказа изменение статуса заказа</value>
+    </title>
+    <id>12</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>Категория_ИзменениеСтатусаЗаказа</name>
+    <title>
+      <key>ru</key>
+      <value>Категория изменение статуса заказа</value>
+    </title>
+    <id>13</id>
+    <valueType>
+      <types>CatalogRef.СтатусыПозицийЗаказа</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>Статус_ИзменениеСтатусаЗаказа</name>
+    <title>
+      <key>ru</key>
+      <value>Статус изменения статуса заказа</value>
+    </title>
+    <id>14</id>
+    <valueType>
+      <types>CatalogRef.СтатусыПозицийЗаказа</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>СработаетКаждыйРаз_ИзменениеСтатусаЗаказа</name>
+    <title>
+      <key>ru</key>
+      <value>Сработает каждый раз изменение статуса заказа</value>
+    </title>
+    <id>15</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПоляИзменения_ИзменениеДанныхЗаказа</name>
+    <title>
+      <key>ru</key>
+      <value>Поля изменения</value>
+    </title>
+    <id>16</id>
+    <valueType>
+      <types>ValueList</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <extInfo xsi:type="form:ValueListExtInfo">
+      <itemValueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </itemValueType>
+    </extInfo>
+  </attributes>
+  <attributes>
+    <name>СработаетКаждыйРаз_ИзменениеДанныхЗаказа</name>
+    <title>
+      <key>ru</key>
+      <value>Сработает каждый раз </value>
+    </title>
+    <id>17</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>СегментыНоменклатуры_ПродуктВЗаказеДоставлен</name>
+    <title>
+      <key>ru</key>
+      <value>Сегменты номенклатуры продукт в заказе доставлен</value>
+    </title>
+    <id>18</id>
+    <valueType>
+      <types>ValueList</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <extInfo xsi:type="form:ValueListExtInfo">
+      <itemValueType>
+        <types>CatalogRef.СегментыНоменклатуры</types>
+      </itemValueType>
+    </extInfo>
+  </attributes>
+  <attributes>
+    <name>СегментыНоменклатуры_ПродуктВЗаказеОплачен</name>
+    <title>
+      <key>ru</key>
+      <value>Сегменты номенклатуры </value>
+    </title>
+    <id>19</id>
+    <valueType>
+      <types>ValueList</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <extInfo xsi:type="form:ValueListExtInfo">
+      <itemValueType>
+        <types>CatalogRef.СегментыНоменклатуры</types>
+      </itemValueType>
+    </extInfo>
+  </attributes>
+  <attributes>
+    <name>СегментыКлиентов_КлиентПопалВСегмент</name>
+    <title>
+      <key>ru</key>
+      <value>Сегменты клиентов клиент попал в сегмент</value>
+    </title>
+    <id>20</id>
+    <valueType>
+      <types>ValueList</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <extInfo xsi:type="form:ValueListExtInfo">
+      <itemValueType>
+        <types>CatalogRef.СегментыПартнеров</types>
+      </itemValueType>
+    </extInfo>
+  </attributes>
+  <attributes>
+    <name>СегментыКлиентов_КлиентВышелИзСегмента</name>
+    <title>
+      <key>ru</key>
+      <value>Сегменты клиентов </value>
+    </title>
+    <id>21</id>
+    <valueType>
+      <types>ValueList</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <extInfo xsi:type="form:ValueListExtInfo">
+      <itemValueType>
+        <types>CatalogRef.СегментыПартнеров</types>
+      </itemValueType>
+    </extInfo>
   </attributes>
   <commandInterface>
     <navigationPanel/>

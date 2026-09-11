@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e47a8b06-856f-4c36-b503-f5c43dbbf0f3">
+  <producedTypes>
+    <objectType typeId="1555b508-ec92-418e-9de8-63f2bef52348" valueTypeId="d9e41b30-ab28-4a37-a82e-748a6ef60630"/>
+    <refType typeId="f52cc1f8-ce5c-4302-8d87-28144872708f" valueTypeId="68c132c9-e40d-4a34-8864-7349cfea0561"/>
+    <selectionType typeId="405b91be-f502-4ca6-a4b7-f8918ea3cb98" valueTypeId="de7dcd16-1725-44f1-b7a8-52c06ce119bf"/>
+    <listType typeId="e4aa8c0f-34d3-4474-bc4d-22fd785594d5" valueTypeId="57c21599-2017-4085-8723-da0972780779"/>
+    <managerType typeId="be9c87b5-a75e-43e6-b369-09e26cc48166" valueTypeId="4bef4c0b-8611-47bf-a1ff-8222de3cec68"/>
+  </producedTypes>
+  <name>СтатусыПозицийЗаказа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы позиций заказа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтатусыПозицийЗаказа.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:BooleanValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория</value>
+    </synonym>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="f9018051-78ae-4d64-8e83-e926021e3e59">
+      <name>Оформление</name>
+      <description>Оформление</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <content id="067f7542-2aa1-44da-b321-e549d34f4462">
+        <name>Создана</name>
+        <description>Создана</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="78ec3092-846e-4e1c-a5be-e3fdd283ee39">
+        <name>ПринятаВРаботу</name>
+        <description>Принята в работу</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+    </items>
+    <items id="a2c0df4b-33f3-4ec2-aaa3-435b5f98b622">
+      <name>Оплата</name>
+      <description>Оплата</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <content id="d527d97d-5226-464f-ac84-071d0d4984f9">
+        <name>Оплачена</name>
+        <description>Оплачена</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="5fd26102-39ce-4a76-8bb9-cceefb4559bd">
+        <name>ОплатаОжидается</name>
+        <description>Ожидается оплата</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="09a5c3b2-906e-474e-b9c5-bff51eb2a40d">
+        <name>ОплатаВПроцессеВозврата</name>
+        <description>Оплата в процессе возврата</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="cd11d56b-3f74-436f-96cb-a02b6892e2bd">
+        <name>ОплатаВозвращена</name>
+        <description>Оплата возвращена</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+    </items>
+    <items id="dbe84080-74fb-4ca3-b88c-7ee7d509f849">
+      <name>Отмена</name>
+      <description>Отмена</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <content id="734f49f6-cd4a-4962-acea-11917e68bceb">
+        <name>Отменена</name>
+        <description>Отменена клиентом</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="a51a9c55-3cfb-4a5e-b5f9-6b24428e098c">
+        <name>ОтмененаАвто</name>
+        <description>Автоматическая отмена</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+    </items>
+    <items id="22bd8833-b691-4800-bb0f-7f9ff68acc68">
+      <name>Доставка</name>
+      <description>Доставка</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <content id="f8c696c1-c745-4412-8202-268c05b2379b">
+        <name>ДоставкаЗавершена</name>
+        <description>Доставка завершена</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="217a456b-4a08-442d-89aa-ba9148688b80">
+        <name>ВПроцессеДоставки</name>
+        <description>В процессе доставки</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+    </items>
+    <items id="19148122-2681-4cca-a5a5-098bf2945537">
+      <name>Возврат</name>
+      <description>Возврат</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <content id="1c9a61b0-38f5-4b9d-a153-b3d1196183e3">
+        <name>ВПроцессеВозврата</name>
+        <description>В процессе возврата</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="567906ce-943c-40eb-84d1-0952028f5fc1">
+        <name>Возвращена</name>
+        <description>Возвращена</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СтатусыПозицийЗаказа.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="33b4f0fe-7150-4c9b-b6ec-bb9b9c73a97a">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

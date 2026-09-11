@@ -95,7 +95,22 @@
         <value>Статус</value>
       </synonym>
       <type>
-        <types>EnumRef.СтатусыПозицийЗаказа</types>
+        <types>CatalogRef.СтатусыПозицийЗаказа</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5d2242bf-5637-41c9-ad40-ecb69c0d4af0">
+      <name>СтатусПоОплате</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статус по оплате</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтатусыПозицийЗаказа</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

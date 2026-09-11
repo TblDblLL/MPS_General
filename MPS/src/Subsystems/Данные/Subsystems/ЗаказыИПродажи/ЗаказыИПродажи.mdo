@@ -9,5 +9,6 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Document.ЗаказКлиента</content>
   <content>Document.АктуализацияОстатков</content>
+  <content>Catalog.СтатусыПозицийЗаказа</content>
   <parentSubsystem>Subsystem.Данные</parentSubsystem>
 </mdclass:Subsystem>
