@@ -19,13 +19,13 @@
   <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="b3116080-c118-45db-8064-a3f8c56a2045">
-    <name>Действует</name>
+    <name>Статус</name>
     <synonym>
       <key>ru</key>
-      <value>Действует</value>
+      <value>Статус</value>
     </synonym>
     <type>
-      <types>Boolean</types>
+      <types>EnumRef.СтатусыПодписок</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

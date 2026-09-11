@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d51a8628-c5c5-4664-bec9-8020df5b734d">
+  <producedTypes>
+    <refType typeId="f38ff675-bc6f-4aed-926f-e8d64a7086e8" valueTypeId="037199b5-d0f8-459f-983a-68a61779f9f4"/>
+    <listType typeId="e7dbc635-7937-4b17-ada5-e80ba5ea15c8" valueTypeId="b56959ee-cea6-48ea-ac93-fd8313d90ea6"/>
+    <managerType typeId="7e6be16b-7c34-4592-b40a-837cfeaddc66" valueTypeId="252e04a7-9619-4fe4-a885-c55c120144ab"/>
+  </producedTypes>
+  <name>ИзмененияСостоянияПродукта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменения состояния продукта</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b07e2fc2-6e69-4c0a-958d-3fd08e7d568b">
+    <name>ЦенаНаПродуктСнизилась</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена на продукт снизилась</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e0091b7c-116d-4adc-9d80-ead5ec4836cf">
+    <name>ЦенаНаПродуктВыросла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена на продукт выросла</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b88fc91e-7173-4aca-8d62-8e2a525d5d32">
+    <name>ПродуктВернулсяВНаличие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продукт вернулся в наличие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2cb89c70-d699-4497-a835-4e5aab93f5e4">
+    <name>ПродуктПропалИзНаличия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продукт пропал из наличия</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

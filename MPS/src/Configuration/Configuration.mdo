@@ -1490,6 +1490,8 @@
   <enums>Enum.СпособыИзмененияКоличества</enums>
   <enums>Enum.ВидыСроковНачисленияБаллов</enums>
   <enums>Enum.ЕстьНетНеВажно</enums>
+  <enums>Enum.СтатусыПодписок</enums>
+  <enums>Enum.ИзмененияСостоянияПродукта</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализПравДоступа</reports>

@@ -81,4 +81,5 @@
   <content>DefinedType.Рассылки</content>
   <content>Enum.ЕстьНетНеВажно</content>
   <content>Catalog.СтатусыПозицийЗаказа</content>
+  <content>Enum.ИзмененияСостоянияПродукта</content>
 </mdclass:Subsystem>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d127df62-88c6-4a2c-81af-4c81e2cf3c97">
+  <producedTypes>
+    <refType typeId="37fe4450-14a8-4ede-a099-05c42bbaa86e" valueTypeId="caccb1d4-95b2-4ab2-abc3-db43985f9ebb"/>
+    <listType typeId="7764949a-dcfa-4a98-aa7d-ff1eee9103e4" valueTypeId="16b44d2d-8276-4d9c-8da0-2b7988e84d9c"/>
+    <managerType typeId="d7a1b719-b384-4029-b408-d2289e8ea41e" valueTypeId="3e73dfda-d478-4684-bffb-0864d678cb5e"/>
+  </producedTypes>
+  <name>СтатусыПодписок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы подписок</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="347a7c1c-e4ff-4338-9411-5b096f53b43a">
+    <name>ТребуетПодтверждения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требует подтверждения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e3a03e16-8cec-461f-94c4-ba2b85ab6e7e">
+    <name>Подписан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подписан</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="78ac4741-67d6-4bc3-8d7d-c84ea48e419d">
+    <name>Отписан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отписан</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

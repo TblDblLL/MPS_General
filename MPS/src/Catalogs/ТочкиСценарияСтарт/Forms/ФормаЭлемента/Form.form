@@ -1131,7 +1131,7 @@
             </extInfo>
           </items>
           <items xsi:type="form:Decoration">
-            <name>Надпись_ПродуктВЗаказеДоставлен</name>
+            <name>НадписьСлужебнаяПродуктВЗаказеДоставлен</name>
             <id>317</id>
             <title>
               <key>ru</key>
@@ -1143,7 +1143,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>Надпись_ПродуктВЗаказеДоставленРасширеннаяПодсказка</name>
+              <name>НадписьСлужебнаяПродуктВЗаказеДоставленРасширеннаяПодсказка</name>
               <id>319</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -1153,7 +1153,7 @@
               </extInfo>
             </extendedTooltip>
             <contextMenu>
-              <name>Надпись_ПродуктВЗаказеДоставленКонтекстноеМеню</name>
+              <name>НадписьСлужебнаяПродуктВЗаказеДоставленКонтекстноеМеню</name>
               <id>318</id>
               <autoFill>true</autoFill>
             </contextMenu>
@@ -1253,7 +1253,7 @@
             </extInfo>
           </items>
           <items xsi:type="form:Decoration">
-            <name>Надпись_ПродуктВЗаказеОплачен</name>
+            <name>НадписьСлужебнаяПродуктВЗаказеОплачен</name>
             <id>323</id>
             <title>
               <key>ru</key>
@@ -1265,7 +1265,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>Надпись_ПродуктВЗаказеОплаченРасширеннаяПодсказка</name>
+              <name>НадписьСлужебнаяПродуктВЗаказеОплаченРасширеннаяПодсказка</name>
               <id>325</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -1275,7 +1275,7 @@
               </extInfo>
             </extendedTooltip>
             <contextMenu>
-              <name>Надпись_ПродуктВЗаказеОплаченКонтекстноеМеню</name>
+              <name>НадписьСлужебнаяПродуктВЗаказеОплаченКонтекстноеМеню</name>
               <id>324</id>
               <autoFill>true</autoFill>
             </contextMenu>
@@ -1486,6 +1486,48 @@
         <items xsi:type="form:FormGroup">
           <name>СтатусПодпискиИзменен_Страница</name>
           <id>150</id>
+          <items xsi:type="form:FormField">
+            <name>СтатусПодписки_СтатусПодпискиИзменен</name>
+            <id>332</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>СтатусПодписки_СтатусПодпискиИзменен</segments>
+            </dataPath>
+            <titleLocation>Top</titleLocation>
+            <extendedTooltip>
+              <name>СтатусПодписки_СтатусПодпискиИзмененРасширеннаяПодсказка</name>
+              <id>334</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>СтатусПодписки_СтатусПодпискиИзмененКонтекстноеМеню</name>
+              <id>333</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <autoMarkIncomplete>true</autoMarkIncomplete>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+            </extInfo>
+          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1510,6 +1552,39 @@
         <items xsi:type="form:FormGroup">
           <name>СозданиеКлиента_Страница</name>
           <id>152</id>
+          <items xsi:type="form:Decoration">
+            <name>Декорация4</name>
+            <id>335</id>
+            <title>
+              <key>ru</key>
+              <value>Декорация1</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>Декорация4РасширеннаяПодсказка</name>
+              <id>337</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>Декорация4КонтекстноеМеню</name>
+              <id>336</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <horizontalStretch>false</horizontalStretch>
+            <verticalStretch>false</verticalStretch>
+            <extInfo xsi:type="form:PictureDecorationExtInfo">
+              <fileDragMode>AsFileRef</fileDragMode>
+            </extInfo>
+          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1534,6 +1609,39 @@
         <items xsi:type="form:FormGroup">
           <name>ПодтверждениеEmail_Страница</name>
           <id>154</id>
+          <items xsi:type="form:Decoration">
+            <name>Декорация5</name>
+            <id>338</id>
+            <title>
+              <key>ru</key>
+              <value>Декорация1</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>Декорация5РасширеннаяПодсказка</name>
+              <id>340</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>Декорация5КонтекстноеМеню</name>
+              <id>339</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <horizontalStretch>false</horizontalStretch>
+            <verticalStretch>false</verticalStretch>
+            <extInfo xsi:type="form:PictureDecorationExtInfo">
+              <fileDragMode>AsFileRef</fileDragMode>
+            </extInfo>
+          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1558,6 +1666,39 @@
         <items xsi:type="form:FormGroup">
           <name>ИзменениеEmail_Страница</name>
           <id>156</id>
+          <items xsi:type="form:Decoration">
+            <name>Декорация6</name>
+            <id>341</id>
+            <title>
+              <key>ru</key>
+              <value>Декорация1</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>Декорация6РасширеннаяПодсказка</name>
+              <id>343</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>Декорация6КонтекстноеМеню</name>
+              <id>342</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <horizontalStretch>false</horizontalStretch>
+            <verticalStretch>false</verticalStretch>
+            <extInfo xsi:type="form:PictureDecorationExtInfo">
+              <fileDragMode>AsFileRef</fileDragMode>
+            </extInfo>
+          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1582,6 +1723,39 @@
         <items xsi:type="form:FormGroup">
           <name>ПодтверждениеМобильногоТелефона_Страница</name>
           <id>158</id>
+          <items xsi:type="form:Decoration">
+            <name>Декорация7</name>
+            <id>344</id>
+            <title>
+              <key>ru</key>
+              <value>Декорация1</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>Декорация7РасширеннаяПодсказка</name>
+              <id>346</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>Декорация7КонтекстноеМеню</name>
+              <id>345</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <horizontalStretch>false</horizontalStretch>
+            <verticalStretch>false</verticalStretch>
+            <extInfo xsi:type="form:PictureDecorationExtInfo">
+              <fileDragMode>AsFileRef</fileDragMode>
+            </extInfo>
+          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1606,6 +1780,39 @@
         <items xsi:type="form:FormGroup">
           <name>ИзменениеМобильногоТелефона_Страница</name>
           <id>160</id>
+          <items xsi:type="form:Decoration">
+            <name>Декорация8</name>
+            <id>347</id>
+            <title>
+              <key>ru</key>
+              <value>Декорация1</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>Декорация8РасширеннаяПодсказка</name>
+              <id>349</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>Декорация8КонтекстноеМеню</name>
+              <id>348</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <horizontalStretch>false</horizontalStretch>
+            <verticalStretch>false</verticalStretch>
+            <extInfo xsi:type="form:PictureDecorationExtInfo">
+              <fileDragMode>AsFileRef</fileDragMode>
+            </extInfo>
+          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1630,6 +1837,39 @@
         <items xsi:type="form:FormGroup">
           <name>РедактированиеКлиента_Страница</name>
           <id>162</id>
+          <items xsi:type="form:Decoration">
+            <name>Декорация9</name>
+            <id>350</id>
+            <title>
+              <key>ru</key>
+              <value>Декорация1</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>Декорация9РасширеннаяПодсказка</name>
+              <id>352</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>Декорация9КонтекстноеМеню</name>
+              <id>351</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <horizontalStretch>false</horizontalStretch>
+            <verticalStretch>false</verticalStretch>
+            <extInfo xsi:type="form:PictureDecorationExtInfo">
+              <fileDragMode>AsFileRef</fileDragMode>
+            </extInfo>
+          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1654,6 +1894,52 @@
         <items xsi:type="form:FormGroup">
           <name>ИзменилсяПродуктВСписке_Страница</name>
           <id>164</id>
+          <items xsi:type="form:FormField">
+            <name>Изменение_ИзменилсяПродуктВСписке</name>
+            <id>353</id>
+            <title>
+              <key>ru</key>
+              <value>Изменение</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Изменение_ИзменилсяПродуктВСписке</segments>
+            </dataPath>
+            <titleLocation>Top</titleLocation>
+            <extendedTooltip>
+              <name>Изменение_ИзменилсяПродуктВСпискеРасширеннаяПодсказка</name>
+              <id>355</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>Изменение_ИзменилсяПродуктВСпискеКонтекстноеМеню</name>
+              <id>354</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <autoMarkIncomplete>true</autoMarkIncomplete>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+            </extInfo>
+          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -3086,7 +3372,6 @@
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
-  <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
@@ -3433,6 +3718,40 @@
         <types>CatalogRef.СегментыПартнеров</types>
       </itemValueType>
     </extInfo>
+  </attributes>
+  <attributes>
+    <name>СтатусПодписки_СтатусПодпискиИзменен</name>
+    <title>
+      <key>ru</key>
+      <value>Статус подписки стал</value>
+    </title>
+    <id>22</id>
+    <valueType>
+      <types>EnumRef.СтатусыПодписок</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>Изменение_ИзменилсяПродуктВСписке</name>
+    <title>
+      <key>ru</key>
+      <value>Изменение изменился продукт в списке</value>
+    </title>
+    <id>23</id>
+    <valueType>
+      <types>EnumRef.ИзмененияСостоянияПродукта</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
   </attributes>
   <commandInterface>
     <navigationPanel/>
