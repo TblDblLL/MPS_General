@@ -202,7 +202,7 @@
       <objectType typeId="af11a235-9c2a-47a2-a032-1cb9f77f1dca" valueTypeId="4f575085-0201-49da-8c46-9bdd205a4e91"/>
       <rowType typeId="99aed4f5-2b95-4bcb-9437-a668a1419ecf" valueTypeId="09d00958-5fff-4551-9782-a852a5ed46af"/>
     </producedTypes>
-    <name>МножПараметры</name>
+    <name>ПараметрыДействий</name>
     <synonym>
       <key>ru</key>
       <value>Множественные параметры</value>

@@ -82,4 +82,5 @@
   <content>Enum.ЕстьНетНеВажно</content>
   <content>Catalog.СтатусыПозицийЗаказа</content>
   <content>Enum.ИзмененияСостоянияПродукта</content>
+  <content>Catalog.ПричиныНедоставкиРассылки</content>
 </mdclass:Subsystem>

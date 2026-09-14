@@ -962,6 +962,7 @@
   <commonModules>CommonModule.ОбщегоНазначенияПКМПКлиент</commonModules>
   <commonModules>CommonModule.УправлениеФормамиПКМП</commonModules>
   <commonModules>CommonModule.СлужебныйПКМП</commonModules>
+  <commonModules>CommonModule.КомпоновкаИРасписание_ПКМП</commonModules>
   <commonAttributes>CommonAttribute.ОтредактированныеПредопределенныеРеквизиты</commonAttributes>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ApplicationExtensionsManifest_1_0_0_1</xDTOPackages>
@@ -1415,6 +1416,7 @@
   <catalogs>Catalog.ВидыДействияВКампаниях</catalogs>
   <catalogs>Catalog.Вебхуки</catalogs>
   <catalogs>Catalog.СтатусыПозицийЗаказа</catalogs>
+  <catalogs>Catalog.ПричиныНедоставкиРассылки</catalogs>
   <documents>Document.ЗаказКлиента</documents>
   <documents>Document.ОперацияБалльногоСчета</documents>
   <documents>Document.АктуализацияОстатков</documents>

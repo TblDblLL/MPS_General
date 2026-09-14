@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="68bf1972-9211-4985-8c39-0a51dd44b80b">
+  <producedTypes>
+    <objectType typeId="5ec0bee1-1084-497e-9028-2bde69f94699" valueTypeId="cc5c8d17-b08f-4366-9fe7-ad4535836ab0"/>
+    <refType typeId="38a57a80-c1fd-43ab-947a-a0c9eaca2d9e" valueTypeId="923c419b-78b0-4429-b8f5-6d14e5dccebb"/>
+    <selectionType typeId="24b52c83-6a45-44d6-98a9-6b5f3ff2fae8" valueTypeId="1c2b35fe-2ad5-48e7-84af-9e7502e9ba50"/>
+    <listType typeId="b41cd685-474a-4142-9d4f-21eb1de68325" valueTypeId="e3687b1a-c042-4389-a7f0-1fc569bc8d91"/>
+    <managerType typeId="741c3863-53fd-404c-bee2-ca7173cf4e10" valueTypeId="06535030-3eb7-4e39-9621-747be028fb6b"/>
+  </producedTypes>
+  <name>ПричиныНедоставкиРассылки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины недоставки рассылки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПричиныНедоставкиРассылки.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ПричиныНедоставкиРассылки.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
