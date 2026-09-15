@@ -83,4 +83,5 @@
   <content>Catalog.СтатусыПозицийЗаказа</content>
   <content>Enum.ИзмененияСостоянияПродукта</content>
   <content>Catalog.ПричиныНедоставкиРассылки</content>
+  <content>ScheduledJob.ФормированиеСегментов</content>
 </mdclass:Subsystem>

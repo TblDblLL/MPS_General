@@ -963,6 +963,7 @@
   <commonModules>CommonModule.УправлениеФормамиПКМП</commonModules>
   <commonModules>CommonModule.СлужебныйПКМП</commonModules>
   <commonModules>CommonModule.КомпоновкаИРасписание_ПКМП</commonModules>
+  <commonModules>CommonModule.КомпоновкаИРасписание_ПКМПВызовСервера</commonModules>
   <commonAttributes>CommonAttribute.ОтредактированныеПредопределенныеРеквизиты</commonAttributes>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ApplicationExtensionsManifest_1_0_0_1</xDTOPackages>
@@ -1061,6 +1062,7 @@
   <scheduledJobs>ScheduledJob.УдалениеУстаревшихПараметровРаботыВерсийРасширений</scheduledJobs>
   <scheduledJobs>ScheduledJob.УстановкаПериодаРассчитанныхИтогов</scheduledJobs>
   <scheduledJobs>ScheduledJob.УстановкаПорядкаОтложенногоОбновленияВМоделиСервиса</scheduledJobs>
+  <scheduledJobs>ScheduledJob.ФормированиеСегментов</scheduledJobs>
   <settingsStorages>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorages>
   <functionalOptions>FunctionalOption.ВариантыВерсионированияОбъектов</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьВерсионированиеОбъекта</functionalOptions>
