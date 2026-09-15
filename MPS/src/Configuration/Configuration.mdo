@@ -1063,6 +1063,7 @@
   <scheduledJobs>ScheduledJob.УстановкаПериодаРассчитанныхИтогов</scheduledJobs>
   <scheduledJobs>ScheduledJob.УстановкаПорядкаОтложенногоОбновленияВМоделиСервиса</scheduledJobs>
   <scheduledJobs>ScheduledJob.ФормированиеСегментов</scheduledJobs>
+  <scheduledJobs>ScheduledJob.СтартСценарияПоРасписанию</scheduledJobs>
   <settingsStorages>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorages>
   <functionalOptions>FunctionalOption.ВариантыВерсионированияОбъектов</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьВерсионированиеОбъекта</functionalOptions>

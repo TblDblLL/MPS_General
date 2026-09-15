@@ -397,4 +397,12 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <templates uuid="a81fe723-6067-45cd-8959-c1612148c4c8">
+    <name>ФильтрПоПартнерам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фильтр по партнерам</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
 </mdclass:Catalog>
