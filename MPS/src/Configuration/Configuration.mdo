@@ -960,6 +960,7 @@
   <commonModules>CommonModule.КлиентыПКМП</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияПКМП</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияПКМПКлиент</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияПКМПКлиентСервер</commonModules>
   <commonModules>CommonModule.УправлениеФормамиПКМП</commonModules>
   <commonModules>CommonModule.СлужебныйПКМП</commonModules>
   <commonModules>CommonModule.КомпоновкаИРасписание_ПКМП</commonModules>
