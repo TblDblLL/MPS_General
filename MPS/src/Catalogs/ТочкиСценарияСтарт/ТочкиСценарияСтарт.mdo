@@ -159,25 +159,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="8580ce54-11e2-4a6f-aab9-b18cb50a56fc">
-    <name>СхемаКомпоновкиДанных</name>
-    <synonym>
-      <key>ru</key>
-      <value>Схема компоновки данных</value>
-    </synonym>
-    <type>
-      <types>ValueStorage</types>
-    </type>
-    <toolTip>
-      <key>ru</key>
-      <value>Схема компоновки данных, определяющая состав списка номенклатуры, отнесенной к сегменту и форму его отображения.</value>
-    </toolTip>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="9d65fd7f-d6b2-4aa7-916c-731de8d042dc">
     <name>ХранилищеНастроекКомпоновкиДанных</name>
     <synonym>
