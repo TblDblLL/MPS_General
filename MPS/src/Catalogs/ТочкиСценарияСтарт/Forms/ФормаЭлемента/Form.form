@@ -3958,6 +3958,11 @@
       <type>Label</type>
       <horizontalStretch>true</horizontalStretch>
       <verticalStretch>true</verticalStretch>
+      <font xsi:type="core:FontRef">
+        <font>Style.NormalTextFont</font>
+        <height>11.0</height>
+        <bold>true</bold>
+      </font>
       <extInfo xsi:type="form:LabelDecorationExtInfo">
         <horizontalAlign>Left</horizontalAlign>
       </extInfo>
@@ -4117,9 +4122,9 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <backColor xsi:type="core:ColorDef">
-        <red>204</red>
-        <green>153</green>
-        <blue>255</blue>
+        <red>255</red>
+        <green>255</green>
+        <blue>153</blue>
       </backColor>
       <throughAlign>Auto</throughAlign>
       <currentRowUse>Auto</currentRowUse>
@@ -4550,7 +4555,6 @@
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
-    <readOnly>true</readOnly>
     <editMode>EnterOnInput</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -4593,7 +4597,6 @@
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
-    <readOnly>true</readOnly>
     <editMode>EnterOnInput</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -5491,10 +5494,6 @@
     <handlers>
       <event>AfterWriteAtServer</event>
       <name>ПослеЗаписиНаСервере</name>
-    </handlers>
-    <handlers>
-      <event>AfterWrite</event>
-      <name>ПослеЗаписи</name>
     </handlers>
   </extInfo>
 </form:Form>

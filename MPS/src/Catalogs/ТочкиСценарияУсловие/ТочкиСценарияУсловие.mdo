@@ -45,25 +45,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="d7f1ac74-0356-4e14-bc24-da32f24b64df">
-    <name>СхемаКомпоновкиДанных</name>
-    <synonym>
-      <key>ru</key>
-      <value>Схема компоновки данных</value>
-    </synonym>
-    <type>
-      <types>ValueStorage</types>
-    </type>
-    <toolTip>
-      <key>ru</key>
-      <value>Схема компоновки данных, определяющая состав списка номенклатуры, отнесенной к сегменту и форму его отображения.</value>
-    </toolTip>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="4261d40b-72b9-4c01-a309-17d49efdafa8">
     <name>ХранилищеНастроекКомпоновкиДанных</name>
     <synonym>
@@ -193,11 +174,11 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <templates uuid="68dce22a-248c-45df-8d00-1584d05a7db0">
-    <name>Клиенты</name>
+  <templates uuid="bf716f0d-97e2-41af-8cc2-89314b012ed2">
+    <name>ФильтрПоПартнерам</name>
     <synonym>
       <key>ru</key>
-      <value>Клиенты</value>
+      <value>Фильтр по партнерам</value>
     </synonym>
     <templateType>DataCompositionSchema</templateType>
   </templates>
