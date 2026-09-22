@@ -148,7 +148,7 @@
     <name>РегламентноеЗаданиеGUID</name>
     <synonym>
       <key>ru</key>
-      <value>Регламентное задание GUID</value>
+      <value>Регламентное задание</value>
     </synonym>
     <type>
       <types>UUID</types>
