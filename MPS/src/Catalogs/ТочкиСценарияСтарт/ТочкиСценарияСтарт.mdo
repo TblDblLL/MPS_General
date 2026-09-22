@@ -222,20 +222,6 @@
       <value>Множественные параметры</value>
     </synonym>
     <comment>Множественные параметры действий</comment>
-    <attributes uuid="abff7067-7aae-45d4-9777-cf0378fb68c1">
-      <name>ДействиеЗапуска</name>
-      <synonym>
-        <key>ru</key>
-        <value>Действие запуска</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.ВидыДействийКлиента</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
     <attributes uuid="be876d61-fcb8-4ed5-b91d-3c236ba3fa25">
       <name>ГруппаПараметров</name>
       <synonym>
@@ -260,16 +246,43 @@
         <value>Значение параметра</value>
       </synonym>
       <type>
-        <types>CatalogRef.СпискиПродуктов</types>
-        <types>CatalogRef.ВидыДействийКлиента</types>
+        <types>Boolean</types>
         <types>String</types>
-        <types>CatalogRef.СегментыНоменклатуры</types>
-        <types>CatalogRef.СегментыПартнеров</types>
-        <types>CatalogRef.МассовыеРассылки</types>
-        <types>CatalogRef.ТоварныеКатегории</types>
-        <types>CatalogRef.АвтоматическиеРассылки</types>
+        <types>EnumRef</types>
+        <types>CatalogRef</types>
         <stringQualifiers>
           <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a7a31cab-3937-449c-b36e-bffea240a01d">
+      <name>Обязательный</name>
+      <synonym>
+        <key>ru</key>
+        <value>Обязательный</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="df7d59dd-9b3d-4f1b-9ebf-86ff8cf7ea1a">
+      <name>ПредставлениеГруппыПараметров</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление группы параметров</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
         </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
