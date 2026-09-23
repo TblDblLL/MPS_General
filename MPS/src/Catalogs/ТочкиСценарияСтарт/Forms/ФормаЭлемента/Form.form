@@ -2233,10 +2233,6 @@
             <items xsi:type="form:FormField">
               <name>ЦенаОт_ИзменилсяПродуктВСписке</name>
               <id>370</id>
-              <title>
-                <key>ru</key>
-                <value>-</value>
-              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -2245,7 +2241,7 @@
               <dataPath xsi:type="form:DataPath">
                 <segments>ЦенаОт_ИзменилсяПродуктВСписке</segments>
               </dataPath>
-              <titleLocation>Right</titleLocation>
+              <titleLocation>None</titleLocation>
               <extendedTooltip>
                 <name>ЦенаОт_ИзменилсяПродуктВСпискеРасширеннаяПодсказка</name>
                 <id>372</id>
@@ -2274,6 +2270,40 @@
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
+              </extInfo>
+            </items>
+            <items xsi:type="form:Decoration">
+              <name>Декорация11</name>
+              <id>484</id>
+              <title>
+                <key>ru</key>
+                <value>-</value>
+              </title>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <extendedTooltip>
+                <name>Декорация11РасширеннаяПодсказка</name>
+                <id>486</id>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <contextMenu>
+                <name>Декорация11КонтекстноеМеню</name>
+                <id>485</id>
+                <autoFill>true</autoFill>
+              </contextMenu>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </items>
             <items xsi:type="form:FormField">

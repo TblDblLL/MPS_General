@@ -248,11 +248,20 @@
       <type>
         <types>Boolean</types>
         <types>String</types>
+        <types>Date</types>
+        <types>Number</types>
         <types>EnumRef</types>
         <types>CatalogRef</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
         <stringQualifiers>
           <length>10</length>
         </stringQualifiers>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
