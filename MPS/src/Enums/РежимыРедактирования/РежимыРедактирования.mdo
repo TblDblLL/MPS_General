@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7e3a3c7-53c7-4112-b795-df77d07cdc18">
+  <producedTypes>
+    <refType typeId="89f4aac5-09b7-4566-8814-9a5508d50a68" valueTypeId="4d6b47c2-f2f0-4726-a7a1-b5057b5833c3"/>
+    <listType typeId="7aeeb7ed-26db-434f-87ad-2daae0f92be9" valueTypeId="13b5648f-94d6-4126-bf85-72164fba0b5a"/>
+    <managerType typeId="a56b368b-9d85-4b12-93bd-3d2fc822232f" valueTypeId="6c0b9e84-82bf-4e32-8d72-f301692c9cfa"/>
+  </producedTypes>
+  <name>РежимыРедактирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режимы редактирования</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="aade06a4-8d13-492a-936b-5e538ad6f524">
+    <name>Создание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e672cd83-cc8f-48f8-9a76-662c1b535b22">
+    <name>Разработка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разработка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5cf03a19-8ce5-43c4-a57e-a6a2a8a2b061">
+    <name>Готовность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Готовность</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

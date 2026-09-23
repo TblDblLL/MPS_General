@@ -84,4 +84,5 @@
   <content>Enum.ИзмененияСостоянияПродукта</content>
   <content>Catalog.ПричиныНедоставкиРассылки</content>
   <content>ScheduledJob.ФормированиеСегментов</content>
+  <content>Enum.РежимыРедактирования</content>
 </mdclass:Subsystem>

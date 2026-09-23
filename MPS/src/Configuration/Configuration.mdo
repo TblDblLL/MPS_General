@@ -1498,6 +1498,7 @@
   <enums>Enum.ЕстьНетНеВажно</enums>
   <enums>Enum.СтатусыПодписок</enums>
   <enums>Enum.ИзмененияСостоянияПродукта</enums>
+  <enums>Enum.РежимыРедактирования</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализПравДоступа</reports>

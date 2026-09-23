@@ -109,6 +109,23 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="a426eae4-42d6-4ab1-bdb6-3650f12a5dfd">
+    <name>РежимРедактирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим редактирования</value>
+    </synonym>
+    <type>
+      <types>EnumRef.РежимыРедактирования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.РежимыРедактирования.EnumValue.Создание</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="aecd22fa-76eb-434c-a246-f925eb987818">
     <producedTypes>
       <objectType typeId="f929c988-40f0-444b-8978-4ee57094c15e" valueTypeId="471e41bc-6a73-4c74-87b6-36f3136630aa"/>
