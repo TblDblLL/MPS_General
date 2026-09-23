@@ -3333,7 +3333,7 @@
           <id>240</id>
           <title>
             <key>ru</key>
-            <value>Промокод оступен для выдачи из наборов</value>
+            <value>Промокод доступен для выдачи из наборов</value>
           </title>
           <titleTextColor xsi:type="core:ColorDef">
             <red>51</red>
