@@ -965,6 +965,8 @@
   <commonModules>CommonModule.СлужебныйПКМП</commonModules>
   <commonModules>CommonModule.КомпоновкаИРасписание_ПКМП</commonModules>
   <commonModules>CommonModule.КомпоновкаИРасписание_ПКМПВызовСервера</commonModules>
+  <commonModules>CommonModule.ГрафическаяСхемаКлиентСерверПКМП</commonModules>
+  <commonModules>CommonModule.ОбработкаДанныхПКМП</commonModules>
   <commonAttributes>CommonAttribute.ОтредактированныеПредопределенныеРеквизиты</commonAttributes>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ApplicationExtensionsManifest_1_0_0_1</xDTOPackages>
@@ -1649,14 +1651,15 @@
   <informationRegisters>InformationRegister.ТоварныйСоставПоДействиюКлиента</informationRegisters>
   <informationRegisters>InformationRegister.УстройстваКлиентов</informationRegisters>
   <informationRegisters>InformationRegister.ПодпискиКлиентов</informationRegisters>
+  <informationRegisters>InformationRegister.СоставНоменклатурыПромоакций</informationRegisters>
   <informationRegisters>InformationRegister.СоставСпискаПродуктовКлиента</informationRegisters>
-  <informationRegisters>InformationRegister.СостояниеРассылокПоКлиентам</informationRegisters>
-  <informationRegisters>InformationRegister.СостояниеПрограммБалловЛояльности</informationRegisters>
-  <informationRegisters>InformationRegister.СостояниеПрограммСкидок</informationRegisters>
   <informationRegisters>InformationRegister.СостояниеНаборовПромокодов</informationRegisters>
   <informationRegisters>InformationRegister.СостоянияПерсонализаций</informationRegisters>
+  <informationRegisters>InformationRegister.СостояниеПрограммБалловЛояльности</informationRegisters>
+  <informationRegisters>InformationRegister.СостояниеПрограммСкидок</informationRegisters>
+  <informationRegisters>InformationRegister.СостояниеРассылокПоКлиентам</informationRegisters>
+  <informationRegisters>InformationRegister.СостояниеСценариев</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
-  <informationRegisters>InformationRegister.СоставНоменклатурыПромоакций</informationRegisters>
   <informationRegisters>InformationRegister.ИерархияСегментов</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.БалльныеСчета</accumulationRegisters>

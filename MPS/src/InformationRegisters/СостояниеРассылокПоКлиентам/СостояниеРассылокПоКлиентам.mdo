@@ -19,10 +19,10 @@
   <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="cd005ceb-eee3-42c8-9420-c2d7774a1662">
-    <name>СтатусРассылки</name>
+    <name>Статус</name>
     <synonym>
       <key>ru</key>
-      <value>Статус рассылки</value>
+      <value>Статус</value>
     </synonym>
     <type>
       <types>EnumRef.СтатусыРассылокПоКлиентам</types>
@@ -56,7 +56,7 @@
       <value>Рассылка</value>
     </synonym>
     <type>
-      <types>CatalogRef.АвтоматическиеРассылки</types>
+      <types>DefinedType.Рассылки</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

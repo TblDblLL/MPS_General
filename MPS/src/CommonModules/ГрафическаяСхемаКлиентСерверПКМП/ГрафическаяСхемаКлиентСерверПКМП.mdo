@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3425a2c-9ab2-47be-88c2-9a5d71477d8b">
+  <name>ГрафическаяСхемаКлиентСерверПКМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Графическая схема клиент сервер ПКМП</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe51c673-aa12-4f06-adb4-2e6e4b173ca5">
+  <producedTypes>
+    <selectionType typeId="eca35384-907e-434e-afb3-e866816cf614" valueTypeId="4466a801-6ba5-4c57-9461-fcbbe78452cf"/>
+    <listType typeId="0f60d84a-0681-427b-a955-9817ab5577a1" valueTypeId="5483ead3-db60-4d6d-a241-aab507a79f06"/>
+    <managerType typeId="578967ac-8757-45a7-b562-6f1710537e75" valueTypeId="ef7baa18-47fa-4954-bdb5-c6c14d853640"/>
+    <recordSetType typeId="5f3d610d-f9c4-4752-a04c-808eacfe2cd9" valueTypeId="00f5d3fb-665d-4b4f-baf8-e124f6004c12"/>
+    <recordKeyType typeId="1750feea-6fdd-4ec6-9f5d-5ab358c8715c" valueTypeId="e64df9f3-72df-49cd-b83d-e6c03c2aefff"/>
+    <recordType typeId="b69afbd7-f72e-4e8c-91d1-c058972deec8" valueTypeId="275cc486-8f77-4bd9-b7b6-e4e41d264174"/>
+    <recordManagerType typeId="7148ee39-8b21-44e0-9266-3e3251fd2c16" valueTypeId="3e1f8880-7bc3-4417-a539-ee5f7d6da6fe"/>
+  </producedTypes>
+  <name>СостояниеСценариев</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние сценариев</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="46b0cee7-9a6b-46a6-8fc6-ab60e876f2c0">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыСценариев</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="619c03d7-a54a-4c5f-bb6d-b59d83331615">
+    <name>Сценарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сценарий</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПрограммыБалловЛояльности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

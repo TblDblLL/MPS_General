@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca974d85-4856-4952-a641-cd509133b159">
+  <name>ОбработкаДанныхПКМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка данных ПКМП</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

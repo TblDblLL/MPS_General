@@ -85,4 +85,13 @@
   <content>Catalog.ПричиныНедоставкиРассылки</content>
   <content>ScheduledJob.ФормированиеСегментов</content>
   <content>Enum.РежимыРедактирования</content>
+  <content>CommonModule.ГрафическаяСхемаКлиентСерверПКМП</content>
+  <content>CommonModule.ОбщегоНазначенияПКМП</content>
+  <content>CommonModule.ОбщегоНазначенияПКМПКлиент</content>
+  <content>CommonModule.ОбщегоНазначенияПКМПКлиентСервер</content>
+  <content>CommonModule.УправлениеФормамиПКМП</content>
+  <content>CommonModule.СлужебныйПКМП</content>
+  <content>CommonModule.КомпоновкаИРасписание_ПКМП</content>
+  <content>CommonModule.КомпоновкаИРасписание_ПКМПВызовСервера</content>
+  <content>InformationRegister.СостояниеСценариев</content>
 </mdclass:Subsystem>
