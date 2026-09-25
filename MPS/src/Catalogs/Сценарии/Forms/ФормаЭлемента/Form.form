@@ -616,10 +616,6 @@
           <event>Selection</event>
           <name>ГСВыбор</name>
         </handlers>
-        <handlers>
-          <event>OnActivate</event>
-          <name>ГСПриАктивизации</name>
-        </handlers>
         <width>50</width>
         <autoMaxWidth>true</autoMaxWidth>
         <height>10</height>
@@ -740,23 +736,6 @@
     <extInfo xsi:type="form:GraphicalSchemeExtInfo"/>
   </attributes>
   <attributes>
-    <name>СсылкаНаТекущуюТочку</name>
-    <title>
-      <key>ru</key>
-      <value>Ссылка на текущую точку</value>
-    </title>
-    <id>9</id>
-    <valueType>
-      <types>DefinedType.ТочкиСценария</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
     <name>Статус</name>
     <title>
       <key>ru</key>
@@ -782,6 +761,24 @@
     <id>11</id>
     <valueType>
       <types>EnumRef.РежимыРедактирования</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>АдресГСиТочки</name>
+    <title>
+      <key>ru</key>
+      <value>Адрес г си точки</value>
+    </title>
+    <id>19</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
     </valueType>
     <view>
       <common>true</common>
