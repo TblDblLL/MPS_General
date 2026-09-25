@@ -182,10 +182,10 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="6ade5180-1f63-4eb5-b370-0731e16768e5">
-      <name>НаименованиеТочки</name>
+      <name>ОписаниеТочки</name>
       <synonym>
         <key>ru</key>
-        <value>Наименование точки</value>
+        <value>Описание точки</value>
       </synonym>
       <type>
         <types>String</types>
