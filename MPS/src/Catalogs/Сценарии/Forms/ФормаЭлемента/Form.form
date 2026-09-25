@@ -702,7 +702,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>ЭлементыГС</segments>
+          <segments>СодержаниеГС</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <excludedCommands>SortListAsc</excludedCommands>
@@ -737,7 +737,7 @@
                 <common>true</common>
               </userVisible>
               <dataPath xsi:type="form:DataPath">
-                <segments>ЭлементыГС.ИмяТочки</segments>
+                <segments>СодержаниеГС.ИмяТочки</segments>
               </dataPath>
               <extendedTooltip>
                 <name>ЭлементыГСИмяТочкиРасширеннаяПодсказка</name>
@@ -778,7 +778,7 @@
                 <common>true</common>
               </userVisible>
               <dataPath xsi:type="form:DataPath">
-                <segments>ЭлементыГС.ВидТочки</segments>
+                <segments>СодержаниеГС.ВидТочки</segments>
               </dataPath>
               <extendedTooltip>
                 <name>ЭлементыГСВидТочкиРасширеннаяПодсказка</name>
@@ -843,7 +843,7 @@
               <common>true</common>
             </userVisible>
             <dataPath xsi:type="form:DataPath">
-              <segments>ЭлементыГС.ОписаниеТочки</segments>
+              <segments>СодержаниеГС.ОписаниеТочки</segments>
             </dataPath>
             <extendedTooltip>
               <name>ЭлементыГСОписаниеТочкиРасширеннаяПодсказка</name>
@@ -909,7 +909,7 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>ЭлементыГС.Порядок</segments>
+            <segments>СодержаниеГС.Порядок</segments>
           </dataPath>
           <extendedTooltip>
             <name>ЭлементыГСПорядокРасширеннаяПодсказка</name>
@@ -1324,12 +1324,29 @@
         <common>true</common>
       </edit>
     </columns>
+    <columns>
+      <name>ИДСвязи</name>
+      <title>
+        <key>ru</key>
+        <value>ИДСвязи</value>
+      </title>
+      <id>36</id>
+      <valueType>
+        <types>UUID</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
   </attributes>
   <attributes>
-    <name>ЭлементыГС</name>
+    <name>СодержаниеГС</name>
     <title>
       <key>ru</key>
-      <value>Элементы ГС</value>
+      <value>Содержание ГС</value>
     </title>
     <id>26</id>
     <valueType>
