@@ -4652,16 +4652,16 @@
     <autoFill>true</autoFill>
   </autoCommandBar>
   <handlers>
-    <event>OnCreateAtServer</event>
-    <name>ПриСозданииНаСервере</name>
-  </handlers>
-  <handlers>
     <event>ChoiceProcessing</event>
     <name>ОбработкаВыбора</name>
   </handlers>
   <handlers>
     <event>OnOpen</event>
     <name>ПриОткрытии</name>
+  </handlers>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
@@ -5478,6 +5478,23 @@
       <segments>КомпоновщикКлиентов.FixedSettings</segments>
     </notDefaultUseAlwaysAttributes>
   </attributes>
+  <attributes>
+    <name>ИДСвязиПриСоздании</name>
+    <title>
+      <key>ru</key>
+      <value>ИД связи при создании</value>
+    </title>
+    <id>53</id>
+    <valueType>
+      <types>UUID</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>УстановитьОтборКлиентов</name>
     <title>
@@ -5528,6 +5545,10 @@
     <handlers>
       <event>AfterWriteAtServer</event>
       <name>ПослеЗаписиНаСервере</name>
+    </handlers>
+    <handlers>
+      <event>AfterWrite</event>
+      <name>ПослеЗаписи</name>
     </handlers>
   </extInfo>
 </form:Form>
