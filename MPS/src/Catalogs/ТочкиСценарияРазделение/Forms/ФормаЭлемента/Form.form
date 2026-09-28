@@ -398,5 +398,9 @@
       <event>AfterWrite</event>
       <name>ПослеЗаписи</name>
     </handlers>
+    <handlers>
+      <event>BeforeWrite</event>
+      <name>ПередЗаписью</name>
+    </handlers>
   </extInfo>
 </form:Form>
