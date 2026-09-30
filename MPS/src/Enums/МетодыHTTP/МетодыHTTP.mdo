@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d03c713-b231-4b38-8599-269aa71a1023">
+  <producedTypes>
+    <refType typeId="fd6c2455-9b48-4a18-b289-b4505a5f7228" valueTypeId="62419281-6944-4c46-a005-8fafad827ece"/>
+    <listType typeId="cbaa3175-c813-4d97-92ea-7f1fd70f1508" valueTypeId="927bb677-b523-45cd-ae58-3680fc663a0e"/>
+    <managerType typeId="04de6bc6-cf8c-4f04-80dc-9c9ff03081d6" valueTypeId="75311d16-0999-41ab-a936-1c431b562f76"/>
+  </producedTypes>
+  <name>МетодыHTTP</name>
+  <synonym>
+    <key>ru</key>
+    <value>Методы HTTP</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c59a94ff-d1a1-4b01-ba5d-8f1f0fa73522">
+    <name>GET</name>
+    <synonym>
+      <key>ru</key>
+      <value>GET</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ad87613b-686a-4d50-84da-d8f668207818">
+    <name>POST</name>
+    <synonym>
+      <key>ru</key>
+      <value>POST</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

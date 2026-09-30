@@ -27,7 +27,7 @@
   <content>Catalog.ГруппыДоступаНоменклатуры</content>
   <content>Catalog.ГруппыДоступаКлиентов</content>
   <content>Catalog.ВидыДействийКлиента</content>
-  <content>Catalog.КаналыВзаимодействия</content>
+  <content>Catalog.Каналы</content>
   <content>Enum.ДвиженияТоваровВДействииКлиента</content>
   <content>InformationRegister.УстройстваКлиентов</content>
   <content>Catalog.СпискиПродуктов</content>
@@ -95,4 +95,7 @@
   <content>CommonModule.КомпоновкаИРасписание_ПКМПВызовСервера</content>
   <content>InformationRegister.СостояниеСценариев</content>
   <content>CommonModule.ГрафическаяСхемаПКМП</content>
+  <content>Enum.МетодыHTTP</content>
+  <content>Enum.ТипыКаналов</content>
+  <content>Catalog.ВидыКаналов</content>
 </mdclass:Subsystem>

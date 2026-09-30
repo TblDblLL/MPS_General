@@ -2954,7 +2954,7 @@
       <id>10</id>
       <valueType>
         <types>CatalogRef.ВидыПодписок</types>
-        <types>CatalogRef.КаналыВзаимодействия</types>
+        <types>CatalogRef.Каналы</types>
         <types>String</types>
         <stringQualifiers/>
       </valueType>

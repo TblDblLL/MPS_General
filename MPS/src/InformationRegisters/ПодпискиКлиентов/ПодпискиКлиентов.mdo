@@ -74,7 +74,7 @@
       <value>Канал взаимодействия</value>
     </synonym>
     <type>
-      <types>CatalogRef.КаналыВзаимодействия</types>
+      <types>CatalogRef.Каналы</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

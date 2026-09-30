@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="53116808-88c7-4d20-b4a8-3f254f3080f4">
+  <producedTypes>
+    <objectType typeId="0d9a96c9-4ba3-45a7-8d11-818cdf899376" valueTypeId="4ef59e5c-c47d-4176-ac5e-647cecb29594"/>
+    <refType typeId="a4686fad-f2af-4a11-8254-42b8c7215c6d" valueTypeId="84b2bb64-e531-44b9-b8fd-e7838eb59b56"/>
+    <selectionType typeId="e45afdbb-e7fb-4980-8463-0017b18b13bc" valueTypeId="2917e135-78e8-43c0-80ac-3bf3164e928f"/>
+    <listType typeId="c8d54fc4-0806-454e-846b-7e60e8d2b129" valueTypeId="4d1ad493-4b85-4faa-8bc8-0beda47479a1"/>
+    <managerType typeId="7eaef237-bbe1-403b-a7a6-f3f123dad91b" valueTypeId="0e633e1d-655e-4d97-9694-76ec507f1656"/>
+  </producedTypes>
+  <name>ВидыКаналов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды каналов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыКаналов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВидыКаналов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="53257eea-fc6d-458c-831e-c61debffbb6c">
+    <name>ТипКанала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип канала</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыКаналов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

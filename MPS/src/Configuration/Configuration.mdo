@@ -1388,6 +1388,7 @@
   <catalogs>Catalog.ГруппыДоступаНоменклатуры</catalogs>
   <catalogs>Catalog.ГруппыДоступаКлиентов</catalogs>
   <catalogs>Catalog.Клиенты</catalogs>
+  <catalogs>Catalog.КлиентыПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.Константы</catalogs>
   <catalogs>Catalog.Сценарии</catalogs>
   <catalogs>Catalog.ТочкиСценарияСтарт</catalogs>
@@ -1397,27 +1398,27 @@
   <catalogs>Catalog.ТочкиСценарияУсловие</catalogs>
   <catalogs>Catalog.СегментыНоменклатуры</catalogs>
   <catalogs>Catalog.СегментыПартнеров</catalogs>
-  <catalogs>Catalog.МассовыеРассылки</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.НоменклатураПрисоединенныеФайлы</catalogs>
+  <catalogs>Catalog.Магазины</catalogs>
+  <catalogs>Catalog.ВидыДействийКлиента</catalogs>
+  <catalogs>Catalog.Каналы</catalogs>
+  <catalogs>Catalog.ВидыКаналов</catalogs>
   <catalogs>Catalog.АвтоматическиеРассылки</catalogs>
+  <catalogs>Catalog.МассовыеРассылки</catalogs>
   <catalogs>Catalog.СообщенияНаСайт</catalogs>
   <catalogs>Catalog.СообщенияВПриложение</catalogs>
   <catalogs>Catalog.Виджеты</catalogs>
-  <catalogs>Catalog.Номенклатура</catalogs>
-  <catalogs>Catalog.Магазины</catalogs>
-  <catalogs>Catalog.ВидыДействийКлиента</catalogs>
-  <catalogs>Catalog.КаналыВзаимодействия</catalogs>
-  <catalogs>Catalog.СпискиПродуктов</catalogs>
+  <catalogs>Catalog.ПрограммыСкидок</catalogs>
+  <catalogs>Catalog.ПрограммыБалловЛояльности</catalogs>
+  <catalogs>Catalog.НаборыПромокодов</catalogs>
   <catalogs>Catalog.ВидыБалльныхСчетов</catalogs>
+  <catalogs>Catalog.СпискиПродуктов</catalogs>
   <catalogs>Catalog.Производители</catalogs>
   <catalogs>Catalog.ТоварныеКатегории</catalogs>
   <catalogs>Catalog.ЗоныДоставки</catalogs>
   <catalogs>Catalog.ВидыПодписок</catalogs>
-  <catalogs>Catalog.ПрограммыСкидок</catalogs>
-  <catalogs>Catalog.НаборыПромокодов</catalogs>
-  <catalogs>Catalog.ПрограммыБалловЛояльности</catalogs>
   <catalogs>Catalog.ПродуктовыеРекомендации</catalogs>
-  <catalogs>Catalog.КлиентыПрисоединенныеФайлы</catalogs>
-  <catalogs>Catalog.НоменклатураПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ЧасовыеПояса</catalogs>
   <catalogs>Catalog.ВидыПриложений</catalogs>
   <catalogs>Catalog.ВидыДействияВКампаниях</catalogs>
@@ -1502,6 +1503,8 @@
   <enums>Enum.СтатусыПодписок</enums>
   <enums>Enum.ИзмененияСостоянияПродукта</enums>
   <enums>Enum.РежимыРедактирования</enums>
+  <enums>Enum.МетодыHTTP</enums>
+  <enums>Enum.ТипыКаналов</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализПравДоступа</reports>

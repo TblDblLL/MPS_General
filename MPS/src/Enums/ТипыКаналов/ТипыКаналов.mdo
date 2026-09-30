@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c2c9e37-f9d6-409f-99d2-ca0eb2be28a0">
+  <producedTypes>
+    <refType typeId="bbc0dec4-750d-4fbc-8949-8802d3e4fe94" valueTypeId="6b39aa63-e2b8-416b-8b93-6c45f61bd76a"/>
+    <listType typeId="06d3c7df-089e-4a20-b49e-01502563d376" valueTypeId="97177a4b-adbe-4fba-88c9-0b10eca24d84"/>
+    <managerType typeId="ea138616-e0a4-49f7-bd57-89036c604e4a" valueTypeId="17e7a534-7d5a-4bee-82b6-2e3514cd87b6"/>
+  </producedTypes>
+  <name>ТипыКаналов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы каналов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1cb45082-077a-4b1b-8832-7f8dfc8dbfd0">
+    <name>WEB</name>
+    <synonym>
+      <key>ru</key>
+      <value>WEB сайт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e57fce27-0e21-4a0a-b570-941a4d5c33fc">
+    <name>Email</name>
+    <synonym>
+      <key>ru</key>
+      <value>Email</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8323dcff-3c07-49b2-9326-d5343bdb725c">
+    <name>SMS</name>
+    <synonym>
+      <key>ru</key>
+      <value>SMS</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="20b2727a-a0d6-41c8-88c4-cbf7bbabc540">
+    <name>OffLine</name>
+    <synonym>
+      <key>ru</key>
+      <value>OffLine</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d1393eb9-94f5-4f67-819e-92c56904d6ac">
+    <name>Mobile</name>
+    <synonym>
+      <key>ru</key>
+      <value>Mobile</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="84a2b685-47d8-4bcb-8999-cccdb5880222">
+    <name>WebPush</name>
+    <synonym>
+      <key>ru</key>
+      <value>WebPush</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bc3b1250-310f-4fd3-9d11-e2f646d83002">
+    <name>WebHook</name>
+    <synonym>
+      <key>ru</key>
+      <value>WebHook</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

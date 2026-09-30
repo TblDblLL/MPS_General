@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a54cbc8-7bca-4a01-9dd3-153e0e4db3ae">
+  <producedTypes>
+    <objectType typeId="42e2fe84-9bd2-45eb-bbb2-6de94523be3b" valueTypeId="0f5ab716-dd3a-4763-87ac-336941cf262f"/>
+    <refType typeId="4bd33e9a-928c-448f-8b51-5b0cd71e96be" valueTypeId="f0d64b0e-ef55-4190-87a3-db57ca7ccf03"/>
+    <selectionType typeId="affaf091-1f6c-4cb7-8995-82fe2c6f4402" valueTypeId="340baa79-f2f1-411f-b87b-1b0585177dae"/>
+    <listType typeId="5d6de5f6-7917-41b2-90d4-c134422b3188" valueTypeId="afdf111e-d014-4deb-91ec-9416e28f42f2"/>
+    <managerType typeId="d85b8ab9-1676-4448-9790-ddf8ce543e7e" valueTypeId="2ba85307-4f14-4f2c-98bf-56e1c525ff0b"/>
+  </producedTypes>
+  <name>Каналы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Каналы</value>
+  </synonym>
+  <inputByString>Catalog.Каналы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Каналы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined/>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
