@@ -184,14 +184,28 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="1d4cc4ba-493f-484a-9f0e-5a7f7a0aa57c">
-      <name>Канал</name>
+    <attributes uuid="edfbf5ae-badc-45be-b6fd-f4895d524591">
+      <name>ТипКанала</name>
       <synonym>
         <key>ru</key>
-        <value>Канал</value>
+        <value>Тип канала</value>
       </synonym>
       <type>
-        <types>CatalogRef.Каналы</types>
+        <types>EnumRef.ТипыКаналов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1d4cc4ba-493f-484a-9f0e-5a7f7a0aa57c">
+      <name>ВидКанала</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид канала</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыКаналов</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

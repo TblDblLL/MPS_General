@@ -5,10 +5,10 @@
     <listType typeId="f1d1583d-60f9-4077-823a-92b58c79ea4b" valueTypeId="993918f2-2f4a-46c6-936e-ed195e8c0dd6"/>
     <managerType typeId="2b53ba49-4e6c-4d85-b874-121bbe2b94cb" valueTypeId="48e1a000-6c4d-42be-abc8-e653b1be0bf1"/>
   </producedTypes>
-  <name>ПередСразуПосле</name>
+  <name>ПередСразуПослеДатой</name>
   <synonym>
     <key>ru</key>
-    <value>Перед сразу после</value>
+    <value>Перед сразу после датой</value>
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
@@ -31,6 +31,13 @@
     <synonym>
       <key>ru</key>
       <value>После</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="617bd119-657e-46dd-8da4-b129b694247f">
+    <name>Датой</name>
+    <synonym>
+      <key>ru</key>
+      <value>ДатаИВремя</value>
     </synonym>
   </enumValues>
 </mdclass:Enum>

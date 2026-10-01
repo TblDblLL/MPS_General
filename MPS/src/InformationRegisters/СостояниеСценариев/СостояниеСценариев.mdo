@@ -40,7 +40,7 @@
       <value>Сценарий</value>
     </synonym>
     <type>
-      <types>CatalogRef.ПрограммыБалловЛояльности</types>
+      <types>CatalogRef.Сценарии</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

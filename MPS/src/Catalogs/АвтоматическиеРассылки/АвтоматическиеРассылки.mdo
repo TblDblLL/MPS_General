@@ -31,13 +31,13 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <attributes uuid="49df44dd-4788-4a8f-a597-a174d35374a4">
-    <name>Канал</name>
+    <name>ВидКанала</name>
     <synonym>
       <key>ru</key>
-      <value>Канал</value>
+      <value>Вид канала</value>
     </synonym>
     <type>
-      <types>CatalogRef.Каналы</types>
+      <types>CatalogRef.ВидыКаналов</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

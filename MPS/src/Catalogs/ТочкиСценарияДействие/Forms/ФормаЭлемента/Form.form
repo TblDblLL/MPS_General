@@ -512,20 +512,20 @@
         <name>ОтправкаРассылки_Страница</name>
         <id>35</id>
         <items xsi:type="form:FormField">
-          <name>ПоследовательностьДействийКанал</name>
-          <id>59</id>
+          <name>ПоследовательностьДействийТипКанала</name>
+          <id>158</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Items.ПоследовательностьДействий.CurrentData.Канал</segments>
+            <segments>Items.ПоследовательностьДействий.CurrentData.ТипКанала</segments>
           </dataPath>
           <titleLocation>Top</titleLocation>
           <extendedTooltip>
-            <name>ПоследовательностьДействийКаналРасширеннаяПодсказка</name>
-            <id>61</id>
+            <name>ПоследовательностьДействийТипКаналаРасширеннаяПодсказка</name>
+            <id>160</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -534,8 +534,8 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ПоследовательностьДействийКаналКонтекстноеМеню</name>
-            <id>60</id>
+            <name>ПоследовательностьДействийТипКаналаКонтекстноеМеню</name>
+            <id>159</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>InputField</type>
@@ -548,10 +548,57 @@
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <wrap>true</wrap>
+            <chooseType>true</chooseType>
+            <typeDomainEnabled>true</typeDomainEnabled>
+            <textEdit>true</textEdit>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>ПоследовательностьДействийВидКанала</name>
+          <id>59</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Items.ПоследовательностьДействий.CurrentData.ВидКанала</segments>
+          </dataPath>
+          <titleLocation>Top</titleLocation>
+          <extendedTooltip>
+            <name>ПоследовательностьДействийВидКаналаРасширеннаяПодсказка</name>
+            <id>61</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ПоследовательностьДействийВидКаналаКонтекстноеМеню</name>
+            <id>60</id>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>InputField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:InputFieldExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <wrap>true</wrap>
             <autoMarkIncomplete>true</autoMarkIncomplete>
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
+            <choiceParameterLinks>
+              <name>Отбор.ТипКанала</name>
+              <datapath xsi:type="form:DataPath">
+                <segments>Items.ПоследовательностьДействий.CurrentData.ТипКанала</segments>
+              </datapath>
+            </choiceParameterLinks>
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
@@ -599,10 +646,9 @@
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
             <choiceParameterLinks>
-              <name>Отбор.Канал</name>
-              <changeMode>DontChange</changeMode>
+              <name>Отбор.ВидКанала</name>
               <datapath xsi:type="form:DataPath">
-                <segments>Items.ПоследовательностьДействий.CurrentData.Канал</segments>
+                <segments>Items.ПоследовательностьДействий.CurrentData.ВидКанала</segments>
               </datapath>
             </choiceParameterLinks>
           </extInfo>

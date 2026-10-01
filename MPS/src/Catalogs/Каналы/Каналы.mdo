@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a54cbc8-7bca-4a01-9dd3-153e0e4db3ae">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a54cbc8-7bca-4a01-9dd3-153e0e4db3ae">
   <producedTypes>
     <objectType typeId="42e2fe84-9bd2-45eb-bbb2-6de94523be3b" valueTypeId="0f5ab716-dd3a-4763-87ac-336941cf262f"/>
     <refType typeId="4bd33e9a-928c-448f-8b51-5b0cd71e96be" valueTypeId="f0d64b0e-ef55-4190-87a3-db57ca7ccf03"/>
@@ -29,4 +29,19 @@
   <predefined/>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="e60aebaa-5326-4206-ae9a-839b9ee2ffbb">
+    <name>ВидКанала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид канала</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыКаналов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>

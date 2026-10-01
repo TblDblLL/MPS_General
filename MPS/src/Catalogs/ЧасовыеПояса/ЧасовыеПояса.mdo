@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="72520e5d-c14e-421a-b750-253da5b15ef2">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="72520e5d-c14e-421a-b750-253da5b15ef2">
   <producedTypes>
     <objectType typeId="ed74029d-6faa-416b-81a3-145f8fbe093f" valueTypeId="2da5d710-a73c-4d2d-9ecf-3529cea0e71f"/>
     <refType typeId="7e7c7ac9-67ef-446f-a88a-8510aec254cc" valueTypeId="f87497dc-cac4-4d49-9a26-ab540b33fa59"/>
@@ -28,14 +28,33 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="995b1e27-22ad-4a5f-b418-4af4d4b50be9">
+      <name>МестноеВремя</name>
+      <description>Местное время</description>
+      <code xsi:type="core:StringValue">
+        <value>МестноеВремя</value>
+      </code>
+    </items>
+  </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultListForm>Catalog.ЧасовыеПояса.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ЧасовыеПояса.Form.ФормаВыбора</defaultChoiceForm>
   <forms uuid="a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>
       <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="435452bf-40ef-4307-9352-285d8f866e3e">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

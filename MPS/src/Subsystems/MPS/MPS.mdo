@@ -43,12 +43,11 @@
   <content>InformationRegister.СостояниеРассылокПоКлиентам</content>
   <content>InformationRegister.СоставСпискаПродуктовКлиента</content>
   <content>Enum.СтатусыПрограммЛояльности</content>
-  <content>InformationRegister.СостояниеПрограммБалловЛояльности</content>
   <content>Catalog.НаборыПромокодов</content>
-  <content>Catalog.ПрограммыСкидок</content>
+  <content>Catalog.ПрограммыАкций</content>
   <content>Enum.СтатусыСценариев</content>
   <content>Enum.СтатусыРассылок</content>
-  <content>InformationRegister.СостояниеПрограммСкидок</content>
+  <content>InformationRegister.СостояниеПрограммАкций</content>
   <content>InformationRegister.СостоянияПерсонализаций</content>
   <content>Catalog.ПродуктовыеРекомендации</content>
   <content>InformationRegister.ЦеныНоменклатуры</content>
@@ -72,7 +71,7 @@
   <content>Catalog.ТочкиСценарияУсловие</content>
   <content>Enum.ЧастотаЗапускаСценарияНаКлиенте</content>
   <content>Enum.ПериодыДействий</content>
-  <content>Enum.ПередСразуПосле</content>
+  <content>Enum.ПередСразуПослеДатой</content>
   <content>Constant.ЧасовойПоясПоУмолчанию</content>
   <content>Enum.ВидыТочкиУсловия</content>
   <content>Enum.СпособыИзмененияКоличества</content>
@@ -98,4 +97,5 @@
   <content>Enum.МетодыHTTP</content>
   <content>Enum.ТипыКаналов</content>
   <content>Catalog.ВидыКаналов</content>
+  <content>Enum.ТипыАкций</content>
 </mdclass:Subsystem>

@@ -279,7 +279,7 @@
               <value>Сразу</value>
             </presentation>
             <value xsi:type="core:ReferenceValue">
-              <value>Enum.ПередСразуПосле.EnumValue.Сразу</value>
+              <value>Enum.ПередСразуПослеДатой.EnumValue.Сразу</value>
             </value>
           </choiceList>
           <choiceList>
@@ -288,7 +288,7 @@
               <value>За</value>
             </presentation>
             <value xsi:type="core:ReferenceValue">
-              <value>Enum.ПередСразуПосле.EnumValue.Перед</value>
+              <value>Enum.ПередСразуПослеДатой.EnumValue.Перед</value>
             </value>
           </choiceList>
           <choiceList>
@@ -297,7 +297,7 @@
               <value>Через</value>
             </presentation>
             <value xsi:type="core:ReferenceValue">
-              <value>Enum.ПередСразуПосле.EnumValue.После</value>
+              <value>Enum.ПередСразуПослеДатой.EnumValue.После</value>
             </value>
           </choiceList>
         </extInfo>

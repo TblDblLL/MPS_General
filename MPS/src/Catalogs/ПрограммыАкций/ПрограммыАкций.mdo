@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25bdaf85-ca20-4ec4-93a4-431e9a3fc050">
+  <producedTypes>
+    <objectType typeId="790fcaef-1d1d-4d0e-b685-1a78b5c6b162" valueTypeId="175b74f1-d398-4f39-b61c-7ca02e0b1c75"/>
+    <refType typeId="b3e237dc-e6fe-4b40-b746-c2d18c8ab4a2" valueTypeId="254d097b-0613-45e3-9ec8-d159dd06f9fc"/>
+    <selectionType typeId="82520094-97c1-43c8-9139-fcb32a0c7c5b" valueTypeId="51959246-4e4f-4557-9522-bdc6f46908cf"/>
+    <listType typeId="78d1c5de-7553-424c-9577-56835aaa613f" valueTypeId="5981a99d-2af1-40f9-978f-e0a1fc796aea"/>
+    <managerType typeId="46da26ed-3180-4228-94d0-bfd748a19b90" valueTypeId="dbdecd92-a141-472d-8f4a-30ce730c91ca"/>
+  </producedTypes>
+  <name>ПрограммыАкций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Программы акций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПрограммыАкций.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ПрограммыАкций.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ПрограммыАкций.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="4b7c9c7a-cf5d-460d-ace7-7aa5f3a03e66">
+    <name>ДатаНачалаВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала выполнения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3c564be2-722b-42ad-bc84-bb3fb4cdc6c4">
+    <name>ДатаОстановки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата остановки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cf179a9a-4f56-452b-affe-f640340f79aa">
+    <name>НачалоПослеЗапуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало после запуска</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b263f944-a9dd-4faf-a471-9a96f7c04abc">
+    <name>ОстановкаВручную</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остановка вручную</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="620516d0-ddbd-444e-bd53-f8c996e8409c">
+    <name>ЧасовойПояс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Часовой пояс</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЧасовыеПояса</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="82b7971f-10f1-466f-8d85-a18406397ef5">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -109,6 +109,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="44958ce5-3171-440b-932b-7996ab2a3b1a">
+    <name>ЧасовойПояс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Часовой пояс</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЧасовыеПояса</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="a426eae4-42d6-4ab1-bdb6-3650f12a5dfd">
     <name>РежимРедактирования</name>
     <synonym>

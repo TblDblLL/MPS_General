@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="828ee714-2e5a-4b71-b38e-2e37d68fabc2">
+  <producedTypes>
+    <refType typeId="51cd7afa-29bc-4180-af93-6897dc0cdbe7" valueTypeId="39085466-345d-4dcf-b14d-ae51302c796c"/>
+    <listType typeId="be1779b5-b194-4fa5-87eb-508c33528d09" valueTypeId="f31964cc-5e83-482c-a033-ec35f6c1b629"/>
+    <managerType typeId="27547c6f-65f9-4c0e-b68f-ab5ca9d01fdb" valueTypeId="0e366c45-185a-4c1b-9b36-8954925b45b8"/>
+  </producedTypes>
+  <name>ТипыАкций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы акций</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="969e4924-e51d-4547-a983-8086fc438866">
+    <name>Скидки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скидки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2771651c-1818-45a2-9a29-83842437182c">
+    <name>Баллы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Баллы</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

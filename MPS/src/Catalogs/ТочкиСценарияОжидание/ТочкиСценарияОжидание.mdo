@@ -90,12 +90,12 @@
       <value>Граница срабатывания динамически</value>
     </synonym>
     <type>
-      <types>EnumRef.ПередСразуПосле</types>
+      <types>EnumRef.ПередСразуПослеДатой</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:ReferenceValue">
-      <value>Enum.ПередСразуПосле.EnumValue.Сразу</value>
+      <value>Enum.ПередСразуПослеДатой.EnumValue.Сразу</value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>

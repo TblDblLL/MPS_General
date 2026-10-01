@@ -30,14 +30,14 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="56db3019-30cc-443e-b345-e16b38be9d8a">
-    <name>Канал</name>
+  <attributes uuid="247387c6-533c-4bbb-a31f-f8dca8910e48">
+    <name>ВидКанала</name>
     <synonym>
       <key>ru</key>
-      <value>Канал</value>
+      <value>Вид канала</value>
     </synonym>
     <type>
-      <types>CatalogRef.Каналы</types>
+      <types>CatalogRef.ВидыКаналов</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

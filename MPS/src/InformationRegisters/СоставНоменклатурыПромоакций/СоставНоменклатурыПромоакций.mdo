@@ -43,7 +43,7 @@
       <value>Программа скидок</value>
     </synonym>
     <type>
-      <types>CatalogRef.ПрограммыСкидок</types>
+      <types>CatalogRef.ПрограммыАкций</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

@@ -1409,8 +1409,7 @@
   <catalogs>Catalog.СообщенияНаСайт</catalogs>
   <catalogs>Catalog.СообщенияВПриложение</catalogs>
   <catalogs>Catalog.Виджеты</catalogs>
-  <catalogs>Catalog.ПрограммыСкидок</catalogs>
-  <catalogs>Catalog.ПрограммыБалловЛояльности</catalogs>
+  <catalogs>Catalog.ПрограммыАкций</catalogs>
   <catalogs>Catalog.НаборыПромокодов</catalogs>
   <catalogs>Catalog.ВидыБалльныхСчетов</catalogs>
   <catalogs>Catalog.СпискиПродуктов</catalogs>
@@ -1496,7 +1495,7 @@
   <enums>Enum.ВидыТочкиУсловия</enums>
   <enums>Enum.ЧастотаЗапускаСценарияНаКлиенте</enums>
   <enums>Enum.ПериодыДействий</enums>
-  <enums>Enum.ПередСразуПосле</enums>
+  <enums>Enum.ПередСразуПослеДатой</enums>
   <enums>Enum.СпособыИзмененияКоличества</enums>
   <enums>Enum.ВидыСроковНачисленияБаллов</enums>
   <enums>Enum.ЕстьНетНеВажно</enums>
@@ -1505,6 +1504,7 @@
   <enums>Enum.РежимыРедактирования</enums>
   <enums>Enum.МетодыHTTP</enums>
   <enums>Enum.ТипыКаналов</enums>
+  <enums>Enum.ТипыАкций</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализПравДоступа</reports>
@@ -1659,8 +1659,7 @@
   <informationRegisters>InformationRegister.СоставСпискаПродуктовКлиента</informationRegisters>
   <informationRegisters>InformationRegister.СостояниеНаборовПромокодов</informationRegisters>
   <informationRegisters>InformationRegister.СостоянияПерсонализаций</informationRegisters>
-  <informationRegisters>InformationRegister.СостояниеПрограммБалловЛояльности</informationRegisters>
-  <informationRegisters>InformationRegister.СостояниеПрограммСкидок</informationRegisters>
+  <informationRegisters>InformationRegister.СостояниеПрограммАкций</informationRegisters>
   <informationRegisters>InformationRegister.СостояниеРассылокПоКлиентам</informationRegisters>
   <informationRegisters>InformationRegister.СостояниеСценариев</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
