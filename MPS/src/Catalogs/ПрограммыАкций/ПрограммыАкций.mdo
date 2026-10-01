@@ -12,13 +12,20 @@
     <key>ru</key>
     <value>Программы акций</value>
   </synonym>
-  <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.ПрограммыАкций.StandardAttribute.Code</inputByString>
   <inputByString>Catalog.ПрограммыАкций.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Программа</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Программы акций</value>
+  </listPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
@@ -108,6 +115,38 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="68c86d49-66d9-4010-a2d7-1bbebb16bf42">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a7d56ceb-deea-4cbe-9f1a-4475f7d709a9">
+    <name>ТипАкции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип акции</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыАкций</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="82b7971f-10f1-466f-8d85-a18406397ef5">
     <name>ФормаЭлемента</name>
     <synonym>
@@ -117,4 +156,31 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="a23febd2-b098-49f3-a20d-a527e5fe6e01">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="0d206a7e-d567-4c8a-842d-96726f7b903b">
+    <name>ОткрытьПрограммыСкидок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Программы скидок</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="a26695b8-29ff-44cd-90b6-83f760e766b7">
+    <name>ОткрытьПрограммыБаллов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Программы баллов</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:Catalog>

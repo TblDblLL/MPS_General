@@ -97,6 +97,7 @@
       </titleTextColor>
       <titleFont xsi:type="core:FontRef">
         <font>Style.NormalTextFont</font>
+        <bold>true</bold>
       </titleFont>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -175,6 +176,49 @@
       <items xsi:type="form:FormGroup">
         <name>ГруппаНачало</name>
         <id>22</id>
+        <items xsi:type="form:Decoration">
+          <name>ДекорацияНачатьС</name>
+          <id>165</id>
+          <title>
+            <key>ru</key>
+            <value>начать</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ДекорацияНачатьСРасширеннаяПодсказка</name>
+            <id>167</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ДекорацияНачатьСКонтекстноеМеню</name>
+            <id>166</id>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <textColor xsi:type="core:ColorDef">
+            <red>51</red>
+            <green>153</green>
+            <blue>102</blue>
+          </textColor>
+          <font xsi:type="core:FontRef">
+            <font>Style.NormalTextFont</font>
+            <bold>true</bold>
+          </font>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </items>
         <items xsi:type="form:FormField">
           <name>НачалоПослеЗапуска</name>
           <id>26</id>
@@ -283,7 +327,7 @@
         </extendedTooltip>
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
-          <group>HorizontalIfPossible</group>
+          <group>AlwaysHorizontal</group>
           <behavior>Auto</behavior>
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
@@ -294,6 +338,49 @@
       <items xsi:type="form:FormGroup">
         <name>ГруппаОстановка</name>
         <id>24</id>
+        <items xsi:type="form:Decoration">
+          <name>ДекорацияВыполнятьДо</name>
+          <id>168</id>
+          <title>
+            <key>ru</key>
+            <value>выполнять</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ДекорацияВыполнятьДоРасширеннаяПодсказка</name>
+            <id>170</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ДекорацияВыполнятьДоКонтекстноеМеню</name>
+            <id>169</id>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <textColor xsi:type="core:ColorDef">
+            <red>51</red>
+            <green>153</green>
+            <blue>102</blue>
+          </textColor>
+          <font xsi:type="core:FontRef">
+            <font>Style.NormalTextFont</font>
+            <bold>true</bold>
+          </font>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </items>
         <items xsi:type="form:FormField">
           <name>ОстановкаВручную</name>
           <id>29</id>
@@ -402,7 +489,7 @@
         </extendedTooltip>
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
-          <group>HorizontalIfPossible</group>
+          <group>AlwaysHorizontal</group>
           <behavior>Auto</behavior>
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
@@ -431,7 +518,7 @@
       </extendedTooltip>
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
-        <group>Vertical</group>
+        <group>AlwaysHorizontal</group>
         <behavior>Auto</behavior>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
@@ -545,7 +632,6 @@
       <behavior>Auto</behavior>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
-      <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
@@ -553,6 +639,19 @@
   <items xsi:type="form:FormField">
     <name>РежимРедактирования</name>
     <id>85</id>
+    <title>
+      <key>ru</key>
+      <value>Режим</value>
+    </title>
+    <titleTextColor xsi:type="core:ColorDef">
+      <red>51</red>
+      <green>153</green>
+      <blue>102</blue>
+    </titleTextColor>
+    <titleFont xsi:type="core:FontRef">
+      <font>Style.NormalTextFont</font>
+      <bold>true</bold>
+    </titleFont>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -561,7 +660,7 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Объект.РежимРедактирования</segments>
     </dataPath>
-    <titleLocation>None</titleLocation>
+    <titleLocation>Left</titleLocation>
     <handlers>
       <event>OnChange</event>
       <name>РежимРедактированияПриИзменении</name>
