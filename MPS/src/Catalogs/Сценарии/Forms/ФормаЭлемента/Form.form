@@ -171,7 +171,7 @@
     <name>ГруппаПериод</name>
     <id>20</id>
     <items xsi:type="form:FormGroup">
-      <name>ГруппаВремя</name>
+      <name>ГруппаВремяНачалаОстановкиВыполнения</name>
       <id>161</id>
       <items xsi:type="form:FormGroup">
         <name>ГруппаНачало</name>
@@ -504,10 +504,10 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Группа время</value>
+        <value>Группа время начала остановки выполнения</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаВремяРасширеннаяПодсказка</name>
+        <name>ГруппаВремяНачалаОстановкиВыполненияРасширеннаяПодсказка</name>
         <id>162</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>

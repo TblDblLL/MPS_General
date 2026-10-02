@@ -175,7 +175,9 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ЕстьНетНеВажно.EnumValue.НеВажно</value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -183,7 +185,7 @@
     <name>ОграничитьПоВремени</name>
     <synonym>
       <key>ru</key>
-      <value>Ограничить выход из блока по времени</value>
+      <value>Ограничить доступность по времени</value>
     </synonym>
     <type>
       <types>Boolean</types>
@@ -261,6 +263,39 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="a87395cb-6838-4cb2-b624-a34d9eaedf41">
+    <name>ДниНедели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дни недели</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>7</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d596d3db-f5dc-417a-ab13-8227040237a5">
+    <name>ОграничитьПоПромокодам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ограничить по промокодам</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="debe1869-0d3f-4e7a-93e2-d6df8003e2ea">
     <name>НаборПромокодов</name>
     <synonym>
@@ -306,10 +341,121 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>2</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="eb7c8030-745c-4808-9da5-5646615458b8">
+    <name>ОграничитьПоКаналам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ограничить по каналам</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="98643759-0b14-483b-80fb-0e0f65f604b7">
+    <name>ОграничитьПоЗонам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ограничить по зонам</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="f0b82e5f-bc2a-4d71-ac65-563337f3d0c1">
+    <producedTypes>
+      <objectType typeId="9490db06-6353-4ebe-b010-125a91158219" valueTypeId="e0d8034f-cddc-4f38-859e-d63886e8a5d2"/>
+      <rowType typeId="b451a541-6920-4765-9560-3d158c652517" valueTypeId="331db621-9f6e-4edb-9d66-bd52be018f97"/>
+    </producedTypes>
+    <name>КаналыОтбор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каналы отбор</value>
+    </synonym>
+    <attributes uuid="d0271721-85e6-4d37-baa0-2db2c75985b0">
+      <name>ЗначениеОтбора</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение отбора</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Каналы</types>
+        <types>CatalogRef.ВидыКаналов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+  <tabularSections uuid="98e9a8ff-c24c-4aa8-8288-3bcf72839fa0">
+    <producedTypes>
+      <objectType typeId="b37b4c61-27b9-4623-9206-364b4636fd43" valueTypeId="bf29229c-1925-4fc6-914d-6d14e70ff61a"/>
+      <rowType typeId="219bf484-4f3a-4956-bdec-fc909cb72beb" valueTypeId="fc02dd45-35ac-41aa-a202-ce1bf9192b80"/>
+    </producedTypes>
+    <name>ЗоныДоставкиОтбор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зоны доставки отбор</value>
+    </synonym>
+    <attributes uuid="69f7f8da-0993-4534-9045-67a7f4a9025a">
+      <name>ЗначениеОтбора</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение отбора</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ЗоныДоставки</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+  <tabularSections uuid="1d859634-6c38-4ae7-8f3a-d5b7aeb5fdbd">
+    <producedTypes>
+      <objectType typeId="8165adfb-644f-4e75-80e6-c6cdb13b8d69" valueTypeId="aa11f249-bb02-45fb-9267-24634ce3a409"/>
+      <rowType typeId="599b5357-8ecc-46db-ad7a-3dd557a72125" valueTypeId="1c79b2d0-319f-434f-b0d2-0f47a891c895"/>
+    </producedTypes>
+    <name>ТоварыОтбор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары отбор</value>
+    </synonym>
+    <attributes uuid="0da66ad1-1496-4de4-8361-db153ec51e32">
+      <name>ЗначениеОтбора</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение отбора</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
   <forms uuid="82b7971f-10f1-466f-8d85-a18406397ef5">
     <name>ФормаЭлемента</name>
     <synonym>
