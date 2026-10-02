@@ -38,6 +38,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.ПрограммыАкций.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultChoiceForm>Catalog.ПрограммыАкций.Form.ФормаВыбора</defaultChoiceForm>
   <attributes uuid="4b7c9c7a-cf5d-460d-ace7-7aa5f3a03e66">
     <name>ДатаНачалаВыполнения</name>
     <synonym>
@@ -143,6 +144,168 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1f9e7cd7-343d-488b-b429-bebf3ca2556e">
+    <name>СегментКлиентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сегмент клиентов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СегментыПартнеров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="73e8d16c-469e-4110-a3be-d152e14e2ff1">
+    <name>ВидОтбораПоКлиентам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид отбора по клиентам</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ЕстьНетНеВажно</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="60aac73d-5450-4fcc-846e-b6f35b210d94">
+    <name>ОграничитьПоВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ограничить выход из блока по времени</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="76f2b7ba-f6e9-4a23-80d2-572398db04bc">
+    <name>НеОграничиватьВремяСрабатывания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не ограничивать время срабатывания</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fbf6753e-c2e9-4dc4-8492-fbd0f801189d">
+    <name>ВремяС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время С</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ДФ=HH:mm</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДФ=HH:mm</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="aecbef98-a3a3-4730-ac65-59c19e4a9beb">
+    <name>ВремяПо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время по</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ДФ=HH:mm</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДФ=HH:mm</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="debe1869-0d3f-4e7a-93e2-d6df8003e2ea">
+    <name>НаборПромокодов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор промокодов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НаборыПромокодов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4fab5be3-d95a-4a49-80ef-1a5f5b2e2326">
+    <name>РазрешитьНесколькоПромокодовВЗаказе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешить несколько промокодов в заказе</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fb494dcf-f08d-4f06-b5f1-fefab8852a04">
+    <name>КоличествоПромокодовВЗаказе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество промокодов в заказе</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -161,6 +324,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0a15f084-2e78-4ad0-a8bd-7042963a1f76">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
