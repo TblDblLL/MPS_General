@@ -377,6 +377,66 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="ebfc8961-e895-4f78-9d0f-de6a7dea888e">
+    <name>ОграничитьПоПродуктам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ограничить по продуктам</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="67251d07-e117-460e-9f70-7a19920eaddd">
+    <name>ОграничитьПоПродуктамЗаказов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ограничить по продуктам заказов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d3c7f1d1-b342-42f6-8b08-da87215d5abc">
+    <name>ДействиеПоПродуктам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действие по продуктам</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ДействияВАкциях</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f812806f-5de1-479b-9a62-6d10ac3fd750">
+    <name>ОграничитьПоЗаказам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ограничить по заказам</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="f0b82e5f-bc2a-4d71-ac65-563337f3d0c1">
     <producedTypes>
       <objectType typeId="9490db06-6353-4ebe-b010-125a91158219" valueTypeId="e0d8034f-cddc-4f38-859e-d63886e8a5d2"/>

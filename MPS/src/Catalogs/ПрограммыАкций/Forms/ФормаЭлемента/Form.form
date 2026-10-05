@@ -1540,6 +1540,7 @@
         <enableStartDrag>true</enableStartDrag>
         <enableDrag>true</enableDrag>
         <fileDragMode>AsFileRef</fileDragMode>
+        <searchStringLocation>CommandBar</searchStringLocation>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1813,6 +1814,7 @@
         <enableStartDrag>true</enableStartDrag>
         <enableDrag>true</enableDrag>
         <fileDragMode>AsFileRef</fileDragMode>
+        <searchStringLocation>CommandBar</searchStringLocation>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1874,8 +1876,40 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
-    <name>ГруппаПродуктыИЗаказы</name>
+    <name>ГруппаПродукты</name>
     <id>151</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Группа продукты</value>
+    </title>
+    <extendedTooltip>
+      <name>ГруппаПродуктыРасширеннаяПодсказка</name>
+      <id>152</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>HorizontalIfPossible</group>
+      <behavior>Auto</behavior>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаЗаказы</name>
+    <id>211</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -1886,8 +1920,8 @@
       <value>Группа продукты и заказы</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаПродуктыИЗаказыРасширеннаяПодсказка</name>
-      <id>152</id>
+      <name>ГруппаЗаказыРасширеннаяПодсказка</name>
+      <id>212</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>

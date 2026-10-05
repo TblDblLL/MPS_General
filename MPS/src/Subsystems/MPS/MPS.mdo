@@ -98,4 +98,5 @@
   <content>Enum.ТипыКаналов</content>
   <content>Catalog.ВидыКаналов</content>
   <content>Enum.ТипыАкций</content>
+  <content>Enum.ДействияВАкциях</content>
 </mdclass:Subsystem>

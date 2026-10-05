@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e8bad69-2573-44fa-81dd-ceb066c68c1f">
+  <producedTypes>
+    <refType typeId="e35d5460-b1b6-4c8a-80d7-1a9555ec4199" valueTypeId="10b0869b-636b-46bb-b6a9-3a02bba84228"/>
+    <listType typeId="8c79a99f-b12a-4d22-9047-619303e5dce4" valueTypeId="52dd2d3a-344a-4ebb-a089-67cfeb57b209"/>
+    <managerType typeId="3699e387-b1c3-4c10-b6c4-1387825022e9" valueTypeId="47f5bbe2-45f3-4821-953e-36c4b2011a9e"/>
+  </producedTypes>
+  <name>ДействияВАкциях</name>
+  <synonym>
+    <key>ru</key>
+    <value>Действия в акциях</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4ac8970d-30aa-45ac-b666-b2d195e8f8d0">
+    <name>РазрешитьСкидкуБаллами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешить скидку баллами</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4d4c4825-3c68-40bf-a1e1-729681ab58c7">
+    <name>НачислитьБаллы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начислить баллы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="56a4bb4c-ec39-4d79-a766-d131422894cc">
+    <name>ВыдатьСкидку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдать скидку</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="98f24a5e-9103-4bf7-94d6-fc5b692955ac">
+    <name>КаскаднаяСкидка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каскадная скидка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="df1a96cb-cd52-4c33-b8ea-e703f4d3b365">
+    <name>ОкруглениеЦены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Округление цены</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3281bac0-2038-4dec-8151-1113d5b4b4d6">
+    <name>ВыдатьСкидкуЗаНабор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдать скидку за набор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9364f961-80d1-49ff-a50f-8b9c9a17f8b5">
+    <name>ВыдатьСкидкуНаПродуктЗаСуммуПокупокВСегменте</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдать скидку на продукт за сумму покупок в сегменте</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="eda0fdbf-ce1c-4041-aeee-81772ff22595">
+    <name>ВыдатьСкидкуНаПродуктыЗаПродукты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдать скидку на продукты за продукты</value>
+    </synonym>
+    <comment>Выдать скидку на N продуктов при оформлении заказа на N единиц продукта</comment>
+  </enumValues>
+  <enumValues uuid="12fa0af6-fd7f-4f22-b8b7-f604b0026a49">
+    <name>ВыдатьПромокод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдать промокод</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4db6dc0c-5821-42f8-a1fc-3d2ad141644b">
+    <name>ВыдатьПромокодЗаКаждыйПродукт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдать промокод за каждый продукт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c95045a1-c33e-4553-9a27-0f0b26244523">
+    <name>СкидкаНаДоставку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скидка на доставку</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
