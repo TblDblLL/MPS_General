@@ -392,11 +392,26 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="67251d07-e117-460e-9f70-7a19920eaddd">
-    <name>ОграничитьПоПродуктамЗаказов</name>
+  <attributes uuid="a4082048-e770-4eeb-8b4a-d3210e526b38">
+    <name>ВариантОграниченияПоПродуктам</name>
     <synonym>
       <key>ru</key>
-      <value>Ограничить по продуктам заказов</value>
+      <value>Вариант ограничения по продуктам</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВариантыОграниченияПоПродуктам</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="67251d07-e117-460e-9f70-7a19920eaddd">
+    <name>ОграничитьЗаказыПоПродуктам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ограничить заказы по продуктам</value>
     </synonym>
     <type>
       <types>Boolean</types>
@@ -407,11 +422,41 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="d3c7f1d1-b342-42f6-8b08-da87215d5abc">
-    <name>ДействиеПоПродуктам</name>
+  <attributes uuid="20e80b58-0174-4398-8c7b-b38508e7c432">
+    <name>СегментНоменклатурыПоПродуктам</name>
     <synonym>
       <key>ru</key>
-      <value>Действие по продуктам</value>
+      <value>Сегмент номенклатуры по продуктам</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СегментыНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1933071c-1378-4ad3-9156-5548364ee4df">
+    <name>НастройкиЗаказовПоПродуктам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки заказов по продуктам</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d3c7f1d1-b342-42f6-8b08-da87215d5abc">
+    <name>ДействиеАкцииПоПродуктам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действие акции по продуктам</value>
     </synonym>
     <type>
       <types>EnumRef.ДействияВАкциях</types>
@@ -430,6 +475,21 @@
     </synonym>
     <type>
       <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="68868fac-a775-4382-8466-4d659e3b326e">
+    <name>НастройкиЗаказовПоЗаказам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки заказов по заказам</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -508,6 +568,107 @@
       </synonym>
       <type>
         <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+  <tabularSections uuid="311b77d7-c0f4-453f-a2a9-7f093572b6e2">
+    <producedTypes>
+      <objectType typeId="b78080a9-b8f5-4896-bc9b-32291a2e37fb" valueTypeId="ff44ed04-43f7-479b-8705-b2d3dc6b0f8d"/>
+      <rowType typeId="aec11de6-23a9-4df3-b560-d63ac23f681b" valueTypeId="96d59068-0849-43b8-94af-eef4dbef606c"/>
+    </producedTypes>
+    <name>ДействияАкцииПоЗаказам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действия акции по заказам</value>
+    </synonym>
+    <attributes uuid="fff324e7-2706-4eab-aed8-9bf269c15207">
+      <name>ДействиеАкции</name>
+      <synonym>
+        <key>ru</key>
+        <value>Действие акции</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ДействияВАкциях</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="51619929-4aa5-43bb-be53-65b903398909">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество действия</value>
+      </synonym>
+      <comment>Процент/сумма скидки/начисления в рублях/баллах </comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="dd3f03fe-6127-4957-b4de-54cce94c4a6b">
+      <name>ЭтоАбсолютноеКоличество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Это абсолютное количество</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1ea57f47-f61b-42d2-9350-de740e14d2f0">
+      <name>БалльныйСчет</name>
+      <synonym>
+        <key>ru</key>
+        <value>Балльный счет</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыБалльныхСчетов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ab74dbaa-91a0-4efa-90e9-bd1be313c302">
+      <name>МинимальнаяСтоимость</name>
+      <synonym>
+        <key>ru</key>
+        <value>Минимальная стоимость</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e162683d-6f13-47a1-b4ee-b6ed288f4902">
+      <name>ВидПериодаДоступности</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид периода доступности</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ПередСразуПослеДатой</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

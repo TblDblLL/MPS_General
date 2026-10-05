@@ -99,4 +99,5 @@
   <content>Catalog.ВидыКаналов</content>
   <content>Enum.ТипыАкций</content>
   <content>Enum.ДействияВАкциях</content>
+  <content>Enum.ВариантыОграниченияПоПродуктам</content>
 </mdclass:Subsystem>

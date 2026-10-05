@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a83141bd-4d99-4668-aa26-91328fd09df0">
+  <producedTypes>
+    <refType typeId="3969fc1c-0637-4d83-ad84-0e1fbc3bcddb" valueTypeId="55d01e94-ec0c-4013-88b8-439332102322"/>
+    <listType typeId="1140fd76-32ee-4356-a7b8-4628a031f61c" valueTypeId="7062331a-a123-4359-9080-e66c5d0fae33"/>
+    <managerType typeId="cb33123e-802e-4164-8cef-c86e89e1b400" valueTypeId="b758f461-b3d8-49b4-a053-dbe88238f7b2"/>
+  </producedTypes>
+  <name>ВариантыОграниченияПоПродуктам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты ограничения по продуктам</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="decd4c3c-5daa-4c5c-88aa-c7d01d477fcc">
+    <name>ВСписке</name>
+    <synonym>
+      <key>ru</key>
+      <value>В списке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8c14f3c6-1cac-4764-ba19-48b5c51051c5">
+    <name>ВСегменте</name>
+    <synonym>
+      <key>ru</key>
+      <value>В сегменте</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3734bb53-40cd-4e6d-885f-c26196519c76">
+    <name>НеВСегменте</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не в сегменте</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

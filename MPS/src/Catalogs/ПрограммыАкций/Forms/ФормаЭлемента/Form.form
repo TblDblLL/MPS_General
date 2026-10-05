@@ -2246,6 +2246,78 @@
       </edit>
     </columns>
   </attributes>
+  <attributes>
+    <name>АдресНастроекСКД_ЗаказыПоПродуктам</name>
+    <title>
+      <key>ru</key>
+      <value>Адрес настроек СКД (заказы по продуктам)</value>
+    </title>
+    <id>9</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>АдресСКД_ПоЗаказам</name>
+    <title>
+      <key>ru</key>
+      <value>Адрес СКД (по заказам)</value>
+    </title>
+    <id>10</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>АдресНастроекСКД_ПоЗаказам</name>
+    <title>
+      <key>ru</key>
+      <value>Адрес настроек СКД (заказы по продуктам)</value>
+    </title>
+    <id>11</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>АдресСКД_ЗаказыПоПродуктам</name>
+    <title>
+      <key>ru</key>
+      <value>Адрес СКД (заказы по продуктам)</value>
+    </title>
+    <id>12</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>
