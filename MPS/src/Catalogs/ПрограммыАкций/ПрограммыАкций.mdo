@@ -497,6 +497,270 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="ada66d07-46d4-4e6a-9f07-9142a4cb3cff">
+    <name>ЕстьЛимитОбщийКоличество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Есть лимит общий количество</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="696fa481-5cc0-4471-ad17-3bf7b8e01609">
+    <name>ЕстьЛимитОбщийСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Есть лимит общий сумма</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ed81ba24-1ada-415b-b7f6-d71bdc0de52f">
+    <name>ЕстьЛимитПерсональныйКоличество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Есть лимит персональный количество</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="70221f86-3357-4201-9c68-71753da3e95c">
+    <name>ЕстьЛимитПерсональныйСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Есть лимит персональный сумма</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9a95eb35-8b4a-4520-832c-c10a6d4dbfa2">
+    <name>ЛимитОбщийКоличество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лимит общий количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0a57e010-9ff3-4789-a9fc-6b0b32895c6c">
+    <name>ЛимитОбщийСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лимит общий сумма</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="65c12a2a-b2b5-40c7-9041-6a5b62b048fa">
+    <name>ЛимитПерсональныйКоличество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лимит персональный количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="079616e5-8bd8-45cc-b6e0-b470a92ec80e">
+    <name>ЛимитПерсональныйСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лимит персональный сумма</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fa35c011-a3fe-4534-bd18-838d346a106e">
+    <name>ПериодЛимитаОбщийКоличество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период лимита общий количество</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПериодыДействий</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="02d92a9a-d0d6-48be-acef-827e64777961">
+    <name>ПериодЛимитаОбщийСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период лимита общий сумма</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПериодыДействий</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="29fd3d77-e3df-424a-88c1-96dce8f004bf">
+    <name>ПериодЛимитаПерсональныйКоличество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период лимита персональный количество</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПериодыДействий</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c2d44fc8-09bf-47ad-8875-f326740e49e8">
+    <name>ПериодЛимитаПерсональныйСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период лимита персональный сумма</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПериодыДействий</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="32e263f0-bb10-49bb-b355-80cd655942cb">
+    <name>КоличествоПериодовЛимитаОбщийКоличество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество периодов лимита общий количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ab3532ef-ca49-4f2c-8849-7cb11468d2a3">
+    <name>КоличествоПериодовЛимитаОбщийСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество периодов лимита общий сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="75b60abc-b62b-4deb-8bae-842654d26431">
+    <name>КоличествоПериодовЛимитаПерсональныйКоличество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество периодов лимита персональный количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2ce1f83b-663c-4940-bc71-f6a833f21b70">
+    <name>КоличествоПериодовЛимитаПерсональныйСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество периодов лимита персональный сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="f0b82e5f-bc2a-4d71-ac65-563337f3d0c1">
     <producedTypes>
       <objectType typeId="9490db06-6353-4ebe-b010-125a91158219" valueTypeId="e0d8034f-cddc-4f38-859e-d63886e8a5d2"/>
