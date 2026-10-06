@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>ВыборкаЗаказов</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ссылка</dataPath>
+			<field>Ссылка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Клиент</dataPath>
+			<field>Клиент</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Дата</dataPath>
+			<field>Дата</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номенклатура</dataPath>
+			<field>Номенклатура</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Количество</dataPath>
+			<field>Количество</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЦенаБазовая</dataPath>
+			<field>ЦенаБазовая</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Цена</dataPath>
+			<field>Цена</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	ЗаказКлиентаТовары.Ссылка КАК Ссылка,
+	ЗаказКлиента.Клиент КАК Клиент,
+	ЗаказКлиента.Дата КАК Дата,
+	ЗаказКлиентаТовары.Номенклатура КАК Номенклатура,
+	ЗаказКлиентаТовары.Количество КАК Количество,
+	ЗаказКлиентаТовары.ЦенаБазовая КАК ЦенаБазовая,
+	ЗаказКлиентаТовары.Цена КАК Цена
+{ВЫБРАТЬ
+	Ссылка.*,
+	Клиент.*,
+	Дата,
+	Номенклатура.*,
+	Количество,
+	ЦенаБазовая,
+	Цена}
+ИЗ
+	Документ.ЗаказКлиента.Товары КАК ЗаказКлиентаТовары
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.ЗаказКлиента КАК ЗаказКлиента
+		ПО ЗаказКлиентаТовары.Ссылка = ЗаказКлиента.Ссылка
+{ГДЕ
+	ЗаказКлиентаТовары.Ссылка.*,
+	ЗаказКлиента.Клиент.*,
+	ЗаказКлиента.Дата,
+	ЗаказКлиентаТовары.Номенклатура.*,
+	ЗаказКлиентаТовары.Количество,
+	ЗаказКлиентаТовары.ЦенаБазовая,
+	ЗаказКлиентаТовары.Цена}</query>
+		<autoFillFields>false</autoFillFields>
+		<useQueryGroupIfPossible>false</useQueryGroupIfPossible>
+	</dataSet>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows"/>
+	</settingsVariant>
+</DataCompositionSchema>

@@ -407,21 +407,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="67251d07-e117-460e-9f70-7a19920eaddd">
-    <name>ОграничитьЗаказыПоПродуктам</name>
-    <synonym>
-      <key>ru</key>
-      <value>Ограничить заказы по продуктам</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="20e80b58-0174-4398-8c7b-b38508e7c432">
     <name>СегментНоменклатурыПоПродуктам</name>
     <synonym>
@@ -430,6 +415,21 @@
     </synonym>
     <type>
       <types>CatalogRef.СегментыНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="67251d07-e117-460e-9f70-7a19920eaddd">
+    <name>ОграничитьЗаказыПоПродуктам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ограничить заказы по продуктам</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -483,10 +483,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="68868fac-a775-4382-8466-4d659e3b326e">
-    <name>НастройкиЗаказовПоЗаказам</name>
+    <name>НастройкиЗаказов</name>
     <synonym>
       <key>ru</key>
-      <value>Настройки заказов по заказам</value>
+      <value>Настройки заказов</value>
     </synonym>
     <type>
       <types>ValueStorage</types>
@@ -561,10 +561,10 @@
       <value>Товары отбор</value>
     </synonym>
     <attributes uuid="0da66ad1-1496-4de4-8361-db153ec51e32">
-      <name>ЗначениеОтбора</name>
+      <name>Номенклатура</name>
       <synonym>
         <key>ru</key>
-        <value>Значение отбора</value>
+        <value>Номенклатура</value>
       </synonym>
       <type>
         <types>CatalogRef.Номенклатура</types>
@@ -704,6 +704,14 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <templates uuid="9af58f17-ee37-4720-b67b-52cb8e6bdd98">
+    <name>ФильтрПоЗаказам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фильтр по заказам</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
   <commands uuid="0d206a7e-d567-4c8a-842d-96726f7b903b">
     <name>ОткрытьПрограммыСкидок</name>
     <synonym>
