@@ -817,6 +817,7 @@
         <horizontalStretch>false</horizontalStretch>
         <wrap>true</wrap>
         <listChoiceMode>true</listChoiceMode>
+        <autoMarkIncomplete>true</autoMarkIncomplete>
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
@@ -1813,7 +1814,7 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>ДеревоЗонДоставки</segments>
+            <segments>ДеревоЗон</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
           <items xsi:type="form:FormField">
@@ -1829,7 +1830,7 @@
               <common>true</common>
             </userVisible>
             <dataPath xsi:type="form:DataPath">
-              <segments>ДеревоЗонДоставки.Отметка</segments>
+              <segments>ДеревоЗон.Отметка</segments>
             </dataPath>
             <extendedTooltip>
               <name>ДеревоЗонДоставкиОтметкаРасширеннаяПодсказка</name>
@@ -1862,7 +1863,7 @@
               <common>true</common>
             </userVisible>
             <dataPath xsi:type="form:DataPath">
-              <segments>ДеревоЗонДоставки.ЗначениеОтбора</segments>
+              <segments>ДеревоЗон.ЗначениеОтбора</segments>
             </dataPath>
             <extendedTooltip>
               <name>ДеревоЗонДоставкиЗначениеОтбораРасширеннаяПодсказка</name>
@@ -2177,6 +2178,10 @@
             <segments>Объект.ОграничитьПоПродуктам</segments>
           </dataPath>
           <titleLocation>Right</titleLocation>
+          <handlers>
+            <event>OnChange</event>
+            <name>ОграничитьПоПродуктамПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>ОграничитьПоПродуктамРасширеннаяПодсказка</name>
             <id>215</id>
@@ -2215,6 +2220,10 @@
             <dataPath xsi:type="form:DataPath">
               <segments>Объект.ВариантОграниченияПоПродуктам</segments>
             </dataPath>
+            <handlers>
+              <event>OnChange</event>
+              <name>ВариантОграниченияПоПродуктамПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>ВариантОграниченияПоПродуктамРасширеннаяПодсказка</name>
               <id>226</id>
@@ -2401,6 +2410,10 @@
             <segments>Объект.ОграничитьЗаказыПоПродуктам</segments>
           </dataPath>
           <titleLocation>Right</titleLocation>
+          <handlers>
+            <event>OnChange</event>
+            <name>ОграничитьЗаказыПоПродуктамПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>ОграничитьЗаказыПоПродуктамРасширеннаяПодсказка</name>
             <id>278</id>
@@ -3309,7 +3322,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:Decoration">
-    <name>СверткаЛимитыДействий</name>
+    <name>СверткаЛимиты</name>
     <id>453</id>
     <title>
       <key>ru</key>
@@ -3321,7 +3334,7 @@
       <common>true</common>
     </userVisible>
     <extendedTooltip>
-      <name>СверткаЛимитыДействийРасширеннаяПодсказка</name>
+      <name>СверткаЛимитыРасширеннаяПодсказка</name>
       <id>455</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -3331,7 +3344,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>СверткаЛимитыДействийКонтекстноеМеню</name>
+      <name>СверткаЛимитыКонтекстноеМеню</name>
       <id>454</id>
       <autoFill>true</autoFill>
     </contextMenu>
@@ -3358,7 +3371,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
-    <name>ГруппаЛимитыДействий</name>
+    <name>ГруппаЛимиты</name>
     <id>159</id>
     <items xsi:type="form:FormGroup">
       <name>ГруппаЛимитОбщийКоличество</name>
@@ -4552,7 +4565,7 @@
       <value>Лимиты</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаЛимитыДействийРасширеннаяПодсказка</name>
+      <name>ГруппаЛимитыРасширеннаяПодсказка</name>
       <id>160</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -4712,10 +4725,10 @@
     </columns>
   </attributes>
   <attributes>
-    <name>ДеревоЗонДоставки</name>
+    <name>ДеревоЗон</name>
     <title>
       <key>ru</key>
-      <value>Дерево зон доставки</value>
+      <value>Дерево зон</value>
     </title>
     <id>4</id>
     <valueType>
