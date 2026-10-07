@@ -1464,6 +1464,10 @@
           <segments>Объект.ОграничитьПоКаналам</segments>
         </dataPath>
         <titleLocation>Right</titleLocation>
+        <handlers>
+          <event>OnChange</event>
+          <name>ОграничитьПоКаналамПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>ОграничитьПоКаналамРасширеннаяПодсказка</name>
           <id>165</id>
@@ -1716,7 +1720,7 @@
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
           <group>HorizontalIfPossible</group>
-          <behavior>Auto</behavior>
+          <controlRepresentation>Picture</controlRepresentation>
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <showTitle>true</showTitle>
@@ -1769,6 +1773,10 @@
           <segments>Объект.ОграничитьПоЗонам</segments>
         </dataPath>
         <titleLocation>Right</titleLocation>
+        <handlers>
+          <event>OnChange</event>
+          <name>ОграничитьПоЗонамПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>ОграничитьПоЗонамРасширеннаяПодсказка</name>
           <id>168</id>
@@ -2021,7 +2029,8 @@
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
           <group>HorizontalIfPossible</group>
-          <behavior>Auto</behavior>
+          <collapsed>true</collapsed>
+          <controlRepresentation>Picture</controlRepresentation>
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <showTitle>true</showTitle>
