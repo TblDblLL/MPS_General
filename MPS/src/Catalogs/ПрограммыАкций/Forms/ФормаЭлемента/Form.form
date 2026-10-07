@@ -1022,6 +1022,10 @@
       <items xsi:type="form:FormField">
         <name>НаборПромокодов</name>
         <id>131</id>
+        <title>
+          <key>ru</key>
+          <value>При доступности промокода из набора</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -2645,6 +2649,7 @@
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.ДействиеАкцииПоПродуктам</segments>
         </dataPath>
+        <titleLocation>Top</titleLocation>
         <extendedTooltip>
           <name>ДействиеАкцииПоПродуктамРасширеннаяПодсказка</name>
           <id>326</id>
@@ -2669,6 +2674,7 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <wrap>true</wrap>
+          <listChoiceMode>true</listChoiceMode>
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>

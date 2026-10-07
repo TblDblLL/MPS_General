@@ -339,7 +339,9 @@
         <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
-    <minValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:StringValue">
+      <value>2</value>
+    </minValue>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:NumberValue">
       <value>2</value>
