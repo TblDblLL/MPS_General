@@ -312,7 +312,7 @@
             <checkBoxType>Tumbler</checkBoxType>
             <editFormat>
               <key>ru</key>
-              <value>БЛ='С конкретной даты'; БИ='Сразу после запуска'</value>
+              <value>БЛ='с конкретной даты'; БИ='сразу после запуска'</value>
             </editFormat>
             <itemWidth>16</itemWidth>
           </extInfo>
@@ -474,7 +474,7 @@
             <checkBoxType>Tumbler</checkBoxType>
             <editFormat>
               <key>ru</key>
-              <value>БЛ='До конкретной даты'; БИ='До остановки вручную'</value>
+              <value>БЛ='до конкретной даты'; БИ='до остановки вручную'</value>
             </editFormat>
             <itemWidth>16</itemWidth>
           </extInfo>
@@ -717,8 +717,8 @@
       <autoFill>true</autoFill>
     </contextMenu>
     <type>Label</type>
-    <autoMaxWidth>true</autoMaxWidth>
     <autoMaxHeight>true</autoMaxHeight>
+    <horizontalStretch>true</horizontalStretch>
     <textColor xsi:type="core:ColorDef">
       <red>51</red>
       <green>153</green>
@@ -789,7 +789,7 @@
       <titleLocation>None</titleLocation>
       <handlers>
         <event>OnChange</event>
-        <name>ВидОтбораПоКлиентамПриИзменении</name>
+        <name>УправлениеФормойКонтрагенты</name>
       </handlers>
       <extendedTooltip>
         <name>ВидОтбораПоКлиентамРасширеннаяПодсказка</name>
@@ -953,8 +953,8 @@
       <autoFill>true</autoFill>
     </contextMenu>
     <type>Label</type>
-    <autoMaxWidth>true</autoMaxWidth>
     <autoMaxHeight>true</autoMaxHeight>
+    <horizontalStretch>true</horizontalStretch>
     <textColor xsi:type="core:ColorDef">
       <red>51</red>
       <green>153</green>
@@ -991,7 +991,7 @@
       <titleLocation>Right</titleLocation>
       <handlers>
         <event>OnChange</event>
-        <name>ОграничитьПоПромокодамПриИзменении</name>
+        <name>УправлениеФормойДоступность</name>
       </handlers>
       <extendedTooltip>
         <name>ОграничитьПоПромокодамРасширеннаяПодсказка</name>
@@ -1079,7 +1079,7 @@
         <titleLocation>None</titleLocation>
         <handlers>
           <event>OnChange</event>
-          <name>РазрешитьНесколькоПромокодовВЗаказеПриИзменении</name>
+          <name>УправлениеФормойДоступность</name>
         </handlers>
         <extendedTooltip>
           <name>РазрешитьНесколькоПромокодовВЗаказеРасширеннаяПодсказка</name>
@@ -1155,7 +1155,7 @@
         <titleLocation>None</titleLocation>
         <handlers>
           <event>OnChange</event>
-          <name>КоличествоПромокодовВЗаказеПриИзменении</name>
+          <name>УправлениеФормойДоступность</name>
         </handlers>
         <extendedTooltip>
           <name>КоличествоПромокодовВЗаказеРасширеннаяПодсказка</name>
@@ -1305,7 +1305,7 @@
       <titleLocation>Right</titleLocation>
       <handlers>
         <event>OnChange</event>
-        <name>ОграничитьПоВремениПриИзменении</name>
+        <name>УправлениеФормойДоступность</name>
       </handlers>
       <extendedTooltip>
         <name>ОграничитьПоВремениРасширеннаяПодсказка</name>
@@ -1426,8 +1426,8 @@
       <autoFill>true</autoFill>
     </contextMenu>
     <type>Label</type>
-    <autoMaxWidth>true</autoMaxWidth>
     <autoMaxHeight>true</autoMaxHeight>
+    <horizontalStretch>true</horizontalStretch>
     <textColor xsi:type="core:ColorDef">
       <red>51</red>
       <green>153</green>
@@ -1467,7 +1467,7 @@
         <titleLocation>Right</titleLocation>
         <handlers>
           <event>OnChange</event>
-          <name>ОграничитьПоКаналамПриИзменении</name>
+          <name>УправлениеФормойМеста</name>
         </handlers>
         <extendedTooltip>
           <name>ОграничитьПоКаналамРасширеннаяПодсказка</name>
@@ -1776,7 +1776,7 @@
         <titleLocation>Right</titleLocation>
         <handlers>
           <event>OnChange</event>
-          <name>ОграничитьПоЗонамПриИзменении</name>
+          <name>УправлениеФормойМеста</name>
         </handlers>
         <extendedTooltip>
           <name>ОграничитьПоЗонамРасширеннаяПодсказка</name>
@@ -2136,8 +2136,8 @@
       <autoFill>true</autoFill>
     </contextMenu>
     <type>Label</type>
-    <autoMaxWidth>true</autoMaxWidth>
     <autoMaxHeight>true</autoMaxHeight>
+    <horizontalStretch>true</horizontalStretch>
     <textColor xsi:type="core:ColorDef">
       <red>51</red>
       <green>153</green>
@@ -2180,7 +2180,7 @@
           <titleLocation>Right</titleLocation>
           <handlers>
             <event>OnChange</event>
-            <name>ОграничитьПоПродуктамПриИзменении</name>
+            <name>УправлениеФормойПродукты</name>
           </handlers>
           <extendedTooltip>
             <name>ОграничитьПоПродуктамРасширеннаяПодсказка</name>
@@ -2222,7 +2222,7 @@
             </dataPath>
             <handlers>
               <event>OnChange</event>
-              <name>ВариантОграниченияПоПродуктамПриИзменении</name>
+              <name>УправлениеФормойПродукты</name>
             </handlers>
             <extendedTooltip>
               <name>ВариантОграниченияПоПродуктамРасширеннаяПодсказка</name>
@@ -2412,7 +2412,7 @@
           <titleLocation>Right</titleLocation>
           <handlers>
             <event>OnChange</event>
-            <name>ОграничитьЗаказыПоПродуктамПриИзменении</name>
+            <name>УправлениеФормойПродукты</name>
           </handlers>
           <extendedTooltip>
             <name>ОграничитьЗаказыПоПродуктамРасширеннаяПодсказка</name>
@@ -2829,8 +2829,8 @@
       <autoFill>true</autoFill>
     </contextMenu>
     <type>Label</type>
-    <autoMaxWidth>true</autoMaxWidth>
     <autoMaxHeight>true</autoMaxHeight>
+    <horizontalStretch>true</horizontalStretch>
     <textColor xsi:type="core:ColorDef">
       <red>51</red>
       <green>153</green>
@@ -2865,6 +2865,10 @@
         <segments>Объект.ОграничитьПоЗаказам</segments>
       </dataPath>
       <titleLocation>Right</titleLocation>
+      <handlers>
+        <event>OnChange</event>
+        <name>УправлениеФормойЗаказы</name>
+      </handlers>
       <extendedTooltip>
         <name>ОграничитьПоЗаказамРасширеннаяПодсказка</name>
         <id>310</id>
@@ -3107,6 +3111,7 @@
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <wrap>true</wrap>
+            <listChoiceMode>true</listChoiceMode>
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
@@ -3349,8 +3354,8 @@
       <autoFill>true</autoFill>
     </contextMenu>
     <type>Label</type>
-    <autoMaxWidth>true</autoMaxWidth>
     <autoMaxHeight>true</autoMaxHeight>
+    <horizontalStretch>true</horizontalStretch>
     <textColor xsi:type="core:ColorDef">
       <red>51</red>
       <green>153</green>
@@ -3392,6 +3397,10 @@
           <segments>Объект.ЕстьЛимитОбщийКоличество</segments>
         </dataPath>
         <titleLocation>Right</titleLocation>
+        <handlers>
+          <event>OnChange</event>
+          <name>УправлениеФормойЛимиты</name>
+        </handlers>
         <extendedTooltip>
           <name>ЕстьЛимитОбщийКоличествоРасширеннаяПодсказка</name>
           <id>372</id>
@@ -3431,6 +3440,10 @@
             <segments>Объект.ЛимитОбщийКоличество</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
+          <handlers>
+            <event>OnChange</event>
+            <name>УправлениеФормойЛимиты</name>
+          </handlers>
           <extendedTooltip>
             <name>ЛимитОбщийКоличествоРасширеннаяПодсказка</name>
             <id>384</id>
@@ -3455,6 +3468,7 @@
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <wrap>true</wrap>
+            <spinButton>true</spinButton>
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
@@ -3507,6 +3521,10 @@
             <segments>Объект.КоличествоПериодовЛимитаОбщийКоличество</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
+          <handlers>
+            <event>OnChange</event>
+            <name>УправлениеФормойЛимиты</name>
+          </handlers>
           <extendedTooltip>
             <name>КоличествоПериодовЛимитаОбщийКоличествоРасширеннаяПодсказка</name>
             <id>408</id>
@@ -3531,6 +3549,7 @@
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <wrap>true</wrap>
+            <spinButton>true</spinButton>
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
@@ -3548,6 +3567,10 @@
             <segments>Объект.ПериодЛимитаОбщийКоличество</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
+          <handlers>
+            <event>OnChange</event>
+            <name>УправлениеФормойЛимиты</name>
+          </handlers>
           <extendedTooltip>
             <name>ПериодЛимитаОбщийКоличествоРасширеннаяПодсказка</name>
             <id>396</id>
@@ -3687,6 +3710,10 @@
           <segments>Объект.ЕстьЛимитОбщийСумма</segments>
         </dataPath>
         <titleLocation>Right</titleLocation>
+        <handlers>
+          <event>OnChange</event>
+          <name>УправлениеФормойЛимиты</name>
+        </handlers>
         <extendedTooltip>
           <name>ЕстьЛимитОбщийСуммаРасширеннаяПодсказка</name>
           <id>375</id>
@@ -3726,6 +3753,10 @@
             <segments>Объект.ЛимитОбщийСумма</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
+          <handlers>
+            <event>OnChange</event>
+            <name>УправлениеФормойЛимиты</name>
+          </handlers>
           <extendedTooltip>
             <name>ЛимитОбщийСуммаРасширеннаяПодсказка</name>
             <id>387</id>
@@ -3757,11 +3788,11 @@
           </extInfo>
         </items>
         <items xsi:type="form:Decoration">
-          <name>ТекстРазЛОС</name>
+          <name>ТекстРубЛОС</name>
           <id>429</id>
           <title>
             <key>ru</key>
-            <value>раз за</value>
+            <value>руб. за</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -3769,7 +3800,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ТекстРазЛОСРасширеннаяПодсказка</name>
+            <name>ТекстРубЛОСРасширеннаяПодсказка</name>
             <id>431</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -3779,7 +3810,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ТекстРазЛОСКонтекстноеМеню</name>
+            <name>ТекстРубЛОСКонтекстноеМеню</name>
             <id>430</id>
             <autoFill>true</autoFill>
           </contextMenu>
@@ -3803,6 +3834,10 @@
             <segments>Объект.КоличествоПериодовЛимитаОбщийСумма</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
+          <handlers>
+            <event>OnChange</event>
+            <name>УправлениеФормойЛимиты</name>
+          </handlers>
           <extendedTooltip>
             <name>КоличествоПериодовЛимитаОбщийСуммаРасширеннаяПодсказка</name>
             <id>419</id>
@@ -3827,6 +3862,7 @@
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <wrap>true</wrap>
+            <spinButton>true</spinButton>
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
@@ -3844,6 +3880,10 @@
             <segments>Объект.ПериодЛимитаОбщийСумма</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
+          <handlers>
+            <event>OnChange</event>
+            <name>УправлениеФормойЛимиты</name>
+          </handlers>
           <extendedTooltip>
             <name>ПериодЛимитаОбщийСуммаРасширеннаяПодсказка</name>
             <id>405</id>
@@ -3983,6 +4023,10 @@
           <segments>Объект.ЕстьЛимитПерсональныйКоличество</segments>
         </dataPath>
         <titleLocation>Right</titleLocation>
+        <handlers>
+          <event>OnChange</event>
+          <name>УправлениеФормойЛимиты</name>
+        </handlers>
         <extendedTooltip>
           <name>ЕстьЛимитПерсональныйКоличествоРасширеннаяПодсказка</name>
           <id>378</id>
@@ -4022,6 +4066,10 @@
             <segments>Объект.ЛимитПерсональныйКоличество</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
+          <handlers>
+            <event>OnChange</event>
+            <name>УправлениеФормойЛимиты</name>
+          </handlers>
           <extendedTooltip>
             <name>ЛимитПерсональныйКоличествоРасширеннаяПодсказка</name>
             <id>390</id>
@@ -4046,13 +4094,14 @@
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <wrap>true</wrap>
+            <spinButton>true</spinButton>
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
           </extInfo>
         </items>
         <items xsi:type="form:Decoration">
-          <name>ТекстРазПОК</name>
+          <name>ТекстРазЛПК</name>
           <id>432</id>
           <title>
             <key>ru</key>
@@ -4064,7 +4113,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ТекстРазПОКРасширеннаяПодсказка</name>
+            <name>ТекстРазЛПКРасширеннаяПодсказка</name>
             <id>434</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -4074,7 +4123,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ТекстРазПОККонтекстноеМеню</name>
+            <name>ТекстРазЛПККонтекстноеМеню</name>
             <id>433</id>
             <autoFill>true</autoFill>
           </contextMenu>
@@ -4098,6 +4147,10 @@
             <segments>Объект.КоличествоПериодовЛимитаПерсональныйКоличество</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
+          <handlers>
+            <event>OnChange</event>
+            <name>УправлениеФормойЛимиты</name>
+          </handlers>
           <extendedTooltip>
             <name>КоличествоПериодовЛимитаПерсональныйКоличествоРасширеннаяПодсказка</name>
             <id>414</id>
@@ -4122,6 +4175,7 @@
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <wrap>true</wrap>
+            <spinButton>true</spinButton>
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
@@ -4139,6 +4193,10 @@
             <segments>Объект.ПериодЛимитаПерсональныйКоличество</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
+          <handlers>
+            <event>OnChange</event>
+            <name>УправлениеФормойЛимиты</name>
+          </handlers>
           <extendedTooltip>
             <name>ПериодЛимитаПерсональныйКоличествоРасширеннаяПодсказка</name>
             <id>402</id>
@@ -4278,6 +4336,10 @@
           <segments>Объект.ЕстьЛимитПерсональныйСумма</segments>
         </dataPath>
         <titleLocation>Right</titleLocation>
+        <handlers>
+          <event>OnChange</event>
+          <name>УправлениеФормойЛимиты</name>
+        </handlers>
         <extendedTooltip>
           <name>ЕстьЛимитПерсональныйСуммаРасширеннаяПодсказка</name>
           <id>381</id>
@@ -4317,6 +4379,10 @@
             <segments>Объект.ЛимитПерсональныйСумма</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
+          <handlers>
+            <event>OnChange</event>
+            <name>УправлениеФормойЛимиты</name>
+          </handlers>
           <extendedTooltip>
             <name>ЛимитПерсональныйСуммаРасширеннаяПодсказка</name>
             <id>393</id>
@@ -4348,11 +4414,11 @@
           </extInfo>
         </items>
         <items xsi:type="form:Decoration">
-          <name>ТекстРазПОС</name>
+          <name>ТекстРубЛПС</name>
           <id>435</id>
           <title>
             <key>ru</key>
-            <value>раз за</value>
+            <value>руб. за</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -4360,7 +4426,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ТекстРазПОСРасширеннаяПодсказка</name>
+            <name>ТекстРубЛПСРасширеннаяПодсказка</name>
             <id>437</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -4370,7 +4436,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ТекстРазПОСКонтекстноеМеню</name>
+            <name>ТекстРубЛПСКонтекстноеМеню</name>
             <id>436</id>
             <autoFill>true</autoFill>
           </contextMenu>
@@ -4394,6 +4460,10 @@
             <segments>Объект.КоличествоПериодовЛимитаПерсональныйСумма</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
+          <handlers>
+            <event>OnChange</event>
+            <name>УправлениеФормойЛимиты</name>
+          </handlers>
           <extendedTooltip>
             <name>КоличествоПериодовЛимитаПерсональныйСуммаРасширеннаяПодсказка</name>
             <id>411</id>
@@ -4418,6 +4488,7 @@
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <wrap>true</wrap>
+            <spinButton>true</spinButton>
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
@@ -4435,6 +4506,10 @@
             <segments>Объект.ПериодЛимитаПерсональныйСумма</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
+          <handlers>
+            <event>OnChange</event>
+            <name>УправлениеФормойЛимиты</name>
+          </handlers>
           <extendedTooltip>
             <name>ПериодЛимитаПерсональныйСуммаРасширеннаяПодсказка</name>
             <id>399</id>
