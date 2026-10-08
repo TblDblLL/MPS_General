@@ -964,6 +964,7 @@
   <commonModules>CommonModule.УправлениеФормамиПКМП</commonModules>
   <commonModules>CommonModule.СлужебныйПКМП</commonModules>
   <commonModules>CommonModule.КомпоновкаИРасписание_ПКМП</commonModules>
+  <commonModules>CommonModule.КомпоновкаИРасписание_ПКМПКлиентСервер</commonModules>
   <commonModules>CommonModule.КомпоновкаИРасписание_ПКМПВызовСервера</commonModules>
   <commonModules>CommonModule.ГрафическаяСхемаПКМП</commonModules>
   <commonModules>CommonModule.ГрафическаяСхемаКлиентСерверПКМП</commonModules>

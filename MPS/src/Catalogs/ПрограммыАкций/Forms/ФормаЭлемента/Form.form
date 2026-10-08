@@ -2585,6 +2585,7 @@
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <wrap>true</wrap>
+              <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
               <autoMarkIncomplete>true</autoMarkIncomplete>
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
@@ -5436,6 +5437,10 @@
     <handlers>
       <event>BeforeWriteAtServer</event>
       <name>ПередЗаписьюНаСервере</name>
+    </handlers>
+    <handlers>
+      <event>BeforeWrite</event>
+      <name>ПередЗаписью</name>
     </handlers>
   </extInfo>
 </form:Form>

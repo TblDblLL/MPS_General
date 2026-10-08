@@ -100,4 +100,5 @@
   <content>Enum.ТипыАкций</content>
   <content>Enum.ДействияВАкциях</content>
   <content>Enum.ВариантыОграниченияПоПродуктам</content>
+  <content>CommonModule.КомпоновкаИРасписание_ПКМПКлиентСервер</content>
 </mdclass:Subsystem>
