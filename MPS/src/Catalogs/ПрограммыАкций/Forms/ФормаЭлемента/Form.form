@@ -689,21 +689,107 @@
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
-  <items xsi:type="form:Decoration">
-    <name>СверткаКонтрагенты</name>
-    <id>438</id>
-    <title>
-      <key>ru</key>
-      <value>Свертка контрагенты</value>
-    </title>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаСверткаКлиенты</name>
+    <id>456</id>
+    <items xsi:type="form:Decoration">
+      <name>СверткаКонтрагенты</name>
+      <id>438</id>
+      <title>
+        <key>ru</key>
+        <value>►Клиенты</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>СверткаКонтрагентыРасширеннаяПодсказка</name>
+        <id>440</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СверткаКонтрагентыКонтекстноеМеню</name>
+        <id>439</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <textColor xsi:type="core:ColorDef">
+        <red>51</red>
+        <green>153</green>
+        <blue>102</blue>
+      </textColor>
+      <font xsi:type="core:FontRef">
+        <font>Style.NormalTextFont</font>
+        <bold>true</bold>
+        <underline>true</underline>
+      </font>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <handlers>
+          <event>Click</event>
+          <name>СверткаНажатие</name>
+        </handlers>
+        <hyperlink>true</hyperlink>
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </items>
+    <items xsi:type="form:Decoration">
+      <name>ОписаниеСверткаКонтрагенты</name>
+      <id>471</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ОписаниеСверткаКонтрагентыРасширеннаяПодсказка</name>
+        <id>473</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ОписаниеСверткаКонтрагентыКонтекстноеМеню</name>
+        <id>472</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <formatted>true</formatted>
+      <type>Label</type>
+      <autoMaxHeight>true</autoMaxHeight>
+      <horizontalStretch>true</horizontalStretch>
+      <font xsi:type="core:FontRef">
+        <font>Style.NormalTextFont</font>
+      </font>
+      <groupHorizontalAlign>Left</groupHorizontalAlign>
+      <groupVerticalAlign>Center</groupVerticalAlign>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+        <verticalAlign>Center</verticalAlign>
+      </extInfo>
+    </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Группа свертка клиенты</value>
+    </title>
     <extendedTooltip>
-      <name>СверткаКонтрагентыРасширеннаяПодсказка</name>
-      <id>440</id>
+      <name>ГруппаСверткаКлиентыРасширеннаяПодсказка</name>
+      <id>457</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -711,31 +797,14 @@
         <horizontalAlign>Left</horizontalAlign>
       </extInfo>
     </extendedTooltip>
-    <contextMenu>
-      <name>СверткаКонтрагентыКонтекстноеМеню</name>
-      <id>439</id>
-      <autoFill>true</autoFill>
-    </contextMenu>
-    <type>Label</type>
-    <autoMaxHeight>true</autoMaxHeight>
-    <horizontalStretch>true</horizontalStretch>
-    <textColor xsi:type="core:ColorDef">
-      <red>51</red>
-      <green>153</green>
-      <blue>102</blue>
-    </textColor>
-    <font xsi:type="core:FontRef">
-      <font>Style.NormalTextFont</font>
-      <bold>true</bold>
-      <underline>true</underline>
-    </font>
-    <extInfo xsi:type="form:LabelDecorationExtInfo">
-      <handlers>
-        <event>Click</event>
-        <name>СверткаНажатие</name>
-      </handlers>
-      <hyperlink>true</hyperlink>
-      <horizontalAlign>Left</horizontalAlign>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>AlwaysHorizontal</group>
+      <behavior>Auto</behavior>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -861,6 +930,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.СегментКлиентов</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>УправлениеФормойКонтрагенты</name>
+      </handlers>
       <extendedTooltip>
         <name>СегментКлиентовРасширеннаяПодсказка</name>
         <id>119</id>
@@ -925,21 +998,107 @@
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
-  <items xsi:type="form:Decoration">
-    <name>СверткаДоступность</name>
-    <id>441</id>
-    <title>
-      <key>ru</key>
-      <value>Свертка доступность</value>
-    </title>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаСверткаДоступность</name>
+    <id>458</id>
+    <items xsi:type="form:Decoration">
+      <name>СверткаДоступность</name>
+      <id>441</id>
+      <title>
+        <key>ru</key>
+        <value>►Условия доступности</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>СверткаДоступностьРасширеннаяПодсказка</name>
+        <id>443</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СверткаДоступностьКонтекстноеМеню</name>
+        <id>442</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <textColor xsi:type="core:ColorDef">
+        <red>51</red>
+        <green>153</green>
+        <blue>102</blue>
+      </textColor>
+      <font xsi:type="core:FontRef">
+        <font>Style.NormalTextFont</font>
+        <bold>true</bold>
+        <underline>true</underline>
+      </font>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <handlers>
+          <event>Click</event>
+          <name>СверткаНажатие</name>
+        </handlers>
+        <hyperlink>true</hyperlink>
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </items>
+    <items xsi:type="form:Decoration">
+      <name>ОписаниеСверткаДоступность</name>
+      <id>474</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ОписаниеСверткаДоступностьРасширеннаяПодсказка</name>
+        <id>476</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ОписаниеСверткаДоступностьКонтекстноеМеню</name>
+        <id>475</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <formatted>true</formatted>
+      <type>Label</type>
+      <autoMaxHeight>true</autoMaxHeight>
+      <horizontalStretch>true</horizontalStretch>
+      <font xsi:type="core:FontRef">
+        <font>Style.NormalTextFont</font>
+      </font>
+      <groupHorizontalAlign>Left</groupHorizontalAlign>
+      <groupVerticalAlign>Center</groupVerticalAlign>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+        <verticalAlign>Center</verticalAlign>
+      </extInfo>
+    </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Группа свертка клиенты</value>
+    </title>
     <extendedTooltip>
-      <name>СверткаДоступностьРасширеннаяПодсказка</name>
-      <id>443</id>
+      <name>ГруппаСверткаДоступностьРасширеннаяПодсказка</name>
+      <id>459</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -947,31 +1106,14 @@
         <horizontalAlign>Left</horizontalAlign>
       </extInfo>
     </extendedTooltip>
-    <contextMenu>
-      <name>СверткаДоступностьКонтекстноеМеню</name>
-      <id>442</id>
-      <autoFill>true</autoFill>
-    </contextMenu>
-    <type>Label</type>
-    <autoMaxHeight>true</autoMaxHeight>
-    <horizontalStretch>true</horizontalStretch>
-    <textColor xsi:type="core:ColorDef">
-      <red>51</red>
-      <green>153</green>
-      <blue>102</blue>
-    </textColor>
-    <font xsi:type="core:FontRef">
-      <font>Style.NormalTextFont</font>
-      <bold>true</bold>
-      <underline>true</underline>
-    </font>
-    <extInfo xsi:type="form:LabelDecorationExtInfo">
-      <handlers>
-        <event>Click</event>
-        <name>СверткаНажатие</name>
-      </handlers>
-      <hyperlink>true</hyperlink>
-      <horizontalAlign>Left</horizontalAlign>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>AlwaysHorizontal</group>
+      <behavior>Auto</behavior>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -1035,6 +1177,10 @@
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.НаборПромокодов</segments>
         </dataPath>
+        <handlers>
+          <event>OnChange</event>
+          <name>УправлениеФормойДоступность</name>
+        </handlers>
         <extendedTooltip>
           <name>НаборПромокодовРасширеннаяПодсказка</name>
           <id>133</id>
@@ -1398,21 +1544,107 @@
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
-  <items xsi:type="form:Decoration">
-    <name>СверткаМеста</name>
-    <id>444</id>
-    <title>
-      <key>ru</key>
-      <value>Свертка места</value>
-    </title>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаСверткаМеста</name>
+    <id>460</id>
+    <items xsi:type="form:Decoration">
+      <name>СверткаМеста</name>
+      <id>444</id>
+      <title>
+        <key>ru</key>
+        <value>►Места</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>СверткаМестаРасширеннаяПодсказка</name>
+        <id>446</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СверткаМестаКонтекстноеМеню</name>
+        <id>445</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <textColor xsi:type="core:ColorDef">
+        <red>51</red>
+        <green>153</green>
+        <blue>102</blue>
+      </textColor>
+      <font xsi:type="core:FontRef">
+        <font>Style.NormalTextFont</font>
+        <bold>true</bold>
+        <underline>true</underline>
+      </font>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <handlers>
+          <event>Click</event>
+          <name>СверткаНажатие</name>
+        </handlers>
+        <hyperlink>true</hyperlink>
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </items>
+    <items xsi:type="form:Decoration">
+      <name>ОписаниеСверткаМеста</name>
+      <id>477</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ОписаниеСверткаМестаРасширеннаяПодсказка</name>
+        <id>479</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ОписаниеСверткаМестаКонтекстноеМеню</name>
+        <id>478</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <formatted>true</formatted>
+      <type>Label</type>
+      <autoMaxHeight>true</autoMaxHeight>
+      <horizontalStretch>true</horizontalStretch>
+      <font xsi:type="core:FontRef">
+        <font>Style.NormalTextFont</font>
+      </font>
+      <groupHorizontalAlign>Left</groupHorizontalAlign>
+      <groupVerticalAlign>Center</groupVerticalAlign>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+        <verticalAlign>Center</verticalAlign>
+      </extInfo>
+    </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Группа свертка клиенты</value>
+    </title>
     <extendedTooltip>
-      <name>СверткаМестаРасширеннаяПодсказка</name>
-      <id>446</id>
+      <name>ГруппаСверткаМестаРасширеннаяПодсказка</name>
+      <id>461</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -1420,31 +1652,14 @@
         <horizontalAlign>Left</horizontalAlign>
       </extInfo>
     </extendedTooltip>
-    <contextMenu>
-      <name>СверткаМестаКонтекстноеМеню</name>
-      <id>445</id>
-      <autoFill>true</autoFill>
-    </contextMenu>
-    <type>Label</type>
-    <autoMaxHeight>true</autoMaxHeight>
-    <horizontalStretch>true</horizontalStretch>
-    <textColor xsi:type="core:ColorDef">
-      <red>51</red>
-      <green>153</green>
-      <blue>102</blue>
-    </textColor>
-    <font xsi:type="core:FontRef">
-      <font>Style.NormalTextFont</font>
-      <bold>true</bold>
-      <underline>true</underline>
-    </font>
-    <extInfo xsi:type="form:LabelDecorationExtInfo">
-      <handlers>
-        <event>Click</event>
-        <name>СверткаНажатие</name>
-      </handlers>
-      <hyperlink>true</hyperlink>
-      <horizontalAlign>Left</horizontalAlign>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>AlwaysHorizontal</group>
+      <behavior>Auto</behavior>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -1592,6 +1807,10 @@
             <horizontalAlign>Left</horizontalAlign>
             <autoFill>true</autoFill>
           </autoCommandBar>
+          <handlers>
+            <event>OnChange</event>
+            <name>УправлениеФормойМеста</name>
+          </handlers>
           <searchStringAddition>
             <name>ДеревоКаналовСтрокаПоиска</name>
             <id>193</id>
@@ -1901,6 +2120,10 @@
             <horizontalAlign>Left</horizontalAlign>
             <autoFill>true</autoFill>
           </autoCommandBar>
+          <handlers>
+            <event>OnChange</event>
+            <name>УправлениеФормойМеста</name>
+          </handlers>
           <searchStringAddition>
             <name>ДеревоЗонДоставкиСтрокаПоиска</name>
             <id>177</id>
@@ -2108,21 +2331,107 @@
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
-  <items xsi:type="form:Decoration">
-    <name>СверткаПродукты</name>
-    <id>447</id>
-    <title>
-      <key>ru</key>
-      <value>Свертка продукты</value>
-    </title>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаСверткаПродукты</name>
+    <id>462</id>
+    <items xsi:type="form:Decoration">
+      <name>СверткаПродукты</name>
+      <id>447</id>
+      <title>
+        <key>ru</key>
+        <value>►Продукты</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>СверткаПродуктыРасширеннаяПодсказка</name>
+        <id>449</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СверткаПродуктыКонтекстноеМеню</name>
+        <id>448</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <textColor xsi:type="core:ColorDef">
+        <red>51</red>
+        <green>153</green>
+        <blue>102</blue>
+      </textColor>
+      <font xsi:type="core:FontRef">
+        <font>Style.NormalTextFont</font>
+        <bold>true</bold>
+        <underline>true</underline>
+      </font>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <handlers>
+          <event>Click</event>
+          <name>СверткаНажатие</name>
+        </handlers>
+        <hyperlink>true</hyperlink>
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </items>
+    <items xsi:type="form:Decoration">
+      <name>ОписаниеСверткаПродукты</name>
+      <id>480</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ОписаниеСверткаПродуктыРасширеннаяПодсказка</name>
+        <id>482</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ОписаниеСверткаПродуктыКонтекстноеМеню</name>
+        <id>481</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <formatted>true</formatted>
+      <type>Label</type>
+      <autoMaxHeight>true</autoMaxHeight>
+      <horizontalStretch>true</horizontalStretch>
+      <font xsi:type="core:FontRef">
+        <font>Style.NormalTextFont</font>
+      </font>
+      <groupHorizontalAlign>Left</groupHorizontalAlign>
+      <groupVerticalAlign>Center</groupVerticalAlign>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+        <verticalAlign>Center</verticalAlign>
+      </extInfo>
+    </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Группа свертка клиенты</value>
+    </title>
     <extendedTooltip>
-      <name>СверткаПродуктыРасширеннаяПодсказка</name>
-      <id>449</id>
+      <name>ГруппаСверткаПродуктыРасширеннаяПодсказка</name>
+      <id>463</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -2130,31 +2439,14 @@
         <horizontalAlign>Left</horizontalAlign>
       </extInfo>
     </extendedTooltip>
-    <contextMenu>
-      <name>СверткаПродуктыКонтекстноеМеню</name>
-      <id>448</id>
-      <autoFill>true</autoFill>
-    </contextMenu>
-    <type>Label</type>
-    <autoMaxHeight>true</autoMaxHeight>
-    <horizontalStretch>true</horizontalStretch>
-    <textColor xsi:type="core:ColorDef">
-      <red>51</red>
-      <green>153</green>
-      <blue>102</blue>
-    </textColor>
-    <font xsi:type="core:FontRef">
-      <font>Style.NormalTextFont</font>
-      <bold>true</bold>
-      <underline>true</underline>
-    </font>
-    <extInfo xsi:type="form:LabelDecorationExtInfo">
-      <handlers>
-        <event>Click</event>
-        <name>СверткаНажатие</name>
-      </handlers>
-      <hyperlink>true</hyperlink>
-      <horizontalAlign>Left</horizontalAlign>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>AlwaysHorizontal</group>
+      <behavior>Auto</behavior>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -2265,6 +2557,10 @@
             <dataPath xsi:type="form:DataPath">
               <segments>СписокОтбораТоваров</segments>
             </dataPath>
+            <handlers>
+              <event>OnChange</event>
+              <name>УправлениеФормойПродукты</name>
+            </handlers>
             <extendedTooltip>
               <name>СписокОтбораТоваровРасширеннаяПодсказка</name>
               <id>270</id>
@@ -2306,6 +2602,10 @@
             <dataPath xsi:type="form:DataPath">
               <segments>Объект.СегментНоменклатурыПоПродуктам</segments>
             </dataPath>
+            <handlers>
+              <event>OnChange</event>
+              <name>УправлениеФормойПродукты</name>
+            </handlers>
             <extendedTooltip>
               <name>СегментНоменклатурыПоПродуктамРасширеннаяПодсказка</name>
               <id>273</id>
@@ -2461,6 +2761,10 @@
               <horizontalAlign>Left</horizontalAlign>
               <autoFill>true</autoFill>
             </autoCommandBar>
+            <handlers>
+              <event>OnChange</event>
+              <name>УправлениеФормойПродукты</name>
+            </handlers>
             <searchStringAddition>
               <name>ЗаказыПоПродуктамОтборСтрокаПоиска</name>
               <id>299</id>
@@ -2801,21 +3105,107 @@
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
-  <items xsi:type="form:Decoration">
-    <name>СверткаЗаказы</name>
-    <id>450</id>
-    <title>
-      <key>ru</key>
-      <value>Свертка заказы</value>
-    </title>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаСверткаЗаказы</name>
+    <id>464</id>
+    <items xsi:type="form:Decoration">
+      <name>СверткаЗаказы</name>
+      <id>450</id>
+      <title>
+        <key>ru</key>
+        <value>►Состав заказа</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>СверткаЗаказыРасширеннаяПодсказка</name>
+        <id>452</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СверткаЗаказыКонтекстноеМеню</name>
+        <id>451</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <textColor xsi:type="core:ColorDef">
+        <red>51</red>
+        <green>153</green>
+        <blue>102</blue>
+      </textColor>
+      <font xsi:type="core:FontRef">
+        <font>Style.NormalTextFont</font>
+        <bold>true</bold>
+        <underline>true</underline>
+      </font>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <handlers>
+          <event>Click</event>
+          <name>СверткаНажатие</name>
+        </handlers>
+        <hyperlink>true</hyperlink>
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </items>
+    <items xsi:type="form:Decoration">
+      <name>ОписаниеСверткаЗаказы</name>
+      <id>483</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ОписаниеСверткаЗаказыРасширеннаяПодсказка</name>
+        <id>485</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ОписаниеСверткаЗаказыКонтекстноеМеню</name>
+        <id>484</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <formatted>true</formatted>
+      <type>Label</type>
+      <autoMaxHeight>true</autoMaxHeight>
+      <horizontalStretch>true</horizontalStretch>
+      <font xsi:type="core:FontRef">
+        <font>Style.NormalTextFont</font>
+      </font>
+      <groupHorizontalAlign>Left</groupHorizontalAlign>
+      <groupVerticalAlign>Center</groupVerticalAlign>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+        <verticalAlign>Center</verticalAlign>
+      </extInfo>
+    </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Группа свертка клиенты</value>
+    </title>
     <extendedTooltip>
-      <name>СверткаЗаказыРасширеннаяПодсказка</name>
-      <id>452</id>
+      <name>ГруппаСверткаЗаказыРасширеннаяПодсказка</name>
+      <id>465</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -2823,31 +3213,14 @@
         <horizontalAlign>Left</horizontalAlign>
       </extInfo>
     </extendedTooltip>
-    <contextMenu>
-      <name>СверткаЗаказыКонтекстноеМеню</name>
-      <id>451</id>
-      <autoFill>true</autoFill>
-    </contextMenu>
-    <type>Label</type>
-    <autoMaxHeight>true</autoMaxHeight>
-    <horizontalStretch>true</horizontalStretch>
-    <textColor xsi:type="core:ColorDef">
-      <red>51</red>
-      <green>153</green>
-      <blue>102</blue>
-    </textColor>
-    <font xsi:type="core:FontRef">
-      <font>Style.NormalTextFont</font>
-      <bold>true</bold>
-      <underline>true</underline>
-    </font>
-    <extInfo xsi:type="form:LabelDecorationExtInfo">
-      <handlers>
-        <event>Click</event>
-        <name>СверткаНажатие</name>
-      </handlers>
-      <hyperlink>true</hyperlink>
-      <horizontalAlign>Left</horizontalAlign>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>AlwaysHorizontal</group>
+      <behavior>Auto</behavior>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -2917,6 +3290,10 @@
           <horizontalAlign>Left</horizontalAlign>
           <autoFill>true</autoFill>
         </autoCommandBar>
+        <handlers>
+          <event>OnChange</event>
+          <name>УправлениеФормойЗаказы</name>
+        </handlers>
         <searchStringAddition>
           <name>ЗаказыОтборСтрокаПоиска</name>
           <id>315</id>
@@ -3124,6 +3501,10 @@
           <horizontalAlign>Left</horizontalAlign>
           <autoFill>true</autoFill>
         </autoCommandBar>
+        <handlers>
+          <event>OnChange</event>
+          <name>УправлениеФормойЗаказы</name>
+        </handlers>
         <searchStringAddition>
           <name>ДействияАкцииПоЗаказамСтрокаПоиска</name>
           <id>346</id>
@@ -3326,21 +3707,107 @@
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
-  <items xsi:type="form:Decoration">
-    <name>СверткаЛимиты</name>
-    <id>453</id>
-    <title>
-      <key>ru</key>
-      <value>Свертка лимиты</value>
-    </title>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаСверткаЛимиты</name>
+    <id>466</id>
+    <items xsi:type="form:Decoration">
+      <name>СверткаЛимиты</name>
+      <id>453</id>
+      <title>
+        <key>ru</key>
+        <value>►Лимиты</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>СверткаЛимитыРасширеннаяПодсказка</name>
+        <id>455</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СверткаЛимитыКонтекстноеМеню</name>
+        <id>454</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <textColor xsi:type="core:ColorDef">
+        <red>51</red>
+        <green>153</green>
+        <blue>102</blue>
+      </textColor>
+      <font xsi:type="core:FontRef">
+        <font>Style.NormalTextFont</font>
+        <bold>true</bold>
+        <underline>true</underline>
+      </font>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <handlers>
+          <event>Click</event>
+          <name>СверткаНажатие</name>
+        </handlers>
+        <hyperlink>true</hyperlink>
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </items>
+    <items xsi:type="form:Decoration">
+      <name>ОписаниеСверткаЛимиты</name>
+      <id>486</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ОписаниеСверткаЛимитыРасширеннаяПодсказка</name>
+        <id>488</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ОписаниеСверткаЛимитыКонтекстноеМеню</name>
+        <id>487</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <formatted>true</formatted>
+      <type>Label</type>
+      <autoMaxHeight>true</autoMaxHeight>
+      <horizontalStretch>true</horizontalStretch>
+      <font xsi:type="core:FontRef">
+        <font>Style.NormalTextFont</font>
+      </font>
+      <groupHorizontalAlign>Left</groupHorizontalAlign>
+      <groupVerticalAlign>Center</groupVerticalAlign>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+        <verticalAlign>Center</verticalAlign>
+      </extInfo>
+    </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Группа свертка клиенты</value>
+    </title>
     <extendedTooltip>
-      <name>СверткаЛимитыРасширеннаяПодсказка</name>
-      <id>455</id>
+      <name>ГруппаСверткаЛимитыРасширеннаяПодсказка</name>
+      <id>467</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -3348,31 +3815,14 @@
         <horizontalAlign>Left</horizontalAlign>
       </extInfo>
     </extendedTooltip>
-    <contextMenu>
-      <name>СверткаЛимитыКонтекстноеМеню</name>
-      <id>454</id>
-      <autoFill>true</autoFill>
-    </contextMenu>
-    <type>Label</type>
-    <autoMaxHeight>true</autoMaxHeight>
-    <horizontalStretch>true</horizontalStretch>
-    <textColor xsi:type="core:ColorDef">
-      <red>51</red>
-      <green>153</green>
-      <blue>102</blue>
-    </textColor>
-    <font xsi:type="core:FontRef">
-      <font>Style.NormalTextFont</font>
-      <bold>true</bold>
-      <underline>true</underline>
-    </font>
-    <extInfo xsi:type="form:LabelDecorationExtInfo">
-      <handlers>
-        <event>Click</event>
-        <name>СверткаНажатие</name>
-      </handlers>
-      <hyperlink>true</hyperlink>
-      <horizontalAlign>Left</horizontalAlign>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>AlwaysHorizontal</group>
+      <behavior>Auto</behavior>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
