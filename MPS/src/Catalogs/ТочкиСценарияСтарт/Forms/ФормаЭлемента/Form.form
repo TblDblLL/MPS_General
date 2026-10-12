@@ -2050,7 +2050,7 @@
               </extInfo>
             </items>
             <items xsi:type="form:FormField">
-              <name>ЦенаИзмениласьВРублях</name>
+              <name>ЦенаИзмениласьВ_ИзменилсяПродуктВСписке</name>
               <id>381</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -2058,11 +2058,11 @@
                 <common>true</common>
               </userVisible>
               <dataPath xsi:type="form:DataPath">
-                <segments>ЦенаИзмениласьВРублях_ИзменилсяПродуктВСписке</segments>
+                <segments>ЦенаИзмениласьВ_ИзменилсяПродуктВСписке</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
               <extendedTooltip>
-                <name>ЦенаИзмениласьВРубляхРасширеннаяПодсказка</name>
+                <name>ЦенаИзмениласьВ_ИзменилсяПродуктВСпискеРасширеннаяПодсказка</name>
                 <id>383</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -2072,21 +2072,35 @@
                 </extInfo>
               </extendedTooltip>
               <contextMenu>
-                <name>ЦенаИзмениласьВРубляхКонтекстноеМеню</name>
+                <name>ЦенаИзмениласьВ_ИзменилсяПродуктВСпискеКонтекстноеМеню</name>
                 <id>382</id>
                 <autoFill>true</autoFill>
               </contextMenu>
-              <type>CheckBoxField</type>
+              <type>RadioButtonField</type>
               <editMode>Enter</editMode>
               <showInHeader>true</showInHeader>
               <headerHorizontalAlign>Left</headerHorizontalAlign>
               <showInFooter>true</showInFooter>
-              <extInfo xsi:type="form:CheckBoxFieldExtInfo">
-                <checkBoxType>Tumbler</checkBoxType>
-                <editFormat>
-                  <key>ru</key>
-                  <value>БЛ=%; БИ=Руб</value>
-                </editFormat>
+              <extInfo xsi:type="form:RadioButtonsFieldExtInfo">
+                <radioButtonsType>Tumbler</radioButtonsType>
+                <choiceList>
+                  <presentation>
+                    <key>ru</key>
+                    <value>Руб</value>
+                  </presentation>
+                  <value xsi:type="core:ReferenceValue">
+                    <value>Enum.ПроцентКоличество.EnumValue.Количество</value>
+                  </value>
+                </choiceList>
+                <choiceList>
+                  <presentation>
+                    <key>ru</key>
+                    <value>%</value>
+                  </presentation>
+                  <value xsi:type="core:ReferenceValue">
+                    <value>Enum.ПроцентКоличество.EnumValue.Процент</value>
+                  </value>
+                </choiceList>
               </extInfo>
             </items>
             <visible>true</visible>
@@ -2506,7 +2520,7 @@
               </extInfo>
             </items>
             <items xsi:type="form:FormField">
-              <name>ЦенаИзмениласьВРублях_ИзменилсяПросмотренныйПродукт</name>
+              <name>ЦенаИзмениласьВ_ИзменилсяПросмотренныйПродукт</name>
               <id>395</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -2514,11 +2528,11 @@
                 <common>true</common>
               </userVisible>
               <dataPath xsi:type="form:DataPath">
-                <segments>ЦенаИзмениласьВРублях_ИзменилсяПросмотренныйПродукт</segments>
+                <segments>ЦенаИзмениласьВ_ИзменилсяПросмотренныйПродукт</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
               <extendedTooltip>
-                <name>ЦенаИзмениласьВРублях_ИзменилсяПросмотренныйПродуктРасширеннаяПодсказка</name>
+                <name>ЦенаИзмениласьВ_ИзменилсяПросмотренныйПродуктРасширеннаяПодсказка</name>
                 <id>397</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -2528,21 +2542,35 @@
                 </extInfo>
               </extendedTooltip>
               <contextMenu>
-                <name>ЦенаИзмениласьВРублях_ИзменилсяПросмотренныйПродуктКонтекстноеМеню</name>
+                <name>ЦенаИзмениласьВ_ИзменилсяПросмотренныйПродуктКонтекстноеМеню</name>
                 <id>396</id>
                 <autoFill>true</autoFill>
               </contextMenu>
-              <type>CheckBoxField</type>
+              <type>RadioButtonField</type>
               <editMode>Enter</editMode>
               <showInHeader>true</showInHeader>
               <headerHorizontalAlign>Left</headerHorizontalAlign>
               <showInFooter>true</showInFooter>
-              <extInfo xsi:type="form:CheckBoxFieldExtInfo">
-                <checkBoxType>Tumbler</checkBoxType>
-                <editFormat>
-                  <key>ru</key>
-                  <value>БЛ=%; БИ=Руб</value>
-                </editFormat>
+              <extInfo xsi:type="form:RadioButtonsFieldExtInfo">
+                <radioButtonsType>Tumbler</radioButtonsType>
+                <choiceList>
+                  <presentation>
+                    <key>ru</key>
+                    <value>Руб</value>
+                  </presentation>
+                  <value xsi:type="core:ReferenceValue">
+                    <value>Enum.ПроцентКоличество.EnumValue.Количество</value>
+                  </value>
+                </choiceList>
+                <choiceList>
+                  <presentation>
+                    <key>ru</key>
+                    <value>%</value>
+                  </presentation>
+                  <value xsi:type="core:ReferenceValue">
+                    <value>Enum.ПроцентКоличество.EnumValue.Процент</value>
+                  </value>
+                </choiceList>
               </extInfo>
             </items>
             <visible>true</visible>
@@ -5173,14 +5201,14 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ЦенаИзмениласьВРублях_ИзменилсяПродуктВСписке</name>
+    <name>ЦенаИзмениласьВ_ИзменилсяПродуктВСписке</name>
     <title>
       <key>ru</key>
-      <value>Цена изменилась в рублях изменился продукт в списке</value>
+      <value>Цена изменилась в изменился продукт в списке</value>
     </title>
     <id>31</id>
     <valueType>
-      <types>Boolean</types>
+      <types>EnumRef.ПроцентКоличество</types>
     </valueType>
     <view>
       <common>true</common>
@@ -5229,14 +5257,14 @@
     </extInfo>
   </attributes>
   <attributes>
-    <name>ЦенаИзмениласьВРублях_ИзменилсяПросмотренныйПродукт</name>
+    <name>ЦенаИзмениласьВ_ИзменилсяПросмотренныйПродукт</name>
     <title>
       <key>ru</key>
       <value>Цена изменилась в рублях</value>
     </title>
     <id>34</id>
     <valueType>
-      <types>Boolean</types>
+      <types>EnumRef.ПроцентКоличество</types>
     </valueType>
     <view>
       <common>true</common>

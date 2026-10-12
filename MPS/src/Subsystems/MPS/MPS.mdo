@@ -102,4 +102,5 @@
   <content>Enum.ВариантыОграниченияПоПродуктам</content>
   <content>CommonModule.КомпоновкаИРасписание_ПКМПКлиентСервер</content>
   <content>InformationRegister.ВзаимоисключающиеДействияАкций</content>
+  <content>Enum.ПроцентКоличество</content>
 </mdclass:Subsystem>

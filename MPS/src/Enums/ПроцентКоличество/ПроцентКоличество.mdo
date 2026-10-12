@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="124a3e49-dc59-48c2-85f0-f69df49d399e">
+  <producedTypes>
+    <refType typeId="7809c74b-146c-4a0b-bb3d-7d2082d6522c" valueTypeId="08910375-5048-497c-8e2f-f0144cc46f83"/>
+    <listType typeId="2dda0434-2381-4eb8-bbf0-da4a237070ed" valueTypeId="39c2acb4-4a1e-4b54-9240-fcd5878ec879"/>
+    <managerType typeId="210c3873-08ff-45c8-b259-2573e371c67b" valueTypeId="5f79a4ce-1998-4b72-91dc-b49381a88cd4"/>
+  </producedTypes>
+  <name>ПроцентКоличество</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процент/количество</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1b581191-cf49-4c04-ac95-d0233008cfa6">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3eda7161-1278-4aad-85c3-1c775ff0d047">
+    <name>Процент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
