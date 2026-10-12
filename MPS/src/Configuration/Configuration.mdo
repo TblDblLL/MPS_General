@@ -1667,6 +1667,7 @@
   <informationRegisters>InformationRegister.СостояниеСценариев</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
   <informationRegisters>InformationRegister.ИерархияСегментов</informationRegisters>
+  <informationRegisters>InformationRegister.ВзаимоисключающиеДействияАкций</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.БалльныеСчета</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ЗапасыИПотребности</accumulationRegisters>

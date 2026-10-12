@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62094d6d-7ea4-4952-b604-43b28fecbf80">
+  <producedTypes>
+    <selectionType typeId="153b2d83-c1ac-4078-882a-69f8836be2ae" valueTypeId="e4c4a32f-6723-4d29-b3d9-fdaf45d9079e"/>
+    <listType typeId="4cebba45-98b4-4610-b05a-aa3aa4054fea" valueTypeId="7603f0af-7f97-4859-b4bd-e4304125da82"/>
+    <managerType typeId="aa694356-4de9-4216-9df3-dff4ab02d3ce" valueTypeId="fe098cdc-7534-4440-b1fe-7e9b37d5a1ba"/>
+    <recordSetType typeId="e29a30f2-2ed7-45cb-9dfc-ecbe74fe1bcd" valueTypeId="633a1b1d-b26a-4dae-9884-8991f0c95b6f"/>
+    <recordKeyType typeId="fe7a4e37-5b83-4aa5-9429-308b4e804f21" valueTypeId="43d89684-a4cf-46fa-b487-7122a0b030a9"/>
+    <recordType typeId="a14ac6e4-8881-4b67-b0e2-7d9ec47c25d1" valueTypeId="f8f9a09b-c9ec-4aac-9f6e-f540aba38691"/>
+    <recordManagerType typeId="c81bc037-6bed-4c08-abf9-9b1b6bf9e303" valueTypeId="86c7e21e-117d-4dd5-896a-4fd6ddde22fb"/>
+  </producedTypes>
+  <name>ВзаимоисключающиеДействияАкций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Взаимоисключающие действия акций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="1811d366-36a5-4d18-b70d-660bc3b496ee">
+    <name>ТипАкции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип акции</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыАкций</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b14dfebd-e2bd-458e-97aa-d81ea2f87fa6">
+    <name>Действие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действие</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ДействияВАкциях</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d6a91e74-c0a7-4bc9-8d1e-64940145636f">
+    <name>ИсключитьДействие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исключить действие</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ДействияВАкциях</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

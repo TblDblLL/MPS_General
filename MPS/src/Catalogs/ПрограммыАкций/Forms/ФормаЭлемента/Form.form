@@ -99,10 +99,6 @@
         <segments>Объект.ТипАкции</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
-      <handlers>
-        <event>OnChange</event>
-        <name>ТипАкцииПриИзменении</name>
-      </handlers>
       <extendedTooltip>
         <name>ТипАкцииРасширеннаяПодсказка</name>
         <id>102</id>
@@ -118,18 +114,17 @@
         <id>101</id>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>InputField</type>
+      <type>LabelField</type>
       <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
+      <extInfo xsi:type="form:LabelFieldExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
+        <border xsi:type="core:BorderDef">
+          <width>1</width>
+        </border>
         <textColor xsi:type="core:ColorDef">
           <blue>255</blue>
         </textColor>
@@ -697,7 +692,7 @@
       <id>438</id>
       <title>
         <key>ru</key>
-        <value>►Клиенты</value>
+        <value>▼Клиенты</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1006,7 +1001,7 @@
       <id>441</id>
       <title>
         <key>ru</key>
-        <value>►Условия доступности</value>
+        <value>▼Условия доступности</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1552,7 +1547,7 @@
       <id>444</id>
       <title>
         <key>ru</key>
-        <value>►Места</value>
+        <value>▼Места</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -2339,7 +2334,7 @@
       <id>447</id>
       <title>
         <key>ru</key>
-        <value>►Продукты</value>
+        <value>▼Продукты</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -2979,7 +2974,7 @@
         <titleLocation>Top</titleLocation>
         <handlers>
           <event>OnChange</event>
-          <name>УправлениеФормойПродукты</name>
+          <name>ДействиеАкцииПоПродуктамПриИзменении</name>
         </handlers>
         <extendedTooltip>
           <name>ДействиеАкцииПоПродуктамРасширеннаяПодсказка</name>
@@ -3131,6 +3126,34 @@
             <showTitle>true</showTitle>
           </extInfo>
         </items>
+        <items xsi:type="form:FormGroup">
+          <name>ПустаяПоПродуктам</name>
+          <id>521</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Пустая по продуктам</value>
+          </title>
+          <extendedTooltip>
+            <name>ПустаяПоПродуктамРасширеннаяПодсказка</name>
+            <id>522</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>Page</type>
+          <extInfo xsi:type="form:PageGroupExtInfo">
+            <group>Vertical</group>
+            <showTitle>true</showTitle>
+          </extInfo>
+        </items>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -3231,7 +3254,7 @@
       <id>450</id>
       <title>
         <key>ru</key>
-        <value>►Состав заказа</value>
+        <value>▼Состав заказа</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -3572,7 +3595,7 @@
         </dataPath>
         <titleLocation>Top</titleLocation>
         <items xsi:type="form:FormField">
-          <name>ДействияАкцииПоЗаказамДействиеАкции</name>
+          <name>ДействиеАкцииПоЗаказам</name>
           <id>355</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -3582,8 +3605,12 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.ДействияАкцииПоЗаказам.ДействиеАкции</segments>
           </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>ДействиеАкцииПоЗаказамПриИзменении</name>
+          </handlers>
           <extendedTooltip>
-            <name>ДействияАкцииПоЗаказамДействиеАкцииРасширеннаяПодсказка</name>
+            <name>ДействиеАкцииПоЗаказамРасширеннаяПодсказка</name>
             <id>357</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -3593,7 +3620,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ДействияАкцииПоЗаказамДействиеАкцииКонтекстноеМеню</name>
+            <name>ДействиеАкцииПоЗаказамКонтекстноеМеню</name>
             <id>356</id>
             <autoFill>true</autoFill>
           </contextMenu>
@@ -3740,7 +3767,7 @@
         <name>ПараметрыДействияПоЗаказам</name>
         <id>340</id>
         <items xsi:type="form:FormGroup">
-          <name>НачислениеБаллов</name>
+          <name>НачислениеБалловПоЗаказам</name>
           <id>499</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -3749,10 +3776,10 @@
           </userVisible>
           <title>
             <key>ru</key>
-            <value>Начисление баллов</value>
+            <value>Начисление баллов по заказам</value>
           </title>
           <extendedTooltip>
-            <name>НачислениеБалловРасширеннаяПодсказка</name>
+            <name>НачислениеБалловПоЗаказамРасширеннаяПодсказка</name>
             <id>500</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -3768,7 +3795,7 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormGroup">
-          <name>РазрешитьСкидкуБаллами</name>
+          <name>РазрешитьСкидкуБалламиПоЗаказам</name>
           <id>501</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -3777,10 +3804,10 @@
           </userVisible>
           <title>
             <key>ru</key>
-            <value>Разрешить скидку баллами</value>
+            <value>Разрешить скидку баллами по заказам</value>
           </title>
           <extendedTooltip>
-            <name>РазрешитьСкидкуБалламиРасширеннаяПодсказка</name>
+            <name>РазрешитьСкидкуБалламиПоЗаказамРасширеннаяПодсказка</name>
             <id>502</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -3796,7 +3823,7 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormGroup">
-          <name>ВыдатьСкидку</name>
+          <name>ВыдатьСкидкуПоЗаказам</name>
           <id>503</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -3805,10 +3832,10 @@
           </userVisible>
           <title>
             <key>ru</key>
-            <value>Выдать скидку</value>
+            <value>Выдать скидку по заказам</value>
           </title>
           <extendedTooltip>
-            <name>ВыдатьСкидкуРасширеннаяПодсказка</name>
+            <name>ВыдатьСкидкуПоЗаказамРасширеннаяПодсказка</name>
             <id>504</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -3824,7 +3851,7 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormGroup">
-          <name>КаскаднаяСкидка</name>
+          <name>КаскаднаяСкидкаПоЗаказам</name>
           <id>505</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -3833,10 +3860,10 @@
           </userVisible>
           <title>
             <key>ru</key>
-            <value>Каскадная скидка</value>
+            <value>Каскадная скидка по заказам</value>
           </title>
           <extendedTooltip>
-            <name>КаскаднаяСкидкаРасширеннаяПодсказка</name>
+            <name>КаскаднаяСкидкаПоЗаказамРасширеннаяПодсказка</name>
             <id>506</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -3852,7 +3879,7 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormGroup">
-          <name>ОкруглениеЦены</name>
+          <name>ОкруглениеЦеныПоЗаказам</name>
           <id>507</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -3861,10 +3888,10 @@
           </userVisible>
           <title>
             <key>ru</key>
-            <value>Округление цены</value>
+            <value>Округление цены по заказам</value>
           </title>
           <extendedTooltip>
-            <name>ОкруглениеЦеныРасширеннаяПодсказка</name>
+            <name>ОкруглениеЦеныПоЗаказамРасширеннаяПодсказка</name>
             <id>508</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -3880,7 +3907,7 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormGroup">
-          <name>ВыдатьСкидкуЗаНабор</name>
+          <name>ВыдатьСкидкуЗаНаборПоЗаказам</name>
           <id>509</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -3889,10 +3916,10 @@
           </userVisible>
           <title>
             <key>ru</key>
-            <value>Выдать скидку за набор</value>
+            <value>Выдать скидку за набор по заказам</value>
           </title>
           <extendedTooltip>
-            <name>ВыдатьСкидкуЗаНаборРасширеннаяПодсказка</name>
+            <name>ВыдатьСкидкуЗаНаборПоЗаказамРасширеннаяПодсказка</name>
             <id>510</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -3908,7 +3935,7 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormGroup">
-          <name>ВыдатьСкидкуНаПродуктЗаСуммуПокупокВСегменте</name>
+          <name>ВыдатьСкидкуНаПродуктЗаСуммуПокупокВСегментеПоЗаказам</name>
           <id>511</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -3917,10 +3944,10 @@
           </userVisible>
           <title>
             <key>ru</key>
-            <value>Выдать скидку на продукт за сумму покупок в сегменте</value>
+            <value>Выдать скидку на продукт за сумму покупок в сегменте по заказам</value>
           </title>
           <extendedTooltip>
-            <name>ВыдатьСкидкуНаПродуктЗаСуммуПокупокВСегментеРасширеннаяПодсказка</name>
+            <name>ВыдатьСкидкуНаПродуктЗаСуммуПокупокВСегментеПоЗаказамРасширеннаяПодсказка</name>
             <id>512</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -3936,7 +3963,7 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormGroup">
-          <name>ВыдатьСкидкуНаПродуктыЗаПродукты</name>
+          <name>ВыдатьСкидкуНаПродуктыЗаПродуктыПоЗаказам</name>
           <id>513</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -3945,10 +3972,10 @@
           </userVisible>
           <title>
             <key>ru</key>
-            <value>Выдать скидку на продукты за продукты</value>
+            <value>Выдать скидку на продукты за продукты по заказам</value>
           </title>
           <extendedTooltip>
-            <name>ВыдатьСкидкуНаПродуктыЗаПродуктыРасширеннаяПодсказка</name>
+            <name>ВыдатьСкидкуНаПродуктыЗаПродуктыПоЗаказамРасширеннаяПодсказка</name>
             <id>514</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -3964,7 +3991,7 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormGroup">
-          <name>ВыдатьПромокод</name>
+          <name>ВыдатьПромокодПоЗаказам</name>
           <id>515</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -3973,10 +4000,10 @@
           </userVisible>
           <title>
             <key>ru</key>
-            <value>Выдать промокод</value>
+            <value>Выдать промокод по заказам</value>
           </title>
           <extendedTooltip>
-            <name>ВыдатьПромокодРасширеннаяПодсказка</name>
+            <name>ВыдатьПромокодПоЗаказамРасширеннаяПодсказка</name>
             <id>516</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -3992,7 +4019,7 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormGroup">
-          <name>ВыдатьПромокодЗаКаждыйПродукт</name>
+          <name>ВыдатьПромокодЗаКаждыйПродуктПоЗаказам</name>
           <id>517</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -4001,10 +4028,10 @@
           </userVisible>
           <title>
             <key>ru</key>
-            <value>Выдать промокод за каждый продукт</value>
+            <value>Выдать промокод за каждый продукт по заказам</value>
           </title>
           <extendedTooltip>
-            <name>ВыдатьПромокодЗаКаждыйПродуктРасширеннаяПодсказка</name>
+            <name>ВыдатьПромокодЗаКаждыйПродуктПоЗаказамРасширеннаяПодсказка</name>
             <id>518</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -4020,7 +4047,7 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormGroup">
-          <name>СкидкаНаДоставку</name>
+          <name>СкидкаНаДоставкуПоЗаказам</name>
           <id>519</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -4029,11 +4056,39 @@
           </userVisible>
           <title>
             <key>ru</key>
-            <value>Скидка на доставку</value>
+            <value>Скидка на доставку по заказам</value>
           </title>
           <extendedTooltip>
-            <name>СкидкаНаДоставкуРасширеннаяПодсказка</name>
+            <name>СкидкаНаДоставкуПоЗаказамРасширеннаяПодсказка</name>
             <id>520</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>Page</type>
+          <extInfo xsi:type="form:PageGroupExtInfo">
+            <group>Vertical</group>
+            <showTitle>true</showTitle>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormGroup">
+          <name>ПустаяПоЗаказам</name>
+          <id>523</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Пустая по заказам</value>
+          </title>
+          <extendedTooltip>
+            <name>ПустаяПоЗаказамРасширеннаяПодсказка</name>
+            <id>524</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -4143,7 +4198,7 @@
       <id>453</id>
       <title>
         <key>ru</key>
-        <value>►Лимиты</value>
+        <value>▼Лимиты</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -5577,6 +5632,56 @@
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
+    <items xsi:type="form:Button">
+      <name>ФормаСвернутьВсе</name>
+      <id>525</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ФормаСвернутьВсеРасширеннаяПодсказка</name>
+        <id>526</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.СвернутьВсе</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
+    <items xsi:type="form:Button">
+      <name>ФормаРазвернутьВсе</name>
+      <id>527</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ФормаРазвернутьВсеРасширеннаяПодсказка</name>
+        <id>528</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.РазвернутьВсе</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
@@ -5860,6 +5965,48 @@
       </itemValueType>
     </extInfo>
   </attributes>
+  <formCommands>
+    <name>СвернутьВсе</name>
+    <title>
+      <key>ru</key>
+      <value>Свернуть все</value>
+    </title>
+    <id>1</id>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.CollapseAll</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>СвернутьРазвернутьВсе</name>
+      </handler>
+    </action>
+    <representation>Picture</representation>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>РазвернутьВсе</name>
+    <title>
+      <key>ru</key>
+      <value>Развернуть все</value>
+    </title>
+    <id>2</id>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.ExpandAll</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>СвернутьРазвернутьВсе</name>
+      </handler>
+    </action>
+    <representation>Picture</representation>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>
