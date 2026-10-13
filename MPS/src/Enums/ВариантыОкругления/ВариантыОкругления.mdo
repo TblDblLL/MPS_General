@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6208ff4f-6476-4223-b26a-b2ad5782b584">
+  <producedTypes>
+    <refType typeId="0e499f58-0208-4527-8369-5d434118133a" valueTypeId="bb7d563b-1c85-4ed9-879b-cb17abf97974"/>
+    <listType typeId="4702e677-35ef-4fa0-90bf-071723b90493" valueTypeId="7285c9cf-f1ec-43a3-8c43-187a40295d3b"/>
+    <managerType typeId="0e419d82-9859-4b92-97e9-51d1ecf4ba2f" valueTypeId="2f7f18a2-d251-4e62-8417-1aafd9f5e346"/>
+  </producedTypes>
+  <name>ВариантыОкругления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты округления</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f31e3bee-4124-48a4-a671-c8df04b47d47">
+    <name>ВнизДоЦелого</name>
+    <synonym>
+      <key>ru</key>
+      <value>вниз до целого</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d5fc0912-1f04-4e74-84b8-ffa1eeeab7f0">
+    <name>ВнизДоЦелогоИлиПоловины</name>
+    <synonym>
+      <key>ru</key>
+      <value>вниз до целого или половины</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dddd9e16-6af8-4082-be35-cc13e9795d48">
+    <name>ДоБлижайшегоЦелого</name>
+    <synonym>
+      <key>ru</key>
+      <value>до ближайшего целого</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="025b0c32-a1bf-46c6-a29f-0937775bafdc">
+    <name>ДоБлижайшегоЦелогоМатематическое</name>
+    <synonym>
+      <key>ru</key>
+      <value>до ближайшего целого (математическое округление)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c3dbab56-a505-4438-8fea-55577b5af20b">
+    <name>ВнизДоДесятков</name>
+    <synonym>
+      <key>ru</key>
+      <value>вниз до десятков</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="348b4600-e4f0-4fc0-b295-95a7c7201eb2">
+    <name>ДоБлижайшегоДесятка</name>
+    <synonym>
+      <key>ru</key>
+      <value>до ближайшего десятка (математическое округление)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="811d1830-b7a4-448b-8ebc-364a7548648d">
+    <name>ВнизДоСотен</name>
+    <synonym>
+      <key>ru</key>
+      <value>вниз до сотен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fbc6edf9-1898-4ff8-8b6e-0970034d04af">
+    <name>ДоБлижайшейСотни</name>
+    <synonym>
+      <key>ru</key>
+      <value>до ближайшей сотни (математическое округление)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1fd4dba5-2103-40a9-a86b-f25b4351eff9">
+    <name>ВнизДоТысяч</name>
+    <synonym>
+      <key>ru</key>
+      <value>вниз до тысяч</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3fcc765e-e522-4b0b-af9f-f0bb5cbbd791">
+    <name>ДоБлижайшейТысячи</name>
+    <synonym>
+      <key>ru</key>
+      <value>до ближайшей тысячи (математическое округление)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

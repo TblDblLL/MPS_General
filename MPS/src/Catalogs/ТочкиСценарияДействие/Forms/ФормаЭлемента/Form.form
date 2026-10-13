@@ -1917,7 +1917,7 @@
                 <common>true</common>
               </userVisible>
               <dataPath xsi:type="form:DataPath">
-                <segments>Items.ПоследовательностьДействий.CurrentData.ДатаСрокаНачисленияБаллов</segments>
+                <segments>Items.ПоследовательностьДействий.CurrentData.ДатаОкончанияСрокаНачисленияБаллов</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
               <handlers>

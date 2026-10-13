@@ -5,7 +5,7 @@
     <listType typeId="2dda0434-2381-4eb8-bbf0-da4a237070ed" valueTypeId="39c2acb4-4a1e-4b54-9240-fcd5878ec879"/>
     <managerType typeId="210c3873-08ff-45c8-b259-2573e371c67b" valueTypeId="5f79a4ce-1998-4b72-91dc-b49381a88cd4"/>
   </producedTypes>
-  <name>ПроцентКоличество</name>
+  <name>ВидИзмененияКоличества</name>
   <synonym>
     <key>ru</key>
     <value>Процент/количество</value>
@@ -24,6 +24,13 @@
     <synonym>
       <key>ru</key>
       <value>Процент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1d2cf8b0-409d-4bec-9f84-563ef373f1ef">
+    <name>Фиксировано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фиксировано</value>
     </synonym>
   </enumValues>
 </mdclass:Enum>

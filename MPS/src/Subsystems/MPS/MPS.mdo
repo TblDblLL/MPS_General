@@ -102,5 +102,7 @@
   <content>Enum.ВариантыОграниченияПоПродуктам</content>
   <content>CommonModule.КомпоновкаИРасписание_ПКМПКлиентСервер</content>
   <content>InformationRegister.ВзаимоисключающиеДействияАкций</content>
-  <content>Enum.ПроцентКоличество</content>
+  <content>Enum.ВидИзмененияКоличества</content>
+  <content>Enum.ВариантыОкругления</content>
+  <content>Enum.ДискретностьЗаказа</content>
 </mdclass:Subsystem>

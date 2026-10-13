@@ -375,10 +375,10 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="298883c8-105a-4971-83c0-d682a809a16d">
-      <name>ДатаСрокаНачисленияБаллов</name>
+      <name>ДатаОкончанияСрокаНачисленияБаллов</name>
       <synonym>
         <key>ru</key>
-        <value>Дата срока начисления баллов</value>
+        <value>Дата окончания срока начисления баллов</value>
       </synonym>
       <comment>До этой даты будут действовать начисленные баллы</comment>
       <type>

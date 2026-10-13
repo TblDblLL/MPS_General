@@ -849,10 +849,10 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="8227325e-ea7a-4ba3-afa1-ff629672d473">
-      <name>ПоПродуктам</name>
+      <name>КлючОтбора</name>
       <synonym>
         <key>ru</key>
-        <value>По продуктам</value>
+        <value>Ключ отбора</value>
       </synonym>
       <type>
         <types>Boolean</types>
@@ -914,7 +914,7 @@
         <value>Изменение количества В</value>
       </synonym>
       <type>
-        <types>EnumRef.ПроцентКоличество</types>
+        <types>EnumRef.ВидИзмененияКоличества</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -970,10 +970,7 @@
         <value>Сегмент номенклатуры</value>
       </synonym>
       <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>10</length>
-        </stringQualifiers>
+        <types>CatalogRef.СегментыНоменклатуры</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -988,6 +985,385 @@
       </synonym>
       <type>
         <types>EnumRef.ВариантыОграниченияПоПродуктам</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9d154f85-d9e9-4c0a-8337-4f9fcc855f99">
+      <name>ГраницаДоступности</name>
+      <synonym>
+        <key>ru</key>
+        <value>Граница доступности</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ПередСразуПослеДатой</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="598facec-0289-4ea1-a076-651fe8b9ad8d">
+      <name>КоличествоПериодовДоступности</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество периодов доступности</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>3</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d22148f1-2aee-4678-9f5f-e8e154316ad5">
+      <name>ПериодДоступности</name>
+      <synonym>
+        <key>ru</key>
+        <value>Период доступности</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ПериодыДействий</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8af3c0a7-1a2e-41d3-bfcd-7f9ec000fd8c">
+      <name>ДатаДоступности</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата доступности</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2ca7f85d-c6a4-43d8-bdf0-97b4b10f36aa">
+      <name>ДоступноПоСтатусу</name>
+      <synonym>
+        <key>ru</key>
+        <value>Доступно по статусу</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="eed47022-2b98-4ffe-8129-81a7fc420ae6">
+      <name>СтатусДоступности</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статус доступности</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтатусыПозицийЗаказа</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="76990ec1-5e53-4f37-8711-9c05b543f1d3">
+      <name>ЕстьСрокДействия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Есть срок действия</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c77534b5-781e-4217-bad9-65baa3bbcda4">
+      <name>ВидСрокаДействия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид срока действия</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ВидыСроковНачисленияБаллов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="09e48650-ca3c-44be-8adb-6882f8e29f56">
+      <name>ПериодСрокаДействия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Период срока действия</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ПериодыДействий</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c90a08e0-e30a-40e4-9a55-acaba2323553">
+      <name>КоличествоПериодовСрокаДействия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество периодов срока действия</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>3</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="07846c71-595c-4c3e-99e6-02358670ca46">
+      <name>ДатаОкончанияСрокаДействия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата окончания срока действия</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="46c3b424-ba55-4b40-ae90-ce8c96c9ddec">
+      <name>ЕстьОграничениеНаКоличество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Есть ограничение на количество</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f2aa4060-cbab-4390-b2b6-790a4d197a86">
+      <name>КоличествоОграничения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество ограничения</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>3</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="dc7ddd72-becd-4afa-8000-bc3694bd95e3">
+      <name>ОграничиватьСДешевых</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ограничивать с дешевых</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cf7653d7-4c68-4509-9c3a-bc7a67f5488e">
+      <name>ЕстьДиапазон</name>
+      <synonym>
+        <key>ru</key>
+        <value>Есть диапазон</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c5514333-c544-4090-9bab-60c781b783b6">
+      <name>ДиапазонС</name>
+      <synonym>
+        <key>ru</key>
+        <value>Диапазон С</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ab9a3b56-ea99-4262-984d-dc863454d339">
+      <name>ДиапазонПо</name>
+      <synonym>
+        <key>ru</key>
+        <value>Диапазон по</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9173eec3-97b0-4c1c-a235-396f0d7e59dc">
+      <name>ВариантОкругления</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вариант округления</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ВариантыОкругления</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="13d368d3-e021-42c2-bc64-d22213411779">
+      <name>ЗаКаждый</name>
+      <synonym>
+        <key>ru</key>
+        <value>За каждый</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>3</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="43fe4d34-6d7d-40fe-b8f4-390357162343">
+      <name>НачинаяС</name>
+      <synonym>
+        <key>ru</key>
+        <value>Начиная С</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>3</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2dc320a0-1322-4583-b44b-654019e6b927">
+      <name>ДискретностьОкругленияВЗаказе</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дискретность округления в заказе</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ДискретностьЗаказа</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="35215feb-287e-4fe1-a216-0d2ac57a5da2">
+      <name>СкидкаВПользуМагазина</name>
+      <synonym>
+        <key>ru</key>
+        <value>Скидка в пользу магазина</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+  <tabularSections uuid="8e11f849-f5f7-4b53-86f8-4e48d0632736">
+    <producedTypes>
+      <objectType typeId="82ffa6a0-56f2-4e2c-bc9f-8997d0d15d36" valueTypeId="6ef02db6-389a-4158-bb26-1d2c10810032"/>
+      <rowType typeId="ffb48f6c-4de1-464d-a823-7c09f6e9d2ca" valueTypeId="d98e07eb-d6ea-4cf3-a8c4-d2b250151871"/>
+    </producedTypes>
+    <name>СоставНабора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав набора</value>
+    </synonym>
+    <attributes uuid="421a4add-e629-498b-b64f-42ea5f20a548">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>3</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="37af868a-b630-4b35-ba6d-6e0c33bcfe0d">
+      <name>ПозицияСостава</name>
+      <synonym>
+        <key>ru</key>
+        <value>Позиция состава</value>
+      </synonym>
+      <comment>В строке УИД набора в ТоварыОтбор </comment>
+      <type>
+        <types>String</types>
+        <types>CatalogRef.СегментыНоменклатуры</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

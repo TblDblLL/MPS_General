@@ -2089,7 +2089,7 @@
                     <value>Руб</value>
                   </presentation>
                   <value xsi:type="core:ReferenceValue">
-                    <value>Enum.ПроцентКоличество.EnumValue.Количество</value>
+                    <value>Enum.ВидИзмененияКоличества.EnumValue.Количество</value>
                   </value>
                 </choiceList>
                 <choiceList>
@@ -2098,7 +2098,7 @@
                     <value>%</value>
                   </presentation>
                   <value xsi:type="core:ReferenceValue">
-                    <value>Enum.ПроцентКоличество.EnumValue.Процент</value>
+                    <value>Enum.ВидИзмененияКоличества.EnumValue.Процент</value>
                   </value>
                 </choiceList>
               </extInfo>
@@ -2559,7 +2559,7 @@
                     <value>Руб</value>
                   </presentation>
                   <value xsi:type="core:ReferenceValue">
-                    <value>Enum.ПроцентКоличество.EnumValue.Количество</value>
+                    <value>Enum.ВидИзмененияКоличества.EnumValue.Количество</value>
                   </value>
                 </choiceList>
                 <choiceList>
@@ -2568,7 +2568,7 @@
                     <value>%</value>
                   </presentation>
                   <value xsi:type="core:ReferenceValue">
-                    <value>Enum.ПроцентКоличество.EnumValue.Процент</value>
+                    <value>Enum.ВидИзмененияКоличества.EnumValue.Процент</value>
                   </value>
                 </choiceList>
               </extInfo>
@@ -5208,7 +5208,7 @@
     </title>
     <id>31</id>
     <valueType>
-      <types>EnumRef.ПроцентКоличество</types>
+      <types>EnumRef.ВидИзмененияКоличества</types>
     </valueType>
     <view>
       <common>true</common>
@@ -5264,7 +5264,7 @@
     </title>
     <id>34</id>
     <valueType>
-      <types>EnumRef.ПроцентКоличество</types>
+      <types>EnumRef.ВидИзмененияКоличества</types>
     </valueType>
     <view>
       <common>true</common>

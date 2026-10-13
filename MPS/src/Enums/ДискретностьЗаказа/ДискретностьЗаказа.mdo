@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f2fb2bba-233f-498d-a947-b224b10bfeda">
+  <producedTypes>
+    <refType typeId="41fe5f67-1ca5-4b5e-822e-4f8bb43647af" valueTypeId="8a5550e5-9e85-4e21-bf96-f1441e596a96"/>
+    <listType typeId="5ee61e88-6714-4d55-81ee-a18bd8f78c37" valueTypeId="eca135c4-93ec-41b3-a73a-fbc953697065"/>
+    <managerType typeId="88e30e35-6fcb-45cb-91a9-513be3f930d8" valueTypeId="5948c8e3-f847-4f76-818e-ace2c8f74276"/>
+  </producedTypes>
+  <name>ДискретностьЗаказа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дискретность заказа</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0550e8c9-ad62-4ea0-b202-8c4a064a6780">
+    <name>Заказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="009b75ca-98a3-4c12-9227-968986f63cb0">
+    <name>Линия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cc5eebd7-0b07-438f-a92c-c5b42d194962">
+    <name>Позиция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Позиция</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

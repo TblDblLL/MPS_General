@@ -1508,7 +1508,9 @@
   <enums>Enum.ТипыАкций</enums>
   <enums>Enum.ДействияВАкциях</enums>
   <enums>Enum.ВариантыОграниченияПоПродуктам</enums>
-  <enums>Enum.ПроцентКоличество</enums>
+  <enums>Enum.ВидИзмененияКоличества</enums>
+  <enums>Enum.ВариантыОкругления</enums>
+  <enums>Enum.ДискретностьЗаказа</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализПравДоступа</reports>
