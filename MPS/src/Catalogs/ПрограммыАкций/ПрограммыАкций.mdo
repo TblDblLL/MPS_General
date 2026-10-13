@@ -1043,13 +1043,27 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="6ccfd026-86e5-4500-8e50-47bd1b5cd48d">
-    <name>ОграничиватьСДешевых</name>
+    <name>ОграничиватьСДорогих</name>
     <synonym>
       <key>ru</key>
-      <value>Ограничивать с дешевых</value>
+      <value>Ограничивать с дорогих</value>
     </synonym>
     <type>
       <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2ab6549a-e065-4efa-bd9c-33b1c07ebd99">
+    <name>ВариантОкругления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант округления</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВариантыОкругления</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -1473,10 +1487,10 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="dc7ddd72-becd-4afa-8000-bc3694bd95e3">
-      <name>ОграничиватьСДешевых</name>
+      <name>ОграничиватьСДорогих</name>
       <synonym>
         <key>ru</key>
-        <value>Ограничивать с дешевых</value>
+        <value>Ограничивать с дорогих</value>
       </synonym>
       <type>
         <types>Boolean</types>
