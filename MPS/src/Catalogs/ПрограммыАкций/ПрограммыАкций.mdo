@@ -818,6 +818,20 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="5590c0e4-dde8-4f05-9993-2631bb17b70c">
+    <name>ЕстьМинимальнаяСтоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Есть минимальная стоимость</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="293f8690-791e-4df5-9d14-4d483077b34b">
     <name>МинимальнаяСтоимость</name>
     <synonym>
@@ -1200,6 +1214,20 @@
       </synonym>
       <type>
         <types>CatalogRef.ВидыБалльныхСчетов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cf633382-1868-4edb-be15-f799596a933d">
+      <name>ЕстьМинимальнаяСтоимость</name>
+      <synonym>
+        <key>ru</key>
+        <value>Есть минимальная стоимость</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
