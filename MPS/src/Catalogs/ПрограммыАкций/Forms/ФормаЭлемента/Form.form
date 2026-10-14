@@ -9838,7 +9838,7 @@
             <name>ОЦЗ_1</name>
             <id>950</id>
             <items xsi:type="form:FormField">
-              <name>ДискретностьОкругленияВЗаказе</name>
+              <name>ДискретностьОкругленияВЗаказе_ОЦЗ</name>
               <id>947</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -9850,7 +9850,7 @@
               </dataPath>
               <titleLocation>None</titleLocation>
               <extendedTooltip>
-                <name>ДискретностьОкругленияВЗаказеРасширеннаяПодсказка</name>
+                <name>ДискретностьОкругленияВЗаказе_ОЦЗРасширеннаяПодсказка</name>
                 <id>949</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -9860,7 +9860,7 @@
                 </extInfo>
               </extendedTooltip>
               <contextMenu>
-                <name>ДискретностьОкругленияВЗаказеКонтекстноеМеню</name>
+                <name>ДискретностьОкругленияВЗаказе_ОЦЗКонтекстноеМеню</name>
                 <id>948</id>
                 <autoFill>true</autoFill>
               </contextMenu>
@@ -9873,6 +9873,7 @@
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <wrap>true</wrap>
+                <listChoiceMode>true</listChoiceMode>
                 <autoMarkIncomplete>true</autoMarkIncomplete>
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
@@ -9907,7 +9908,7 @@
               </extInfo>
             </items>
             <items xsi:type="form:FormField">
-              <name>ДействияАкцииПоЗаказамВариантОкругления</name>
+              <name>ВариантОкругления_ОЦЗ</name>
               <id>952</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -9919,7 +9920,7 @@
               </dataPath>
               <titleLocation>None</titleLocation>
               <extendedTooltip>
-                <name>ДействияАкцииПоЗаказамВариантОкругленияРасширеннаяПодсказка</name>
+                <name>ВариантОкругления_ОЦЗРасширеннаяПодсказка</name>
                 <id>954</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -9929,7 +9930,7 @@
                 </extInfo>
               </extendedTooltip>
               <contextMenu>
-                <name>ДействияАкцииПоЗаказамВариантОкругленияКонтекстноеМеню</name>
+                <name>ВариантОкругления_ОЦЗКонтекстноеМеню</name>
                 <id>953</id>
                 <autoFill>true</autoFill>
               </contextMenu>
@@ -9942,6 +9943,7 @@
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <wrap>true</wrap>
+                <listChoiceMode>true</listChoiceMode>
                 <autoMarkIncomplete>true</autoMarkIncomplete>
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
