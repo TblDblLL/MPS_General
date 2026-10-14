@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1bbc411-b058-445d-88ac-635dcaae31e6">
+  <producedTypes>
+    <refType typeId="29284221-e8b3-4d2d-9d4e-f4baf7ae08d1" valueTypeId="11c43cb9-f567-4ec4-88e3-682d9268b72a"/>
+    <listType typeId="43f9bd13-79b6-4b42-89bb-9a325103d2bd" valueTypeId="106a3808-236a-4cb1-af78-db489edd38da"/>
+    <managerType typeId="ff64d95e-6457-438d-81fb-dcfee405b37f" valueTypeId="8a16385b-e5d5-4b40-853a-0e9f8e0b3870"/>
+  </producedTypes>
+  <name>ВидыСпискаЦелиСкидки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды списка цели скидки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d73d9d65-85a8-4de0-80e6-be7d149d9a80">
+    <name>Следующие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Следующие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="42b8b075-2f8c-42f3-b8f8-3838fa3c15d6">
+    <name>ИзНабора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Из набора</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cab6981f-57f7-46a0-bc92-a307d85402be">
+    <name>ВесьНабор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Весь набор</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

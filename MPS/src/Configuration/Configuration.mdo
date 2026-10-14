@@ -1511,6 +1511,7 @@
   <enums>Enum.ВидИзмененияКоличества</enums>
   <enums>Enum.ВариантыОкругления</enums>
   <enums>Enum.ДискретностьЗаказа</enums>
+  <enums>Enum.ВидыСпискаЦелиСкидки</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализПравДоступа</reports>
