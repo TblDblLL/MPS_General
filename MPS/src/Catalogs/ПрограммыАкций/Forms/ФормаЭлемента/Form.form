@@ -3331,7 +3331,7 @@
                 <choiceList>
                   <presentation>
                     <key>ru</key>
-                    <value>процентов от стоимости товаров</value>
+                    <value>процент от стоимости товаров</value>
                   </presentation>
                   <value xsi:type="core:ReferenceValue">
                     <value>Enum.ВидИзмененияКоличества.EnumValue.Процент</value>
@@ -3340,7 +3340,7 @@
                 <choiceList>
                   <presentation>
                     <key>ru</key>
-                    <value>баллов</value>
+                    <value>балл</value>
                   </presentation>
                   <value xsi:type="core:ReferenceValue">
                     <value>Enum.ВидИзмененияКоличества.EnumValue.Количество</value>
@@ -3723,6 +3723,48 @@
                   <key>ru</key>
                   <value>БЛ='после заказа'; БИ='после статуса'</value>
                 </editFormat>
+              </extInfo>
+            </items>
+            <items xsi:type="form:FormField">
+              <name>СтатусДоступности_НБП</name>
+              <id>1229</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>Items.ДействияАкцииПоЗаказам.CurrentData.СтатусДоступности</segments>
+              </dataPath>
+              <titleLocation>None</titleLocation>
+              <extendedTooltip>
+                <name>СтатусДоступности_НБПРасширеннаяПодсказка</name>
+                <id>1231</id>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <contextMenu>
+                <name>СтатусДоступности_НБПКонтекстноеМеню</name>
+                <id>1230</id>
+                <autoFill>true</autoFill>
+              </contextMenu>
+              <type>InputField</type>
+              <editMode>Enter</editMode>
+              <showInHeader>true</showInHeader>
+              <headerHorizontalAlign>Left</headerHorizontalAlign>
+              <showInFooter>true</showInFooter>
+              <extInfo xsi:type="form:InputFieldExtInfo">
+                <maxWidth>20</maxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <wrap>true</wrap>
+                <autoMarkIncomplete>true</autoMarkIncomplete>
+                <chooseType>true</chooseType>
+                <typeDomainEnabled>true</typeDomainEnabled>
+                <textEdit>true</textEdit>
               </extInfo>
             </items>
             <visible>true</visible>
@@ -5953,7 +5995,7 @@
             <textEdit>true</textEdit>
           </extInfo>
         </items>
-        <commandBarLocation>None</commandBarLocation>
+        <commandBarLocation>Bottom</commandBarLocation>
         <autoCommandBar>
           <name>ДействияАкцииПоЗаказамКоманднаяПанель</name>
           <id>343</id>
@@ -6057,7 +6099,7 @@
         <changeRowSet>true</changeRowSet>
         <changeRowOrder>true</changeRowOrder>
         <autoMaxWidth>true</autoMaxWidth>
-        <heightInTableRows>7</heightInTableRows>
+        <heightInTableRows>6</heightInTableRows>
         <heightControlVariant>InTableRows</heightControlVariant>
         <autoMaxRowsCount>true</autoMaxRowsCount>
         <selectionMode>MultiRow</selectionMode>
@@ -6174,7 +6216,7 @@
                 <choiceList>
                   <presentation>
                     <key>ru</key>
-                    <value>процентов</value>
+                    <value>процент</value>
                   </presentation>
                   <value xsi:type="core:ReferenceValue">
                     <value>Enum.ВидИзмененияКоличества.EnumValue.Процент</value>
@@ -6183,7 +6225,7 @@
                 <choiceList>
                   <presentation>
                     <key>ru</key>
-                    <value>баллов</value>
+                    <value>балл</value>
                   </presentation>
                   <value xsi:type="core:ReferenceValue">
                     <value>Enum.ВидИзмененияКоличества.EnumValue.Количество</value>
@@ -6371,6 +6413,33 @@
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
+                <choiceList>
+                  <presentation>
+                    <key>ru</key>
+                    <value>продукты в списке</value>
+                  </presentation>
+                  <value xsi:type="core:ReferenceValue">
+                    <value>Enum.ВариантыОграниченияПоПродуктам.EnumValue.ВСписке</value>
+                  </value>
+                </choiceList>
+                <choiceList>
+                  <presentation>
+                    <key>ru</key>
+                    <value>продукты в сегменте</value>
+                  </presentation>
+                  <value xsi:type="core:ReferenceValue">
+                    <value>Enum.ВариантыОграниченияПоПродуктам.EnumValue.ВСегменте</value>
+                  </value>
+                </choiceList>
+                <choiceList>
+                  <presentation>
+                    <key>ru</key>
+                    <value>продукты не в сегменте</value>
+                  </presentation>
+                  <value xsi:type="core:ReferenceValue">
+                    <value>Enum.ВариантыОграниченияПоПродуктам.EnumValue.НеВСегменте</value>
+                  </value>
+                </choiceList>
                 <inputHint>
                   <key>ru</key>
                   <value>все продукты</value>
@@ -6554,7 +6623,7 @@
                 <choiceList>
                   <presentation>
                     <key>ru</key>
-                    <value>дата</value>
+                    <value>с даты</value>
                   </presentation>
                   <value xsi:type="core:ReferenceValue">
                     <value>Enum.ПередСразуПослеДатой.EnumValue.Датой</value>
@@ -6756,6 +6825,48 @@
                   <key>ru</key>
                   <value>БЛ='после заказа'; БИ='после статуса'</value>
                 </editFormat>
+              </extInfo>
+            </items>
+            <items xsi:type="form:FormField">
+              <name>СтатусДоступности_НБЗ</name>
+              <id>1226</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>Items.ДействияАкцииПоЗаказам.CurrentData.СтатусДоступности</segments>
+              </dataPath>
+              <titleLocation>None</titleLocation>
+              <extendedTooltip>
+                <name>СтатусДоступности_НБЗРасширеннаяПодсказка</name>
+                <id>1228</id>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <contextMenu>
+                <name>СтатусДоступности_НБЗКонтекстноеМеню</name>
+                <id>1227</id>
+                <autoFill>true</autoFill>
+              </contextMenu>
+              <type>InputField</type>
+              <editMode>Enter</editMode>
+              <showInHeader>true</showInHeader>
+              <headerHorizontalAlign>Left</headerHorizontalAlign>
+              <showInFooter>true</showInFooter>
+              <extInfo xsi:type="form:InputFieldExtInfo">
+                <maxWidth>20</maxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <wrap>true</wrap>
+                <autoMarkIncomplete>true</autoMarkIncomplete>
+                <chooseType>true</chooseType>
+                <typeDomainEnabled>true</typeDomainEnabled>
+                <textEdit>true</textEdit>
               </extInfo>
             </items>
             <visible>true</visible>
@@ -7689,7 +7800,7 @@
                 <choiceList>
                   <presentation>
                     <key>ru</key>
-                    <value>процентов от стоимости товаров</value>
+                    <value>процент от стоимости товаров</value>
                   </presentation>
                   <value xsi:type="core:ReferenceValue">
                     <value>Enum.ВидИзмененияКоличества.EnumValue.Процент</value>
@@ -15051,6 +15162,21 @@
         <types>CatalogRef.Номенклатура</types>
       </itemValueType>
     </extInfo>
+  </attributes>
+  <attributes>
+    <name>БазаСписковВыбора</name>
+    <title>
+      <key>ru</key>
+      <value>База списков выбора</value>
+    </title>
+    <id>21</id>
+    <valueType/>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
   </attributes>
   <formCommands>
     <name>СвернутьВсе</name>
