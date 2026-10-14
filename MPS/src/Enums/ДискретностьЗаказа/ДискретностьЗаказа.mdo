@@ -19,6 +19,13 @@
       <value>Заказ</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="3d181a0c-de63-4c59-9573-81604312a585">
+    <name>Товар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар</value>
+    </synonym>
+  </enumValues>
   <enumValues uuid="009b75ca-98a3-4c12-9227-968986f63cb0">
     <name>Линия</name>
     <synonym>
@@ -27,10 +34,10 @@
     </synonym>
   </enumValues>
   <enumValues uuid="cc5eebd7-0b07-438f-a92c-c5b42d194962">
-    <name>Позиция</name>
+    <name>Единица</name>
     <synonym>
       <key>ru</key>
-      <value>Позиция</value>
+      <value>Единица в линии</value>
     </synonym>
   </enumValues>
 </mdclass:Enum>

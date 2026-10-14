@@ -1148,13 +1148,16 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="8227325e-ea7a-4ba3-afa1-ff629672d473">
-      <name>КлючОтбора</name>
+      <name>КлючСостава</name>
       <synonym>
         <key>ru</key>
-        <value>Ключ отбора</value>
+        <value>Ключ состава</value>
       </synonym>
       <type>
-        <types>Boolean</types>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1592,6 +1595,24 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
+    <attributes uuid="62979c1b-8714-4ac1-9162-17f8231716b3">
+      <name>ОканчиваяС</name>
+      <synonym>
+        <key>ru</key>
+        <value>Оканчивая С</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>3</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
     <attributes uuid="2dc320a0-1322-4583-b44b-654019e6b927">
       <name>ДискретностьОкругленияВЗаказе</name>
       <synonym>
@@ -1720,19 +1741,46 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="37af868a-b630-4b35-ba6d-6e0c33bcfe0d">
-      <name>ПозицияСостава</name>
+    <attributes uuid="70aee20f-1dcb-45b5-ab71-1a3fc5131309">
+      <name>СоставВСписке</name>
       <synonym>
         <key>ru</key>
-        <value>Позиция состава</value>
+        <value>Состав в списке</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="37af868a-b630-4b35-ba6d-6e0c33bcfe0d">
+      <name>КлючСостава</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ключ состава</value>
       </synonym>
       <comment>В строке УИД набора в ТоварыОтбор </comment>
       <type>
         <types>String</types>
-        <types>CatalogRef.СегментыНоменклатуры</types>
         <stringQualifiers>
-          <length>10</length>
+          <length>36</length>
         </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d1ed04b7-40a4-4b2e-b00f-3b4c17fef421">
+      <name>Сегмент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сегмент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СегментыНоменклатуры</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
