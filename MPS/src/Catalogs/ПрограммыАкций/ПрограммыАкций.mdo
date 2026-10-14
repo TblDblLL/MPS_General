@@ -1628,10 +1628,10 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="35215feb-287e-4fe1-a216-0d2ac57a5da2">
-      <name>СкидкаВПользуМагазина</name>
+      <name>СкидкаВПользуКлиента</name>
       <synonym>
         <key>ru</key>
-        <value>Скидка в пользу магазина</value>
+        <value>Скидка в пользу клиента</value>
       </synonym>
       <type>
         <types>Boolean</types>

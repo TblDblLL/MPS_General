@@ -2754,8 +2754,226 @@
             <autoCommandBar>
               <name>ЗаказыПоПродуктамОтборКоманднаяПанель</name>
               <id>296</id>
+              <items xsi:type="form:Button">
+                <name>ЗаказыПоПродуктамОтборДобавитьЭлементОтбора</name>
+                <id>1034</id>
+                <title>
+                  <key>ru</key>
+                  <value>Добавить</value>
+                </title>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>ЗаказыПоПродуктамОтборДобавитьЭлементОтбораРасширеннаяПодсказка</name>
+                  <id>1035</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <commandName>Form.Item.ЗаказыПоПродуктамОтбор.StandardCommand.AddFilterItem</commandName>
+                <representation>Picture</representation>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <placementArea>UserCmds</placementArea>
+                <representationInContextMenu>Auto</representationInContextMenu>
+                <locationInCommandBar>InCommandBar</locationInCommandBar>
+              </items>
+              <items xsi:type="form:Button">
+                <name>ЗаказыПоПродуктамОтборДобавитьГруппу</name>
+                <id>1055</id>
+                <title>
+                  <key>ru</key>
+                  <value>Добавить группу</value>
+                </title>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>ЗаказыПоПродуктамОтборДобавитьГруппуРасширеннаяПодсказка</name>
+                  <id>1056</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <commandName>Form.Item.ЗаказыПоПродуктамОтбор.StandardCommand.AddFilterItemGroup</commandName>
+                <representation>Picture</representation>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <placementArea>UserCmds</placementArea>
+                <picture xsi:type="core:PictureRef">
+                  <picture>StdPicture.CreateFolder</picture>
+                </picture>
+                <representationInContextMenu>Auto</representationInContextMenu>
+                <locationInCommandBar>InCommandBar</locationInCommandBar>
+              </items>
+              <items xsi:type="form:Button">
+                <name>ЗаказыПоПродуктамОтборУдалить</name>
+                <id>1036</id>
+                <title>
+                  <key>ru</key>
+                  <value>Удалить</value>
+                </title>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>ЗаказыПоПродуктамОтборУдалитьРасширеннаяПодсказка</name>
+                  <id>1037</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <commandName>Form.Item.ЗаказыПоПродуктамОтбор.StandardCommand.Delete</commandName>
+                <representation>Picture</representation>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <placementArea>UserCmds</placementArea>
+                <representationInContextMenu>Auto</representationInContextMenu>
+                <locationInCommandBar>InCommandBar</locationInCommandBar>
+              </items>
+              <items xsi:type="form:Button">
+                <name>ЗаказыПоПродуктамОтборСгруппировать</name>
+                <id>1038</id>
+                <title>
+                  <key>ru</key>
+                  <value>Сгруппировать</value>
+                </title>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>ЗаказыПоПродуктамОтборСгруппироватьРасширеннаяПодсказка</name>
+                  <id>1039</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <commandName>Form.Item.ЗаказыПоПродуктамОтбор.StandardCommand.GroupFilterItems</commandName>
+                <representation>Picture</representation>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <placementArea>UserCmds</placementArea>
+                <picture xsi:type="core:PictureRef">
+                  <picture>StdPicture.DataCompositionNewGroup</picture>
+                </picture>
+                <representationInContextMenu>Auto</representationInContextMenu>
+                <locationInCommandBar>InCommandBar</locationInCommandBar>
+              </items>
+              <items xsi:type="form:Button">
+                <name>ЗаказыПоПродуктамОтборРазгруппировать</name>
+                <id>1040</id>
+                <title>
+                  <key>ru</key>
+                  <value>Разгруппировать</value>
+                </title>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>ЗаказыПоПродуктамОтборРазгруппироватьРасширеннаяПодсказка</name>
+                  <id>1041</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <commandName>Form.Item.ЗаказыПоПродуктамОтбор.StandardCommand.Ungroup</commandName>
+                <representation>Picture</representation>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <placementArea>UserCmds</placementArea>
+                <picture xsi:type="core:PictureRef">
+                  <picture>StdPicture.SpreadsheetDeletePageBreak</picture>
+                </picture>
+                <representationInContextMenu>Auto</representationInContextMenu>
+                <locationInCommandBar>InCommandBar</locationInCommandBar>
+              </items>
+              <items xsi:type="form:Button">
+                <name>ЗаказыПоПродуктамОтборПереместитьВверх</name>
+                <id>1042</id>
+                <title>
+                  <key>ru</key>
+                  <value>Переместить вверх</value>
+                </title>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>ЗаказыПоПродуктамОтборПереместитьВверхРасширеннаяПодсказка</name>
+                  <id>1043</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <commandName>Form.Item.ЗаказыПоПродуктамОтбор.StandardCommand.MoveUp</commandName>
+                <representation>Picture</representation>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <placementArea>UserCmds</placementArea>
+                <representationInContextMenu>Auto</representationInContextMenu>
+                <locationInCommandBar>InCommandBar</locationInCommandBar>
+              </items>
+              <items xsi:type="form:Button">
+                <name>ЗаказыПоПродуктамОтборПереместитьВниз</name>
+                <id>1044</id>
+                <title>
+                  <key>ru</key>
+                  <value>Переместить вниз</value>
+                </title>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>ЗаказыПоПродуктамОтборПереместитьВнизРасширеннаяПодсказка</name>
+                  <id>1045</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <commandName>Form.Item.ЗаказыПоПродуктамОтбор.StandardCommand.MoveDown</commandName>
+                <representation>Picture</representation>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <placementArea>UserCmds</placementArea>
+                <representationInContextMenu>Auto</representationInContextMenu>
+                <locationInCommandBar>InCommandBar</locationInCommandBar>
+              </items>
               <horizontalAlign>Left</horizontalAlign>
-              <autoFill>true</autoFill>
             </autoCommandBar>
             <handlers>
               <event>OnChange</event>
@@ -5322,8 +5540,227 @@
         <autoCommandBar>
           <name>ЗаказыОтборКоманднаяПанель</name>
           <id>312</id>
+          <displayImportance>VeryHigh</displayImportance>
+          <items xsi:type="form:Button">
+            <name>ЗаказыОтборДобавить</name>
+            <id>1022</id>
+            <title>
+              <key>ru</key>
+              <value>Добавить</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ЗаказыОтборДобавитьРасширеннаяПодсказка</name>
+              <id>1023</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Item.ЗаказыОтбор.StandardCommand.AddFilterItem</commandName>
+            <representation>Picture</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InCommandBar</locationInCommandBar>
+          </items>
+          <items xsi:type="form:Button">
+            <name>ЗаказыОтборДобавитьГруппу</name>
+            <id>1057</id>
+            <title>
+              <key>ru</key>
+              <value>Добавить группу</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ЗаказыОтборДобавитьГруппуРасширеннаяПодсказка</name>
+              <id>1058</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Item.ЗаказыОтбор.StandardCommand.AddFilterItemGroup</commandName>
+            <representation>Picture</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <picture xsi:type="core:PictureRef">
+              <picture>StdPicture.CreateFolder</picture>
+            </picture>
+            <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InCommandBar</locationInCommandBar>
+          </items>
+          <items xsi:type="form:Button">
+            <name>ЗаказыОтборУдалить</name>
+            <id>1024</id>
+            <title>
+              <key>ru</key>
+              <value>Удалить</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ЗаказыОтборУдалитьРасширеннаяПодсказка</name>
+              <id>1025</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Item.ЗаказыОтбор.StandardCommand.Delete</commandName>
+            <representation>Picture</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InCommandBar</locationInCommandBar>
+          </items>
+          <items xsi:type="form:Button">
+            <name>ЗаказыОтборСгруппировать</name>
+            <id>1026</id>
+            <title>
+              <key>ru</key>
+              <value>Сгруппировать</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ЗаказыОтборСгруппироватьРасширеннаяПодсказка</name>
+              <id>1027</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Item.ЗаказыОтбор.StandardCommand.GroupFilterItems</commandName>
+            <representation>Picture</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <picture xsi:type="core:PictureRef">
+              <picture>StdPicture.DataCompositionNewGroup</picture>
+            </picture>
+            <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InCommandBar</locationInCommandBar>
+          </items>
+          <items xsi:type="form:Button">
+            <name>ЗаказыОтборРазгруппировать</name>
+            <id>1028</id>
+            <title>
+              <key>ru</key>
+              <value>Разгруппировать</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ЗаказыОтборРазгруппироватьРасширеннаяПодсказка</name>
+              <id>1029</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Item.ЗаказыОтбор.StandardCommand.Ungroup</commandName>
+            <representation>Picture</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <picture xsi:type="core:PictureRef">
+              <picture>StdPicture.SpreadsheetDeletePageBreak</picture>
+            </picture>
+            <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InCommandBar</locationInCommandBar>
+          </items>
+          <items xsi:type="form:Button">
+            <name>ЗаказыОтборПереместитьВверх</name>
+            <id>1030</id>
+            <title>
+              <key>ru</key>
+              <value>Переместить вверх</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ЗаказыОтборПереместитьВверхРасширеннаяПодсказка</name>
+              <id>1031</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Item.ЗаказыОтбор.StandardCommand.MoveUp</commandName>
+            <representation>Picture</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InCommandBar</locationInCommandBar>
+          </items>
+          <items xsi:type="form:Button">
+            <name>ЗаказыОтборПереместитьВниз</name>
+            <id>1032</id>
+            <title>
+              <key>ru</key>
+              <value>Переместить вниз</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ЗаказыОтборПереместитьВнизРасширеннаяПодсказка</name>
+              <id>1033</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Item.ЗаказыОтбор.StandardCommand.MoveDown</commandName>
+            <representation>Picture</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InCommandBar</locationInCommandBar>
+          </items>
           <horizontalAlign>Left</horizontalAlign>
-          <autoFill>true</autoFill>
         </autoCommandBar>
         <handlers>
           <event>OnChange</event>
@@ -9641,21 +10078,123 @@
           <items xsi:type="form:FormGroup">
             <name>ВСНЗ_1</name>
             <id>966</id>
-            <items xsi:type="form:FormField">
-              <name>Количество_ВСНЗ</name>
-              <id>968</id>
+            <items xsi:type="form:FormGroup">
+              <name>ВСНЗ_Количество</name>
+              <id>1059</id>
+              <items xsi:type="form:FormField">
+                <name>Количество_ВСНЗ</name>
+                <id>968</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>Items.ДействияАкцииПоЗаказам.CurrentData.Количество</segments>
+                </dataPath>
+                <titleLocation>None</titleLocation>
+                <extendedTooltip>
+                  <name>Количество_ВСНЗРасширеннаяПодсказка</name>
+                  <id>970</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>Количество_ВСНЗКонтекстноеМеню</name>
+                  <id>969</id>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <type>InputField</type>
+                <editMode>Enter</editMode>
+                <showInHeader>true</showInHeader>
+                <headerHorizontalAlign>Left</headerHorizontalAlign>
+                <showInFooter>true</showInFooter>
+                <extInfo xsi:type="form:InputFieldExtInfo">
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <wrap>true</wrap>
+                  <spinButton>true</spinButton>
+                  <autoMarkIncomplete>true</autoMarkIncomplete>
+                  <chooseType>true</chooseType>
+                  <textEdit>true</textEdit>
+                </extInfo>
+              </items>
+              <items xsi:type="form:FormField">
+                <name>ИзменениеКоличестваВ_ВСНЗ</name>
+                <id>971</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>Items.ДействияАкцииПоЗаказам.CurrentData.ИзменениеКоличестваВ</segments>
+                </dataPath>
+                <titleLocation>None</titleLocation>
+                <extendedTooltip>
+                  <name>ИзменениеКоличестваВ_ВСНЗРасширеннаяПодсказка</name>
+                  <id>973</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>ИзменениеКоличестваВ_ВСНЗКонтекстноеМеню</name>
+                  <id>972</id>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <type>InputField</type>
+                <editMode>Enter</editMode>
+                <showInHeader>true</showInHeader>
+                <headerHorizontalAlign>Left</headerHorizontalAlign>
+                <showInFooter>true</showInFooter>
+                <extInfo xsi:type="form:InputFieldExtInfo">
+                  <maxWidth>30</maxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <wrap>true</wrap>
+                  <listChoiceMode>true</listChoiceMode>
+                  <autoMarkIncomplete>true</autoMarkIncomplete>
+                  <chooseType>true</chooseType>
+                  <textEdit>true</textEdit>
+                  <choiceList>
+                    <presentation>
+                      <key>ru</key>
+                      <value>процент</value>
+                    </presentation>
+                    <value xsi:type="core:ReferenceValue">
+                      <value>Enum.ВидИзмененияКоличества.EnumValue.Процент</value>
+                    </value>
+                  </choiceList>
+                  <choiceList>
+                    <presentation>
+                      <key>ru</key>
+                      <value>рублей</value>
+                    </presentation>
+                    <value xsi:type="core:ReferenceValue">
+                      <value>Enum.ВидИзмененияКоличества.EnumValue.Количество</value>
+                    </value>
+                  </choiceList>
+                </extInfo>
+              </items>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:DataPath">
-                <segments>Items.ДействияАкцииПоЗаказам.CurrentData.Количество</segments>
-              </dataPath>
-              <titleLocation>None</titleLocation>
+              <title>
+                <key>ru</key>
+                <value>ВСНЗ количество</value>
+              </title>
               <extendedTooltip>
-                <name>Количество_ВСНЗРасширеннаяПодсказка</name>
-                <id>970</id>
+                <name>ВСНЗ_КоличествоРасширеннаяПодсказка</name>
+                <id>1060</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -9663,41 +10202,35 @@
                   <horizontalAlign>Left</horizontalAlign>
                 </extInfo>
               </extendedTooltip>
-              <contextMenu>
-                <name>Количество_ВСНЗКонтекстноеМеню</name>
-                <id>969</id>
-                <autoFill>true</autoFill>
-              </contextMenu>
-              <type>InputField</type>
-              <editMode>Enter</editMode>
-              <showInHeader>true</showInHeader>
-              <headerHorizontalAlign>Left</headerHorizontalAlign>
-              <showInFooter>true</showInFooter>
-              <extInfo xsi:type="form:InputFieldExtInfo">
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <wrap>true</wrap>
-                <spinButton>true</spinButton>
-                <autoMarkIncomplete>true</autoMarkIncomplete>
-                <chooseType>true</chooseType>
-                <textEdit>true</textEdit>
+              <type>UsualGroup</type>
+              <extInfo xsi:type="form:UsualGroupExtInfo">
+                <group>HorizontalIfPossible</group>
+                <behavior>Auto</behavior>
+                <showLeftMargin>true</showLeftMargin>
+                <united>true</united>
+                <throughAlign>Auto</throughAlign>
+                <currentRowUse>Auto</currentRowUse>
               </extInfo>
             </items>
             <items xsi:type="form:FormField">
-              <name>ИзменениеКоличестваВ_ВСНЗ</name>
-              <id>971</id>
+              <name>СкидкаВПользуКлиента_ВСНЗ</name>
+              <id>1046</id>
+              <title>
+                <key>ru</key>
+                <value>способ определения скидочного продукта</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
                 <common>true</common>
               </userVisible>
               <dataPath xsi:type="form:DataPath">
-                <segments>Items.ДействияАкцииПоЗаказам.CurrentData.ИзменениеКоличестваВ</segments>
+                <segments>Items.ДействияАкцииПоЗаказам.CurrentData.СкидкаВПользуКлиента</segments>
               </dataPath>
-              <titleLocation>None</titleLocation>
+              <titleLocation>Top</titleLocation>
               <extendedTooltip>
-                <name>ИзменениеКоличестваВ_ВСНЗРасширеннаяПодсказка</name>
-                <id>973</id>
+                <name>СкидкаВПользуКлиента_ВСНЗРасширеннаяПодсказка</name>
+                <id>1048</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -9706,41 +10239,21 @@
                 </extInfo>
               </extendedTooltip>
               <contextMenu>
-                <name>ИзменениеКоличестваВ_ВСНЗКонтекстноеМеню</name>
-                <id>972</id>
+                <name>СкидкаВПользуКлиента_ВСНЗКонтекстноеМеню</name>
+                <id>1047</id>
                 <autoFill>true</autoFill>
               </contextMenu>
-              <type>InputField</type>
+              <type>CheckBoxField</type>
               <editMode>Enter</editMode>
               <showInHeader>true</showInHeader>
               <headerHorizontalAlign>Left</headerHorizontalAlign>
               <showInFooter>true</showInFooter>
-              <extInfo xsi:type="form:InputFieldExtInfo">
-                <maxWidth>30</maxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <wrap>true</wrap>
-                <listChoiceMode>true</listChoiceMode>
-                <autoMarkIncomplete>true</autoMarkIncomplete>
-                <chooseType>true</chooseType>
-                <textEdit>true</textEdit>
-                <choiceList>
-                  <presentation>
-                    <key>ru</key>
-                    <value>процент</value>
-                  </presentation>
-                  <value xsi:type="core:ReferenceValue">
-                    <value>Enum.ВидИзмененияКоличества.EnumValue.Процент</value>
-                  </value>
-                </choiceList>
-                <choiceList>
-                  <presentation>
-                    <key>ru</key>
-                    <value>рублей</value>
-                  </presentation>
-                  <value xsi:type="core:ReferenceValue">
-                    <value>Enum.ВидИзмененияКоличества.EnumValue.Количество</value>
-                  </value>
-                </choiceList>
+              <extInfo xsi:type="form:CheckBoxFieldExtInfo">
+                <checkBoxType>Tumbler</checkBoxType>
+                <editFormat>
+                  <key>ru</key>
+                  <value>БЛ='в пользу магазина'; БИ='в пользу клиента'</value>
+                </editFormat>
               </extInfo>
             </items>
             <visible>true</visible>
@@ -9764,7 +10277,7 @@
             </extendedTooltip>
             <type>UsualGroup</type>
             <extInfo xsi:type="form:UsualGroupExtInfo">
-              <group>HorizontalIfPossible</group>
+              <group>Vertical</group>
               <behavior>Auto</behavior>
               <showLeftMargin>true</showLeftMargin>
               <united>true</united>
@@ -10044,7 +10557,7 @@
                 <id>1018</id>
                 <title>
                   <key>ru</key>
-                  <value>Состав набора добавить</value>
+                  <value>Добавить</value>
                 </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -10067,13 +10580,14 @@
                 <autoMaxHeight>true</autoMaxHeight>
                 <placementArea>UserCmds</placementArea>
                 <representationInContextMenu>Auto</representationInContextMenu>
+                <locationInCommandBar>InCommandBar</locationInCommandBar>
               </items>
               <items xsi:type="form:Button">
                 <name>СоставНабораУдалить</name>
                 <id>1020</id>
                 <title>
                   <key>ru</key>
-                  <value>Состав набора удалить</value>
+                  <value>Удалить</value>
                 </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -10096,6 +10610,7 @@
                 <autoMaxHeight>true</autoMaxHeight>
                 <placementArea>UserCmds</placementArea>
                 <representationInContextMenu>Auto</representationInContextMenu>
+                <locationInCommandBar>InCommandBar</locationInCommandBar>
               </items>
               <horizontalAlign>Left</horizontalAlign>
             </autoCommandBar>
