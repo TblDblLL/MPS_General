@@ -3505,7 +3505,7 @@
               <headerHorizontalAlign>Left</headerHorizontalAlign>
               <showInFooter>true</showInFooter>
               <extInfo xsi:type="form:InputFieldExtInfo">
-                <maxWidth>10</maxWidth>
+                <maxWidth>12</maxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <wrap>true</wrap>
                 <listChoiceMode>true</listChoiceMode>
@@ -3540,6 +3540,10 @@
                     <value>Enum.ПередСразуПослеДатой.EnumValue.Датой</value>
                   </value>
                 </choiceList>
+                <inputHint>
+                  <key>ru</key>
+                  <value>выберите период</value>
+                </inputHint>
               </extInfo>
             </items>
             <items xsi:type="form:FormField">
@@ -3766,7 +3770,7 @@
                 <common>true</common>
               </userVisible>
               <dataPath xsi:type="form:DataPath">
-                <segments>Items.ДействияАкцииПоЗаказам.CurrentData.СтатусДоступности</segments>
+                <segments>Объект.СтатусДоступности</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
               <handlers>
@@ -3797,9 +3801,12 @@
                 <maxWidth>20</maxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <wrap>true</wrap>
+                <dropListButton>false</dropListButton>
+                <choiceButton>true</choiceButton>
+                <choiceButtonRepresentation>ShowInInputField</choiceButtonRepresentation>
+                <quickChoice>false</quickChoice>
                 <autoMarkIncomplete>true</autoMarkIncomplete>
                 <chooseType>true</chooseType>
-                <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
               </extInfo>
             </items>
