@@ -1512,6 +1512,7 @@
   <enums>Enum.ВариантыОкругления</enums>
   <enums>Enum.ДискретностьЗаказа</enums>
   <enums>Enum.ВидыСпискаЦелиСкидки</enums>
+  <enums>Enum.Уникальность</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализПравДоступа</reports>

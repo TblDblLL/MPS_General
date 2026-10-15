@@ -106,4 +106,5 @@
   <content>Enum.ВариантыОкругления</content>
   <content>Enum.ДискретностьЗаказа</content>
   <content>Enum.ВидыСпискаЦелиСкидки</content>
+  <content>Enum.Уникальность</content>
 </mdclass:Subsystem>

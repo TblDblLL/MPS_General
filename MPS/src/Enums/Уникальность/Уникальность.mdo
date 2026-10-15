@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f031c26-5079-4a7c-93d8-09c2fa8fd472">
+  <producedTypes>
+    <refType typeId="48f9bf24-d1c2-4c97-b076-9ba4e65558c1" valueTypeId="20bdf25e-605c-49f2-91e3-55518293ffbc"/>
+    <listType typeId="a5cd4b2f-032d-4df3-a71f-00a12aa2d17e" valueTypeId="f3e8a439-a404-4dee-82a2-5744d920ba4f"/>
+    <managerType typeId="53b06fda-46b9-4c55-a853-22eb44fd1cce" valueTypeId="2f644008-a49d-4e4f-97a6-a2ac889b304d"/>
+  </producedTypes>
+  <name>Уникальность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уникальность</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c1cf2030-b82c-41e6-a85f-e837f6f919b2">
+    <name>Любые</name>
+    <synonym>
+      <key>ru</key>
+      <value>Любые</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d91940a6-4028-4992-b20b-27573f693b59">
+    <name>Уникальные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уникальные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e2280e55-d9ac-40a7-889c-622c7777460e">
+    <name>Одинаковые</name>
+    <synonym>
+      <key>ru</key>
+      <value>Одинаковые</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
