@@ -3303,6 +3303,10 @@
                 <segments>Объект.ИзменениеКоличестваВ</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>НачислитьБаллыПоПродуктам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>ИзменениеКоличестваВ_НБПРасширеннаяПодсказка</name>
                 <id>564</id>
@@ -3398,6 +3402,10 @@
                 <segments>Объект.БалльныйСчет</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>НачислитьБаллыПоПродуктам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>БалльныйСчет_НБПРасширеннаяПодсказка</name>
                 <id>569</id>
@@ -3593,6 +3601,10 @@
                 <segments>Объект.ПериодДоступности</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>НачислитьБаллыПоПродуктам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>ПериодДоступности_НБПРасширеннаяПодсказка</name>
                 <id>578</id>
@@ -3663,6 +3675,10 @@
                 <segments>Объект.ДатаДоступности</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>НачислитьБаллыПоПродуктам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>ДатаДоступности_НБПРасширеннаяПодсказка</name>
                 <id>584</id>
@@ -3753,6 +3769,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.СтатусДоступности</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>НачислитьБаллыПоПродуктам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>СтатусДоступности_НБПРасширеннаяПодсказка</name>
                 <id>1231</id>
@@ -3987,6 +4007,10 @@
                   <segments>Объект.ПериодСрокаДействия</segments>
                 </dataPath>
                 <titleLocation>None</titleLocation>
+                <handlers>
+                  <event>OnChange</event>
+                  <name>НачислитьБаллыПоПродуктам_Параметры</name>
+                </handlers>
                 <extendedTooltip>
                   <name>ПериодСрокаДействия_НБПРасширеннаяПодсказка</name>
                   <id>604</id>
@@ -4048,6 +4072,10 @@
                   <segments>Объект.ДатаОкончанияСрокаДействия</segments>
                 </dataPath>
                 <titleLocation>None</titleLocation>
+                <handlers>
+                  <event>OnChange</event>
+                  <name>НачислитьБаллыПоПродуктам_Параметры</name>
+                </handlers>
                 <extendedTooltip>
                   <name>ДатаОкончанияСрокаДействия_НБПРасширеннаяПодсказка</name>
                   <id>607</id>
@@ -4198,6 +4226,10 @@
                   <segments>Объект.КоличествоОграничения</segments>
                 </dataPath>
                 <titleLocation>None</titleLocation>
+                <handlers>
+                  <event>OnChange</event>
+                  <name>НачислитьБаллыПоПродуктам_Параметры</name>
+                </handlers>
                 <extendedTooltip>
                   <name>КоличествоОграничения_НБПРасширеннаяПодсказка</name>
                   <id>615</id>
@@ -4275,6 +4307,10 @@
                   <segments>Объект.ОграничиватьСДорогих</segments>
                 </dataPath>
                 <titleLocation>None</titleLocation>
+                <handlers>
+                  <event>OnChange</event>
+                  <name>НачислитьБаллыПоПродуктам_Параметры</name>
+                </handlers>
                 <extendedTooltip>
                   <name>ОграничиватьСДорогих_НБПРасширеннаяПодсказка</name>
                   <id>621</id>
@@ -4870,6 +4906,10 @@
                 <segments>Объект.ИзменениеКоличестваВ</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>ВыдатьСкидкуПоПродуктам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>ИзменениеКоличестваВ_ВСПРасширеннаяПодсказка</name>
                 <id>661</id>
@@ -5010,6 +5050,10 @@
                   <segments>Объект.КоличествоОграничения</segments>
                 </dataPath>
                 <titleLocation>None</titleLocation>
+                <handlers>
+                  <event>OnChange</event>
+                  <name>ВыдатьСкидкуПоПродуктам_Параметры</name>
+                </handlers>
                 <extendedTooltip>
                   <name>КоличествоОграничения_ВСПРасширеннаяПодсказка</name>
                   <id>673</id>
@@ -5087,6 +5131,10 @@
                   <segments>Объект.ОграничиватьСДорогих</segments>
                 </dataPath>
                 <titleLocation>None</titleLocation>
+                <handlers>
+                  <event>OnChange</event>
+                  <name>ВыдатьСкидкуПоПродуктам_Параметры</name>
+                </handlers>
                 <extendedTooltip>
                   <name>ОграничиватьСДорогих_ВСПРасширеннаяПодсказка</name>
                   <id>682</id>
@@ -5216,6 +5264,10 @@
                 <segments>Объект.ВариантОкругления</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>ОкруглениеЦеныПоПродуктам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>ВариантОкругления_ОЦПРасширеннаяПодсказка</name>
                 <id>687</id>
@@ -6241,6 +6293,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.ИзменениеКоличестваВ</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>НачислитьБаллыПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>ИзменениеКоличестваВ_НБЗРасширеннаяПодсказка</name>
                 <id>695</id>
@@ -6335,6 +6391,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.БалльныйСчет</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>НачислитьБаллыПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>БалльныйСчет_НБЗРасширеннаяПодсказка</name>
                 <id>701</id>
@@ -6518,6 +6578,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.СегментНоменклатуры</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>НачислитьБаллыПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>СегментНоменклатуры_НБЗРасширеннаяПодсказка</name>
                 <id>712</id>
@@ -6560,6 +6624,10 @@
                 <segments>СписокОтбораТоваровПоЗаказам</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>НачислитьБаллыПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>СписокОтбораТоваровПоЗаказам_НБЗРасширеннаяПодсказка</name>
                 <id>715</id>
@@ -6753,6 +6821,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.ПериодДоступности</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>НачислитьБаллыПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>ПериодДоступности_НБЗРасширеннаяПодсказка</name>
                 <id>726</id>
@@ -6822,6 +6894,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.ДатаДоступности</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>НачислитьБаллыПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>ДатаДоступности_НБЗРасширеннаяПодсказка</name>
                 <id>729</id>
@@ -6911,6 +6987,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.СтатусДоступности</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>НачислитьБаллыПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>СтатусДоступности_НБЗРасширеннаяПодсказка</name>
                 <id>1228</id>
@@ -7143,6 +7223,10 @@
                   <segments>Items.ДействияАкцииПоЗаказам.CurrentData.ПериодСрокаДействия</segments>
                 </dataPath>
                 <titleLocation>None</titleLocation>
+                <handlers>
+                  <event>OnChange</event>
+                  <name>НачислитьБаллыПоЗаказам_Параметры</name>
+                </handlers>
                 <extendedTooltip>
                   <name>ПериодСрокаДействия_НБЗРасширеннаяПодсказка</name>
                   <id>748</id>
@@ -7203,6 +7287,10 @@
                   <segments>Items.ДействияАкцииПоЗаказам.CurrentData.ДатаОкончанияСрокаДействия</segments>
                 </dataPath>
                 <titleLocation>None</titleLocation>
+                <handlers>
+                  <event>OnChange</event>
+                  <name>НачислитьБаллыПоЗаказам_Параметры</name>
+                </handlers>
                 <extendedTooltip>
                   <name>ДатаОкончанияСрокаДействия_НБЗРасширеннаяПодсказка</name>
                   <id>751</id>
@@ -7352,6 +7440,10 @@
                   <segments>Items.ДействияАкцииПоЗаказам.CurrentData.КоличествоОграничения</segments>
                 </dataPath>
                 <titleLocation>None</titleLocation>
+                <handlers>
+                  <event>OnChange</event>
+                  <name>НачислитьБаллыПоЗаказам_Параметры</name>
+                </handlers>
                 <extendedTooltip>
                   <name>КоличествоОграничения_НБЗРасширеннаяПодсказка</name>
                   <id>761</id>
@@ -7428,6 +7520,10 @@
                   <segments>Items.ДействияАкцииПоЗаказам.CurrentData.ОграничиватьСДорогих</segments>
                 </dataPath>
                 <titleLocation>None</titleLocation>
+                <handlers>
+                  <event>OnChange</event>
+                  <name>НачислитьБаллыПоЗаказам_Параметры</name>
+                </handlers>
                 <extendedTooltip>
                   <name>ОграничиватьСДорогих_НБЗРасширеннаяПодсказка</name>
                   <id>767</id>
@@ -7610,6 +7706,10 @@
                   <segments>Items.ДействияАкцииПоЗаказам.CurrentData.ДиапазонС</segments>
                 </dataPath>
                 <titleLocation>None</titleLocation>
+                <handlers>
+                  <event>OnChange</event>
+                  <name>НачислитьБаллыПоЗаказам_Параметры</name>
+                </handlers>
                 <extendedTooltip>
                   <name>ДиапазонС_НБЗРасширеннаяПодсказка</name>
                   <id>778</id>
@@ -7686,6 +7786,10 @@
                   <segments>Items.ДействияАкцииПоЗаказам.CurrentData.ДиапазонПо</segments>
                 </dataPath>
                 <titleLocation>None</titleLocation>
+                <handlers>
+                  <event>OnChange</event>
+                  <name>НачислитьБаллыПоЗаказам_Параметры</name>
+                </handlers>
                 <extendedTooltip>
                   <name>ДиапазонПо_НБЗРасширеннаяПодсказка</name>
                   <id>784</id>
@@ -7897,6 +8001,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.ИзменениеКоличестваВ</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>РазрешитьСкидкуБалламиПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>ИзменениеКоличестваВ_РСБЗРасширеннаяПодсказка</name>
                 <id>795</id>
@@ -7982,6 +8090,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.БалльныйСчет</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>РазрешитьСкидкуБалламиПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>БалльныйСчет_РСБЗРасширеннаяПодсказка</name>
                 <id>801</id>
@@ -8138,6 +8250,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.СегментНоменклатуры</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>РазрешитьСкидкуБалламиПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>СегментНоменклатуры_РСБЗРасширеннаяПодсказка</name>
                 <id>825</id>
@@ -8180,6 +8296,10 @@
                 <segments>СписокОтбораТоваровПоЗаказам</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>РазрешитьСкидкуБалламиПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>СписокОтбораТоваровПоЗаказам_РСБЗРасширеннаяПодсказка</name>
                 <id>828</id>
@@ -8301,6 +8421,10 @@
                   <segments>Items.ДействияАкцииПоЗаказам.CurrentData.МинимальнаяСтоимость</segments>
                 </dataPath>
                 <titleLocation>None</titleLocation>
+                <handlers>
+                  <event>OnChange</event>
+                  <name>РазрешитьСкидкуБалламиПоЗаказам_Параметры</name>
+                </handlers>
                 <extendedTooltip>
                   <name>МинимальнаяСтоимость_РСБЗРасширеннаяПодсказка</name>
                   <id>811</id>
@@ -8511,6 +8635,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.ИзменениеКоличестваВ</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>ВыдатьСкидкуПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>ИзменениеКоличестваВ_ВСЗРасширеннаяПодсказка</name>
                 <id>836</id>
@@ -8686,6 +8814,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.СегментНоменклатуры</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>ВыдатьСкидкуПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>СегментНоменклатуры_ВСЗРасширеннаяПодсказка</name>
                 <id>863</id>
@@ -8728,6 +8860,10 @@
                 <segments>СписокОтбораТоваровПоЗаказам</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>ВыдатьСкидкуПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>СписокОтбораТоваровПоЗаказам_ВСЗРасширеннаяПодсказка</name>
                 <id>866</id>
@@ -8849,6 +8985,10 @@
                   <segments>Items.ДействияАкцииПоЗаказам.CurrentData.КоличествоОграничения</segments>
                 </dataPath>
                 <titleLocation>None</titleLocation>
+                <handlers>
+                  <event>OnChange</event>
+                  <name>ВыдатьСкидкуПоЗаказам_Параметры</name>
+                </handlers>
                 <extendedTooltip>
                   <name>КоличествоОграничения_ВСЗРасширеннаяПодсказка</name>
                   <id>846</id>
@@ -8925,6 +9065,10 @@
                   <segments>Items.ДействияАкцииПоЗаказам.CurrentData.ОграничиватьСДорогих</segments>
                 </dataPath>
                 <titleLocation>None</titleLocation>
+                <handlers>
+                  <event>OnChange</event>
+                  <name>ВыдатьСкидкуПоЗаказам_Параметры</name>
+                </handlers>
                 <extendedTooltip>
                   <name>ОграничиватьСДорогих_ВСЗРасширеннаяПодсказка</name>
                   <id>852</id>
@@ -9177,6 +9321,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.СегментНоменклатуры</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>КаскаднаяСкидкаПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>СегментНоменклатуры_КСЗРасширеннаяПодсказка</name>
                 <id>890</id>
@@ -9219,6 +9367,10 @@
                 <segments>СписокОтбораТоваровПоЗаказам</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>КаскаднаяСкидкаПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>СписокОтбораТоваровПоЗаказам_КСЗРасширеннаяПодсказка</name>
                 <id>893</id>
@@ -9373,6 +9525,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.ИзменениеКоличестваВ</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>КаскаднаяСкидкаПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>ИзменениеКоличестваВ_КСЗРасширеннаяПодсказка</name>
                 <id>874</id>
@@ -9711,6 +9867,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.ОканчиваяС</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>КаскаднаяСкидкаПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>ДействияАкцииПоЗаказамОканчиваяСРасширеннаяПодсказка</name>
                 <id>934</id>
@@ -10009,6 +10169,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.ДискретностьОкругленияВЗаказе</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>ОкруглениеЦеныПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>ДискретностьОкругленияВЗаказе_ОЦЗРасширеннаяПодсказка</name>
                 <id>949</id>
@@ -10083,6 +10247,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.ВариантОкругления</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>ОкруглениеЦеныПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>ВариантОкругления_ОЦЗРасширеннаяПодсказка</name>
                 <id>954</id>
@@ -10162,6 +10330,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.ВариантОграниченияПоПродуктам</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>ОкруглениеЦеныПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>ВариантОграниченияПоПродуктам_ОЦЗРасширеннаяПодсказка</name>
                 <id>959</id>
@@ -10207,6 +10379,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.СегментНоменклатуры</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>ОкруглениеЦеныПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>СегментНоменклатуры_ОЦЗРасширеннаяПодсказка</name>
                 <id>962</id>
@@ -10249,6 +10425,10 @@
                 <segments>СписокОтбораТоваровПоЗаказам</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>ОкруглениеЦеныПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>СписокОтбораТоваровПоЗаказам_ОЦЗРасширеннаяПодсказка</name>
                 <id>965</id>
@@ -10355,6 +10535,10 @@
                   <segments>Items.ДействияАкцииПоЗаказам.CurrentData.Количество</segments>
                 </dataPath>
                 <titleLocation>None</titleLocation>
+                <handlers>
+                  <event>OnChange</event>
+                  <name>ВыдатьСкидкуЗаНаборПоЗаказам_Параметры</name>
+                </handlers>
                 <extendedTooltip>
                   <name>Количество_ВСНЗРасширеннаяПодсказка</name>
                   <id>970</id>
@@ -10397,6 +10581,10 @@
                   <segments>Items.ДействияАкцииПоЗаказам.CurrentData.ИзменениеКоличестваВ</segments>
                 </dataPath>
                 <titleLocation>None</titleLocation>
+                <handlers>
+                  <event>OnChange</event>
+                  <name>ВыдатьСкидкуЗаНаборПоЗаказам_Параметры</name>
+                </handlers>
                 <extendedTooltip>
                   <name>ИзменениеКоличестваВ_ВСНЗРасширеннаяПодсказка</name>
                   <id>973</id>
@@ -10490,6 +10678,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.СкидкаВПользуКлиента</segments>
               </dataPath>
               <titleLocation>Top</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>ВыдатьСкидкуЗаНаборПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>СкидкаВПользуКлиента_ВСНЗРасширеннаяПодсказка</name>
                 <id>1048</id>
@@ -10876,6 +11068,10 @@
               </items>
               <horizontalAlign>Left</horizontalAlign>
             </autoCommandBar>
+            <handlers>
+              <event>OnChange</event>
+              <name>ВыдатьСкидкуЗаНаборПоЗаказам_Параметры</name>
+            </handlers>
             <searchStringAddition>
               <name>СоставНабораСтрокаПоиска</name>
               <id>991</id>
@@ -11037,6 +11233,10 @@
               <dataPath xsi:type="form:DataPath">
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.ЗаКаждый</segments>
               </dataPath>
+              <handlers>
+                <event>OnChange</event>
+                <name>ВыдатьСкидкуНаПродуктЗаСуммуПокупокВСегментеПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>ЗаКаждый_ВСПСПСЗРасширеннаяПодсказка</name>
                 <id>1070</id>
@@ -11114,6 +11314,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.ВариантОграниченияПоПродуктам</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>ВыдатьСкидкуНаПродуктЗаСуммуПокупокВСегментеПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>ВариантОграниченияПоПродуктам_ВСПСПСЗРасширеннаяПодсказка</name>
                 <id>1073</id>
@@ -11187,6 +11391,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.СегментНоменклатуры</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>ВыдатьСкидкуНаПродуктЗаСуммуПокупокВСегментеПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>СегментНоменклатуры_ВСПСПСЗРасширеннаяПодсказка</name>
                 <id>1076</id>
@@ -11229,6 +11437,10 @@
                 <segments>СписокОтбораТоваровПоЗаказам</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>ВыдатьСкидкуНаПродуктЗаСуммуПокупокВСегментеПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>СписокОтбораТоваровПоЗаказам_ВСПСПСЗРасширеннаяПодсказка</name>
                 <id>1079</id>
@@ -11337,6 +11549,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.Количество</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>ВыдатьСкидкуНаПродуктЗаСуммуПокупокВСегментеПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>Количество_ВСПСПСЗРасширеннаяПодсказка</name>
                 <id>1087</id>
@@ -11379,6 +11595,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.ИзменениеКоличестваВ</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>ВыдатьСкидкуНаПродуктЗаСуммуПокупокВСегментеПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>ИзменениеКоличестваВ_ВСПСПСЗРасширеннаяПодсказка</name>
                 <id>1090</id>
@@ -11473,6 +11693,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.ВариантОграниченияПоПродуктамЦелиСкидки</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>ВыдатьСкидкуНаПродуктЗаСуммуПокупокВСегментеПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>ВариантОграниченияПоПродуктамЦелиСкидки_ВСПСПСЗРасширеннаяПодсказка</name>
                 <id>1113</id>
@@ -11545,6 +11769,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.СегментНоменклатурыЦелиСкидки</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>ВыдатьСкидкуНаПродуктЗаСуммуПокупокВСегментеПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>СегментНоменклатурыЦелиСкидки_ВСПСПСЗРасширеннаяПодсказка</name>
                 <id>1116</id>
@@ -11586,6 +11814,10 @@
                 <segments>СписокОтбораТоваровПоЗаказам</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>ВыдатьСкидкуНаПродуктЗаСуммуПокупокВСегментеПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>СписокОтбораТоваровЦелиСкидкиПоЗаказам_ВСПСПСЗРасширеннаяПодсказка</name>
                 <id>1119</id>
@@ -11664,6 +11896,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.СкидкаВПользуКлиента</segments>
               </dataPath>
               <titleLocation>Left</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>ВыдатьСкидкуНаПродуктЗаСуммуПокупокВСегментеПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>СкидкаВПользуКлиента_ВСПСПСЗРасширеннаяПодсказка</name>
                 <id>1102</id>
@@ -11708,6 +11944,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.СкидкаТолькоКПродуктуСкидки</segments>
               </dataPath>
               <titleLocation>Left</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>ВыдатьСкидкуНаПродуктЗаСуммуПокупокВСегментеПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>СкидкаТолькоКПродуктуСкидки_ВСПСПСЗРасширеннаяПодсказка</name>
                 <id>1105</id>
@@ -11811,6 +12051,10 @@
               <dataPath xsi:type="form:DataPath">
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.ЗаКаждый</segments>
               </dataPath>
+              <handlers>
+                <event>OnChange</event>
+                <name>ВыдатьСкидкуНаПродуктыЗаПродуктыПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>ЗаКаждый_ВСППЗРасширеннаяПодсказка</name>
                 <id>1128</id>
@@ -11858,6 +12102,10 @@
                 <key>ru</key>
                 <value>продуктов</value>
               </toolTip>
+              <handlers>
+                <event>OnChange</event>
+                <name>ВыдатьСкидкуНаПродуктыЗаПродуктыПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>ВариантОграниченияПоПродуктам_ВСППЗРасширеннаяПодсказка</name>
                 <id>1134</id>
@@ -11931,6 +12179,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.СегментНоменклатуры</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>ВыдатьСкидкуНаПродуктыЗаПродуктыПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>СегментНоменклатуры_ВСППЗРасширеннаяПодсказка</name>
                 <id>1137</id>
@@ -11973,6 +12225,10 @@
                 <segments>СписокОтбораТоваровПоЗаказам</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>ВыдатьСкидкуНаПродуктыЗаПродуктыПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>СписокОтбораТоваровПоЗаказам_ВСППЗРасширеннаяПодсказка</name>
                 <id>1140</id>
@@ -12081,6 +12337,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.Количество</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>ВыдатьСкидкуНаПродуктыЗаПродуктыПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>Количество_ВСППЗРасширеннаяПодсказка</name>
                 <id>1146</id>
@@ -12123,6 +12383,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.ИзменениеКоличестваВ</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>ВыдатьСкидкуНаПродуктыЗаПродуктыПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>ИзменениеКоличестваВ_ВСППЗРасширеннаяПодсказка</name>
                 <id>1149</id>
@@ -12217,6 +12481,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.ВидСпискаЦелиСкидки</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>ВыдатьСкидкуНаПродуктыЗаПродуктыПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>ВидСпискаЦелиСкидки_ВСППЗРасширеннаяПодсказка</name>
                 <id>1161</id>
@@ -12325,6 +12593,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.НачинаяС</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>ВыдатьСкидкуНаПродуктыЗаПродуктыПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>НачинаяС_ВСППЗРасширеннаяПодсказка</name>
                 <id>1167</id>
@@ -12372,6 +12644,10 @@
                 <key>ru</key>
                 <value>продукт</value>
               </toolTip>
+              <handlers>
+                <event>OnChange</event>
+                <name>ВыдатьСкидкуНаПродуктыЗаПродуктыПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>ВариантОграниченияПоПродуктамЦелиСкидки_ВСППЗРасширеннаяПодсказка</name>
                 <id>1172</id>
@@ -12444,6 +12720,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.СегментНоменклатурыЦелиСкидки</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>ВыдатьСкидкуНаПродуктыЗаПродуктыПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>СегментНоменклатурыЦелиСкидки_ВСППЗРасширеннаяПодсказка</name>
                 <id>1175</id>
@@ -12485,6 +12765,10 @@
                 <segments>СписокОтбораТоваровПоЗаказам</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>ВыдатьСкидкуНаПродуктыЗаПродуктыПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>СписокОтбораТоваровЦелиСкидкиПоЗаказам_ВСППЗРасширеннаяПодсказка</name>
                 <id>1178</id>
@@ -12563,6 +12847,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.СкидкаВПользуКлиента</segments>
               </dataPath>
               <titleLocation>Left</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>ВыдатьСкидкуНаПродуктыЗаПродуктыПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>СкидкаВПользуКлиента_ВСППЗРасширеннаяПодсказка</name>
                 <id>1155</id>
@@ -12607,6 +12895,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.СкидкаТолькоКПродуктуСкидки</segments>
               </dataPath>
               <titleLocation>Left</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>ВыдатьСкидкуНаПродуктыЗаПродуктыПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>СкидкаТолькоКПродуктуСкидки_ВСППЗРасширеннаяПодсказка</name>
                 <id>1158</id>
@@ -12707,6 +12999,10 @@
             <dataPath xsi:type="form:DataPath">
               <segments>Items.ДействияАкцииПоЗаказам.CurrentData.НаборПромокодов</segments>
             </dataPath>
+            <handlers>
+              <event>OnChange</event>
+              <name>ВыдатьПромокодПоЗаказам_Параметры</name>
+            </handlers>
             <extendedTooltip>
               <name>НаборПромокодов_ВПЗРасширеннаяПодсказка</name>
               <id>1181</id>
@@ -12818,6 +13114,10 @@
                 <key>ru</key>
                 <value>продукт</value>
               </toolTip>
+              <handlers>
+                <event>OnChange</event>
+                <name>ВыдатьПромокодЗаКаждыйПродуктПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>ВариантОграниченияПоПродуктам_ВПКПЗРасширеннаяПодсказка</name>
                 <id>1187</id>
@@ -12891,6 +13191,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.СегментНоменклатуры</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>ВыдатьПромокодЗаКаждыйПродуктПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>СегментНоменклатуры_ВПКПЗРасширеннаяПодсказка</name>
                 <id>1193</id>
@@ -12933,6 +13237,10 @@
                 <segments>СписокОтбораТоваровПоЗаказам</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>ВыдатьПромокодЗаКаждыйПродуктПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>СписокОтбораТоваровПоЗаказам_ВПКПЗРасширеннаяПодсказка</name>
                 <id>1196</id>
@@ -12996,7 +13304,7 @@
             <name>ВПКПЗ_2</name>
             <id>1199</id>
             <items xsi:type="form:FormField">
-              <name>НаборПромокодов_ВПЗ1</name>
+              <name>НаборПромокодов_ВПКПЗ</name>
               <id>1201</id>
               <title>
                 <key>ru</key>
@@ -13010,8 +13318,12 @@
               <dataPath xsi:type="form:DataPath">
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.НаборПромокодов</segments>
               </dataPath>
+              <handlers>
+                <event>OnChange</event>
+                <name>ВыдатьПромокодЗаКаждыйПродуктПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
-                <name>НаборПромокодов_ВПЗ1РасширеннаяПодсказка</name>
+                <name>НаборПромокодов_ВПКПЗРасширеннаяПодсказка</name>
                 <id>1203</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -13021,7 +13333,7 @@
                 </extInfo>
               </extendedTooltip>
               <contextMenu>
-                <name>НаборПромокодов_ВПЗ1КонтекстноеМеню</name>
+                <name>НаборПромокодов_ВПКПЗКонтекстноеМеню</name>
                 <id>1202</id>
                 <autoFill>true</autoFill>
               </contextMenu>
@@ -13118,6 +13430,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.Количество</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>ВыдатьПромокодЗаКаждыйПродуктПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>Количество_ВПКПЗРасширеннаяПодсказка</name>
                 <id>1211</id>
@@ -13251,6 +13567,10 @@
               <segments>Items.ДействияАкцииПоЗаказам.CurrentData.Количество</segments>
             </dataPath>
             <titleLocation>None</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>СкидкаНаДоставкуПоЗаказам_Параметры</name>
+            </handlers>
             <extendedTooltip>
               <name>Количество_СДЗРасширеннаяПодсказка</name>
               <id>1217</id>
@@ -13293,6 +13613,10 @@
               <segments>Items.ДействияАкцииПоЗаказам.CurrentData.ИзменениеКоличестваВ</segments>
             </dataPath>
             <titleLocation>None</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>СкидкаНаДоставкуПоЗаказам_Параметры</name>
+            </handlers>
             <extendedTooltip>
               <name>ИзменениеКоличестваВ_СДЗРасширеннаяПодсказка</name>
               <id>1220</id>
