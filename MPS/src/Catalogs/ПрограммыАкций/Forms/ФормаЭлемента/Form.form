@@ -3256,6 +3256,10 @@
                 <segments>Объект.Количество</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>НачислитьБаллыПоПродуктам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>Количество_НБПРасширеннаяПодсказка</name>
                 <id>561</id>
@@ -3468,6 +3472,10 @@
                 <segments>Объект.ВидПериодаДоступности</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>НачислитьБаллыПоПродуктам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>ВидПериодаДоступности_НБПРасширеннаяПодсказка</name>
                 <id>572</id>
@@ -3538,6 +3546,10 @@
                 <segments>Объект.КоличествоПериодовДоступности</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>НачислитьБаллыПоПродуктам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>КоличествоПериодовДоступности_НБПРасширеннаяПодсказка</name>
                 <id>575</id>
@@ -3697,6 +3709,10 @@
                 <segments>Объект.ДоступноПоСтатусу</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>НачислитьБаллыПоПродуктам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>ДоступноПоСтатусу_НБПРасширеннаяПодсказка</name>
                 <id>587</id>
@@ -3816,6 +3832,10 @@
                 <segments>Объект.ЕстьСрокДействия</segments>
               </dataPath>
               <titleLocation>Right</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>НачислитьБаллыПоПродуктам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>ЕстьСрокДействия_НБПРасширеннаяПодсказка</name>
                 <id>595</id>
@@ -3855,6 +3875,10 @@
                   <segments>Объект.ВидСрокаДействия</segments>
                 </dataPath>
                 <titleLocation>None</titleLocation>
+                <handlers>
+                  <event>OnChange</event>
+                  <name>НачислитьБаллыПоПродуктам_Параметры</name>
+                </handlers>
                 <extendedTooltip>
                   <name>ВидСрокаДействия_НБПРасширеннаяПодсказка</name>
                   <id>598</id>
@@ -3916,6 +3940,10 @@
                   <segments>Объект.КоличествоПериодовСрокаДействия</segments>
                 </dataPath>
                 <titleLocation>None</titleLocation>
+                <handlers>
+                  <event>OnChange</event>
+                  <name>НачислитьБаллыПоПродуктам_Параметры</name>
+                </handlers>
                 <extendedTooltip>
                   <name>КоличествоПериодовСрокаДействия_НБПРасширеннаяПодсказка</name>
                   <id>601</id>
@@ -4127,6 +4155,10 @@
                 <segments>Объект.ЕстьОграничениеНаКоличество</segments>
               </dataPath>
               <titleLocation>Right</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>НачислитьБаллыПоПродуктам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>ЕстьОграничениеНаКоличество_НБПРасширеннаяПодсказка</name>
                 <id>612</id>
@@ -4321,7 +4353,7 @@
             </extendedTooltip>
             <type>UsualGroup</type>
             <extInfo xsi:type="form:UsualGroupExtInfo">
-              <group>HorizontalIfPossible</group>
+              <group>Vertical</group>
               <behavior>Auto</behavior>
               <showLeftMargin>true</showLeftMargin>
               <united>true</united>
@@ -4372,6 +4404,10 @@
                 <segments>Объект.Количество</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>РазрешитьСкидкуБалламиПоПродуктам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>Количество_РСБПРасширеннаяПодсказка</name>
                 <id>629</id>
@@ -4579,6 +4615,10 @@
                 <segments>Объект.ЕстьМинимальнаяСтоимость</segments>
               </dataPath>
               <titleLocation>Right</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>РазрешитьСкидкуБалламиПоПродуктам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>ЕстьМинимальнаяСтоимость_РСБПРасширеннаяПодсказка</name>
                 <id>649</id>
@@ -4783,6 +4823,10 @@
                 <segments>Объект.Количество</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>ВыдатьСкидкуПоПродуктам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>Количество_ВСПРасширеннаяПодсказка</name>
                 <id>658</id>
@@ -4923,6 +4967,10 @@
                 <segments>Объект.ЕстьОграничениеНаКоличество</segments>
               </dataPath>
               <titleLocation>Right</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>ВыдатьСкидкуПоПродуктам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>ЕстьОграничениеНаКоличество_ВСПРасширеннаяПодсказка</name>
                 <id>668</id>
@@ -5117,7 +5165,7 @@
             </extendedTooltip>
             <type>UsualGroup</type>
             <extInfo xsi:type="form:UsualGroupExtInfo">
-              <group>HorizontalIfPossible</group>
+              <group>Vertical</group>
               <behavior>Auto</behavior>
               <showLeftMargin>true</showLeftMargin>
               <united>true</united>
@@ -5196,6 +5244,10 @@
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
+                <inputHint>
+                  <key>ru</key>
+                  <value>способ округления</value>
+                </inputHint>
               </extInfo>
             </items>
             <visible>true</visible>
@@ -6143,6 +6195,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.Количество</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>НачислитьБаллыПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>Количество_НБЗРасширеннаяПодсказка</name>
                 <id>692</id>
@@ -6386,6 +6442,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.ВариантОграниченияПоПродуктам</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>НачислитьБаллыПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>ВариантОграниченияПоПродуктам_НБЗРасширеннаяПодсказка</name>
                 <id>706</id>
@@ -6574,6 +6634,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.ВидПериодаДоступности</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>НачислитьБаллыПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>ВидПериодаДоступности_НБЗРасширеннаяПодсказка</name>
                 <id>720</id>
@@ -6643,6 +6707,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.КоличествоПериодовДоступности</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>НачислитьБаллыПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>КоличествоПериодовДоступности_НБЗРасширеннаяПодсказка</name>
                 <id>723</id>
@@ -6799,6 +6867,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.ДоступноПоСтатусу</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>НачислитьБаллыПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>ДоступноПоСтатусу_НБЗРасширеннаяПодсказка</name>
                 <id>732</id>
@@ -6918,6 +6990,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.ЕстьСрокДействия</segments>
               </dataPath>
               <titleLocation>Right</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>НачислитьБаллыПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>ЕстьСрокДействия_НБЗРасширеннаяПодсказка</name>
                 <id>737</id>
@@ -6957,6 +7033,10 @@
                   <segments>Items.ДействияАкцииПоЗаказам.CurrentData.ВидСрокаДействия</segments>
                 </dataPath>
                 <titleLocation>None</titleLocation>
+                <handlers>
+                  <event>OnChange</event>
+                  <name>НачислитьБаллыПоЗаказам_Параметры</name>
+                </handlers>
                 <extendedTooltip>
                   <name>ВидСрокаДействия_НБЗРасширеннаяПодсказка</name>
                   <id>742</id>
@@ -7017,6 +7097,10 @@
                   <segments>Items.ДействияАкцииПоЗаказам.CurrentData.КоличествоПериодовСрокаДействия</segments>
                 </dataPath>
                 <titleLocation>None</titleLocation>
+                <handlers>
+                  <event>OnChange</event>
+                  <name>НачислитьБаллыПоЗаказам_Параметры</name>
+                </handlers>
                 <extendedTooltip>
                   <name>КоличествоПериодовСрокаДействия_НБЗРасширеннаяПодсказка</name>
                   <id>745</id>
@@ -7225,6 +7309,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.ЕстьОграничениеНаКоличество</segments>
               </dataPath>
               <titleLocation>Right</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>НачислитьБаллыПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>ЕстьОграничениеНаКоличество_НБЗРасширеннаяПодсказка</name>
                 <id>756</id>
@@ -7445,6 +7533,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.ЕстьДиапазон</segments>
               </dataPath>
               <titleLocation>Right</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>НачислитьБаллыПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>ЕстьДиапазон_НБЗРасширеннаяПодсказка</name>
                 <id>772</id>
@@ -7469,21 +7561,207 @@
                 <checkBoxType>Switcher</checkBoxType>
               </extInfo>
             </items>
-            <items xsi:type="form:Decoration">
-              <name>Декорация9</name>
-              <id>773</id>
+            <items xsi:type="form:FormGroup">
+              <name>НБЗ_Диапазон</name>
+              <id>1232</id>
+              <items xsi:type="form:Decoration">
+                <name>Декорация9</name>
+                <id>773</id>
+                <title>
+                  <key>ru</key>
+                  <value>от</value>
+                </title>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>Декорация9РасширеннаяПодсказка</name>
+                  <id>775</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>Декорация9КонтекстноеМеню</name>
+                  <id>774</id>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </items>
+              <items xsi:type="form:FormField">
+                <name>ДиапазонС_НБЗ</name>
+                <id>776</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>Items.ДействияАкцииПоЗаказам.CurrentData.ДиапазонС</segments>
+                </dataPath>
+                <titleLocation>None</titleLocation>
+                <extendedTooltip>
+                  <name>ДиапазонС_НБЗРасширеннаяПодсказка</name>
+                  <id>778</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>ДиапазонС_НБЗКонтекстноеМеню</name>
+                  <id>777</id>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <type>InputField</type>
+                <editMode>Enter</editMode>
+                <showInHeader>true</showInHeader>
+                <headerHorizontalAlign>Left</headerHorizontalAlign>
+                <showInFooter>true</showInFooter>
+                <extInfo xsi:type="form:InputFieldExtInfo">
+                  <maxWidth>12</maxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <wrap>true</wrap>
+                  <autoMarkIncomplete>true</autoMarkIncomplete>
+                  <chooseType>true</chooseType>
+                  <typeDomainEnabled>true</typeDomainEnabled>
+                  <textEdit>true</textEdit>
+                </extInfo>
+              </items>
+              <items xsi:type="form:Decoration">
+                <name>Декорация10</name>
+                <id>779</id>
+                <title>
+                  <key>ru</key>
+                  <value>по</value>
+                </title>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>Декорация10РасширеннаяПодсказка</name>
+                  <id>781</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>Декорация10КонтекстноеМеню</name>
+                  <id>780</id>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </items>
+              <items xsi:type="form:FormField">
+                <name>ДиапазонПо_НБЗ</name>
+                <id>782</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>Items.ДействияАкцииПоЗаказам.CurrentData.ДиапазонПо</segments>
+                </dataPath>
+                <titleLocation>None</titleLocation>
+                <extendedTooltip>
+                  <name>ДиапазонПо_НБЗРасширеннаяПодсказка</name>
+                  <id>784</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>ДиапазонПо_НБЗКонтекстноеМеню</name>
+                  <id>783</id>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <type>InputField</type>
+                <editMode>Enter</editMode>
+                <showInHeader>true</showInHeader>
+                <headerHorizontalAlign>Left</headerHorizontalAlign>
+                <showInFooter>true</showInFooter>
+                <extInfo xsi:type="form:InputFieldExtInfo">
+                  <maxWidth>12</maxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <wrap>true</wrap>
+                  <autoMarkIncomplete>true</autoMarkIncomplete>
+                  <chooseType>true</chooseType>
+                  <typeDomainEnabled>true</typeDomainEnabled>
+                  <textEdit>true</textEdit>
+                </extInfo>
+              </items>
+              <items xsi:type="form:Decoration">
+                <name>Декорация11</name>
+                <id>785</id>
+                <title>
+                  <key>ru</key>
+                  <value>рублей</value>
+                </title>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>Декорация11РасширеннаяПодсказка</name>
+                  <id>787</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>Декорация11КонтекстноеМеню</name>
+                  <id>786</id>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </items>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
               <title>
                 <key>ru</key>
-                <value>от</value>
+                <value>НБЗ диапазон</value>
               </title>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
               <extendedTooltip>
-                <name>Декорация9РасширеннаяПодсказка</name>
-                <id>775</id>
+                <name>НБЗ_ДиапазонРасширеннаяПодсказка</name>
+                <id>1233</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -7491,168 +7769,14 @@
                   <horizontalAlign>Left</horizontalAlign>
                 </extInfo>
               </extendedTooltip>
-              <contextMenu>
-                <name>Декорация9КонтекстноеМеню</name>
-                <id>774</id>
-                <autoFill>true</autoFill>
-              </contextMenu>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </items>
-            <items xsi:type="form:FormField">
-              <name>ДиапазонС_НБЗ</name>
-              <id>776</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <dataPath xsi:type="form:DataPath">
-                <segments>Items.ДействияАкцииПоЗаказам.CurrentData.ДиапазонС</segments>
-              </dataPath>
-              <titleLocation>None</titleLocation>
-              <extendedTooltip>
-                <name>ДиапазонС_НБЗРасширеннаяПодсказка</name>
-                <id>778</id>
-                <type>Label</type>
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:LabelDecorationExtInfo">
-                  <horizontalAlign>Left</horizontalAlign>
-                </extInfo>
-              </extendedTooltip>
-              <contextMenu>
-                <name>ДиапазонС_НБЗКонтекстноеМеню</name>
-                <id>777</id>
-                <autoFill>true</autoFill>
-              </contextMenu>
-              <type>InputField</type>
-              <editMode>Enter</editMode>
-              <showInHeader>true</showInHeader>
-              <headerHorizontalAlign>Left</headerHorizontalAlign>
-              <showInFooter>true</showInFooter>
-              <extInfo xsi:type="form:InputFieldExtInfo">
-                <maxWidth>12</maxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <wrap>true</wrap>
-                <autoMarkIncomplete>true</autoMarkIncomplete>
-                <chooseType>true</chooseType>
-                <typeDomainEnabled>true</typeDomainEnabled>
-                <textEdit>true</textEdit>
-              </extInfo>
-            </items>
-            <items xsi:type="form:Decoration">
-              <name>Декорация10</name>
-              <id>779</id>
-              <title>
-                <key>ru</key>
-                <value>по</value>
-              </title>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <extendedTooltip>
-                <name>Декорация10РасширеннаяПодсказка</name>
-                <id>781</id>
-                <type>Label</type>
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:LabelDecorationExtInfo">
-                  <horizontalAlign>Left</horizontalAlign>
-                </extInfo>
-              </extendedTooltip>
-              <contextMenu>
-                <name>Декорация10КонтекстноеМеню</name>
-                <id>780</id>
-                <autoFill>true</autoFill>
-              </contextMenu>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </items>
-            <items xsi:type="form:FormField">
-              <name>ДиапазонПо_НБЗ</name>
-              <id>782</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <dataPath xsi:type="form:DataPath">
-                <segments>Items.ДействияАкцииПоЗаказам.CurrentData.ДиапазонПо</segments>
-              </dataPath>
-              <titleLocation>None</titleLocation>
-              <extendedTooltip>
-                <name>ДиапазонПо_НБЗРасширеннаяПодсказка</name>
-                <id>784</id>
-                <type>Label</type>
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:LabelDecorationExtInfo">
-                  <horizontalAlign>Left</horizontalAlign>
-                </extInfo>
-              </extendedTooltip>
-              <contextMenu>
-                <name>ДиапазонПо_НБЗКонтекстноеМеню</name>
-                <id>783</id>
-                <autoFill>true</autoFill>
-              </contextMenu>
-              <type>InputField</type>
-              <editMode>Enter</editMode>
-              <showInHeader>true</showInHeader>
-              <headerHorizontalAlign>Left</headerHorizontalAlign>
-              <showInFooter>true</showInFooter>
-              <extInfo xsi:type="form:InputFieldExtInfo">
-                <maxWidth>12</maxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <wrap>true</wrap>
-                <autoMarkIncomplete>true</autoMarkIncomplete>
-                <chooseType>true</chooseType>
-                <typeDomainEnabled>true</typeDomainEnabled>
-                <textEdit>true</textEdit>
-              </extInfo>
-            </items>
-            <items xsi:type="form:Decoration">
-              <name>Декорация11</name>
-              <id>785</id>
-              <title>
-                <key>ru</key>
-                <value>рублей</value>
-              </title>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <extendedTooltip>
-                <name>Декорация11РасширеннаяПодсказка</name>
-                <id>787</id>
-                <type>Label</type>
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:LabelDecorationExtInfo">
-                  <horizontalAlign>Left</horizontalAlign>
-                </extInfo>
-              </extendedTooltip>
-              <contextMenu>
-                <name>Декорация11КонтекстноеМеню</name>
-                <id>786</id>
-                <autoFill>true</autoFill>
-              </contextMenu>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
+              <type>UsualGroup</type>
+              <extInfo xsi:type="form:UsualGroupExtInfo">
+                <group>HorizontalIfPossible</group>
+                <behavior>Auto</behavior>
+                <showLeftMargin>true</showLeftMargin>
+                <united>true</united>
+                <throughAlign>Auto</throughAlign>
+                <currentRowUse>Auto</currentRowUse>
               </extInfo>
             </items>
             <visible>true</visible>
@@ -7727,6 +7851,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.Количество</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>РазрешитьСкидкуБалламиПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>Количество_РСБЗРасширеннаяПодсказка</name>
                 <id>792</id>
@@ -7961,6 +8089,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.ВариантОграниченияПоПродуктам</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>РазрешитьСкидкуБалламиПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>ВариантОграниченияПоПродуктам_РСБЗРасширеннаяПодсказка</name>
                 <id>822</id>
@@ -8126,6 +8258,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.ЕстьМинимальнаяСтоимость</segments>
               </dataPath>
               <titleLocation>Right</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>РазрешитьСкидкуБалламиПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>ЕстьМинимальнаяСтоимость_РСБЗРасширеннаяПодсказка</name>
                 <id>806</id>
@@ -8329,6 +8465,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.Количество</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>ВыдатьСкидкуПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>Количество_ВСЗРасширеннаяПодсказка</name>
                 <id>833</id>
@@ -8497,6 +8637,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.ВариантОграниченияПоПродуктам</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>ВыдатьСкидкуПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>ВариантОграниченияПоПродуктам_ВСЗРасширеннаяПодсказка</name>
                 <id>860</id>
@@ -8662,6 +8806,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.ЕстьОграничениеНаКоличество</segments>
               </dataPath>
               <titleLocation>Right</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>ВыдатьСкидкуПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>ЕстьОграничениеНаКоличество_ВСЗРасширеннаяПодсказка</name>
                 <id>841</id>
@@ -8855,7 +9003,7 @@
             </extendedTooltip>
             <type>UsualGroup</type>
             <extInfo xsi:type="form:UsualGroupExtInfo">
-              <group>HorizontalIfPossible</group>
+              <group>Vertical</group>
               <behavior>Auto</behavior>
               <showLeftMargin>true</showLeftMargin>
               <united>true</united>
@@ -8905,6 +9053,10 @@
               <dataPath xsi:type="form:DataPath">
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.ЗаКаждый</segments>
               </dataPath>
+              <handlers>
+                <event>OnChange</event>
+                <name>КаскаднаяСкидкаПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>ЗаКаждый_КСЗРасширеннаяПодсказка</name>
                 <id>879</id>
@@ -8948,6 +9100,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.ВариантОграниченияПоПродуктам</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>КаскаднаяСкидкаПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>ВариантОграниченияПоПродуктам_КСЗРасширеннаяПодсказка</name>
                 <id>887</id>
@@ -9171,6 +9327,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.Количество</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>КаскаднаяСкидкаПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>Количество_КСЗРасширеннаяПодсказка</name>
                 <id>871</id>
@@ -9905,6 +10065,10 @@
                     <value>Enum.ДискретностьЗаказа.EnumValue.Единица</value>
                   </value>
                 </choiceList>
+                <inputHint>
+                  <key>ru</key>
+                  <value>что округляем</value>
+                </inputHint>
               </extInfo>
             </items>
             <items xsi:type="form:FormField">
@@ -9948,6 +10112,10 @@
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
+                <inputHint>
+                  <key>ru</key>
+                  <value>способ округления</value>
+                </inputHint>
               </extInfo>
             </items>
             <visible>true</visible>
