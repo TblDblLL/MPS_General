@@ -6106,7 +6106,7 @@
             <textEdit>true</textEdit>
           </extInfo>
         </items>
-        <commandBarLocation>Bottom</commandBarLocation>
+        <commandBarLocation>Top</commandBarLocation>
         <autoCommandBar>
           <name>ДействияАкцииПоЗаказамКоманднаяПанель</name>
           <id>343</id>
@@ -6212,7 +6212,6 @@
         <autoMaxWidth>true</autoMaxWidth>
         <heightInTableRows>6</heightInTableRows>
         <heightControlVariant>InTableRows</heightControlVariant>
-        <autoMaxRowsCount>true</autoMaxRowsCount>
         <selectionMode>MultiRow</selectionMode>
         <headerHeight>1</headerHeight>
         <footerHeight>1</footerHeight>
@@ -6226,6 +6225,7 @@
         <autoMarkIncomplete>true</autoMarkIncomplete>
         <searchOnInput>Auto</searchOnInput>
         <initialListView>Auto</initialListView>
+        <verticalStretch>true</verticalStretch>
         <enableStartDrag>true</enableStartDrag>
         <enableDrag>true</enableDrag>
         <fileDragMode>AsFileRef</fileDragMode>
@@ -9623,7 +9623,7 @@
               <headerHorizontalAlign>Left</headerHorizontalAlign>
               <showInFooter>true</showInFooter>
               <extInfo xsi:type="form:InputFieldExtInfo">
-                <maxWidth>30</maxWidth>
+                <maxWidth>15</maxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <wrap>true</wrap>
                 <listChoiceMode>true</listChoiceMode>
@@ -9655,7 +9655,7 @@
               <id>897</id>
               <title>
                 <key>ru</key>
-                <value>начиная с</value>
+                <value>,начиная с</value>
               </title>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -10041,56 +10041,21 @@
           <items xsi:type="form:FormGroup">
             <name>КСЗ_Описание</name>
             <id>935</id>
-            <items xsi:type="form:FormGroup">
-              <name>КСЗ_Примечание</name>
-              <id>937</id>
-              <items xsi:type="form:Decoration">
-                <name>Декорация23</name>
-                <id>941</id>
-                <title>
-                  <key>ru</key>
-                  <value>При применении скидки продукты сортируются по &lt;b>убыванию&lt;/> цены, т.е. &lt;b>на продукт с наибольшей ценой применится минимальная скидка.&lt;/></value>
-                </title>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <extendedTooltip>
-                  <name>Декорация23РасширеннаяПодсказка</name>
-                  <id>943</id>
-                  <type>Label</type>
-                  <autoMaxWidth>true</autoMaxWidth>
-                  <autoMaxHeight>true</autoMaxHeight>
-                  <extInfo xsi:type="form:LabelDecorationExtInfo">
-                    <horizontalAlign>Left</horizontalAlign>
-                  </extInfo>
-                </extendedTooltip>
-                <contextMenu>
-                  <name>Декорация23КонтекстноеМеню</name>
-                  <id>942</id>
-                  <autoFill>true</autoFill>
-                </contextMenu>
-                <formatted>true</formatted>
-                <type>Label</type>
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:LabelDecorationExtInfo">
-                  <horizontalAlign>Left</horizontalAlign>
-                </extInfo>
-              </items>
+            <items xsi:type="form:FormField">
+              <name>ЛегендаКаскаднойСкидки</name>
+              <id>1248</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <title>
-                <key>ru</key>
-                <value>КСЗ примечание</value>
-              </title>
+              <dataPath xsi:type="form:DataPath">
+                <segments>ЛегендаКаскаднойСкидки</segments>
+              </dataPath>
+              <titleLocation>None</titleLocation>
               <extendedTooltip>
-                <name>КСЗ_ПримечаниеРасширеннаяПодсказка</name>
-                <id>938</id>
+                <name>ЛегендаКаскаднойСкидкиРасширеннаяПодсказка</name>
+                <id>1250</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -10098,88 +10063,27 @@
                   <horizontalAlign>Left</horizontalAlign>
                 </extInfo>
               </extendedTooltip>
-              <type>UsualGroup</type>
-              <extInfo xsi:type="form:UsualGroupExtInfo">
-                <group>HorizontalIfPossible</group>
-                <behavior>Auto</behavior>
-                <showLeftMargin>true</showLeftMargin>
-                <united>true</united>
-                <throughAlign>Auto</throughAlign>
-                <currentRowUse>Auto</currentRowUse>
-              </extInfo>
-            </items>
-            <items xsi:type="form:FormGroup">
-              <name>КСЗ_Легенда</name>
-              <id>939</id>
-              <items xsi:type="form:FormField">
-                <name>ЛегендаКаскаднойСкидки</name>
-                <id>1234</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <dataPath xsi:type="form:DataPath">
-                  <segments>ЛегендаКаскаднойСкидки</segments>
-                </dataPath>
-                <titleLocation>None</titleLocation>
-                <extendedTooltip>
-                  <name>ЛегендаКаскаднойСкидкиРасширеннаяПодсказка</name>
-                  <id>1236</id>
-                  <type>Label</type>
-                  <autoMaxWidth>true</autoMaxWidth>
-                  <autoMaxHeight>true</autoMaxHeight>
-                  <extInfo xsi:type="form:LabelDecorationExtInfo">
-                    <horizontalAlign>Left</horizontalAlign>
-                  </extInfo>
-                </extendedTooltip>
-                <contextMenu>
-                  <name>ЛегендаКаскаднойСкидкиКонтекстноеМеню</name>
-                  <id>1235</id>
-                  <autoFill>true</autoFill>
-                </contextMenu>
-                <type>InputField</type>
-                <editMode>Enter</editMode>
-                <showInHeader>true</showInHeader>
-                <headerHorizontalAlign>Left</headerHorizontalAlign>
-                <showInFooter>true</showInFooter>
-                <extInfo xsi:type="form:InputFieldExtInfo">
-                  <maxHeight>4</maxHeight>
-                  <verticalStretch>true</verticalStretch>
-                  <wrap>true</wrap>
-                  <multiLine>true</multiLine>
-                  <chooseType>true</chooseType>
-                  <typeDomainEnabled>true</typeDomainEnabled>
-                  <textEdit>true</textEdit>
-                </extInfo>
-              </items>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <title>
-                <key>ru</key>
-                <value>КСЗ легенда</value>
-              </title>
-              <extendedTooltip>
-                <name>КСЗ_ЛегендаРасширеннаяПодсказка</name>
-                <id>940</id>
-                <type>Label</type>
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:LabelDecorationExtInfo">
-                  <horizontalAlign>Left</horizontalAlign>
-                </extInfo>
-              </extendedTooltip>
-              <type>UsualGroup</type>
-              <extInfo xsi:type="form:UsualGroupExtInfo">
-                <group>HorizontalIfPossible</group>
-                <behavior>Auto</behavior>
-                <showLeftMargin>true</showLeftMargin>
-                <united>true</united>
-                <throughAlign>Auto</throughAlign>
-                <currentRowUse>Auto</currentRowUse>
+              <contextMenu>
+                <name>ЛегендаКаскаднойСкидкиКонтекстноеМеню</name>
+                <id>1249</id>
+                <autoFill>true</autoFill>
+              </contextMenu>
+              <type>FormattedDocumentField</type>
+              <groupVerticalAlign>Bottom</groupVerticalAlign>
+              <editMode>Enter</editMode>
+              <showInHeader>true</showInHeader>
+              <headerHorizontalAlign>Left</headerHorizontalAlign>
+              <showInFooter>true</showInFooter>
+              <extInfo xsi:type="form:FormattedDocFieldExtInfo">
+                <width>50</width>
+                <height>1</height>
+                <horizontalStretch>true</horizontalStretch>
+                <verticalStretch>true</verticalStretch>
+                <textColor xsi:type="core:ColorDef">
+                  <red>51</red>
+                  <green>153</green>
+                  <blue>102</blue>
+                </textColor>
               </extInfo>
             </items>
             <visible>true</visible>
@@ -15969,8 +15873,7 @@
     </title>
     <id>22</id>
     <valueType>
-      <types>String</types>
-      <stringQualifiers/>
+      <types>FormattedDocument</types>
     </valueType>
     <view>
       <common>true</common>
