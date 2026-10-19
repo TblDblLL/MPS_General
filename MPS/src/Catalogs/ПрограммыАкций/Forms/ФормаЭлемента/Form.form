@@ -6118,6 +6118,10 @@
           <name>ДействияАкцииПоЗаказамПриАктивизацииСтроки</name>
         </handlers>
         <handlers>
+          <event>OnStartEdit</event>
+          <name>ДействияАкцииПоЗаказамПриНачалеРедактирования</name>
+        </handlers>
+        <handlers>
           <event>OnChange</event>
           <name>УправлениеФормойЗаказы</name>
         </handlers>
@@ -9696,6 +9700,10 @@
                 <segments>Items.ДействияАкцииПоЗаказам.CurrentData.НачинаяС</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>КаскаднаяСкидкаПоЗаказам_Параметры</name>
+              </handlers>
               <extendedTooltip>
                 <name>НачинаяС_КСЗРасширеннаяПодсказка</name>
                 <id>902</id>
@@ -10768,9 +10776,7 @@
               <name>СоставНабораНомерСтроки</name>
               <id>1000</id>
               <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
+              <userVisible/>
               <dataPath xsi:type="form:DataPath">
                 <segments>Объект.СоставНабора.LineNumber</segments>
               </dataPath>
@@ -10790,6 +10796,7 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>InputField</type>
+              <readOnly>true</readOnly>
               <editMode>EnterOnInput</editMode>
               <showInHeader>true</showInHeader>
               <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -10896,58 +10903,11 @@
               </extInfo>
             </items>
             <items xsi:type="form:FormField">
-              <name>СоставНабораПредставление</name>
-              <id>1015</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <dataPath xsi:type="form:DataPath">
-                <segments>Объект.СоставНабора.Представление</segments>
-              </dataPath>
-              <extendedTooltip>
-                <name>СоставНабораПредставлениеРасширеннаяПодсказка</name>
-                <id>1017</id>
-                <type>Label</type>
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:LabelDecorationExtInfo">
-                  <horizontalAlign>Left</horizontalAlign>
-                </extInfo>
-              </extendedTooltip>
-              <contextMenu>
-                <name>СоставНабораПредставлениеКонтекстноеМеню</name>
-                <id>1016</id>
-                <autoFill>true</autoFill>
-              </contextMenu>
-              <type>InputField</type>
-              <editMode>EnterOnInput</editMode>
-              <showInHeader>true</showInHeader>
-              <headerHorizontalAlign>Left</headerHorizontalAlign>
-              <showInFooter>true</showInFooter>
-              <extInfo xsi:type="form:InputFieldExtInfo">
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <wrap>true</wrap>
-                <multiLine>true</multiLine>
-                <choiceButton>true</choiceButton>
-                <choiceButtonRepresentation>ShowInInputField</choiceButtonRepresentation>
-                <createButton>false</createButton>
-                <autoMarkIncomplete>true</autoMarkIncomplete>
-                <chooseType>true</chooseType>
-                <typeDomainEnabled>true</typeDomainEnabled>
-                <textEdit>true</textEdit>
-              </extInfo>
-            </items>
-            <items xsi:type="form:FormField">
               <name>СоставНабораКлючСостава</name>
               <id>1009</id>
               <visible>true</visible>
               <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
+              <userVisible/>
               <dataPath xsi:type="form:DataPath">
                 <segments>Объект.СоставНабора.КлючСостава</segments>
               </dataPath>
@@ -10967,6 +10927,7 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>InputField</type>
+              <readOnly>true</readOnly>
               <editMode>EnterOnInput</editMode>
               <showInHeader>true</showInHeader>
               <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -10980,20 +10941,112 @@
                 <textEdit>true</textEdit>
               </extInfo>
             </items>
-            <items xsi:type="form:FormField">
-              <name>СоставНабораСегмент</name>
-              <id>1012</id>
+            <items xsi:type="form:FormGroup">
+              <name>Показатель</name>
+              <id>1257</id>
+              <items xsi:type="form:FormField">
+                <name>СоставНабораСегмент</name>
+                <id>1012</id>
+                <title>
+                  <key>ru</key>
+                  <value>Набор</value>
+                </title>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>Объект.СоставНабора.Сегмент</segments>
+                </dataPath>
+                <titleLocation>None</titleLocation>
+                <extendedTooltip>
+                  <name>СоставНабораСегментРасширеннаяПодсказка</name>
+                  <id>1014</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>СоставНабораСегментКонтекстноеМеню</name>
+                  <id>1013</id>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <type>InputField</type>
+                <editMode>EnterOnInput</editMode>
+                <showInHeader>true</showInHeader>
+                <headerHorizontalAlign>Left</headerHorizontalAlign>
+                <showInFooter>true</showInFooter>
+                <extInfo xsi:type="form:InputFieldExtInfo">
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <wrap>true</wrap>
+                  <chooseType>true</chooseType>
+                  <typeDomainEnabled>true</typeDomainEnabled>
+                  <textEdit>true</textEdit>
+                </extInfo>
+              </items>
+              <items xsi:type="form:FormField">
+                <name>СоставНабораСписокОтбораТоваров</name>
+                <id>1251</id>
+                <title>
+                  <key>ru</key>
+                  <value>Набор</value>
+                </title>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>Объект.СоставНабора.СписокОтбораТоваров</segments>
+                </dataPath>
+                <titleLocation>None</titleLocation>
+                <extendedTooltip>
+                  <name>СоставНабораСписокОтбораТоваровРасширеннаяПодсказка</name>
+                  <id>1253</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>СоставНабораСписокОтбораТоваровКонтекстноеМеню</name>
+                  <id>1252</id>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <type>InputField</type>
+                <editMode>EnterOnInput</editMode>
+                <showInHeader>true</showInHeader>
+                <headerHorizontalAlign>Left</headerHorizontalAlign>
+                <showInFooter>true</showInFooter>
+                <extInfo xsi:type="form:InputFieldExtInfo">
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <wrap>true</wrap>
+                  <chooseType>true</chooseType>
+                  <typeDomainEnabled>true</typeDomainEnabled>
+                  <textEdit>true</textEdit>
+                </extInfo>
+              </items>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:DataPath">
-                <segments>Объект.СоставНабора.Сегмент</segments>
-              </dataPath>
+              <title>
+                <key>ru</key>
+                <value>Набор</value>
+              </title>
+              <enableContentChange>true</enableContentChange>
               <extendedTooltip>
-                <name>СоставНабораСегментРасширеннаяПодсказка</name>
-                <id>1014</id>
+                <name>ПоказательРасширеннаяПодсказка</name>
+                <id>1258</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -11001,23 +11054,10 @@
                   <horizontalAlign>Left</horizontalAlign>
                 </extInfo>
               </extendedTooltip>
-              <contextMenu>
-                <name>СоставНабораСегментКонтекстноеМеню</name>
-                <id>1013</id>
-                <autoFill>true</autoFill>
-              </contextMenu>
-              <type>InputField</type>
-              <editMode>EnterOnInput</editMode>
-              <showInHeader>true</showInHeader>
-              <headerHorizontalAlign>Left</headerHorizontalAlign>
-              <showInFooter>true</showInFooter>
-              <extInfo xsi:type="form:InputFieldExtInfo">
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <wrap>true</wrap>
-                <chooseType>true</chooseType>
-                <typeDomainEnabled>true</typeDomainEnabled>
-                <textEdit>true</textEdit>
+              <type>ColumnGroup</type>
+              <extInfo xsi:type="form:ColumnGroupExtInfo">
+                <group>Vertical</group>
+                <showTitle>true</showTitle>
               </extInfo>
             </items>
             <autoCommandBar>
@@ -11085,6 +11125,14 @@
               </items>
               <horizontalAlign>Left</horizontalAlign>
             </autoCommandBar>
+            <handlers>
+              <event>OnStartEdit</event>
+              <name>СоставНабораПриНачалеРедактирования</name>
+            </handlers>
+            <handlers>
+              <event>OnActivateCell</event>
+              <name>СоставНабораПриАктивизацииЯчейки</name>
+            </handlers>
             <handlers>
               <event>OnChange</event>
               <name>ВыдатьСкидкуЗаНаборПоЗаказам_Параметры</name>
@@ -15536,18 +15584,56 @@
     <savedData>true</savedData>
     <additionalColumns>
       <tablePath xsi:type="form:DataPath">
+        <segments>Объект.ДействияАкцииПоЗаказам</segments>
+      </tablePath>
+      <columns>
+        <name>СписокОтбораТоваровПоЗаказам</name>
+        <title>
+          <key>ru</key>
+          <value>Список отбора товаров по заказам</value>
+        </title>
+        <id>23</id>
+        <valueType>
+          <types>ValueList</types>
+        </valueType>
+        <view>
+          <common>true</common>
+        </view>
+        <edit>
+          <common>true</common>
+        </edit>
+      </columns>
+      <columns>
+        <name>СписокОтбораТоваровПоЗаказамЦелиСкидки</name>
+        <title>
+          <key>ru</key>
+          <value>Список отбора товаров по заказам цели скидки</value>
+        </title>
+        <id>24</id>
+        <valueType>
+          <types>ValueList</types>
+        </valueType>
+        <view>
+          <common>true</common>
+        </view>
+        <edit>
+          <common>true</common>
+        </edit>
+      </columns>
+    </additionalColumns>
+    <additionalColumns>
+      <tablePath xsi:type="form:DataPath">
         <segments>Объект.СоставНабора</segments>
       </tablePath>
       <columns>
-        <name>Представление</name>
+        <name>СписокОтбораТоваров</name>
         <title>
           <key>ru</key>
-          <value>Представление</value>
+          <value>Список отбора товаров</value>
         </title>
-        <id>19</id>
+        <id>25</id>
         <valueType>
-          <types>String</types>
-          <stringQualifiers/>
+          <types>ValueList</types>
         </valueType>
         <view>
           <common>true</common>
@@ -15936,6 +16022,10 @@
     <handlers>
       <event>BeforeWrite</event>
       <name>ПередЗаписью</name>
+    </handlers>
+    <handlers>
+      <event>OnReadAtServer</event>
+      <name>ПриЧтенииНаСервере</name>
     </handlers>
   </extInfo>
 </form:Form>

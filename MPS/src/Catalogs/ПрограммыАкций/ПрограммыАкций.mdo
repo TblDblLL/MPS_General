@@ -1156,13 +1156,12 @@
       <type>
         <types>String</types>
         <stringQualifiers>
-          <length>36</length>
+          <length>369</length>
         </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <lineNumberLength>9</lineNumberLength>
   </tabularSections>
@@ -1189,6 +1188,40 @@
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8eec10e8-9cb8-4123-853b-281024a4178f">
+      <name>КлючСостава</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ключ состава</value>
+      </synonym>
+      <comment>В строке УИД набора в ТоварыОтбор </comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="9126600c-9773-472b-b246-72f06d41cae5">
+      <name>КлючСоставаЦелиСкидки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ключ состава</value>
+      </synonym>
+      <comment>В строке УИД набора в ТоварыОтбор </comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
     </attributes>
     <attributes uuid="51619929-4aa5-43bb-be53-65b903398909">
       <name>Количество</name>
@@ -1572,7 +1605,9 @@
           <nonNegative>true</nonNegative>
         </numberQualifiers>
       </type>
-      <minValue xsi:type="core:UndefinedValue"/>
+      <minValue xsi:type="core:StringValue">
+        <value>1</value>
+      </minValue>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
@@ -1785,7 +1820,6 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="d1ed04b7-40a4-4b2e-b00f-3b4c17fef421">
       <name>Сегмент</name>
