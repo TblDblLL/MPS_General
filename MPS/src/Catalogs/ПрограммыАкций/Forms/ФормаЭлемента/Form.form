@@ -9937,7 +9937,7 @@
               </extInfo>
             </items>
             <items xsi:type="form:FormField">
-              <name>ДействияАкцииПоЗаказамОканчиваяС</name>
+              <name>ОканчиваяС_КСЗ</name>
               <id>932</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -9953,7 +9953,7 @@
                 <name>КаскаднаяСкидкаПоЗаказам_Параметры</name>
               </handlers>
               <extendedTooltip>
-                <name>ДействияАкцииПоЗаказамОканчиваяСРасширеннаяПодсказка</name>
+                <name>ОканчиваяС_КСЗРасширеннаяПодсказка</name>
                 <id>934</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -9963,7 +9963,7 @@
                 </extInfo>
               </extendedTooltip>
               <contextMenu>
-                <name>ДействияАкцииПоЗаказамОканчиваяСКонтекстноеМеню</name>
+                <name>ОканчиваяС_КСЗКонтекстноеМеню</name>
                 <id>933</id>
                 <autoFill>true</autoFill>
               </contextMenu>
