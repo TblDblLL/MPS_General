@@ -10,5 +10,6 @@
   <content>Catalog.НаборыПромокодов</content>
   <content>Catalog.ПрограммыАкций</content>
   <content>InformationRegister.СостояниеПрограммАкций</content>
+  <content>Catalog.НастройкиГенерацииПромокодов</content>
   <parentSubsystem>Subsystem.Кампании</parentSubsystem>
 </mdclass:Subsystem>

@@ -107,4 +107,5 @@
   <content>Enum.ДискретностьЗаказа</content>
   <content>Enum.ВидыСпискаЦелиСкидки</content>
   <content>Enum.Уникальность</content>
+  <content>Catalog.НастройкиГенерацииПромокодов</content>
 </mdclass:Subsystem>

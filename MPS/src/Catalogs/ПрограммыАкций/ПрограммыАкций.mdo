@@ -775,7 +775,7 @@
     <name>Количество</name>
     <synonym>
       <key>ru</key>
-      <value>Количество действия</value>
+      <value>Количество</value>
     </synonym>
     <comment>Процент/сумма скидки/начисления в рублях/баллах </comment>
     <type>
@@ -794,7 +794,7 @@
     <name>ИзменениеКоличестваВ</name>
     <synonym>
       <key>ru</key>
-      <value>Изменение количества В</value>
+      <value>Единица количества</value>
     </synonym>
     <type>
       <types>EnumRef.ВидИзмененияКоличества</types>
@@ -911,7 +911,7 @@
     <name>ДоступноПоСтатусу</name>
     <synonym>
       <key>ru</key>
-      <value>Доступно по статусу</value>
+      <value>Вид доступности по статусу</value>
     </synonym>
     <type>
       <types>Boolean</types>
@@ -1227,7 +1227,7 @@
       <name>Количество</name>
       <synonym>
         <key>ru</key>
-        <value>Количество действия</value>
+        <value>Количество</value>
       </synonym>
       <comment>Процент/сумма скидки/начисления в рублях/баллах </comment>
       <type>
@@ -1246,7 +1246,7 @@
       <name>ИзменениеКоличестваВ</name>
       <synonym>
         <key>ru</key>
-        <value>Изменение количества В</value>
+        <value>Единица количества</value>
       </synonym>
       <type>
         <types>EnumRef.ВидИзмененияКоличества</types>
@@ -1391,7 +1391,7 @@
       <name>ДоступноПоСтатусу</name>
       <synonym>
         <key>ru</key>
-        <value>Доступно по статусу</value>
+        <value>Вид доступности по статусу</value>
       </synonym>
       <type>
         <types>Boolean</types>

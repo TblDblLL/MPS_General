@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d83f8391-1e94-475f-a338-347eb1bf3598">
+  <producedTypes>
+    <objectType typeId="5745039f-b137-427a-b065-ce96ba9d8134" valueTypeId="ccd38936-0d1c-4d5d-a712-61f77ba31a17"/>
+    <refType typeId="8fd59043-f41f-4b1f-8149-70dad7b92707" valueTypeId="9c8a3e4d-18d0-465d-9e49-afd5ce74b038"/>
+    <selectionType typeId="754c1fe3-3bb1-4f40-9be1-054e51e3b5a8" valueTypeId="5ed83df3-a497-40a2-8600-f7789d4a4e72"/>
+    <listType typeId="053bf172-f54c-4ecb-8a2f-581e36e542b6" valueTypeId="e498e610-72ca-499f-a89f-c400e21575a7"/>
+    <managerType typeId="12f7f3cf-1665-47be-8e7e-e72b5222fc39" valueTypeId="2b8c4ccf-0e9d-4948-a4e6-a2d6fcae1e4e"/>
+  </producedTypes>
+  <name>НастройкиГенерацииПромокодов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки генерации промокодов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НастройкиГенерацииПромокодов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.НастройкиГенерацииПромокодов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.НастройкиГенерацииПромокодов.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="7b037be3-f953-4f2a-8ebd-b40d3b33a139">
+    <name>СМаркером</name>
+    <synonym>
+      <key>ru</key>
+      <value>С маркером</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d5c4f157-c8d9-4eb1-8f4c-10d2de6f56d2">
+    <name>Маркер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Маркер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>5</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="375732aa-d1ff-43f2-ae43-666eb8b6277a">
+    <name>ПозицияМаркера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Позиция маркера</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>1</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3ac4fef0-98eb-44dd-825b-a6bcd108bc84">
+    <name>ДлинаПромокода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длина промокода</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f33d116d-ae21-4f61-8356-025d1973595d">
+    <name>МаксимальноеКоличество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальное количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>7</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>1000</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="9a9d57e3-1cd5-41bb-955f-4a296f5f91e8">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

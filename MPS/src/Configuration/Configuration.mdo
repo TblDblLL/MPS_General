@@ -1425,6 +1425,7 @@
   <catalogs>Catalog.Вебхуки</catalogs>
   <catalogs>Catalog.СтатусыПозицийЗаказа</catalogs>
   <catalogs>Catalog.ПричиныНедоставкиРассылки</catalogs>
+  <catalogs>Catalog.НастройкиГенерацииПромокодов</catalogs>
   <documents>Document.ЗаказКлиента</documents>
   <documents>Document.ОперацияБалльногоСчета</documents>
   <documents>Document.АктуализацияОстатков</documents>
