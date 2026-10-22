@@ -110,7 +110,7 @@
       <type>UsualButton</type>
       <commandName>Form.Command.СимволАлфавитаОбработать</commandName>
       <representation>Auto</representation>
-      <width>4</width>
+      <width>5</width>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -141,7 +141,7 @@
       <type>UsualButton</type>
       <commandName>Form.Command.СимволАлфавитаОбработать</commandName>
       <representation>Auto</representation>
-      <width>4</width>
+      <width>5</width>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -172,7 +172,7 @@
       <type>UsualButton</type>
       <commandName>Form.Command.СимволАлфавитаОбработать</commandName>
       <representation>Auto</representation>
-      <width>4</width>
+      <width>5</width>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -203,7 +203,7 @@
       <type>UsualButton</type>
       <commandName>Form.Command.СимволАлфавитаОбработать</commandName>
       <representation>Auto</representation>
-      <width>4</width>
+      <width>5</width>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -234,7 +234,7 @@
       <type>UsualButton</type>
       <commandName>Form.Command.СимволАлфавитаОбработать</commandName>
       <representation>Auto</representation>
-      <width>4</width>
+      <width>5</width>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -265,7 +265,7 @@
       <type>UsualButton</type>
       <commandName>Form.Command.СимволАлфавитаОбработать</commandName>
       <representation>Auto</representation>
-      <width>4</width>
+      <width>5</width>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -296,7 +296,7 @@
       <type>UsualButton</type>
       <commandName>Form.Command.СимволАлфавитаОбработать</commandName>
       <representation>Auto</representation>
-      <width>4</width>
+      <width>5</width>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -327,7 +327,7 @@
       <type>UsualButton</type>
       <commandName>Form.Command.СимволАлфавитаОбработать</commandName>
       <representation>Auto</representation>
-      <width>4</width>
+      <width>5</width>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -358,7 +358,7 @@
       <type>UsualButton</type>
       <commandName>Form.Command.СимволАлфавитаОбработать</commandName>
       <representation>Auto</representation>
-      <width>4</width>
+      <width>5</width>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -389,7 +389,7 @@
       <type>UsualButton</type>
       <commandName>Form.Command.СимволАлфавитаОбработать</commandName>
       <representation>Auto</representation>
-      <width>4</width>
+      <width>5</width>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -452,7 +452,7 @@
       <type>UsualButton</type>
       <commandName>Form.Command.СимволАлфавитаОбработать</commandName>
       <representation>Auto</representation>
-      <width>4</width>
+      <width>5</width>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -483,7 +483,7 @@
       <type>UsualButton</type>
       <commandName>Form.Command.СимволАлфавитаОбработать</commandName>
       <representation>Auto</representation>
-      <width>4</width>
+      <width>5</width>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -514,7 +514,7 @@
       <type>UsualButton</type>
       <commandName>Form.Command.СимволАлфавитаОбработать</commandName>
       <representation>Auto</representation>
-      <width>4</width>
+      <width>5</width>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -545,7 +545,7 @@
       <type>UsualButton</type>
       <commandName>Form.Command.СимволАлфавитаОбработать</commandName>
       <representation>Auto</representation>
-      <width>4</width>
+      <width>5</width>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -576,7 +576,7 @@
       <type>UsualButton</type>
       <commandName>Form.Command.СимволАлфавитаОбработать</commandName>
       <representation>Auto</representation>
-      <width>4</width>
+      <width>5</width>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -607,7 +607,7 @@
       <type>UsualButton</type>
       <commandName>Form.Command.СимволАлфавитаОбработать</commandName>
       <representation>Auto</representation>
-      <width>4</width>
+      <width>5</width>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -638,7 +638,7 @@
       <type>UsualButton</type>
       <commandName>Form.Command.СимволАлфавитаОбработать</commandName>
       <representation>Auto</representation>
-      <width>4</width>
+      <width>5</width>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -669,7 +669,7 @@
       <type>UsualButton</type>
       <commandName>Form.Command.СимволАлфавитаОбработать</commandName>
       <representation>Auto</representation>
-      <width>4</width>
+      <width>5</width>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -700,7 +700,7 @@
       <type>UsualButton</type>
       <commandName>Form.Command.СимволАлфавитаОбработать</commandName>
       <representation>Auto</representation>
-      <width>4</width>
+      <width>5</width>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -731,7 +731,7 @@
       <type>UsualButton</type>
       <commandName>Form.Command.СимволАлфавитаОбработать</commandName>
       <representation>Auto</representation>
-      <width>4</width>
+      <width>5</width>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -794,7 +794,7 @@
       <type>UsualButton</type>
       <commandName>Form.Command.СимволАлфавитаОбработать</commandName>
       <representation>Auto</representation>
-      <width>4</width>
+      <width>5</width>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -825,7 +825,7 @@
       <type>UsualButton</type>
       <commandName>Form.Command.СимволАлфавитаОбработать</commandName>
       <representation>Auto</representation>
-      <width>4</width>
+      <width>5</width>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -856,7 +856,7 @@
       <type>UsualButton</type>
       <commandName>Form.Command.СимволАлфавитаОбработать</commandName>
       <representation>Auto</representation>
-      <width>4</width>
+      <width>5</width>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -887,7 +887,7 @@
       <type>UsualButton</type>
       <commandName>Form.Command.СимволАлфавитаОбработать</commandName>
       <representation>Auto</representation>
-      <width>4</width>
+      <width>5</width>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -918,7 +918,7 @@
       <type>UsualButton</type>
       <commandName>Form.Command.СимволАлфавитаОбработать</commandName>
       <representation>Auto</representation>
-      <width>4</width>
+      <width>5</width>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -949,7 +949,7 @@
       <type>UsualButton</type>
       <commandName>Form.Command.СимволАлфавитаОбработать</commandName>
       <representation>Auto</representation>
-      <width>4</width>
+      <width>5</width>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -980,7 +980,7 @@
       <type>UsualButton</type>
       <commandName>Form.Command.СимволАлфавитаОбработать</commandName>
       <representation>Auto</representation>
-      <width>4</width>
+      <width>5</width>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -1011,7 +1011,7 @@
       <type>UsualButton</type>
       <commandName>Form.Command.СимволАлфавитаОбработать</commandName>
       <representation>Auto</representation>
-      <width>4</width>
+      <width>5</width>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -1042,7 +1042,7 @@
       <type>UsualButton</type>
       <commandName>Form.Command.СимволАлфавитаОбработать</commandName>
       <representation>Auto</representation>
-      <width>4</width>
+      <width>5</width>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -1073,7 +1073,7 @@
       <type>UsualButton</type>
       <commandName>Form.Command.СимволАлфавитаОбработать</commandName>
       <representation>Auto</representation>
-      <width>4</width>
+      <width>5</width>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -1136,6 +1136,7 @@
       <type>UsualButton</type>
       <commandName>Form.Command.СимволАлфавитаОбработать</commandName>
       <representation>Auto</representation>
+      <width>5</width>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -1166,6 +1167,7 @@
       <type>UsualButton</type>
       <commandName>Form.Command.СимволАлфавитаОбработать</commandName>
       <representation>Auto</representation>
+      <width>5</width>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -1196,6 +1198,7 @@
       <type>UsualButton</type>
       <commandName>Form.Command.СимволАлфавитаОбработать</commandName>
       <representation>Auto</representation>
+      <width>5</width>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -1226,6 +1229,7 @@
       <type>UsualButton</type>
       <commandName>Form.Command.СимволАлфавитаОбработать</commandName>
       <representation>Auto</representation>
+      <width>5</width>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -1256,6 +1260,7 @@
       <type>UsualButton</type>
       <commandName>Form.Command.СимволАлфавитаОбработать</commandName>
       <representation>Auto</representation>
+      <width>5</width>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -1285,6 +1290,33 @@
       </extendedTooltip>
       <type>UsualButton</type>
       <commandName>Form.Command.СимволАлфавитаОбработать</commandName>
+      <representation>Auto</representation>
+      <width>5</width>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
+    <items xsi:type="form:Button">
+      <name>КнопкаВыбратьВсе</name>
+      <id>182</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>КнопкаВыбратьВсеРасширеннаяПодсказка</name>
+        <id>183</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>Hyperlink</type>
+      <commandName>Form.Command.ВыбратьВсе</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -1329,12 +1361,8 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Алфавит</segments>
+      <segments>Объект.Алфавит</segments>
     </dataPath>
-    <handlers>
-      <event>OnChange</event>
-      <name>АлфавитПриИзменении</name>
-    </handlers>
     <extendedTooltip>
       <name>АлфавитРасширеннаяПодсказка</name>
       <id>186</id>
@@ -1350,45 +1378,29 @@
       <id>185</id>
       <autoFill>true</autoFill>
     </contextMenu>
-    <type>InputField</type>
+    <type>LabelField</type>
+    <horizontalAlign>Left</horizontalAlign>
     <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:InputFieldExtInfo">
+    <extInfo xsi:type="form:LabelFieldExtInfo">
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
-      <wrap>true</wrap>
-      <chooseType>true</chooseType>
-      <typeDomainEnabled>true</typeDomainEnabled>
-      <textEdit>true</textEdit>
+      <border xsi:type="core:BorderDef">
+        <width>1</width>
+      </border>
+      <textColor xsi:type="core:ColorDef">
+        <red>51</red>
+        <green>153</green>
+        <blue>102</blue>
+      </textColor>
+      <font xsi:type="core:FontRef">
+        <font>Style.NormalTextFont</font>
+        <height>12.0</height>
+        <bold>true</bold>
+      </font>
     </extInfo>
-  </items>
-  <items xsi:type="form:Button">
-    <name>КнопкаВыбратьВсе</name>
-    <id>182</id>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <extendedTooltip>
-      <name>КнопкаВыбратьВсеРасширеннаяПодсказка</name>
-      <id>183</id>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <type>Hyperlink</type>
-    <commandName>Form.Command.ВыбратьВсе</commandName>
-    <representation>Auto</representation>
-    <autoMaxWidth>true</autoMaxWidth>
-    <autoMaxHeight>true</autoMaxHeight>
-    <placementArea>UserCmds</placementArea>
-    <representationInContextMenu>Auto</representationInContextMenu>
   </items>
   <items xsi:type="form:FormField">
     <name>СМаркером</name>
@@ -1859,23 +1871,23 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Промокоды</segments>
+      <segments>Объект.Промокоды</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
       <name>ТаблицаПромокодовПромокод</name>
-      <id>272</id>
+      <id>281</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Промокоды.Промокод</segments>
+        <segments>Объект.Промокоды.Промокод</segments>
       </dataPath>
       <extendedTooltip>
         <name>ТаблицаПромокодовПромокодРасширеннаяПодсказка</name>
-        <id>274</id>
+        <id>283</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1885,7 +1897,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>ТаблицаПромокодовПромокодКонтекстноеМеню</name>
-        <id>273</id>
+        <id>282</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
@@ -2016,10 +2028,36 @@
     <enableStartDrag>true</enableStartDrag>
     <enableDrag>true</enableDrag>
     <fileDragMode>AsFileRef</fileDragMode>
+    <rowFilter xsi:type="core:UndefinedValue"/>
   </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
+    <items xsi:type="form:Button">
+      <name>ФормаСгенерировать</name>
+      <id>284</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ФормаСгенерироватьРасширеннаяПодсказка</name>
+        <id>285</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.Сгенерировать</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
@@ -2051,26 +2089,6 @@
     </edit>
     <main>true</main>
     <savedData>true</savedData>
-  </attributes>
-  <attributes>
-    <name>Алфавит</name>
-    <title>
-      <key>ru</key>
-      <value>Алфавит</value>
-    </title>
-    <id>2</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers>
-        <length>100</length>
-      </stringQualifiers>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
   </attributes>
   <attributes>
     <name>ВероятностьУгадать</name>
@@ -2131,43 +2149,6 @@
     <edit>
       <common>true</common>
     </edit>
-  </attributes>
-  <attributes>
-    <name>Промокоды</name>
-    <title>
-      <key>ru</key>
-      <value>Промокоды</value>
-    </title>
-    <id>11</id>
-    <valueType>
-      <types>ValueTable</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-    <columns>
-      <name>Промокод</name>
-      <title>
-        <key>ru</key>
-        <value>Промокод</value>
-      </title>
-      <id>50</id>
-      <valueType>
-        <types>String</types>
-        <stringQualifiers>
-          <length>50</length>
-        </stringQualifiers>
-      </valueType>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
   </attributes>
   <attributes>
     <name>РежимФормирования</name>

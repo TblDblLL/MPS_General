@@ -22,7 +22,7 @@
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
-  <descriptionLength>25</descriptionLength>
+  <descriptionLength>100</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
@@ -94,14 +94,14 @@
     <type>
       <types>Number</types>
       <numberQualifiers>
-        <precision>3</precision>
+        <precision>2</precision>
         <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:NumberValue">
-      <value>0</value>
+      <value>10</value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -127,6 +127,53 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="e54d8859-1238-4f56-868a-c4e93a041867">
+    <name>Алфавит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Алфавит</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="fac2ed5a-00ab-4c3c-b36e-8b96a24e52ca">
+    <producedTypes>
+      <objectType typeId="92fbbce7-6c3a-452c-a368-35228db00c36" valueTypeId="ed7a64a6-4d92-45bf-bf28-38a7080b5d91"/>
+      <rowType typeId="728b81a3-c273-4b96-9438-3f760479c84d" valueTypeId="93f93864-1ae6-4bd1-8368-335304cb6ab3"/>
+    </producedTypes>
+    <name>Промокоды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Промокоды</value>
+    </synonym>
+    <attributes uuid="2555684e-17b5-4152-9f0d-1f11a4fa2e98">
+      <name>Промокод</name>
+      <synonym>
+        <key>ru</key>
+        <value>Промокод</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>99</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
   <forms uuid="9a9d57e3-1cd5-41bb-955f-4a296f5f91e8">
     <name>ФормаЭлемента</name>
     <synonym>
