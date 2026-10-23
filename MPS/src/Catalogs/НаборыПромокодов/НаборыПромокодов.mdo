@@ -48,10 +48,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="b3bb6c1c-dc87-4a65-8cee-640b760e7429">
-    <name>Сгенерировать</name>
+    <name>РежимГенерации</name>
     <synonym>
       <key>ru</key>
-      <value>Сгенерировать</value>
+      <value>Режим генерации</value>
     </synonym>
     <type>
       <types>Boolean</types>
@@ -93,6 +93,128 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9a8d0278-6cd6-4e0a-9316-099c7089acf4">
+    <name>ПроверятьВыдачу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверять выдачу</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="28dd4d75-d8ae-492b-bb10-a0cd873e64cf">
+    <name>ТипПромокода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип промокода</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыПромокодов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="698e3d10-64e8-4370-95f7-eb1dc309ee6e">
+    <name>ВидПериодаДоступности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид периода доступности</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПередСразуПослеДатой</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cb5553ab-5b8c-4492-8a6b-f87272eb8152">
+    <name>КоличествоПериодовДоступности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество периодов доступности</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a2a74d2d-fa59-443b-8026-a0533e414c78">
+    <name>ПериодДоступности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период доступности</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПериодыДействий</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ccee1163-60f7-42fe-baa3-001cbc114064">
+    <name>ВидСрокаДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид срока действия</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыОграниченияПериодовДействий</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="68c5e669-05d8-4e26-96cb-e2c65565eefb">
+    <name>ПериодСрокаДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период срока действия</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПериодыДействий</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="16d7a3ca-ac3a-4342-bf62-496a43a4c25c">
+    <name>КоличествоПериодовСрокаДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество периодов срока действия</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>

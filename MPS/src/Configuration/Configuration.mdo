@@ -1501,7 +1501,7 @@
   <enums>Enum.ПериодыДействий</enums>
   <enums>Enum.ПередСразуПослеДатой</enums>
   <enums>Enum.СпособыИзмененияКоличества</enums>
-  <enums>Enum.ВидыСроковНачисленияБаллов</enums>
+  <enums>Enum.ВидыОграниченияПериодовДействий</enums>
   <enums>Enum.ЕстьНетНеВажно</enums>
   <enums>Enum.СтатусыПодписок</enums>
   <enums>Enum.ИзмененияСостоянияПродукта</enums>
@@ -1516,6 +1516,7 @@
   <enums>Enum.ДискретностьЗаказа</enums>
   <enums>Enum.ВидыСпискаЦелиСкидки</enums>
   <enums>Enum.Уникальность</enums>
+  <enums>Enum.ТипыПромокодов</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализПравДоступа</reports>

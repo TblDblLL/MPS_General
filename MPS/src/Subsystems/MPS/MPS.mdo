@@ -108,4 +108,5 @@
   <content>Enum.ВидыСпискаЦелиСкидки</content>
   <content>Enum.Уникальность</content>
   <content>Catalog.НастройкиГенерацииПромокодов</content>
+  <content>Enum.ТипыПромокодов</content>
 </mdclass:Subsystem>

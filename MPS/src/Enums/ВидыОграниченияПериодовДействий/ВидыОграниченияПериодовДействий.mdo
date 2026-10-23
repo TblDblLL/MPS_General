@@ -5,10 +5,10 @@
     <listType typeId="1f0036be-a0f7-4ddf-8c11-575ca5a46475" valueTypeId="6e3241d4-885c-446a-9a86-f384903c5700"/>
     <managerType typeId="4b5c2f69-896a-44b4-8d1e-2a3155027920" valueTypeId="3963c6aa-9a21-41d8-8b6b-f2b908c9c946"/>
   </producedTypes>
-  <name>ВидыСроковНачисленияБаллов</name>
+  <name>ВидыОграниченияПериодовДействий</name>
   <synonym>
     <key>ru</key>
-    <value>Виды сроков начисления баллов</value>
+    <value>Виды ограничения периодов действий</value>
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>

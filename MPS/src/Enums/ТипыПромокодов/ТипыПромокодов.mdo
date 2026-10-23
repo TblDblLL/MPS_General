@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ffd45d7b-1960-47cb-b3b1-9eb0765f437e">
+  <producedTypes>
+    <refType typeId="ab0b7ebd-2e49-4f8b-a889-a24837f35c52" valueTypeId="4a5e5192-600a-4e64-aa61-9e8fe35d24fa"/>
+    <listType typeId="91601e45-af27-4034-9183-7e971ee1fa40" valueTypeId="4863bb3a-85e5-4de1-b4f7-21c8d28abf74"/>
+    <managerType typeId="8219b3df-44da-4195-8876-61135c4bf92f" valueTypeId="ea2cd7d5-bd7b-4179-bc1c-5f17e48a0fd7"/>
+  </producedTypes>
+  <name>ТипыПромокодов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы промокодов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6e5cdb7e-d694-4bf8-bee6-c13c37cb0f5d">
+    <name>Одноразовый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Одноразовый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="47fc0bb7-96dd-4c4f-b684-5d2d9945012e">
+    <name>Многоразовый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Многоразовый</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

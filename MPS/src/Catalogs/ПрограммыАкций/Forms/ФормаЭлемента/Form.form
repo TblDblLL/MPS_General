@@ -3941,7 +3941,7 @@
                       <value>на период</value>
                     </presentation>
                     <value xsi:type="core:ReferenceValue">
-                      <value>Enum.ВидыСроковНачисленияБаллов.EnumValue.ВТечение</value>
+                      <value>Enum.ВидыОграниченияПериодовДействий.EnumValue.ВТечение</value>
                     </value>
                   </choiceList>
                   <choiceList>
@@ -3950,7 +3950,7 @@
                       <value>до даты</value>
                     </presentation>
                     <value xsi:type="core:ReferenceValue">
-                      <value>Enum.ВидыСроковНачисленияБаллов.EnumValue.ДоДаты</value>
+                      <value>Enum.ВидыОграниченияПериодовДействий.EnumValue.ДоДаты</value>
                     </value>
                   </choiceList>
                 </extInfo>
@@ -7165,7 +7165,7 @@
                       <value>на период</value>
                     </presentation>
                     <value xsi:type="core:ReferenceValue">
-                      <value>Enum.ВидыСроковНачисленияБаллов.EnumValue.ВТечение</value>
+                      <value>Enum.ВидыОграниченияПериодовДействий.EnumValue.ВТечение</value>
                     </value>
                   </choiceList>
                   <choiceList>
@@ -7174,7 +7174,7 @@
                       <value>до даты</value>
                     </presentation>
                     <value xsi:type="core:ReferenceValue">
-                      <value>Enum.ВидыСроковНачисленияБаллов.EnumValue.ДоДаты</value>
+                      <value>Enum.ВидыОграниченияПериодовДействий.EnumValue.ДоДаты</value>
                     </value>
                   </choiceList>
                 </extInfo>

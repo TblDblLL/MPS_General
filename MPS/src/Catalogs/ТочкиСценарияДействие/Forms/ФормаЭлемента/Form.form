@@ -1676,7 +1676,7 @@
                 <value>бессрочно</value>
               </presentation>
               <value xsi:type="core:ReferenceValue">
-                <value>Enum.ВидыСроковНачисленияБаллов.EnumValue.Бессрочно</value>
+                <value>Enum.ВидыОграниченияПериодовДействий.EnumValue.Бессрочно</value>
               </value>
             </choiceList>
             <choiceList>
@@ -1685,7 +1685,7 @@
                 <value>в течение</value>
               </presentation>
               <value xsi:type="core:ReferenceValue">
-                <value>Enum.ВидыСроковНачисленияБаллов.EnumValue.ВТечение</value>
+                <value>Enum.ВидыОграниченияПериодовДействий.EnumValue.ВТечение</value>
               </value>
             </choiceList>
             <choiceList>
@@ -1694,7 +1694,7 @@
                 <value>до даты</value>
               </presentation>
               <value xsi:type="core:ReferenceValue">
-                <value>Enum.ВидыСроковНачисленияБаллов.EnumValue.ДоДаты</value>
+                <value>Enum.ВидыОграниченияПериодовДействий.EnumValue.ДоДаты</value>
               </value>
             </choiceList>
           </extInfo>

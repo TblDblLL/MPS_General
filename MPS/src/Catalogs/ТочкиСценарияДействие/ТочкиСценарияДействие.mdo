@@ -367,7 +367,7 @@
         <value>Вид срока начисления баллов</value>
       </synonym>
       <type>
-        <types>EnumRef.ВидыСроковНачисленияБаллов</types>
+        <types>EnumRef.ВидыОграниченияПериодовДействий</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
