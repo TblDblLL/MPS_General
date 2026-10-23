@@ -5,9 +5,7 @@
     <id>1</id>
     <visible>true</visible>
     <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
+    <userVisible/>
     <dataPath xsi:type="form:DataPath">
       <segments>Объект.Code</segments>
     </dataPath>
@@ -44,6 +42,10 @@
   <items xsi:type="form:FormField">
     <name>Наименование</name>
     <id>4</id>
+    <title>
+      <key>ru</key>
+      <value>Название настройки</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -1781,6 +1783,11 @@
         <border xsi:type="core:BorderDef">
           <width>1</width>
         </border>
+        <textColor xsi:type="core:ColorDef">
+          <red>51</red>
+          <green>153</green>
+          <blue>102</blue>
+        </textColor>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
@@ -1792,9 +1799,7 @@
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
+      <userVisible/>
       <dataPath xsi:type="form:DataPath">
         <segments>ПересечениеСДругимиФорматами</segments>
       </dataPath>
@@ -1867,9 +1872,7 @@
     </title>
     <visible>true</visible>
     <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
+    <userVisible/>
     <dataPath xsi:type="form:DataPath">
       <segments>Объект.Промокоды</segments>
     </dataPath>
@@ -2006,7 +2009,6 @@
       <id>257</id>
       <autoFill>true</autoFill>
     </contextMenu>
-    <changeRowSet>true</changeRowSet>
     <changeRowOrder>true</changeRowOrder>
     <autoMaxWidth>true</autoMaxWidth>
     <autoMaxHeight>true</autoMaxHeight>
@@ -2038,9 +2040,7 @@
       <id>284</id>
       <visible>true</visible>
       <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
+      <userVisible/>
       <extendedTooltip>
         <name>ФормаСгенерироватьРасширеннаяПодсказка</name>
         <id>285</id>

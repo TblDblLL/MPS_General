@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b62f8e3d-5872-4f29-9d21-1adc5389a9af">
+  <name>ЗагрузкаИзТабличногоДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка из табличного документа</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:CommonForm>

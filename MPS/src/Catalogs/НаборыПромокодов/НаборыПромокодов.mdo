@@ -30,6 +30,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.НаборыПромокодов.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="0dfa67e0-f6e4-40bb-8a51-49f30c4cc97a">
     <name>Описание</name>
     <synonym>
@@ -46,4 +47,28 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="b3bb6c1c-dc87-4a65-8cee-640b760e7429">
+    <name>Сгенерировать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сгенерировать</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="1ddd3003-2bba-4d2a-8d4f-716edd5cbb22">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
