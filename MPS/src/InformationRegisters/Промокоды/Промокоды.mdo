@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11a69dea-e5cb-43c8-aaab-b2608e30667c">
+  <producedTypes>
+    <selectionType typeId="05429862-345b-4925-9296-7df2ea31c941" valueTypeId="78298703-94d6-4314-a9e8-f904fe409fe3"/>
+    <listType typeId="d7bd9b8f-c933-4e01-95f8-6e1bac668dba" valueTypeId="06c51c2b-3879-4dfe-a1d8-40c019fac57c"/>
+    <managerType typeId="11913381-a8be-4d3f-acdd-e91bb2631b42" valueTypeId="060465bf-add7-43fb-a569-6b08cdeabeb1"/>
+    <recordSetType typeId="64a15921-12e6-4424-9ec4-bbbacc8778ac" valueTypeId="54d9c557-8f95-42c2-92ec-c8aacf5923df"/>
+    <recordKeyType typeId="92e2e4d0-e39a-4c36-965f-9e740e16485d" valueTypeId="30b4af29-f892-4f2f-9e3a-1b7ba1de852f"/>
+    <recordType typeId="3b45df03-8f0d-4b47-b127-2211e507768d" valueTypeId="eecb98a5-ff28-48bc-bf35-cf40c5721729"/>
+    <recordManagerType typeId="7b8823f7-4f84-40d7-a85a-506e96755f84" valueTypeId="65a1e42b-44f7-4940-83d2-b9822e0c76a6"/>
+  </producedTypes>
+  <name>Промокоды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Промокоды</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="a955e070-b4b3-4260-9aeb-31838e85edf0">
+    <name>Промокод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Промокод</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Промокод</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1159,6 +1159,7 @@
   <definedTypes>DefinedType.Кампании</definedTypes>
   <definedTypes>DefinedType.ТочкиСценария</definedTypes>
   <definedTypes>DefinedType.Рассылки</definedTypes>
+  <definedTypes>DefinedType.Промокод</definedTypes>
   <commonCommands>CommonCommand.ВремяВПриложении</commonCommands>
   <commonCommands>CommonCommand.ВсеФайлы</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеОбработкиАдминистрирование</commonCommands>
@@ -1675,6 +1676,7 @@
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
   <informationRegisters>InformationRegister.ИерархияСегментов</informationRegisters>
   <informationRegisters>InformationRegister.ВзаимоисключающиеДействияАкций</informationRegisters>
+  <informationRegisters>InformationRegister.Промокоды</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.БалльныеСчета</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ЗапасыИПотребности</accumulationRegisters>

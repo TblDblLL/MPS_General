@@ -162,10 +162,7 @@
         <value>Промокод</value>
       </synonym>
       <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>99</length>
-        </stringQualifiers>
+        <types>DefinedType.Промокод</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

@@ -62,6 +62,40 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="2364a2b2-f4df-4a2c-84bc-0c18b64d2451">
+    <name>НастройкаГенерации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка генерации</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НастройкиГенерацииПромокодов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ef6e12f7-8bd0-42b6-ad9a-058856e0cd75">
+    <name>КоличествоГенерации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество генерации</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="1ddd3003-2bba-4d2a-8d4f-716edd5cbb22">
     <name>ФормаЭлемента</name>
     <synonym>
