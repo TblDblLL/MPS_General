@@ -48,10 +48,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="b3bb6c1c-dc87-4a65-8cee-640b760e7429">
-    <name>РежимГенерации</name>
+    <name>ГенерироватьПромокоды</name>
     <synonym>
       <key>ru</key>
-      <value>Режим генерации</value>
+      <value>Генерировать промокоды</value>
     </synonym>
     <type>
       <types>Boolean</types>
@@ -70,25 +70,6 @@
     </synonym>
     <type>
       <types>CatalogRef.НастройкиГенерацииПромокодов</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="ef6e12f7-8bd0-42b6-ad9a-058856e0cd75">
-    <name>КоличествоГенерации</name>
-    <synonym>
-      <key>ru</key>
-      <value>Количество генерации</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
