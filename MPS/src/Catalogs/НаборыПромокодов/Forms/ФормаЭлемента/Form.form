@@ -607,6 +607,7 @@
             <autoMaxHeight>true</autoMaxHeight>
             <wrap>true</wrap>
             <spinButton>true</spinButton>
+            <autoMarkIncomplete>true</autoMarkIncomplete>
             <chooseType>true</chooseType>
             <textEdit>true</textEdit>
           </extInfo>
@@ -859,6 +860,10 @@
         <segments>Объект.ПроверятьВыдачу</segments>
       </dataPath>
       <titleLocation>Right</titleLocation>
+      <handlers>
+        <event>OnChange</event>
+        <name>ПроверятьВыдачуПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ПроверятьВыдачуРасширеннаяПодсказка</name>
         <id>87</id>
@@ -935,6 +940,10 @@
             <segments>Объект.ВидПериодаДоступности</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
+          <handlers>
+            <event>OnChange</event>
+            <name>ВидПериодаДоступностиПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>ВидПериодаДоступностиРасширеннаяПодсказка</name>
             <id>102</id>
@@ -997,6 +1006,10 @@
             <segments>Объект.КоличествоПериодовДоступности</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
+          <handlers>
+            <event>OnChange</event>
+            <name>КоличествоПериодовДоступностиПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>КоличествоПериодовДоступностиРасширеннаяПодсказка</name>
             <id>108</id>
@@ -1158,6 +1171,10 @@
             <segments>Объект.ВидСрокаДействия</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
+          <handlers>
+            <event>OnChange</event>
+            <name>ВидСрокаДействияПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>ВидСрокаДействияРасширеннаяПодсказка</name>
             <id>117</id>
@@ -1208,7 +1225,7 @@
           </extInfo>
         </items>
         <items xsi:type="form:Decoration">
-          <name>Декорация3</name>
+          <name>ДекорацияСрокаДействия</name>
           <id>118</id>
           <title>
             <key>ru</key>
@@ -1220,7 +1237,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>Декорация3РасширеннаяПодсказка</name>
+            <name>ДекорацияСрокаДействияРасширеннаяПодсказка</name>
             <id>120</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -1230,7 +1247,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>Декорация3КонтекстноеМеню</name>
+            <name>ДекорацияСрокаДействияКонтекстноеМеню</name>
             <id>119</id>
             <autoFill>true</autoFill>
           </contextMenu>
@@ -1253,6 +1270,10 @@
             <segments>Объект.КоличествоПериодовСрокаДействия</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
+          <handlers>
+            <event>OnChange</event>
+            <name>КоличествоПериодовСрокаДействияПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>КоличествоПериодовСрокаДействияРасширеннаяПодсказка</name>
             <id>123</id>
@@ -1755,7 +1776,7 @@
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
     <items xsi:type="form:Button">
-      <name>ФормаЗапустить</name>
+      <name>ЗапуститьВРаботу</name>
       <id>10</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1763,7 +1784,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаЗапуститьРасширеннаяПодсказка</name>
+        <name>ЗапуститьВРаботуРасширеннаяПодсказка</name>
         <id>11</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -2116,5 +2137,10 @@
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
-  <extInfo xsi:type="form:CatalogFormExtInfo"/>
+  <extInfo xsi:type="form:CatalogFormExtInfo">
+    <handlers>
+      <event>AfterWrite</event>
+      <name>ПослеЗаписи</name>
+    </handlers>
+  </extInfo>
 </form:Form>
