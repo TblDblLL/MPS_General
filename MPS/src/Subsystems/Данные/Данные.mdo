@@ -13,6 +13,7 @@
   <content>Catalog.ВидыДействияВКампаниях</content>
   <content>Catalog.Вебхуки</content>
   <content>Catalog.НастройкиВебхуков</content>
+  <content>Catalog.НастройкиСМС</content>
   <subsystems>Клиенты</subsystems>
   <subsystems>Продукты</subsystems>
   <subsystems>ЗаказыИПродажи</subsystems>

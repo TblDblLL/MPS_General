@@ -110,4 +110,5 @@
   <content>Catalog.НастройкиГенерацииПромокодов</content>
   <content>Enum.ТипыПромокодов</content>
   <content>Catalog.НастройкиВебхуков</content>
+  <content>Catalog.НастройкиСМС</content>
 </mdclass:Subsystem>

@@ -41,10 +41,10 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.MPS</subsystems>
   <subsystems>Subsystem.Администрирование</subsystems>
   <subsystems>Subsystem.ПодключаемыеОтчетыИОбработки</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
-  <subsystems>Subsystem.MPS</subsystems>
   <subsystems>Subsystem.Данные</subsystems>
   <subsystems>Subsystem.Кампании</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
@@ -1409,6 +1409,7 @@
   <catalogs>Catalog.ВидыКаналов</catalogs>
   <catalogs>Catalog.АвтоматическиеРассылки</catalogs>
   <catalogs>Catalog.МассовыеРассылки</catalogs>
+  <catalogs>Catalog.НастройкиСМС</catalogs>
   <catalogs>Catalog.СообщенияНаСайт</catalogs>
   <catalogs>Catalog.СообщенияВПриложение</catalogs>
   <catalogs>Catalog.Виджеты</catalogs>

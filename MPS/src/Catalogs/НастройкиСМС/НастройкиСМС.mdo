@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a5801d1-be54-4fc8-b953-13ace1f265d6">
+  <producedTypes>
+    <objectType typeId="6d363be2-7236-4561-9bf3-7fca49136e82" valueTypeId="c6719232-d9a7-48e4-b189-891768bcfeed"/>
+    <refType typeId="2766de82-37f1-437f-b923-a6924708f46d" valueTypeId="b3ca3ce2-333b-416a-9c0a-d15c5309cc7f"/>
+    <selectionType typeId="1770da59-a8b2-43f2-b4ed-c0440999c196" valueTypeId="65fe1731-76fe-4e57-8165-2b04ae702444"/>
+    <listType typeId="8aa266e1-e947-4ede-aa22-746338b23f78" valueTypeId="ab4e3113-4298-47b2-aa81-09b3d60b6ff4"/>
+    <managerType typeId="21090198-71ab-4a2c-82e7-20802746c2cc" valueTypeId="f75dda0d-11e2-4f8a-82d7-89175ec157f2"/>
+  </producedTypes>
+  <name>НастройкиСМС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки СМС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НастройкиСМС.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.НастройкиСМС.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

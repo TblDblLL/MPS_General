@@ -30,6 +30,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.МассовыеРассылки.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="247387c6-533c-4bbb-a31f-f8dca8910e48">
     <name>ВидКанала</name>
     <synonym>
@@ -46,4 +47,82 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="6a3e6bd4-e7cb-4327-a273-5b390bbb0932">
+    <name>НастройкаСМС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка СМС</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НастройкиСМС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="94b78556-9b1c-43ed-895f-6fb2fd55f6b6">
+    <name>СообщениеСМС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение СМС</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9c8543fe-9243-4bb8-8992-80b2a7c01652">
+    <name>СокращениеURLИОтслеживание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сокращение URLИОтслеживание</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b74551db-6769-49c0-b7d0-37217a3859c5">
+    <name>НастройкиПолучателей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки получателей</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="c294d038-fce1-430a-b011-937301fe9dcc">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="4e9d7f34-10cc-4457-9970-fd8b089d4ed9">
+    <name>ФильтрПоПартнерам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фильтр по партнерам</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
 </mdclass:Catalog>
