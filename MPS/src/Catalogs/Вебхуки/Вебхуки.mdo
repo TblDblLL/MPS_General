@@ -60,4 +60,111 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="182bab09-ee76-441d-a0a7-6c0fceb452fc">
+    <name>Настройка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НастройкиВебхуков</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="43f6216f-eadb-42e3-a6eb-52809ca3d94d">
+    <name>URL</name>
+    <synonym>
+      <key>ru</key>
+      <value>URL</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1a23d286-3950-4a47-a6f2-2e8edee12637">
+    <name>ТелоЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тело запроса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="7a0a543b-7b14-44c2-aa7a-cea60311d8ea">
+    <producedTypes>
+      <objectType typeId="0cc44619-782a-40de-a9f8-3a7584e53bca" valueTypeId="f3b55b4a-6d6e-4b28-a1ba-47977393b74c"/>
+      <rowType typeId="de67483b-0f91-4b53-aeb9-16048427a347" valueTypeId="349b1a9c-9f4a-443a-8b2b-9b1f0de3950d"/>
+    </producedTypes>
+    <name>Заголовки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заголовки</value>
+    </synonym>
+    <attributes uuid="17577c66-aec0-4867-9632-0ba74ae76dc6">
+      <name>ИмяКлюча</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя ключа</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="39ea5065-49fd-440b-a13d-e0e06ca91cac">
+      <name>ЗначениеКлюча</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение ключа</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="20da893f-d793-4b10-b3e0-12833af07e04">
+      <name>ИзНастройки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Из настройки</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
 </mdclass:Catalog>

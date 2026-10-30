@@ -1426,6 +1426,7 @@
   <catalogs>Catalog.ВидыПриложений</catalogs>
   <catalogs>Catalog.ВидыДействияВКампаниях</catalogs>
   <catalogs>Catalog.Вебхуки</catalogs>
+  <catalogs>Catalog.НастройкиВебхуков</catalogs>
   <catalogs>Catalog.СтатусыПозицийЗаказа</catalogs>
   <catalogs>Catalog.ПричиныНедоставкиРассылки</catalogs>
   <documents>Document.ЗаказКлиента</documents>

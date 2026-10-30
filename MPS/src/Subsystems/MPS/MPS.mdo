@@ -109,4 +109,5 @@
   <content>Enum.Уникальность</content>
   <content>Catalog.НастройкиГенерацииПромокодов</content>
   <content>Enum.ТипыПромокодов</content>
+  <content>Catalog.НастройкиВебхуков</content>
 </mdclass:Subsystem>
