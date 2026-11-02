@@ -969,6 +969,7 @@
   <commonModules>CommonModule.ГрафическаяСхемаПКМП</commonModules>
   <commonModules>CommonModule.ГрафическаяСхемаКлиентСерверПКМП</commonModules>
   <commonModules>CommonModule.ОбработкаДанныхПКМП</commonModules>
+  <commonModules>CommonModule.СМСДисконт</commonModules>
   <commonAttributes>CommonAttribute.ОтредактированныеПредопределенныеРеквизиты</commonAttributes>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ApplicationExtensionsManifest_1_0_0_1</xDTOPackages>
@@ -1410,7 +1411,6 @@
   <catalogs>Catalog.АвтоматическиеРассылки</catalogs>
   <catalogs>Catalog.МассовыеРассылки</catalogs>
   <catalogs>Catalog.НастройкиСМС</catalogs>
-  <catalogs>Catalog.НастройкиПочты</catalogs>
   <catalogs>Catalog.СообщенияНаСайт</catalogs>
   <catalogs>Catalog.СообщенияВПриложение</catalogs>
   <catalogs>Catalog.Виджеты</catalogs>
@@ -1521,6 +1521,7 @@
   <enums>Enum.Уникальность</enums>
   <enums>Enum.ТипыПромокодов</enums>
   <enums>Enum.ТипыМобильныхПриложений</enums>
+  <enums>Enum.ПровайдерыСМС_ПКМП</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализПравДоступа</reports>
@@ -1682,6 +1683,7 @@
   <informationRegisters>InformationRegister.ИерархияСегментов</informationRegisters>
   <informationRegisters>InformationRegister.ВзаимоисключающиеДействияАкций</informationRegisters>
   <informationRegisters>InformationRegister.Промокоды</informationRegisters>
+  <informationRegisters>InformationRegister.ОчередьСМС</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.БалльныеСчета</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ЗапасыИПотребности</accumulationRegisters>

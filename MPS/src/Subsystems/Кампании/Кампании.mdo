@@ -13,6 +13,7 @@
   <content>Catalog.ТочкиСценарияРазделение</content>
   <content>Catalog.ТочкиСценарияОжидание</content>
   <content>Catalog.ТочкиСценарияУсловие</content>
+  <content>InformationRegister.ОчередьСМС</content>
   <subsystems>Автоматизация</subsystems>
   <subsystems>Персонализация</subsystems>
   <subsystems>Лояльность</subsystems>

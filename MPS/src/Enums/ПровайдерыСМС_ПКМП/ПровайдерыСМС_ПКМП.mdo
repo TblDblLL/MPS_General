@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4de9b29c-bdf9-4bda-bc02-e825f83d9e53">
+  <producedTypes>
+    <refType typeId="861e62fc-56a7-4bb1-a579-9cdcd66d9bb1" valueTypeId="7b29d8d0-0b19-4421-8f37-b5808be1f287"/>
+    <listType typeId="62a415e8-1249-4e03-b0bf-602bf1394936" valueTypeId="5df77889-2f1e-49d4-a6f9-1c120a77f13b"/>
+    <managerType typeId="d15b9c9e-6050-4b7a-bda3-d33fced7a4c8" valueTypeId="16395bd0-27df-45ac-8a1b-79d002e0e503"/>
+  </producedTypes>
+  <name>ПровайдерыСМС_ПКМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Провайдеры СМС(ПКМП)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="06a5f3f6-6f0b-4358-a4d0-0db8072397f6">
+    <name>СМСДисконт</name>
+    <synonym>
+      <key>ru</key>
+      <value>СМС Дисконт</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

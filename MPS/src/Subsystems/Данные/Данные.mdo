@@ -15,7 +15,6 @@
   <content>Catalog.НастройкиВебхуков</content>
   <content>Catalog.НастройкиСМС</content>
   <content>Catalog.МобильныеПриложения</content>
-  <content>Catalog.НастройкиПочты</content>
   <subsystems>Клиенты</subsystems>
   <subsystems>Продукты</subsystems>
   <subsystems>ЗаказыИПродажи</subsystems>

@@ -257,14 +257,14 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="f5f9a2dd-7162-41e5-bc88-48b86576b506">
-    <name>НастройкаПочты</name>
+  <attributes uuid="b6cf96d1-c8d6-4afc-98f7-77874f03e81b">
+    <name>УчетнаяЗаписьПочты</name>
     <synonym>
       <key>ru</key>
-      <value>Настройка почты</value>
+      <value>Учетная запись почты</value>
     </synonym>
     <type>
-      <types>CatalogRef.НастройкиПочты</types>
+      <types>CatalogRef.УчетныеЗаписиЭлектроннойПочты</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
