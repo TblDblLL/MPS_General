@@ -55,7 +55,7 @@
   <content>AccumulationRegister.ЗапасыИПотребности</content>
   <content>Document.АктуализацияОстатков</content>
   <content>InformationRegister.ИерархияСегментов</content>
-  <content>Catalog.ВидыПриложений</content>
+  <content>Catalog.МобильныеПриложения</content>
   <content>Catalog.ТочкиСценарияСтарт</content>
   <content>Enum.ВидыТочекСценария</content>
   <content>Enum.ВидыТочкиОжидания</content>
@@ -111,4 +111,6 @@
   <content>Enum.ТипыПромокодов</content>
   <content>Catalog.НастройкиВебхуков</content>
   <content>Catalog.НастройкиСМС</content>
+  <content>Enum.ТипыМобильныхПриложений</content>
+  <content>Catalog.НастройкиПочты</content>
 </mdclass:Subsystem>

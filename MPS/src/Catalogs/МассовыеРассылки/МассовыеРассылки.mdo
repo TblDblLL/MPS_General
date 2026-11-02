@@ -31,6 +31,186 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.МассовыеРассылки.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="0faf74c0-cd1c-431c-92a0-8d83720d36aa">
+    <name>ДатаНачалаВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала выполнения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ef49d56f-9072-4773-a724-c11150eee0dd">
+    <name>НачалоПослеЗапуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало после запуска</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bc64cc45-817a-448d-b9f3-04bf8fa8d50b">
+    <name>ОграничитьПоВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ограничить отправку по времени</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="248406fb-5f7a-44ba-b5c3-560130a1d1ae">
+    <name>НеОграничиватьВремяСрабатывания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не ограничивать время срабатывания</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="40af8309-c7b6-4f35-bbb7-ddb787a8600c">
+    <name>ВремяС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время С</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ДФ=HH:mm</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДФ=HH:mm</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="13815382-e31b-44b3-8112-40f1a2ee06e3">
+    <name>ВремяПо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время по</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ДФ=HH:mm</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДФ=HH:mm</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7c96788d-bff6-4e30-9ecd-db2c4507eb89">
+    <name>ЧасовойПояс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Часовой пояс по умолчанию</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЧасовыеПояса</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4bf86c09-a87a-40f3-b234-99c0f8229ec0">
+    <name>ДниНедели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дни недели</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>7</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a4a37f8e-4df1-4e23-b4d9-465bdd2fc04e">
+    <name>АктуальноЧасов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Актуально часов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b74551db-6769-49c0-b7d0-37217a3859c5">
+    <name>НастройкиПолучателей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки получателей</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="247387c6-533c-4bbb-a31f-f8dca8910e48">
     <name>ВидКанала</name>
     <synonym>
@@ -62,11 +242,59 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="94b78556-9b1c-43ed-895f-6fb2fd55f6b6">
-    <name>СообщениеСМС</name>
+  <attributes uuid="bda392a9-e729-42b5-a7f3-819c5364fc17">
+    <name>МобильноеПриложение</name>
     <synonym>
       <key>ru</key>
-      <value>Сообщение СМС</value>
+      <value>Мобильное приложение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МобильныеПриложения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f5f9a2dd-7162-41e5-bc88-48b86576b506">
+    <name>НастройкаПочты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка почты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НастройкиПочты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="45cad04f-79a4-4df2-89da-3c5cd4060788">
+    <name>Заголовок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заголовок</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="94b78556-9b1c-43ed-895f-6fb2fd55f6b6">
+    <name>Сообщение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение</value>
     </synonym>
     <type>
       <types>String</types>
@@ -93,11 +321,60 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="b74551db-6769-49c0-b7d0-37217a3859c5">
-    <name>НастройкиПолучателей</name>
+  <attributes uuid="e4f864b4-aea7-4bab-b79b-3c154f72b74c">
+    <name>СсылкаПерехода</name>
     <synonym>
       <key>ru</key>
-      <value>Настройки получателей</value>
+      <value>Ссылка перехода</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="39ca81eb-5312-4fe8-ad86-d06af535a61c">
+    <name>Прехедер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прехедер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d985f3b3-a8a7-4a42-921e-8bee8cdabd74">
+    <name>ИспользоватьUTM</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать UTM</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3270e794-9f47-4c60-8ab6-ef999c5aea47">
+    <name>МакетВложение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет вложение</value>
     </synonym>
     <type>
       <types>ValueStorage</types>

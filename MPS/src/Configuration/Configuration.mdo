@@ -1410,6 +1410,7 @@
   <catalogs>Catalog.АвтоматическиеРассылки</catalogs>
   <catalogs>Catalog.МассовыеРассылки</catalogs>
   <catalogs>Catalog.НастройкиСМС</catalogs>
+  <catalogs>Catalog.НастройкиПочты</catalogs>
   <catalogs>Catalog.СообщенияНаСайт</catalogs>
   <catalogs>Catalog.СообщенияВПриложение</catalogs>
   <catalogs>Catalog.Виджеты</catalogs>
@@ -1424,7 +1425,7 @@
   <catalogs>Catalog.ВидыПодписок</catalogs>
   <catalogs>Catalog.ПродуктовыеРекомендации</catalogs>
   <catalogs>Catalog.ЧасовыеПояса</catalogs>
-  <catalogs>Catalog.ВидыПриложений</catalogs>
+  <catalogs>Catalog.МобильныеПриложения</catalogs>
   <catalogs>Catalog.ВидыДействияВКампаниях</catalogs>
   <catalogs>Catalog.Вебхуки</catalogs>
   <catalogs>Catalog.НастройкиВебхуков</catalogs>
@@ -1519,6 +1520,7 @@
   <enums>Enum.ВидыСпискаЦелиСкидки</enums>
   <enums>Enum.Уникальность</enums>
   <enums>Enum.ТипыПромокодов</enums>
+  <enums>Enum.ТипыМобильныхПриложений</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализПравДоступа</reports>

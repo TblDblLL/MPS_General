@@ -149,13 +149,13 @@
     <fillValue xsi:type="core:StringValue"/>
   </resources>
   <resources uuid="b65f2060-9d17-4d47-8c0b-df3d2ad5f930">
-    <name>ВидПриложения</name>
+    <name>МобильноеПриложение</name>
     <synonym>
       <key>ru</key>
-      <value>Вид приложения</value>
+      <value>Мобильное приложение</value>
     </synonym>
     <type>
-      <types>CatalogRef.ВидыПриложений</types>
+      <types>CatalogRef.МобильныеПриложения</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

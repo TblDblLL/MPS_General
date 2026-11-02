@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b104ee62-35c2-409d-9c38-cb86741e5183">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b104ee62-35c2-409d-9c38-cb86741e5183">
   <producedTypes>
     <objectType typeId="a7bcd951-027a-43d9-953b-6f5717b9d9fa" valueTypeId="eb220b65-2b86-4b76-91a6-80556488f63b"/>
     <refType typeId="e1308dbe-d15c-4ed9-a05f-cd14100933e5" valueTypeId="d5d6f4fc-06f9-41ca-b36c-bfc2def02038"/>
@@ -7,14 +7,14 @@
     <listType typeId="a967da5b-6f51-4471-a51a-04d027a8d95d" valueTypeId="42b770c1-ed72-4000-8fac-5255084dc3b7"/>
     <managerType typeId="ac30f493-c063-4b51-bc88-0a4b7f0c1916" valueTypeId="b6cab49d-d58d-4169-865f-a02161c09c2a"/>
   </producedTypes>
-  <name>ВидыПриложений</name>
+  <name>МобильныеПриложения</name>
   <synonym>
     <key>ru</key>
-    <value>Виды приложений</value>
+    <value>Мобильные приложения</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.ВидыПриложений.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.ВидыПриложений.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.МобильныеПриложения.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.МобильныеПриложения.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -30,4 +30,19 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="5f44196a-acd8-4f55-a11f-940701f46026">
+    <name>ТипМобильногоПриложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип мобильного приложения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыМобильныхПриложений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>

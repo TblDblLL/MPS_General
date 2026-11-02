@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="079f52da-b90a-456a-a9bc-5f984ca74de8">
+  <producedTypes>
+    <refType typeId="5c251d84-1f6a-43a0-aaf3-a37df591c996" valueTypeId="be260d1a-2b1d-41ba-a7b7-97990125f2fa"/>
+    <listType typeId="33f1cbbd-d1fd-435d-b866-3fada84e2dc2" valueTypeId="50c25536-fe34-49cc-8845-9467d779d7b1"/>
+    <managerType typeId="46e21b9b-5625-48a3-a5f1-fcaf266d4f9b" valueTypeId="fe65ac69-dd21-4b73-96a1-333e48858034"/>
+  </producedTypes>
+  <name>ТипыМобильныхПриложений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы мобильных приложений</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5de471c3-d948-44fd-9f82-ec1f827679e3">
+    <name>Андроид</name>
+    <synonym>
+      <key>ru</key>
+      <value>Android</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c8bab861-e69a-4974-ae50-0cafd49f1cac">
+    <name>Эппл</name>
+    <synonym>
+      <key>ru</key>
+      <value>iOS</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
