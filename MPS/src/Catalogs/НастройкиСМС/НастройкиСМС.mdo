@@ -42,6 +42,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:ReferenceValue">
       <value>Enum.ПровайдерыСМС_ПКМП.EnumValue.СМСДисконт</value>
     </fillValue>
