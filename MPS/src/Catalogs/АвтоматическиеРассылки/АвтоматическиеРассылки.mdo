@@ -168,7 +168,7 @@
     <name>ВидКанала</name>
     <synonym>
       <key>ru</key>
-      <value>Вид канала</value>
+      <value>Вид канала рассылки</value>
     </synonym>
     <type>
       <types>CatalogRef.ВидыКаналов</types>
@@ -184,7 +184,7 @@
     <name>НастройкаСМС</name>
     <synonym>
       <key>ru</key>
-      <value>Настройка СМС</value>
+      <value>Настройка SMS</value>
     </synonym>
     <type>
       <types>CatalogRef.НастройкиСМС</types>
