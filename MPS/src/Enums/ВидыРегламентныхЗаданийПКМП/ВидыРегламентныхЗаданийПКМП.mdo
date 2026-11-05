@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d291cb6e-3250-5892-a9d9-1d7c6def27af">
+  <producedTypes>
+    <refType typeId="4408d1bf-3ad0-5dc5-afff-350f0a6e1386" valueTypeId="04746007-4ff1-5916-929c-f3b95d2a81a2"/>
+    <listType typeId="e0a6410b-ad07-540e-b1e7-22c73deb0fcc" valueTypeId="c4a2805f-2cd3-5ee2-81b7-cd3a29d7fb7c"/>
+    <managerType typeId="5d8f5eeb-05f2-52d0-ac0d-f25c9e0931bf" valueTypeId="a03dda28-2e56-5a34-b206-ffb1a5d3f05a"/>
+  </producedTypes>
+  <name>ВидыРегламентныхЗаданийПКМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>ВидыРегламентныхЗаданийПКМП</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="69d46dd6-cf99-58d0-8e39-bf268eeed17c">
+    <name>ОтправкаСМС</name>
+    <synonym>
+      <key>ru</key>
+      <value>SMS — отправка и опрос статусов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="77c9f659-9d6b-5dd3-8dff-4a10695c8520">
+    <name>ОчисткаОчередиСМС</name>
+    <synonym>
+      <key>ru</key>
+      <value>SMS — контроль и очистка очереди</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="323940bc-4097-54fc-8814-2578ca100a1d">
+    <name>ОтправкаPushПКМП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Push — отправка очереди</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

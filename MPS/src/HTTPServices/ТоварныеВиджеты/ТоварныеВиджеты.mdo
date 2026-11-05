@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f8636e8-9884-46be-b7a6-2287726a097c">
+  <name>ТоварныеВиджеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товарные виджеты</value>
+  </synonym>
+  <rootURL>product-widgets</rootURL>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="3a61cf7a-4f57-446b-9959-2f1d550756d5">
+    <name>Файлы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файлы</value>
+    </synonym>
+    <template>/{code}/{file}</template>
+    <methods uuid="761626f4-3b51-4d97-97ff-8834203cf6ee">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>ПолучитьФайл</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

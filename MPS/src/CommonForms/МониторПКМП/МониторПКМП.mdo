@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="07fbaa5d-f0f0-58f1-a619-7f68625c52b9">
+  <name>МониторПКМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Монитор ПКМП</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:CommonForm>

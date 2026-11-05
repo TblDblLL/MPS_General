@@ -114,5 +114,5 @@
   <content>Enum.ТипыМобильныхПриложений</content>
   <content>Enum.ПровайдерыСМС_ПКМП</content>
   <content>InformationRegister.ОчередьСМС</content>
-  <content>CommonModule.СМСДисконт</content>
+  <content>CommonModule.ОтправкаСМС</content>
 </mdclass:Subsystem>

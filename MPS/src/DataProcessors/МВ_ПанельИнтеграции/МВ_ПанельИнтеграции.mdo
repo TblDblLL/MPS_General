@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b59bc2a8-632e-58b6-8026-842e4e9aec7f">
+  <producedTypes>
+    <objectType typeId="c63a66ab-58c2-5e09-ab1c-898fd1ea387e" valueTypeId="b1769644-db2b-5b3a-9189-2a96f893eebb"/>
+    <managerType typeId="2349619f-0818-521a-8ba4-3f4a63d3daaa" valueTypeId="0154384e-fbb4-503e-9f2a-c2fd920a9643"/>
+  </producedTypes>
+  <name>МВ_ПанельИнтеграции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Замена Mindbox</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.МВ_ПанельИнтеграции.Form.Форма</defaultForm>
+  <forms uuid="db4bc13a-30c5-55e0-9bac-cdd51dee7d91">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замена Mindbox</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f1f047f-fe2f-49b0-975b-75b6dc042ec4">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f1f047f-fe2f-49b0-975b-75b6dc042ec4">
   <producedTypes>
     <objectType typeId="dcab03e5-192f-4a99-a0b9-dca3e91ce7cd" valueTypeId="d6bf104a-4b0f-40e9-a6ba-c44dc923a9af"/>
     <refType typeId="f501011f-01fa-4fb2-a87f-3222ffd81928" valueTypeId="80f0d9d6-4148-45d8-8974-eb0c301560f7"/>
@@ -22,7 +22,7 @@
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
-  <descriptionLength>25</descriptionLength>
+  <descriptionLength>100</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
@@ -30,4 +30,1049 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Виджеты.Form.ФормаВиджета</defaultObjectForm>
+  <attributes uuid="5a04391e-a75c-4b75-899f-4aa3781ec16b">
+    <name>Опубликован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступен через HTTP</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="24a4ee7d-4f75-4d0d-b349-0a9ff86a37b6">
+    <name>Заголовок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заголовок</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8d824153-cef4-434f-9675-263a9e78b9b8">
+    <name>ГарнитураШрифта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гарнитура шрифта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Гарнитура для всех устройств. Кнопка выбора открывает список шрифтов компьютера. Размеры задаются отдельно.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="82fedcb3-6a6a-44af-8d72-948e85be331e">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Символ валюты</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c4519819-e125-4db1-97f8-0ecb6b5375c5">
+    <name>ПоказыватьГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать вкладки групп</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5a3aa37f-0c42-4f6c-874e-bae0fc7adc54">
+    <name>ПоказыватьСчетчики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать количество товаров</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="79a84a75-0493-43a8-a4e6-e6bf5589346e">
+    <name>ПоказыватьСтрелки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать стрелки слайдера</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e986fa42-9d1a-4093-a052-33be8e5eb517">
+    <name>КолонокКомпьютер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карточек на компьютере</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c221e342-d3c9-467f-b1da-02308110ccdf">
+    <name>КолонокПланшет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карточек на планшете</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="55520e2c-c274-4a3c-b6a3-8f18cbb4ec9e">
+    <name>КолонокТелефон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карточек на телефоне</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="16d8a0cd-874d-408d-b2bb-663bc168f463">
+    <name>Расстояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расстояние между карточками, px</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d6269040-ef76-48fd-a5b2-2ca30b5ffbd4">
+    <name>ОтступВиджета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отступ виджета, px</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9e6ae1dd-1623-41d7-ab7c-54b3cc36ac35">
+    <name>ОтступКарточки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отступ карточки, px</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="33eb5bc8-a465-43a5-b82f-9e3f35108314">
+    <name>Скругление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скругление, px</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="032448d7-0fba-4bbe-9014-d41295fa6cc2">
+    <name>ВысотаИзображения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Высота изображения, px</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e2c9f4f8-a75c-4473-a513-fba1ff8d739b">
+    <name>ВысотаИзображенияТелефон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Высота изображения на телефоне, px</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fc945304-3464-41ac-9994-64d087f8146d">
+    <name>РазмерШрифта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер шрифта, px</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="45a993e1-95d8-459e-9dd0-f5aed73dc701">
+    <name>РазмерШрифтаТелефон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер шрифта на телефоне, px</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a2cd6abc-31af-4126-97bd-a2ee412da013">
+    <name>РазмерЗаголовка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер заголовка, px</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="077b5641-c186-4ce7-9b1d-f1a01a1d1df4">
+    <name>СтрокНазвания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строк в названии</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="001cad26-75fc-42b5-bbb3-b4f71490e49f">
+    <name>Выравнивание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выравнивание текста</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="12d980ee-92fe-4d12-b53b-42c508504671">
+    <name>ЦветФона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фон виджета</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="94246cac-48d5-4bb5-9f07-e69eb14adcaf">
+    <name>ЦветКарточки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фон карточки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="42630b1a-6cf3-403d-974f-2f97dbb355db">
+    <name>ЦветТекста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2eab2e94-dfd1-41f8-bfb1-96c897e899d6">
+    <name>ЦветВторостепенный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Второстепенный текст</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="aa796b01-9b1a-47d9-a954-e2da7a7057ea">
+    <name>ЦветГраницы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Граница карточки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="00330089-a888-430c-bc73-d4095c34f8ee">
+    <name>ЦветАкцента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кнопки и скидка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c0576e7b-fddf-4ee9-8ead-73799b950948">
+    <name>ЦветТекстаКнопки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст кнопок</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="64fcdfa2-56af-4394-ab85-dbbdef360198">
+    <name>ЦветНовинки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фон плашки новинки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e7688e76-b0f7-4226-9ddb-37f642589500">
+    <name>ПоказыватьНазвание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Название товара</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="29e24860-a066-4683-99f0-a4c427672f44">
+    <name>ПоказыватьПроизводителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производитель</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6c2fe3e2-500e-4c69-af57-4b2e82d13f2a">
+    <name>ПоказыватьРейтинг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рейтинг</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="72bc15ba-c6c2-4919-b384-aafe4ce434c5">
+    <name>ПоказыватьЦены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цены</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ab49573b-2919-4999-b3b4-464131ac500f">
+    <name>ПоказыватьСтаруюЦену</name>
+    <synonym>
+      <key>ru</key>
+      <value>Старая цена</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c84cf408-f538-4072-8001-758566c43cf0">
+    <name>ПоказыватьСкидку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плашка скидки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="178a57ee-a816-48d9-b627-018e4cee35ad">
+    <name>ПоказыватьНовинку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плашка новинки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="df2136f6-2261-4883-b56c-5addbd2aab38">
+    <name>ТекстНовинки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст плашки новинки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="63e9d155-3ef2-499e-963d-fa6b60ad610e">
+    <name>ПоказыватьКорзину</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кнопка корзины</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="896a853e-fa8b-4c7d-b092-ee0385538fdf">
+    <name>ПоказыватьИзбранное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кнопка избранного</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8ab366bb-f1cd-49da-a9f2-943a2a415012">
+    <name>ТекстКорзины</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст кнопки корзины</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e2e1df70-3016-4a52-86c3-0cb4b8bd23ca">
+    <name>ТекстПослеДобавления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст после добавления</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="ce6875a4-c988-4dff-aac1-d69633699d62">
+    <producedTypes>
+      <objectType typeId="971535de-734b-4a69-a320-abddb313e575" valueTypeId="91c36ec5-43d7-49fa-9cbe-bc66939de27f"/>
+      <rowType typeId="33ee8b6f-f647-4af4-a122-057d5f9b0af4" valueTypeId="0a1fe54a-93db-4ef7-be56-ae86d6b5f726"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="b975f4d1-b704-4429-896b-14a7c9b4c313">
+      <name>Показывать</name>
+      <synonym>
+        <key>ru</key>
+        <value>Показывать</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="bd908749-5d37-44a2-a55f-991f59589a2b">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="3aba2c34-295c-475c-8adf-240687e6d156">
+      <name>ИдентификаторСайта</name>
+      <synonym>
+        <key>ru</key>
+        <value>ID товара на сайте</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="24305fd6-b81f-4f5e-ad25-b34473fec08a">
+      <name>Название</name>
+      <synonym>
+        <key>ru</key>
+        <value>Название</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="b0e51a68-9513-45d7-a602-2ec01ce758af">
+      <name>Группа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Группа</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="685dee01-328d-4b6d-9bbb-cc19847bce32">
+      <name>Производитель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Производитель</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="ee07b870-8215-4110-ad0f-be22c9b72b8c">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="aece413f-0121-47bd-b344-cc87ddf27021">
+      <name>СтараяЦена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Старая цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="92856901-d4e8-4bde-b2d0-d7a093951233">
+      <name>Рейтинг</name>
+      <synonym>
+        <key>ru</key>
+        <value>Рейтинг 0–5</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="90eba3cb-19a9-4c43-a392-0f3232bd1ce9">
+      <name>Новинка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Новинка</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="975dd770-72a2-43ca-9d18-7b6eca080eb6">
+      <name>СсылкаНаСайт</name>
+      <synonym>
+        <key>ru</key>
+        <value>URL товара</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="8f0df093-2ff8-4173-a7b5-e34c88d8b237">
+      <name>URLИзображения</name>
+      <synonym>
+        <key>ru</key>
+        <value>URL изображения</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+  <forms uuid="5ed29dca-f224-4519-8cf2-b5f912f9a2ce">
+    <name>ФормаВиджета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка товарного виджета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+  </forms>
 </mdclass:Catalog>

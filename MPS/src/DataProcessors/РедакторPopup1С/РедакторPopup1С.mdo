@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f00984a4-36f1-4ac1-ba79-24b9afeae75b">
+  <producedTypes>
+    <objectType typeId="83a74a81-e04c-442d-8139-10f8726f952c" valueTypeId="1e762192-22a3-4e3b-b166-388cd1083db0"/>
+    <managerType typeId="e16a96e5-d602-43b4-94dc-dff8df12167f" valueTypeId="5acecd88-9e90-4caf-93ea-ede098052144"/>
+  </producedTypes>
+  <name>РедакторPopup1С</name>
+  <synonym>
+    <key>ru</key>
+    <value>Popup — настройки средствами 1С</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РедакторPopup1С.Form.Форма</defaultForm>
+  <forms uuid="991f1cb8-0006-473a-b17e-790bd1728f92">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Popup — настройки средствами 1С</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

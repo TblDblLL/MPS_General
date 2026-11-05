@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e083a82-9736-4cba-bf06-580870569487">
+  <name>ОтправкаСМС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправка SMS и проверка статусов</value>
+  </synonym>
+  <methodName>CommonModule.ОтправкаСМС.ВыполнитьОтправкуОчереди</methodName>
+  <description>ОтправкаСМС</description>
+</mdclass:ScheduledJob>

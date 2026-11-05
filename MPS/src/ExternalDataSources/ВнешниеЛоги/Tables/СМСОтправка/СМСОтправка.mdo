@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c88bef95-d310-4ae3-8190-83c8c7210554">
+  <producedTypes>
+    <refType typeId="ce07da12-15a3-4334-99b0-6753ffcf0104" valueTypeId="03642b3c-63cc-4aac-a9fc-d2fec213330d"/>
+    <listType typeId="7cab90fa-e3af-41d1-bf79-34506fd02d08" valueTypeId="3da730cc-edeb-4c11-b64c-86e1ca5bec77"/>
+    <objectType typeId="fc1dbf63-fa1e-4d87-9a26-3b6bf3297ac5" valueTypeId="dd991b35-cbad-498e-a006-08ce8e614d84"/>
+    <managerType typeId="08b6244c-229d-4b77-a1cb-674b42e46ba3" valueTypeId="5ca36942-e920-43d4-aba3-fbc0dcae2d1d"/>
+    <recordManagerType typeId="0c37b4b6-c64e-4265-a28b-ce080d34a724" valueTypeId="f0d5c52a-8129-42a3-a8c6-5b68a1201c76"/>
+    <recordSetType typeId="58facd5a-54a5-47e9-874d-9da0e3f507f7" valueTypeId="5be17c0d-aa3a-4fa7-a8b2-71e4feb8c524"/>
+    <recordType typeId="8853562c-dea0-43ce-aed4-de7c746e1e71" valueTypeId="35aaf4c4-1a17-4b20-a76e-65eb178c12a4"/>
+    <recordKeyType typeId="7ef7aa44-ffea-40b5-8a47-72547ef18d13" valueTypeId="f42c8caf-2695-4e1f-b43f-021ce56dd07c"/>
+  </producedTypes>
+  <name>СМСОтправка</name>
+  <synonym>
+    <key>ru</key>
+    <value>СМСОтправка</value>
+  </synonym>
+  <parentDataSource>ExternalDataSource.ВнешниеЛоги</parentDataSource>
+  <nameInDataSource>dbo.SmsSendLog</nameInDataSource>
+  <tableDataType>NonobjectData</tableDataType>
+  <keyFields>ExternalDataSource.ВнешниеЛоги.Table.СМСОтправка.Field.НомерЗаписи</keyFields>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <tableFields uuid="3deac89b-3c36-4a2a-b15a-b6a094606977">
+    <name>НомерЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>НомерЗаписи</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>19</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>LogRowId</nameInDataSource>
+    <readOnly>true</readOnly>
+  </tableFields>
+  <tableFields uuid="729cd439-3fe3-464f-a1d8-ae74fa5eb252">
+    <name>ИДСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИДСобытия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <nameInDataSource>EventId</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="b92c6ee6-0436-46e7-be1a-44cfca893729">
+    <name>ВремяUTC</name>
+    <synonym>
+      <key>ru</key>
+      <value>ВремяUTC</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>OccurredAtUtc</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="ac734570-e50f-4932-9658-42c726099d93">
+    <name>ИДЗапуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИДЗапуска</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <nameInDataSource>RunId</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="9fb168f5-5758-4c7e-b31c-ae027fedb66a">
+    <name>ИДСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИДСообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <nameInDataSource>MessageId</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="f04d996f-3ad8-445d-8c6a-8d4b66f9b053">
+    <name>Способ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>32</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <nameInDataSource>Method</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="589f3fd6-f1f2-49b5-8d2d-cfd7446acfee">
+    <name>Состояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <nameInDataSource>State</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="be4453b3-72ed-47ab-b973-09ca1af11c58">
+    <name>ИДПровайдера</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИДПровайдера</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <nameInDataSource>ProviderId</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="7515105d-f405-4e24-acb1-033b1ca31129">
+    <name>НомерПопытки</name>
+    <synonym>
+      <key>ru</key>
+      <value>НомерПопытки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>19</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>Attempt</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="f7846b0a-c21c-40cc-8380-f62bbaf85a7f">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>2000</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <nameInDataSource>Details</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+</mdclass:Table>

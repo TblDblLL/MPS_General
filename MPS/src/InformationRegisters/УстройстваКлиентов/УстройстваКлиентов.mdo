@@ -163,6 +163,35 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
+  <resources uuid="5075840e-33de-4af4-b237-fcf18b480588">
+    <name>ОкружениеAPNs</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОкружениеAPNs</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ОкруженияAPNsПКМП</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c887e8a5-985b-4f9f-b43d-b956147110fc">
+    <name>ОтпечатокТокенаОкруженияAPNs</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОтпечатокТокенаОкруженияAPNs</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>64</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
   <dimensions uuid="6c79690a-76e1-46ad-9d5f-450c91e37b5f">
     <name>Клиент</name>
     <synonym>

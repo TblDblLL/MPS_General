@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16ab7bc6-cd97-4ad1-ae3f-e0a50fe35c27">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16ab7bc6-cd97-4ad1-ae3f-e0a50fe35c27">
   <producedTypes>
     <objectType typeId="46bc4223-7018-4869-9175-ebe7784f5295" valueTypeId="9180d55a-d400-4dee-88db-af93ac4ebf59"/>
     <refType typeId="b92afa40-ae47-46da-bcb7-1c4d8feef6ed" valueTypeId="4a5cccb5-93bc-4b85-9437-9f2429ea4970"/>
@@ -30,4 +30,89 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СообщенияНаСайт.Form.ФормаPopup1С</defaultObjectForm>
+  <attributes uuid="25c3b197-4328-4647-86dd-c89f42504701">
+    <name>PopupПараметрыJSON</name>
+    <synonym>
+      <key>ru</key>
+      <value>Popup: настройки JSON</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5aec1470-3f21-44f7-a380-c3138365427b">
+    <name>PopupHTML</name>
+    <synonym>
+      <key>ru</key>
+      <value>Popup: готовый HTML</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f77d9f10-1a19-4923-aba1-a5661963eae8">
+    <name>PopupCSS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Popup: готовый CSS</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a8957495-20ee-426a-8f2a-5c119d8d9061">
+    <name>PopupРежим</name>
+    <synonym>
+      <key>ru</key>
+      <value>Popup: режим</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="44a13b58-7db0-42f0-ad0c-f64d86dd2254">
+    <name>ФормаPopup1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Popup — настройки средствами 1С</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+  </forms>
 </mdclass:Catalog>

@@ -71,5 +71,9 @@
   <content>CommonForm.ВосстановлениеПаролей</content>
   <content>Report.ДлительностьОтложенногоОбновления</content>
   <content>CommonForm.НастройкиРегистрацииСобытийДоступаКДанным</content>
+  <content>CommonCommand.ОткрытьПараметрыСМС</content>
+  <content>CommonCommand.ОткрытьНастройкиЛогирования</content>
+  <content>CommonCommand.ОткрытьНастройкиPushПКМП</content>
+  <content>CommonCommand.ОткрытьМониторПКМП</content>
   <subsystems>КонтрольРаботыПользователей</subsystems>
 </mdclass:Subsystem>

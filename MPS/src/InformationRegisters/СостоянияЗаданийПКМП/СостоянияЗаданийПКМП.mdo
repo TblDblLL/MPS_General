@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5df47072-90f8-5c3a-b620-8eeeb47db085">
+  <producedTypes>
+    <selectionType typeId="45c8161c-0ea8-5f95-a724-70699cbf109f" valueTypeId="b4f4a819-8258-585a-918d-47ca731728d0"/>
+    <listType typeId="12736a9b-7153-5a31-939e-742776d61a0e" valueTypeId="515f07a5-0730-5585-81ff-28ce59f9ecc0"/>
+    <managerType typeId="2b212004-1d02-581f-a90e-db755e944810" valueTypeId="141ebb72-4128-5f58-b0df-44b0388e2c75"/>
+    <recordSetType typeId="f12eb153-2e9e-5d22-8822-56c0d40f9bf1" valueTypeId="c4808fce-5470-5920-ac5e-6be650336ef2"/>
+    <recordKeyType typeId="a87b5abb-286a-50b8-8a51-cfa2fb49c249" valueTypeId="fa3aec33-380a-5512-a1e4-2cce6ac58659"/>
+    <recordType typeId="4562058a-4b53-566d-8d6b-36e34f2e027d" valueTypeId="5a1fbecc-cdce-5cf8-990a-88372b1a6e35"/>
+    <recordManagerType typeId="aee561fe-e994-57f3-a83a-4cc9cb6d5389" valueTypeId="c60eaa9f-4340-5ebe-94db-992ca45b6e54"/>
+  </producedTypes>
+  <name>СостоянияЗаданийПКМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния заданий ПКМП</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0e2173dc-823c-5bd7-be1b-4c14d0211e46">
+    <name>Порог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порог</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>9</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c767a6c7-ec8e-593a-9bae-ee9145edb866">
+    <name>Допуск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Допуск</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>9</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="296d2df5-a980-5806-a412-f7d1e41d9e2d">
+    <name>Пропуски</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пропуски</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>9</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5fa62d9b-3d09-5218-9ac2-5a5bc1de1c04">
+    <name>Тревога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тревога</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="10114202-0224-5dff-ab91-b53a02c6f0f7">
+    <name>Проверено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверено</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="325f3bef-a0a6-553d-ac70-33708f084c37">
+    <name>ПровереноДо</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПровереноДо</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="19c4df55-0c3d-52df-89bc-78f1c0479f5f">
+    <name>ПлановоеОкно</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПлановоеОкно</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b195a6bf-5c98-5fba-8a48-771cee5f1fdf">
+    <name>ПоследнийУспех</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПоследнийУспех</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ca80b210-8c0a-5229-aad7-3201003ac8c2">
+    <name>ИсторияНеполна</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИсторияНеполна</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1c791a75-d1b8-55ab-9c0a-7279eaa66c27">
+    <name>Событие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Событие</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="74cdf918-4c82-52ce-a568-27f68ea2c10c">
+    <name>ОкноСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОкноСобытия</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="60f89c97-8597-5256-9528-b3ca9d4d0487">
+    <name>ПропускиСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПропускиСобытия</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>9</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="fdd2da11-8afd-547b-8f2c-cfe7fab6f15b">
+    <name>Задание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задание</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыРегламентныхЗаданийПКМП</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

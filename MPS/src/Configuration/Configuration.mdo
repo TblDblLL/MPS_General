@@ -47,6 +47,7 @@
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
   <subsystems>Subsystem.Данные</subsystems>
   <subsystems>Subsystem.Кампании</subsystems>
+  <subsystems>Subsystem.МВ_Интеграция</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ВладелецФайловШрифт</styleItems>
   <styleItems>StyleItem.ВыполненнаяЗадача</styleItems>
@@ -628,6 +629,8 @@
   <commonTemplates>CommonTemplate.ПолучениеДереваОбработчиковОбновления</commonTemplates>
   <commonTemplates>CommonTemplate.ПустойМакетDOCX</commonTemplates>
   <commonTemplates>CommonTemplate.ШтампЭлектроннойПодписиOfficeOpen</commonTemplates>
+  <commonTemplates>CommonTemplate.HTTP2APNsПКМП</commonTemplates>
+  <commonModules>CommonModule.УстройстваОтображенияПКМП</commonModules>
   <commonModules>CommonModule.АдминистрированиеКластера</commonModules>
   <commonModules>CommonModule.АдминистрированиеКластераCOM</commonModules>
   <commonModules>CommonModule.АдминистрированиеКластераCOMКлиентСервер</commonModules>
@@ -969,7 +972,14 @@
   <commonModules>CommonModule.ГрафическаяСхемаПКМП</commonModules>
   <commonModules>CommonModule.ГрафическаяСхемаКлиентСерверПКМП</commonModules>
   <commonModules>CommonModule.ОбработкаДанныхПКМП</commonModules>
+  <commonModules>CommonModule.МВ_АвторизацияAPI</commonModules>
+  <commonModules>CommonModule.МВ_ДиспетчерОпераций</commonModules>
+  <commonModules>CommonModule.МВ_ПротоколAPI</commonModules>
   <commonModules>CommonModule.СМСДисконт</commonModules>
+  <commonModules>CommonModule.ОтправкаСМС</commonModules>
+  <commonModules>CommonModule.Логирование</commonModules>
+  <commonModules>CommonModule.СообщенияВПриложениеПКМП</commonModules>
+  <commonModules>CommonModule.МониторЗаданийПКМП</commonModules>
   <commonAttributes>CommonAttribute.ОтредактированныеПредопределенныеРеквизиты</commonAttributes>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ApplicationExtensionsManifest_1_0_0_1</xDTOPackages>
@@ -978,6 +988,7 @@
   <xDTOPackages>XDTOPackage.Адрес</xDTOPackages>
   <xDTOPackages>XDTOPackage.КонтактнаяИнформация</xDTOPackages>
   <webServices>WebService.InterfaceVersion</webServices>
+  <httpServices>HTTPService.ТоварныеВиджеты</httpServices>
   <httpServices>HTTPService.ОткрытаяАвторизацияПочтовогоСервиса</httpServices>
   <eventSubscriptions>EventSubscription.ВариантыОтчетовПередУдалениемИдентификатораОбъектаМетаданных</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ВариантыОтчетовПриУдаленииПользователя</eventSubscriptions>
@@ -1070,6 +1081,10 @@
   <scheduledJobs>ScheduledJob.УстановкаПорядкаОтложенногоОбновленияВМоделиСервиса</scheduledJobs>
   <scheduledJobs>ScheduledJob.ФормированиеСегментов</scheduledJobs>
   <scheduledJobs>ScheduledJob.СтартСценарияПоРасписанию</scheduledJobs>
+  <scheduledJobs>ScheduledJob.ОтправкаСМС</scheduledJobs>
+  <scheduledJobs>ScheduledJob.ОчисткаОчередиСМС</scheduledJobs>
+  <scheduledJobs>ScheduledJob.ОтправкаPushПКМП</scheduledJobs>
+  <scheduledJobs>ScheduledJob.КонтрольРегламентныхЗаданийПКМП</scheduledJobs>
   <settingsStorages>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorages>
   <functionalOptions>FunctionalOption.ВариантыВерсионированияОбъектов</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьВерсионированиеОбъекта</functionalOptions>
@@ -1193,6 +1208,10 @@
   <commonCommands>CommonCommand.СозданиеСвязанныхОбъектов</commonCommands>
   <commonCommands>CommonCommand.УстановитьРасширениеДляРаботыС1СПредприятием</commonCommands>
   <commonCommands>CommonCommand.ФайлыВТоме</commonCommands>
+  <commonCommands>CommonCommand.ОткрытьПараметрыСМС</commonCommands>
+  <commonCommands>CommonCommand.ОткрытьНастройкиЛогирования</commonCommands>
+  <commonCommands>CommonCommand.ОткрытьНастройкиPushПКМП</commonCommands>
+  <commonCommands>CommonCommand.ОткрытьМониторПКМП</commonCommands>
   <commandGroups>CommandGroup.Информация</commandGroups>
   <commandGroups>CommandGroup.Органайзер</commandGroups>
   <commandGroups>CommandGroup.Печать</commandGroups>
@@ -1351,6 +1370,10 @@
   <commonForms>CommonForm.ФормаОтчета</commonForms>
   <commonForms>CommonForm.УпрощеннаяНастройкаСхемыКомпоновкиДанных</commonForms>
   <commonForms>CommonForm.ЗагрузкаИзТабличногоДокумента</commonForms>
+  <commonForms>CommonForm.ПараметрыСМС</commonForms>
+  <commonForms>CommonForm.НастройкиЛогирования</commonForms>
+  <commonForms>CommonForm.НастройкиPushПКМП</commonForms>
+  <commonForms>CommonForm.МониторПКМП</commonForms>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.ВариантыОтчетов</catalogs>
   <catalogs>Catalog.ВерсииРасширений</catalogs>
@@ -1434,6 +1457,7 @@
   <documents>Document.ЗаказКлиента</documents>
   <documents>Document.ОперацияБалльногоСчета</documents>
   <documents>Document.АктуализацияОстатков</documents>
+  <enums>Enum.ТипыУстройствОтображения</enums>
   <enums>Enum.ВариантыВажностиЗадачи</enums>
   <enums>Enum.ВариантыВерсионированияОбъектов</enums>
   <enums>Enum.ВариантыИспользованияВнешнихКомпонент</enums>
@@ -1522,6 +1546,10 @@
   <enums>Enum.ТипыПромокодов</enums>
   <enums>Enum.ТипыМобильныхПриложений</enums>
   <enums>Enum.ПровайдерыСМС_ПКМП</enums>
+  <enums>Enum.РазделыЛогирования</enums>
+  <enums>Enum.МестаЛогирования</enums>
+  <enums>Enum.ОкруженияAPNsПКМП</enums>
+  <enums>Enum.ВидыРегламентныхЗаданийПКМП</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализПравДоступа</reports>
@@ -1554,6 +1582,7 @@
   <reports>Report.ПересеченияСегментаПартнеров</reports>
   <reports>Report.СоставСегмента</reports>
   <reports>Report.ПартнерыКоторымОтгрузкаЗапрещена</reports>
+  <dataProcessors>DataProcessor.РедакторPopup1С</dataProcessors>
   <dataProcessors>DataProcessor.АвтоматическоеИзвлечениеТекстов</dataProcessors>
   <dataProcessors>DataProcessor.АктивныеПользователи</dataProcessors>
   <dataProcessors>DataProcessor.БлокировкаРаботыПользователей</dataProcessors>
@@ -1584,6 +1613,7 @@
   <dataProcessors>DataProcessor.УдалениеПомеченныхОбъектов</dataProcessors>
   <dataProcessors>DataProcessor.УправлениеИтогамиИАгрегатами</dataProcessors>
   <dataProcessors>DataProcessor.УправлениеХранилищемДвоичныхДанных</dataProcessors>
+  <dataProcessors>DataProcessor.МВ_ПанельИнтеграции</dataProcessors>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанныхОбластейДанных</informationRegisters>
   <informationRegisters>InformationRegister.БлокировкиСеансовОбластейДанных</informationRegisters>
@@ -1684,6 +1714,11 @@
   <informationRegisters>InformationRegister.ВзаимоисключающиеДействияАкций</informationRegisters>
   <informationRegisters>InformationRegister.Промокоды</informationRegisters>
   <informationRegisters>InformationRegister.ОчередьСМС</informationRegisters>
+  <informationRegisters>InformationRegister.НастройкиЛогирования</informationRegisters>
+  <informationRegisters>InformationRegister.ПараметрыПровайдеровСМС</informationRegisters>
+  <informationRegisters>InformationRegister.ОчередьPushПКМП</informationRegisters>
+  <informationRegisters>InformationRegister.БлокировкиТокеновPushПКМП</informationRegisters>
+  <informationRegisters>InformationRegister.СостоянияЗаданийПКМП</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.БалльныеСчета</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ЗапасыИПотребности</accumulationRegisters>
@@ -1691,4 +1726,5 @@
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ОбъектыАдресацииЗадач</chartsOfCharacteristicTypes>
   <businessProcesses>BusinessProcess.Задание</businessProcesses>
   <tasks>Task.ЗадачаИсполнителя</tasks>
+  <externalDataSources>ExternalDataSource.ВнешниеЛоги</externalDataSources>
 </mdclass:Configuration>

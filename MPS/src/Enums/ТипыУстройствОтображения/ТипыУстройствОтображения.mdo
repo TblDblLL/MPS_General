@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d11b76a-e155-52cf-bfe4-fb9c1043e4b6">
+  <producedTypes>
+    <refType typeId="6cbcd02b-73eb-5a62-874a-425cfcaf83c2" valueTypeId="c9023dd1-7738-5aec-9bdd-81f6ac075e1e"/>
+    <listType typeId="00fe1f03-5ebe-5bb4-8f98-4d0b55bb8f14" valueTypeId="6bd302d2-791e-5275-8749-0fdd5de47846"/>
+    <managerType typeId="bcb98d38-4314-5e33-a038-0e50b07cfdbc" valueTypeId="367afe66-3fcf-5413-b7c8-29179a0d5578"/>
+  </producedTypes>
+  <name>ТипыУстройствОтображения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы устройств отображения</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8b1c25fe-4010-5092-9788-348a56d002e7">
+    <name>Компьютер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компьютер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7065f8c0-34e6-5a74-8b79-db8b5f22e7a8">
+    <name>Планшет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Планшет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="64935664-1e17-58ba-bf76-5779ab0b2baa">
+    <name>Телефон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

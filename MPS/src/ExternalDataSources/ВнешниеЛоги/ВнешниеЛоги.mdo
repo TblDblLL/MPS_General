@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataSource xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="735bf64e-7906-45a4-8d69-d2b258306014">
+  <producedTypes>
+    <managerType typeId="476d37c3-5440-4385-9c41-1e55d9ac6ef7" valueTypeId="2b18e8a9-c708-484a-b2e0-fd5f328afa9c"/>
+    <tablesManagerType typeId="42390e27-9e79-42dc-91b8-302cf2b75743" valueTypeId="40a77c0b-0534-469a-8889-f56fec2dddc0"/>
+    <cubesManagerType typeId="97728c7f-acf4-452e-a1de-381622ccff96" valueTypeId="69617ec0-947e-4642-92f6-0041b9cbe1cf"/>
+  </producedTypes>
+  <name>ВнешниеЛоги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Внешние логи</value>
+  </synonym>
+  <tables>ExternalDataSource.ВнешниеЛоги.Table.СМСОтправка</tables>
+  <tables>ExternalDataSource.ВнешниеЛоги.Table.PushОтправка</tables>
+  <tables>ExternalDataSource.ВнешниеЛоги.Table.РегламентныеЗаданияПКМП</tables>
+</mdclass:ExternalDataSource>

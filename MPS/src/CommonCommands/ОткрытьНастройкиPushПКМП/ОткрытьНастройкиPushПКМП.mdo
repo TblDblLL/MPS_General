@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a7d9a440-866d-42d9-80ec-543423afe2cf">
+  <name>ОткрытьНастройкиPushПКМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки push</value>
+  </synonym>
+  <group>ActionsPanelTools</group>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Открыть настройку электронной почты для рассылок уведомлений из приложения</value>
+  </toolTip>
+</mdclass:CommonCommand>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ddf1aa80-f3ab-546c-aa5e-70c16de32cdc">
+  <name>МВ_Интеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция магазина</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <useOneCommand>true</useOneCommand>
+  <content>DataProcessor.МВ_ПанельИнтеграции</content>
+</mdclass:Subsystem>

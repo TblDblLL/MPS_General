@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a42a9f37-02d0-45cf-aa1f-91f97adf19f8">
+  <producedTypes>
+    <refType typeId="20bfcbb4-1105-4a48-95cc-b4c16ab671bd" valueTypeId="7a1a17b0-cc64-465c-be38-05ffddbfecec"/>
+    <listType typeId="2d611d63-4662-4658-8cb9-5a97cd0197a6" valueTypeId="7460f789-5bc7-40c8-bab5-f42a17bea7f7"/>
+    <managerType typeId="799100f6-b4c4-43aa-bfbc-4b159e5217fe" valueTypeId="7f24d4dd-f88d-4849-9bcf-1193bc11ec04"/>
+  </producedTypes>
+  <name>МестаЛогирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>МестаЛогирования</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="607ca8a7-4dbc-4f93-a640-848f9efb6d5d">
+    <name>ТекстовыеФайлы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текстовые файлы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="827debed-079c-4c58-8c4e-e30341fa13a3">
+    <name>ВнешнийИсточник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешний источник MS SQL</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

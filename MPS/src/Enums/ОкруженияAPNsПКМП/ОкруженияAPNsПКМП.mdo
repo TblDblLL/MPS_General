@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7e79031-334d-42e2-a24d-343de8521243">
+  <producedTypes>
+    <refType typeId="5f953ec6-9679-44f4-8b8a-bad353416fb2" valueTypeId="9910e249-338b-4737-9a7c-72ac77609009"/>
+    <listType typeId="6394e225-d135-4484-b1bd-60c285efc2fe" valueTypeId="b215827a-c09e-4fb9-a135-300564f1e440"/>
+    <managerType typeId="46ba451d-1ab6-46d9-aa8b-8ddca1ffd814" valueTypeId="3de0e967-25a9-424c-9cda-f38b7af70f47"/>
+  </producedTypes>
+  <name>ОкруженияAPNsПКМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Окружения APNs</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6e67f6e0-b030-4817-b0d3-a99dd8290864">
+    <name>НеОпределено</name>
+    <synonym>
+      <key>ru</key>
+      <value>НеОпределено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1bb4316f-24ae-481a-a334-3a85d78206d5">
+    <name>Sandbox</name>
+    <synonym>
+      <key>ru</key>
+      <value>Sandbox</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b91e9c5b-d401-44d8-a590-916d88589c93">
+    <name>Production</name>
+    <synonym>
+      <key>ru</key>
+      <value>Production</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

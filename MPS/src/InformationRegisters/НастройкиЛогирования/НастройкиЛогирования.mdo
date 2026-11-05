@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c158d52b-e91d-431c-9932-d5e5f10514e4">
+  <producedTypes>
+    <selectionType typeId="ea803f8d-71a2-4172-8716-a66e39596b27" valueTypeId="2cd7ab2c-a5e0-4810-adb7-309f496c4555"/>
+    <listType typeId="d05b8e05-df66-400f-b8b6-80825d45ec34" valueTypeId="5ad53beb-e4b4-461a-a2b1-eae5fd38b1d4"/>
+    <managerType typeId="4feb7c2f-50fa-4c86-af73-0380f5c34e4b" valueTypeId="a0bac31d-a894-4ec6-aebe-ec098cf0368a"/>
+    <recordSetType typeId="f10d18ce-2fa4-4a3b-a5d9-b3ed273333b1" valueTypeId="5a2829a0-9e76-41b0-8408-6c027010ed17"/>
+    <recordKeyType typeId="29eaac64-cff4-463c-a7fe-7cb935569acb" valueTypeId="4cd532ef-e7f6-463a-a454-4a4bec6da259"/>
+    <recordType typeId="e2d57346-c4e8-46aa-8ec6-5ccfe96f500a" valueTypeId="73102df9-ff56-402f-aa2e-3da046f61ab5"/>
+    <recordManagerType typeId="1503ee0c-6100-4e16-99bb-3c54f25f3ac6" valueTypeId="69ae2276-80dc-4b59-8f86-2d22dba3be68"/>
+  </producedTypes>
+  <name>НастройкиЛогирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки логирования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="da736f73-c328-48d0-842b-8d47961209ed">
+    <name>Место</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место</value>
+    </synonym>
+    <type>
+      <types>EnumRef.МестаЛогирования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="cab991fa-0346-4124-9ad9-e6a478709db3">
+    <name>Каталог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7196b49a-7b21-4290-bd69-c00e369a7ddb">
+    <name>ХранитьДней</name>
+    <synonym>
+      <key>ru</key>
+      <value>ХранитьДней</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>19</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="72c51026-856e-4984-8ae2-84c11579bc65">
+    <name>Раздел</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел</value>
+    </synonym>
+    <type>
+      <types>EnumRef.РазделыЛогирования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
