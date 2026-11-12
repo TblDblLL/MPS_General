@@ -121,9 +121,7 @@
       <value>Номенклатура</value>
     </title>
     <id>1</id>
-    <valueType>
-      <types>CatalogRef.Номенклатура</types>
-    </valueType>
+    <valueType/>
     <view>
       <common>true</common>
     </view>

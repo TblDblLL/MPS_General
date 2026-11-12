@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="851ad59d-1529-457e-a447-328744ea1af5">
+  <producedTypes>
+    <containerType typeId="b3248c5f-2f67-4d1a-9d66-c6218fce2b1b" valueTypeId="86f28c29-2101-4c3f-b7fd-7e9489068e2a"/>
+  </producedTypes>
+  <name>ЗначенияПараметровШаблонов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значения параметров шаблонов</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+</mdclass:DefinedType>

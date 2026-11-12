@@ -305,9 +305,6 @@
         <extInfo xsi:type="form:LabelFieldExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
-          <border xsi:type="core:BorderDef">
-            <width>1</width>
-          </border>
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
@@ -348,9 +345,6 @@
         <extInfo xsi:type="form:LabelFieldExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
-          <border xsi:type="core:BorderDef">
-            <width>1</width>
-          </border>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -566,9 +560,6 @@
               <key>ru</key>
               <value>БЛ='Нет в наличии'; БИ='В наличии'</value>
             </format>
-            <border xsi:type="core:BorderDef">
-              <width>1</width>
-            </border>
             <font xsi:type="core:FontRef">
               <font>Style.NormalTextFont</font>
               <bold>true</bold>

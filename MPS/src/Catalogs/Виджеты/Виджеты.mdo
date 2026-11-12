@@ -89,6 +89,48 @@
     <fillValue xsi:type="core:StringValue"/>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="2314b092-f7a6-5506-aba9-971a86898ad7">
+    <name>ШрифтПолужирный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полужирный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4f21dd49-c2f3-5c85-9f89-b062ac1be6c6">
+    <name>ШрифтКурсив</name>
+    <synonym>
+      <key>ru</key>
+      <value>Курсив</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="83226cd7-68c9-5460-a454-8ab96b3366b8">
+    <name>ШрифтПодчеркивание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подчеркивание</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="82fedcb3-6a6a-44af-8d72-948e85be331e">
     <name>Валюта</name>
     <synonym>
@@ -823,6 +865,64 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b2630507-e8ed-57f9-a335-eb4c6f91c606">
+    <name>СпособРазмещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размещение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value>selector</value>
+    </fillValue>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="42d791f4-39e6-5d13-a565-f2aea865f4bb">
+    <name>СелекторРазмещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>CSS-селектор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="271dcd6d-e971-5c2f-a819-2b90d6fbf030">
+    <name>МестоРазмещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Где показать блок</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value>append</value>
+    </fillValue>
     <dataHistory>Use</dataHistory>
   </attributes>
   <tabularSections uuid="ce6875a4-c988-4dff-aac1-d69633699d62">

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="787a6fa3-bf5e-5e3c-af30-0038e813a3e9">
+  <producedTypes>
+    <objectType typeId="51699066-6952-5417-a341-9a1cb986d76a" valueTypeId="09f95e48-b00a-5207-afdb-324ffc9d54dd"/>
+    <managerType typeId="5246e32d-148c-5b4a-abc8-9bd24233a9e2" valueTypeId="b8ac5041-8a87-5e79-a7d0-60cbfd854c57"/>
+  </producedTypes>
+  <name>КонструкторHTMLШаблонов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конструктор HTML-шаблонов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КонструкторHTMLШаблонов.Form.Форма</defaultForm>
+  <forms uuid="80bc15f9-83a7-5a98-aeae-ad349c2c4409">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конструктор HTML-шаблонов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

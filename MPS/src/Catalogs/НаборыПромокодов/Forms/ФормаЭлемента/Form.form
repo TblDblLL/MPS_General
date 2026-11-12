@@ -176,9 +176,6 @@
             <key>ru</key>
             <value>ЧН=0</value>
           </format>
-          <border xsi:type="core:BorderDef">
-            <width>1</width>
-          </border>
           <textColor xsi:type="core:ColorDef">
             <red>51</red>
             <green>153</green>
@@ -229,9 +226,6 @@
             <key>ru</key>
             <value>ЧН=0</value>
           </format>
-          <border xsi:type="core:BorderDef">
-            <width>1</width>
-          </border>
           <textColor xsi:type="core:ColorDef">
             <red>51</red>
             <green>153</green>
@@ -282,9 +276,6 @@
             <key>ru</key>
             <value>ЧН=0</value>
           </format>
-          <border xsi:type="core:BorderDef">
-            <width>1</width>
-          </border>
           <textColor xsi:type="core:ColorDef">
             <red>51</red>
             <green>153</green>
@@ -335,9 +326,6 @@
             <key>ru</key>
             <value>ЧН=0</value>
           </format>
-          <border xsi:type="core:BorderDef">
-            <width>1</width>
-          </border>
           <textColor xsi:type="core:ColorDef">
             <red>51</red>
             <green>153</green>
@@ -2143,12 +2131,12 @@
       <name>ПослеЗаписи</name>
     </handlers>
     <handlers>
-      <event>BeforeWriteAtServer</event>
-      <name>ПередЗаписьюНаСервере</name>
-    </handlers>
-    <handlers>
       <event>BeforeWrite</event>
       <name>ПередЗаписью</name>
+    </handlers>
+    <handlers>
+      <event>BeforeWriteAtServer</event>
+      <name>ПередЗаписьюНаСервере</name>
     </handlers>
   </extInfo>
 </form:Form>

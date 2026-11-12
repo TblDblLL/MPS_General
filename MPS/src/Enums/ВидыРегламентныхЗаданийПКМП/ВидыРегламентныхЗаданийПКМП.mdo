@@ -43,7 +43,7 @@
     </synonym>
   </enumValues>
   <enumValues uuid="323940bc-4097-54fc-8814-2578ca100a1d">
-    <name>ОтправкаPushПКМП</name>
+    <name>ОтправкаPush</name>
     <synonym>
       <key>ru</key>
       <value>Push — отправка очереди</value>

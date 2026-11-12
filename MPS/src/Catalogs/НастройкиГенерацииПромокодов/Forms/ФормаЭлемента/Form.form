@@ -1389,9 +1389,6 @@
     <extInfo xsi:type="form:LabelFieldExtInfo">
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
-      <border xsi:type="core:BorderDef">
-        <width>1</width>
-      </border>
       <textColor xsi:type="core:ColorDef">
         <red>51</red>
         <green>153</green>
@@ -1780,9 +1777,6 @@
       <extInfo xsi:type="form:LabelFieldExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
-        <border xsi:type="core:BorderDef">
-          <width>1</width>
-        </border>
         <textColor xsi:type="core:ColorDef">
           <red>51</red>
           <green>153</green>

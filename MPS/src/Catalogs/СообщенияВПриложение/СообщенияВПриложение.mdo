@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e2468339-d4c5-4452-9c71-3a5b92bc7fc4">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e2468339-d4c5-4452-9c71-3a5b92bc7fc4">
   <producedTypes>
     <objectType typeId="b6048c05-9c57-4789-8e60-0eedcc73891f" valueTypeId="22179490-b331-4e93-ae1b-5efa7be76003"/>
     <refType typeId="b1d923ca-bf56-4538-82ae-c0af885e606c" valueTypeId="0f4aecc5-b9be-437e-b073-2575b951cdac"/>
@@ -30,4 +30,279 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СообщенияВПриложение.Form.ФормаPopup1С</defaultObjectForm>
+  <attributes uuid="0c3bc106-7a74-5c48-aab6-5fc39ad0fcc6">
+    <name>PopupПараметрыJSON</name>
+    <synonym>
+      <key>ru</key>
+      <value>Popup: настройки JSON</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5fab2418-9c78-5f96-a13a-2c244ee94936">
+    <name>PopupHTML</name>
+    <synonym>
+      <key>ru</key>
+      <value>Popup: готовый HTML</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7398e319-8e16-5c93-afdb-f8fe4f97d93f">
+    <name>PopupCSS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Popup: готовый CSS</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="289933f1-033b-54a1-a218-d19b3e69c48c">
+    <name>PopupРежим</name>
+    <synonym>
+      <key>ru</key>
+      <value>Popup: режим</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на FTP сервере, в который публикуются отчеты. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6e204def-b690-58e3-ac63-2caa6b051d38">
+    <name>ПутьПоказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Префикс пути страницы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="79e40eab-6411-5f48-a696-fab7a513c1c2">
+    <name>СобытиеЗапуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Событие запуска (пусто — открытие страницы)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a10459e2-e0f7-5d34-ae6d-87ca3b734535">
+    <name>ЗадержкаПоказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задержка, секунд</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8b300715-9d5a-5067-aefa-e14d89108f08">
+    <name>ПриоритетПоказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет (больше — раньше)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="079dde19-7d9a-5f19-a462-eaf8dcd4b6e5">
+    <name>ИнтервалПоказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Минимальный интервал, секунд</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9f5d5d65-25db-5c41-a08e-1b4aebd61d3d">
+    <name>ЛимитПоказов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лимит показов на браузер</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="51d81fca-0c0f-55f7-8116-8c79e1131023">
+    <name>ПоложениеОкна</name>
+    <synonym>
+      <key>ru</key>
+      <value>Положение окна у клиента</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:NumberValue">
+      <value>1</value>
+    </minValue>
+    <maxValue xsi:type="core:NumberValue">
+      <value>9</value>
+    </maxValue>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:NumberValue">
+      <value>5</value>
+    </fillValue>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5bc22fb4-dcdb-5121-afcf-f8c3ac553aef">
+    <name>ПоказыватьAndroid</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать в Android</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="177997e0-3687-59e5-a8f7-74fbcb896f37">
+    <name>ПоказыватьIOS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать в iOS</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="99470827-58be-5611-a3c1-402e3800c322">
+    <name>Опубликован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опубликован</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="68dcc437-3b25-56e9-a30f-dea486dd6278">
+    <name>ПубликацияИдентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активная версия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="67418f15-3678-512d-a803-f7907fa29f30">
+    <name>ФормаPopup1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>In-app — настройки средствами 1С</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+  </forms>
 </mdclass:Catalog>

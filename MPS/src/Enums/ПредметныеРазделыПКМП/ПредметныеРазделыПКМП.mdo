@@ -5,10 +5,10 @@
     <listType typeId="df4a8f69-edc7-4b73-8201-cc738c4af455" valueTypeId="8ac6a35c-b11a-48c6-8b42-6939f77bb24c"/>
     <managerType typeId="29100d22-fdf1-4537-b751-91abc43a868b" valueTypeId="81cce5f4-a9fe-429c-b255-944ddc780a3a"/>
   </producedTypes>
-  <name>РазделыЛогирования</name>
+  <name>ПредметныеРазделыПКМП</name>
   <synonym>
     <key>ru</key>
-    <value>РазделыЛогирования</value>
+    <value>Предметные разделы</value>
   </synonym>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -29,7 +29,7 @@
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
   <enumValues uuid="d3c928f4-07ac-454b-8dc5-8c37ef5ec697">
-    <name>СМСОтправка</name>
+    <name>SMSОтправка</name>
     <synonym>
       <key>ru</key>
       <value>SMS-отправка</value>
@@ -42,11 +42,18 @@
       <value>Отправка Push-сообщений</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="208c5c80-f8f8-5f51-80c9-dcaeb4f7d343">
-    <name>РегламентныеЗаданияПКМП</name>
+  <enumValues uuid="aa927029-e76d-4707-b25c-e032fefc54f1">
+    <name>EmailОтправка</name>
     <synonym>
       <key>ru</key>
-      <value>Регламентные задания ПКМП</value>
+      <value>Email отправка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="208c5c80-f8f8-5f51-80c9-dcaeb4f7d343">
+    <name>РегламентныеЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регламентные задания</value>
     </synonym>
   </enumValues>
 </mdclass:Enum>

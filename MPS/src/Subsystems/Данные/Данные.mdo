@@ -15,6 +15,8 @@
   <content>Catalog.НастройкиВебхуков</content>
   <content>Catalog.НастройкиСМС</content>
   <content>Catalog.МобильныеПриложения</content>
+  <content>Catalog.ПараметрыШаблонов</content>
+  <content>DataProcessor.КонструкторHTMLШаблонов</content>
   <subsystems>Клиенты</subsystems>
   <subsystems>Продукты</subsystems>
   <subsystems>ЗаказыИПродажи</subsystems>

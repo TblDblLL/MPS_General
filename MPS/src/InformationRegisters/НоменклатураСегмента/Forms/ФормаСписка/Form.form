@@ -19,8 +19,8 @@
     <titleLocation>None</titleLocation>
     <excludedCommands>Change</excludedCommands>
     <excludedCommands>Copy</excludedCommands>
-    <excludedCommands>Delete</excludedCommands>
     <excludedCommands>Create</excludedCommands>
+    <excludedCommands>Delete</excludedCommands>
     <items xsi:type="form:FormField">
       <name>Сегмент</name>
       <id>23</id>

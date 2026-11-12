@@ -115,4 +115,11 @@
   <content>Enum.ПровайдерыСМС_ПКМП</content>
   <content>InformationRegister.ОчередьСМС</content>
   <content>CommonModule.ОтправкаСМС</content>
+  <content>Catalog.ПараметрыШаблонов</content>
+  <content>Catalog.НастройкиШаблонов</content>
+  <content>DataProcessor.КонструкторHTMLШаблонов</content>
+  <content>DataProcessor.ВыборПараметраШаблона</content>
+  <content>CommonPicture.ОбводкаСплошная</content>
+  <content>CommonPicture.ОбводкаПунктир</content>
+  <content>CommonPicture.ОбводкаМелкийПунктир</content>
 </mdclass:Subsystem>

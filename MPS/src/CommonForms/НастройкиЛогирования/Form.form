@@ -659,7 +659,7 @@
       <name>Раздел</name>
       <id>1</id>
       <valueType>
-        <types>EnumRef.РазделыЛогирования</types>
+        <types>EnumRef.ПредметныеРазделыПКМП</types>
       </valueType>
       <view>
         <common>true</common>

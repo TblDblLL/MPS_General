@@ -256,6 +256,9 @@
       <id>50</id>
       <visible>true</visible>
       <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <extendedTooltip>
         <name>ФормаЗаполнитьПоУмолчаниюРасширеннаяПодсказка</name>
         <id>51</id>

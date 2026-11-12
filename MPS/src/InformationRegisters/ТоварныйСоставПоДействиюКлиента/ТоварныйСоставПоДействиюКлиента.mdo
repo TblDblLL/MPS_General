@@ -48,6 +48,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="bd02e6a6-20fc-441b-aa07-43c42b7945ba">
     <name>Цена</name>

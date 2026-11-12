@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f578a61-9f66-59b8-a2b9-ecc4f6c3140b">
+  <name>СообщенияИнтерфейса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сообщения интерфейса</value>
+  </synonym>
+  <rootURL>site-messages</rootURL>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="553b9a9b-c74e-5a9c-aaf3-4708669408e4">
+    <name>Манифест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файлы</value>
+    </synonym>
+    <template>/manifest</template>
+    <methods uuid="8f585890-2219-5ed8-acc1-506ad19f1d6f">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>Манифест</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="2acbfb77-8cfe-516f-a8e6-1567c9ba2b49">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файлы</value>
+    </synonym>
+    <template>/runtime.js</template>
+    <methods uuid="bc25e864-eea0-5ccc-a84d-6e869bcb4b5c">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>Клиент</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="abd927ff-5a99-590e-aa90-ccc90bda7916">
+    <name>События</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файлы</value>
+    </synonym>
+    <template>/events</template>
+    <methods uuid="14b480ba-9df5-5032-a788-685053fd6b47">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>События</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

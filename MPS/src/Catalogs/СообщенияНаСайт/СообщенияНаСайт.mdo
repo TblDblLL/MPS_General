@@ -107,6 +107,196 @@
     <fillValue xsi:type="core:StringValue"/>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="8fa0157a-7f67-5298-a10d-b67b15dd8aaf">
+    <name>ПутьПоказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Префикс пути страницы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fdc6da94-7738-53df-a86f-86604ccda043">
+    <name>СобытиеЗапуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Событие запуска (пусто — открытие страницы)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f26276e0-39ee-50be-ae25-c9e036798354">
+    <name>ЗадержкаПоказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задержка, секунд</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="84dac8f8-620e-54dc-aa2e-103e9fa5c806">
+    <name>ПриоритетПоказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет (больше — раньше)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a93084a5-9419-599d-a867-dc4535be6e50">
+    <name>ИнтервалПоказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Минимальный интервал, секунд</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ea3e0e73-6e77-5a27-a9be-6c28628dd9f3">
+    <name>ЛимитПоказов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лимит показов на браузер</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4fc09cd5-75c7-5eaa-90ef-ba3f719193a9">
+    <name>ПоложениеОкна</name>
+    <synonym>
+      <key>ru</key>
+      <value>Положение окна у клиента</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:NumberValue">
+      <value>1</value>
+    </minValue>
+    <maxValue xsi:type="core:NumberValue">
+      <value>9</value>
+    </maxValue>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:NumberValue">
+      <value>5</value>
+    </fillValue>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9346737f-879d-53c5-abd2-5c4f9d88ff4b">
+    <name>ПоказыватьAndroid</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать в Android</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d7ce564d-caee-505a-ab56-703fc1909f03">
+    <name>ПоказыватьIOS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать в iOS</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6ebef2b9-5e4d-57dc-a647-d62ecb7d7eb2">
+    <name>Опубликован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опубликован</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="17667291-4861-5708-a8f8-ba9ac5072026">
+    <name>ПубликацияИдентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активная версия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="44a13b58-7db0-42f0-ad0c-f64d86dd2254">
     <name>ФормаPopup1С</name>
     <synonym>

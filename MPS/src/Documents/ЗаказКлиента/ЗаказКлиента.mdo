@@ -26,9 +26,9 @@
   <autonumbering>true</autonumbering>
   <realTimePosting>Deny</realTimePosting>
   <registerRecordsDeletion>AutoDeleteOff</registerRecordsDeletion>
+  <registerRecords>AccumulationRegister.ЗапасыИПотребности</registerRecords>
   <registerRecords>AccumulationRegister.Продажи</registerRecords>
   <registerRecords>AccumulationRegister.БалльныеСчета</registerRecords>
-  <registerRecords>AccumulationRegister.ЗапасыИПотребности</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>

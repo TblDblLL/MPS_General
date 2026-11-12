@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ecb93b0-7521-5275-af2e-075627097b3b">
+  <name>ОбводкаПунктир</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пунктирная обводка</value>
+  </synonym>
+</mdclass:CommonPicture>

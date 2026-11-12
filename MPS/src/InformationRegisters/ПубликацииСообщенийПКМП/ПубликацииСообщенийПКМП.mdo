@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea4bb7af-5535-5650-a4f4-7869e6441c81">
+  <producedTypes>
+    <selectionType typeId="02f0cb48-631e-5de0-a237-1609b6b1f0ed" valueTypeId="056c1995-4569-5caa-a7bc-f20c5d9c352e"/>
+    <listType typeId="8fb57280-0fe8-5ff5-ab49-f48762739105" valueTypeId="472b6c01-180c-5151-a190-b3971240e7f9"/>
+    <managerType typeId="9c12726f-31df-572e-ac02-34f96a65ad4f" valueTypeId="304bd894-a307-58ca-abb0-ebbf028e84b6"/>
+    <recordSetType typeId="5b7aec5e-8779-5cb8-a461-6a57a545e347" valueTypeId="110ebe2b-edde-58ae-ac2d-6a3a01c8d562"/>
+    <recordKeyType typeId="e79e8660-8cf4-54f5-a0aa-758b59772ef2" valueTypeId="d0ba242a-cdd9-553c-ae0e-d1b8ad6494c8"/>
+    <recordType typeId="a3ba4595-7af5-5964-a2a3-a3891cb3a83e" valueTypeId="466ece24-9f3e-5f8a-a247-d8814791a1e3"/>
+    <recordManagerType typeId="48ef514c-5efd-5fba-abb8-e53d794f5d1f" valueTypeId="e5705fba-237f-5a24-a079-7bc14de18c13"/>
+  </producedTypes>
+  <name>ПубликацииСообщенийПКМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>ПубликацииСообщенийПКМП</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="02bdfa69-d73d-5024-a318-c3646d8fbff3">
+    <name>ДанныеJSON</name>
+    <synonym>
+      <key>ru</key>
+      <value>ДанныеJSON</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="14a1805e-6940-5271-a6b2-662e8ad3a41d">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -44,9 +44,6 @@
         <key>ru</key>
         <value>БЛ=; БИ=Предопределенный</value>
       </format>
-      <border xsi:type="core:BorderDef">
-        <width>1</width>
-      </border>
     </extInfo>
   </items>
   <items xsi:type="form:FormField">

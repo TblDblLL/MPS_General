@@ -26,7 +26,6 @@
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
   <defaultPresentation>AsDescription</defaultPresentation>
-  <predefined/>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <attributes uuid="e60aebaa-5326-4206-ae9a-839b9ee2ffbb">

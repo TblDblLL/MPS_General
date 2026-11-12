@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb58f1f9-2333-5ba1-a0cc-fee15702ac91">
+  <name>СообщенияИнтерфейсаПКМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сообщения интерфейса ПКМП</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

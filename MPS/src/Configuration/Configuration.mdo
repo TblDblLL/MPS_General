@@ -516,6 +516,9 @@
   <commonPictures>CommonPicture.ЭлектронноеПисьмо</commonPictures>
   <commonPictures>CommonPicture.ЯндексКарты</commonPictures>
   <commonPictures>CommonPicture.ID32</commonPictures>
+  <commonPictures>CommonPicture.ОбводкаСплошная</commonPictures>
+  <commonPictures>CommonPicture.ОбводкаПунктир</commonPictures>
+  <commonPictures>CommonPicture.ОбводкаМелкийПунктир</commonPictures>
   <sessionParameters>SessionParameter.АвторизованныйПользователь</sessionParameters>
   <sessionParameters>SessionParameter.ВерсииШаблоновОграниченияДоступа</sessionParameters>
   <sessionParameters>SessionParameter.ВидыДоступаСОднойГруппойДляЗначенияДоступа</sessionParameters>
@@ -630,6 +633,7 @@
   <commonTemplates>CommonTemplate.ПустойМакетDOCX</commonTemplates>
   <commonTemplates>CommonTemplate.ШтампЭлектроннойПодписиOfficeOpen</commonTemplates>
   <commonTemplates>CommonTemplate.HTTP2APNsПКМП</commonTemplates>
+  <commonModules>CommonModule.СообщенияИнтерфейсаПКМП</commonModules>
   <commonModules>CommonModule.УстройстваОтображенияПКМП</commonModules>
   <commonModules>CommonModule.АдминистрированиеКластера</commonModules>
   <commonModules>CommonModule.АдминистрированиеКластераCOM</commonModules>
@@ -988,6 +992,7 @@
   <xDTOPackages>XDTOPackage.Адрес</xDTOPackages>
   <xDTOPackages>XDTOPackage.КонтактнаяИнформация</xDTOPackages>
   <webServices>WebService.InterfaceVersion</webServices>
+  <httpServices>HTTPService.СообщенияИнтерфейса</httpServices>
   <httpServices>HTTPService.ТоварныеВиджеты</httpServices>
   <httpServices>HTTPService.ОткрытаяАвторизацияПочтовогоСервиса</httpServices>
   <eventSubscriptions>EventSubscription.ВариантыОтчетовПередУдалениемИдентификатораОбъектаМетаданных</eventSubscriptions>
@@ -1176,6 +1181,7 @@
   <definedTypes>DefinedType.ТочкиСценария</definedTypes>
   <definedTypes>DefinedType.Рассылки</definedTypes>
   <definedTypes>DefinedType.Промокод</definedTypes>
+  <definedTypes>DefinedType.ЗначенияПараметровШаблонов</definedTypes>
   <commonCommands>CommonCommand.ВремяВПриложении</commonCommands>
   <commonCommands>CommonCommand.ВсеФайлы</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеОбработкиАдминистрирование</commonCommands>
@@ -1454,6 +1460,8 @@
   <catalogs>Catalog.НастройкиВебхуков</catalogs>
   <catalogs>Catalog.СтатусыПозицийЗаказа</catalogs>
   <catalogs>Catalog.ПричиныНедоставкиРассылки</catalogs>
+  <catalogs>Catalog.ПараметрыШаблонов</catalogs>
+  <catalogs>Catalog.НастройкиШаблонов</catalogs>
   <documents>Document.ЗаказКлиента</documents>
   <documents>Document.ОперацияБалльногоСчета</documents>
   <documents>Document.АктуализацияОстатков</documents>
@@ -1546,7 +1554,7 @@
   <enums>Enum.ТипыПромокодов</enums>
   <enums>Enum.ТипыМобильныхПриложений</enums>
   <enums>Enum.ПровайдерыСМС_ПКМП</enums>
-  <enums>Enum.РазделыЛогирования</enums>
+  <enums>Enum.ПредметныеРазделыПКМП</enums>
   <enums>Enum.МестаЛогирования</enums>
   <enums>Enum.ОкруженияAPNsПКМП</enums>
   <enums>Enum.ВидыРегламентныхЗаданийПКМП</enums>
@@ -1614,6 +1622,10 @@
   <dataProcessors>DataProcessor.УправлениеИтогамиИАгрегатами</dataProcessors>
   <dataProcessors>DataProcessor.УправлениеХранилищемДвоичныхДанных</dataProcessors>
   <dataProcessors>DataProcessor.МВ_ПанельИнтеграции</dataProcessors>
+  <dataProcessors>DataProcessor.КонструкторHTMLШаблонов</dataProcessors>
+  <dataProcessors>DataProcessor.ВыборПараметраШаблона</dataProcessors>
+  <informationRegisters>InformationRegister.СобытияСообщенийПКМП</informationRegisters>
+  <informationRegisters>InformationRegister.ПубликацииСообщенийПКМП</informationRegisters>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанныхОбластейДанных</informationRegisters>
   <informationRegisters>InformationRegister.БлокировкиСеансовОбластейДанных</informationRegisters>

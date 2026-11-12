@@ -4347,6 +4347,8 @@
       <horizontalStretch>true</horizontalStretch>
       <verticalStretch>true</verticalStretch>
       <fileDragMode>AsFileRef</fileDragMode>
+      <viewMode>All</viewMode>
+      <settingsNamedItemDetailedRepresentation>false</settingsNamedItemDetailedRepresentation>
     </items>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -5757,16 +5759,16 @@
   </commandInterface>
   <extInfo xsi:type="form:CatalogFormExtInfo">
     <handlers>
-      <event>BeforeWriteAtServer</event>
-      <name>ПередЗаписьюНаСервере</name>
+      <event>AfterWrite</event>
+      <name>ПослеЗаписи</name>
     </handlers>
     <handlers>
       <event>AfterWriteAtServer</event>
       <name>ПослеЗаписиНаСервере</name>
     </handlers>
     <handlers>
-      <event>AfterWrite</event>
-      <name>ПослеЗаписи</name>
+      <event>BeforeWriteAtServer</event>
+      <name>ПередЗаписьюНаСервере</name>
     </handlers>
   </extInfo>
 </form:Form>

@@ -122,9 +122,6 @@
       <extInfo xsi:type="form:LabelFieldExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
-        <border xsi:type="core:BorderDef">
-          <width>1</width>
-        </border>
         <textColor xsi:type="core:ColorDef">
           <blue>255</blue>
         </textColor>
@@ -177,9 +174,6 @@
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:LabelFieldExtInfo">
         <autoMaxHeight>true</autoMaxHeight>
-        <border xsi:type="core:BorderDef">
-          <width>1</width>
-        </border>
         <font xsi:type="core:FontRef">
           <font>Style.NormalTextFont</font>
           <bold>true</bold>
@@ -2749,8 +2743,8 @@
               <segments>Компоновщик_ЗаказыПоПродуктам.Settings.Filter</segments>
             </dataPath>
             <titleLocation>None</titleLocation>
-            <excludedCommands>UserSettingItemProperties</excludedCommands>
             <excludedCommands>UseFieldAsValue</excludedCommands>
+            <excludedCommands>UserSettingItemProperties</excludedCommands>
             <autoCommandBar>
               <name>ЗаказыПоПродуктамОтборКоманднаяПанель</name>
               <id>296</id>
@@ -3087,6 +3081,8 @@
             <horizontalStretch>true</horizontalStretch>
             <verticalStretch>true</verticalStretch>
             <fileDragMode>AsFileRef</fileDragMode>
+            <viewMode>All</viewMode>
+            <settingsNamedItemDetailedRepresentation>false</settingsNamedItemDetailedRepresentation>
           </items>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -5669,8 +5665,8 @@
         </dataPath>
         <titleLocation>None</titleLocation>
         <excludedCommands>SetPresentation</excludedCommands>
-        <excludedCommands>UserSettingItemProperties</excludedCommands>
         <excludedCommands>UseFieldAsValue</excludedCommands>
+        <excludedCommands>UserSettingItemProperties</excludedCommands>
         <autoCommandBar>
           <name>ЗаказыОтборКоманднаяПанель</name>
           <id>312</id>
@@ -6007,6 +6003,8 @@
         <initialListView>Auto</initialListView>
         <verticalStretch>true</verticalStretch>
         <fileDragMode>AsFileRef</fileDragMode>
+        <viewMode>All</viewMode>
+        <settingsNamedItemDetailedRepresentation>false</settingsNamedItemDetailedRepresentation>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -15554,12 +15552,12 @@
     <autoFill>true</autoFill>
   </autoCommandBar>
   <handlers>
-    <event>OnCreateAtServer</event>
-    <name>ПриСозданииНаСервере</name>
-  </handlers>
-  <handlers>
     <event>OnOpen</event>
     <name>ПриОткрытии</name>
+  </handlers>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
@@ -16018,16 +16016,16 @@
   </commandInterface>
   <extInfo xsi:type="form:CatalogFormExtInfo">
     <handlers>
-      <event>BeforeWriteAtServer</event>
-      <name>ПередЗаписьюНаСервере</name>
+      <event>OnReadAtServer</event>
+      <name>ПриЧтенииНаСервере</name>
     </handlers>
     <handlers>
       <event>BeforeWrite</event>
       <name>ПередЗаписью</name>
     </handlers>
     <handlers>
-      <event>OnReadAtServer</event>
-      <name>ПриЧтенииНаСервере</name>
+      <event>BeforeWriteAtServer</event>
+      <name>ПередЗаписьюНаСервере</name>
     </handlers>
   </extInfo>
 </form:Form>
