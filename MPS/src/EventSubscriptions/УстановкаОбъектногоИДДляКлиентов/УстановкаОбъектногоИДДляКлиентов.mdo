@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="12c9f490-5064-44d6-8e69-5c1bebfe28d9">
+  <name>УстановкаОбъектногоИДДляКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка объектного ИДДля клиентов</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.Клиенты</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.СлужебныйПКМП.УстановкаОбъектногоИДПередЗаписью</handler>
+</mdclass:EventSubscription>

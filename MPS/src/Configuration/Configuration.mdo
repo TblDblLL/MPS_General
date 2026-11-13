@@ -1055,6 +1055,8 @@
   <eventSubscriptions>EventSubscription.СкопироватьРеквизитыВерсииФайловВФайл</eventSubscriptions>
   <eventSubscriptions>EventSubscription.УстановитьПометкуУдаленияЗадач</eventSubscriptions>
   <eventSubscriptions>EventSubscription.УстановитьПометкуУдаленияПрисоединенныхФайлов</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.УстановкаОбъектногоИДДляКампаний</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.УстановкаОбъектногоИДДляКлиентов</eventSubscriptions>
   <scheduledJobs>ScheduledJob.ЗагрузкаКурсовВалют</scheduledJobs>
   <scheduledJobs>ScheduledJob.ЗаполнениеПараметровРаботыРасширений</scheduledJobs>
   <scheduledJobs>ScheduledJob.КонтрольУдаленияПомеченныхОбъектов</scheduledJobs>
@@ -1179,6 +1181,7 @@
   <definedTypes>DefinedType.МестаЗапасов</definedTypes>
   <definedTypes>DefinedType.Сегменты</definedTypes>
   <definedTypes>DefinedType.Кампании</definedTypes>
+  <definedTypes>DefinedType.КампанииОбъект</definedTypes>
   <definedTypes>DefinedType.ТочкиСценария</definedTypes>
   <definedTypes>DefinedType.Рассылки</definedTypes>
   <definedTypes>DefinedType.Промокод</definedTypes>
@@ -1718,11 +1721,12 @@
   <informationRegisters>InformationRegister.ПодпискиКлиентов</informationRegisters>
   <informationRegisters>InformationRegister.СоставНоменклатурыПромоакций</informationRegisters>
   <informationRegisters>InformationRegister.СоставСпискаПродуктовКлиента</informationRegisters>
-  <informationRegisters>InformationRegister.СостояниеНаборовПромокодов</informationRegisters>
+  <informationRegisters>InformationRegister.СостоянияНаборовПромокодов</informationRegisters>
   <informationRegisters>InformationRegister.СостоянияПерсонализаций</informationRegisters>
-  <informationRegisters>InformationRegister.СостояниеПрограммАкций</informationRegisters>
-  <informationRegisters>InformationRegister.СостояниеРассылокПоКлиентам</informationRegisters>
-  <informationRegisters>InformationRegister.СостояниеСценариев</informationRegisters>
+  <informationRegisters>InformationRegister.СостоянияПрограммАкций</informationRegisters>
+  <informationRegisters>InformationRegister.СостоянияРассылокПоКлиентам</informationRegisters>
+  <informationRegisters>InformationRegister.СостоянияСценариев</informationRegisters>
+  <informationRegisters>InformationRegister.СостоянияЗаданийПКМП</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
   <informationRegisters>InformationRegister.ИерархияСегментов</informationRegisters>
   <informationRegisters>InformationRegister.ВзаимоисключающиеДействияАкций</informationRegisters>
@@ -1732,8 +1736,8 @@
   <informationRegisters>InformationRegister.ПараметрыПровайдеровСМС</informationRegisters>
   <informationRegisters>InformationRegister.ОчередьPushПКМП</informationRegisters>
   <informationRegisters>InformationRegister.БлокировкиТокеновPushПКМП</informationRegisters>
-  <informationRegisters>InformationRegister.СостоянияЗаданийПКМП</informationRegisters>
   <informationRegisters>InformationRegister.НумераторыПКМП</informationRegisters>
+  <informationRegisters>InformationRegister.СостоянияРассылок</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.БалльныеСчета</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ЗапасыИПотребности</accumulationRegisters>

@@ -9,10 +9,10 @@
     <recordType typeId="1e5c25f3-8e33-4aad-9393-223cba6b2edf" valueTypeId="de8dc055-0212-4f53-8105-94c9826e5114"/>
     <recordManagerType typeId="ef7c1bb0-8ae7-4ff6-8f1c-dc1d953cc630" valueTypeId="1f28636e-6a25-4529-9ea4-3b609a65ce7a"/>
   </producedTypes>
-  <name>СостояниеНаборовПромокодов</name>
+  <name>СостоянияНаборовПромокодов</name>
   <synonym>
     <key>ru</key>
-    <value>Состояние наборов промокодов</value>
+    <value>Состояния наборов промокодов</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>

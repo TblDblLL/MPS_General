@@ -314,19 +314,19 @@
             <name>ГруппаУстановкиКода</name>
             <id>76</id>
             <items xsi:type="form:FormField">
-              <name>Код</name>
-              <id>73</id>
+              <name>ОбъектныйИД</name>
+              <id>304</id>
               <visible>true</visible>
               <enabled>false</enabled>
               <userVisible>
                 <common>true</common>
               </userVisible>
               <dataPath xsi:type="form:DataPath">
-                <segments>Объект.Code</segments>
+                <segments>Объект.ОбъектныйИД</segments>
               </dataPath>
               <extendedTooltip>
-                <name>КодРасширеннаяПодсказка</name>
-                <id>75</id>
+                <name>ОбъектныйИДРасширеннаяПодсказка</name>
+                <id>306</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -335,21 +335,27 @@
                 </extInfo>
               </extendedTooltip>
               <contextMenu>
-                <name>КодКонтекстноеМеню</name>
-                <id>74</id>
+                <name>ОбъектныйИДКонтекстноеМеню</name>
+                <id>305</id>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>InputField</type>
-              <readOnly>true</readOnly>
               <editMode>Enter</editMode>
               <showInHeader>true</showInHeader>
               <headerHorizontalAlign>Left</headerHorizontalAlign>
               <showInFooter>true</showInFooter>
               <extInfo xsi:type="form:InputFieldExtInfo">
+                <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
-                <horizontalStretch>false</horizontalStretch>
                 <wrap>true</wrap>
-                <extendedEditMultipleValues>true</extendedEditMultipleValues>
+                <format>
+                  <key>ru</key>
+                  <value>ЧГ=</value>
+                </format>
+                <editFormat>
+                  <key>ru</key>
+                  <value>ЧГ=</value>
+                </editFormat>
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
@@ -384,6 +390,46 @@
               <autoMaxHeight>true</autoMaxHeight>
               <placementArea>UserCmds</placementArea>
               <representationInContextMenu>Auto</representationInContextMenu>
+            </items>
+            <items xsi:type="form:FormField">
+              <name>Код</name>
+              <id>73</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible/>
+              <dataPath xsi:type="form:DataPath">
+                <segments>Объект.Code</segments>
+              </dataPath>
+              <extendedTooltip>
+                <name>КодРасширеннаяПодсказка</name>
+                <id>75</id>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <contextMenu>
+                <name>КодКонтекстноеМеню</name>
+                <id>74</id>
+                <autoFill>true</autoFill>
+              </contextMenu>
+              <type>InputField</type>
+              <readOnly>true</readOnly>
+              <editMode>Enter</editMode>
+              <showInHeader>true</showInHeader>
+              <headerHorizontalAlign>Left</headerHorizontalAlign>
+              <showInFooter>true</showInFooter>
+              <extInfo xsi:type="form:InputFieldExtInfo">
+                <autoMaxHeight>true</autoMaxHeight>
+                <horizontalStretch>false</horizontalStretch>
+                <wrap>true</wrap>
+                <extendedEditMultipleValues>true</extendedEditMultipleValues>
+                <chooseType>true</chooseType>
+                <typeDomainEnabled>true</typeDomainEnabled>
+                <textEdit>true</textEdit>
+              </extInfo>
             </items>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1392,6 +1438,7 @@
           </contextMenu>
           <representation>HierarchicalList</representation>
           <autoMaxWidth>true</autoMaxWidth>
+          <height>6</height>
           <autoMaxHeight>true</autoMaxHeight>
           <autoMaxRowsCount>true</autoMaxRowsCount>
           <selectionMode>MultiRow</selectionMode>
@@ -2268,6 +2315,7 @@
               <changeRowSet>true</changeRowSet>
               <changeRowOrder>true</changeRowOrder>
               <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
               <autoMaxRowsCount>true</autoMaxRowsCount>
               <selectionMode>MultiRow</selectionMode>
               <header>true</header>
@@ -2280,6 +2328,7 @@
               <searchOnInput>Auto</searchOnInput>
               <initialListView>Auto</initialListView>
               <horizontalStretch>true</horizontalStretch>
+              <verticalStretch>true</verticalStretch>
               <fileDragMode>AsFileRef</fileDragMode>
               <rowPictureDataPath xsi:type="form:DataPath">
                 <segments>БаллыКлиента.DefaultPicture</segments>
@@ -2554,6 +2603,7 @@
           <changeRowSet>true</changeRowSet>
           <changeRowOrder>true</changeRowOrder>
           <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
           <autoMaxRowsCount>true</autoMaxRowsCount>
           <selectionMode>MultiRow</selectionMode>
           <header>true</header>

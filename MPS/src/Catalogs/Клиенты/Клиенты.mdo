@@ -105,7 +105,7 @@
     <name>Code</name>
     <synonym>
       <key>ru</key>
-      <value>ID клиента</value>
+      <value>Код</value>
     </synonym>
     <fillValue xsi:type="core:StringValue">
       <value>                                                  </value>
@@ -155,6 +155,7 @@
   <foldersOnTop>true</foldersOnTop>
   <codeLength>32</codeLength>
   <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>

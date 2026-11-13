@@ -19,8 +19,10 @@
         Карточки = Карточки + КарточкаТовара(Виджет, Товар, ГруппаТовара);
     КонецЦикла;
     Стиль = ПеременныеОформления(Виджет);
+    Начертание = СообщенияИнтерфейсаПКМП.ОформлениеШрифтаCSS(Виджет.ШрифтПолужирный,
+        Виджет.ШрифтКурсив, Виджет.ШрифтПодчеркивание);
     HTML = "<section class=""pw"" id=""" + КорневойИД + """ data-widget-key=""" + Экранировать(Виджет.Код)
-        + """ data-cart-after=""" + Экранировать(Виджет.ТекстПослеДобавления) + """ style=""" + Экранировать(Стиль) + """ aria-label=""Товары"">";
+        + """ data-cart-after=""" + Экранировать(Виджет.ТекстПослеДобавления) + """ style=""" + Экранировать(Стиль + Начертание) + """ aria-label=""Товары"">";
     Если Не ПустаяСтрока(Виджет.Заголовок) Тогда
         HTML = HTML + "<h2 class=""pw-heading"">" + Экранировать(Виджет.Заголовок) + "</h2>";
     КонецЕсли;
@@ -46,8 +48,9 @@
     HTML = HTML + "</div><p class=""pw-status"" role=""status"" aria-live=""polite""></p></section>";
     CSS = СтилиВиджета();
     JS = СкриптВиджета();
-    Просмотр = "<!doctype html><html lang=""ru""><head><meta charset=""utf-8""><meta name=""viewport"" content=""width=device-width,initial-scale=1""><title>"
-        + Экранировать(Виджет.Заголовок) + "</title><style>body{margin:0;padding:16px;background:#f3f5f7}" + CSS
+    Просмотр = "<!doctype html><html lang=""ru""><head><meta http-equiv=""X-UA-Compatible"" content=""IE=edge""><meta charset=""utf-8""><meta name=""viewport"" content=""width=device-width,initial-scale=1""><title>"
+        + Экранировать(Виджет.Заголовок) + "</title><style>body{margin:0;padding:16px;background:#f3f5f7}"
+        + СтилиДляПредпросмотра(CSS, Стиль)
         + "</style></head><body>" + HTML + "<script>" + JS + "</script></body></html>";
     Возврат Новый Структура("HTML,CSS,JS,Просмотр", HTML, CSS, JS, Просмотр);
 КонецФункции
@@ -93,8 +96,11 @@
         HTML = HTML + "<div class=""pw-vendor"">" + Экранировать(Товар.Производитель) + "</div>";
     КонецЕсли;
     Если Виджет.ПоказыватьРейтинг И Товар.Рейтинг > 0 Тогда
-        HTML = HTML + "<div class=""pw-rating"" role=""img"" aria-label=""Рейтинг " + ЧислоCSS(Товар.Рейтинг) + " из 5"" style=""--pw-rating:" + ЧислоCSS(Товар.Рейтинг * 20)
-            + "%"" title=""" + ЧислоCSS(Товар.Рейтинг) + " из 5""><span aria-hidden=""true"">★★★★★</span><span class=""pw-rating-fill"" aria-hidden=""true"">★★★★★</span></div>";
+        ОписаниеРейтинга = "Рейтинг " + ЧислоCSS(Товар.Рейтинг) + " из 5";
+        ШиринаЗаливки = ЧислоCSS(Товар.Рейтинг * 20) + "%";
+        HTML = HTML + "<div class=""pw-rating"" role=""img"" aria-label=""" + ОписаниеРейтинга + """ title="""
+            + ОписаниеРейтинга + """><span aria-hidden=""true"">★★★★★</span>"
+            + "<span class=""pw-rating-fill"" aria-hidden=""true"" style=""width:" + ШиринаЗаливки + """>★★★★★</span></div>";
     КонецЕсли;
     Если Виджет.ПоказыватьЦены Тогда
         HTML = HTML + "<div class=""pw-prices"">";
@@ -165,6 +171,9 @@
 
 Процедура НачальныеНастройки(Виджет) Экспорт
     Виджет.Опубликован = Ложь;
+    Виджет.СпособРазмещения = "selector";
+    Виджет.МестоРазмещения = "append";
+    Виджет.СелекторРазмещения = "";
     Виджет.Заголовок = "Рекомендуем посмотреть";
     Виджет.Валюта = "₽";
     Виджет.ПоказыватьГруппы = Истина;
@@ -208,6 +217,19 @@
 КонецПроцедуры
 
 Процедура ПроверитьНастройки(Виджет) Экспорт
+    Если Виджет.СпособРазмещения <> "marker" И Виджет.СпособРазмещения <> "selector" Тогда
+        ВызватьИсключение "Выберите размещение по CSS-селектору или HTML-метке.";
+    КонецЕсли;
+    Если Виджет.Опубликован И Виджет.СпособРазмещения = "selector" И ПустаяСтрока(Виджет.СелекторРазмещения) Тогда
+        ВызватьИсключение "Укажите CSS-селектор места размещения.";
+    КонецЕсли;
+    Если СтрНайти("|before|after|prepend|append|replaceChildren|replace|", "|" + Виджет.МестоРазмещения + "|") = 0
+        Или ПустаяСтрока(Виджет.МестоРазмещения) Тогда
+        ВызватьИсключение "Выберите место вставки виджета.";
+    КонецЕсли;
+    Если Виджет.Опубликован И ПустаяСтрока(Виджет.Код) Тогда
+        ВызватьИсключение "Для публикации запишите виджет и назначьте ему код.";
+    КонецЕсли;
     Если Виджет.КолонокКомпьютер < 1 Или Виджет.КолонокКомпьютер > 8 Тогда
         ВызватьИсключение "Карточек на компьютере: допустимо от 1 до 8";
     КонецЕсли;
@@ -273,7 +295,8 @@
 
 Функция ПеременныеОформления(Виджет)
     ПроверитьГарнитуруШрифта(Виджет.ГарнитураШрифта);
-    Стиль = "--pw-font-family:" + Виджет.ГарнитураШрифта + ";";
+    Гарнитура = ?(ПустаяСтрока(Виджет.ГарнитураШрифта), "Arial, sans-serif", Виджет.ГарнитураШрифта);
+    Стиль = "--pw-font-family:" + Гарнитура + ";";
     Стиль = Стиль + "--pw-columns:" + ЧислоCSS(Виджет.КолонокКомпьютер) + ";";
     Стиль = Стиль + "--pw-tablet-columns:" + ЧислоCSS(Виджет.КолонокПланшет) + ";";
     Стиль = Стиль + "--pw-mobile-columns:" + ЧислоCSS(Виджет.КолонокТелефон) + ";";
@@ -309,7 +332,7 @@
         ".pw { color: var(--pw-text); background: var(--pw-bg); padding: var(--pw-padding); font: var(--pw-font-size)/1.45 var(--pw-font-family); min-width: 0; }" + Символы.ПС +
         ".pw [hidden] { display: none !important; }" + Символы.ПС +
         ".pw a { color: inherit; text-decoration: none; }" + Символы.ПС +
-        ".pw button { font: inherit; cursor: pointer; }" + Символы.ПС +
+        ".pw button { font: inherit; text-decoration: inherit; cursor: pointer; }" + Символы.ПС +
         ".pw button:disabled { cursor: default; opacity: .45; }" + Символы.ПС +
         ".pw button:focus-visible, .pw a:focus-visible, .pw-track:focus-visible { outline: 2px solid var(--pw-accent); outline-offset: 3px; }" + Символы.ПС +
         ".pw-heading { font-size: var(--pw-heading-size); margin: 0 0 20px; line-height: 1.2; text-align: var(--pw-align); }" + Символы.ПС +
@@ -318,9 +341,10 @@
         ".pw-tab[aria-pressed=""true""] { color: var(--pw-button-text); border-color: var(--pw-accent); background: var(--pw-accent); }" + Символы.ПС +
         ".pw-count { margin-left: .6em; opacity: .75; }" + Символы.ПС +
         ".pw-slider { display: flex; align-items: center; gap: 8px; min-width: 0; }" + Символы.ПС +
-        ".pw-track { display: flex; flex: 1; gap: var(--pw-gap); overflow-x: auto; scroll-snap-type: x mandatory; overscroll-behavior-x: contain; padding: 4px 1px 12px; min-width: 0; scrollbar-width: thin; }" + Символы.ПС +
+        ".pw-track { display: flex; flex: 1; overflow-x: auto; scroll-snap-type: x mandatory; overscroll-behavior-x: contain; padding: 4px 1px 12px; min-width: 0; scrollbar-width: thin; }" + Символы.ПС +
         ".pw-arrow { border: 1px solid var(--pw-border); background: var(--pw-card-bg); color: var(--pw-text); border-radius: 50%; width: 36px; height: 36px; flex: 0 0 36px; font-size: 24px !important; }" + Символы.ПС +
         ".pw-card { position: relative; flex: 0 0 calc((100% - (var(--pw-columns) - 1) * var(--pw-gap)) / var(--pw-columns)); min-width: 0; scroll-snap-align: start; display: flex; flex-direction: column; background: var(--pw-card-bg); border: 1px solid var(--pw-border); border-radius: var(--pw-radius); padding: var(--pw-card-padding); overflow: hidden; }" + Символы.ПС +
+        ".pw-card:not([hidden]) ~ .pw-card { margin-left: var(--pw-gap); }" + Символы.ПС +
         ".pw-picture { display: flex; align-items: center; justify-content: center; height: var(--pw-image-height); margin-bottom: 12px; background: var(--pw-card-bg); }" + Символы.ПС +
         ".pw-picture img { display: block; width: 100%; height: 100%; object-fit: contain; }" + Символы.ПС +
         ".pw-no-image { color: var(--pw-muted); font-size: 12px; }" + Символы.ПС +
@@ -332,7 +356,7 @@
         ".pw-name { display: -webkit-box; -webkit-line-clamp: var(--pw-name-lines); -webkit-box-orient: vertical; overflow: hidden; overflow-wrap: anywhere; min-height: calc(var(--pw-name-lines) * 1.45em); font-weight: 600; }" + Символы.ПС +
         ".pw-vendor { color: var(--pw-muted); font-size: .85em; overflow-wrap: anywhere; }" + Символы.ПС +
         ".pw-rating { align-self: flex-start; position: relative; color: #d5d9df; font: 20px/1 Arial,sans-serif; white-space: nowrap; }" + Символы.ПС +
-        ".pw-rating-fill { position: absolute; inset: 0 auto 0 0; width: var(--pw-rating); overflow: hidden; color: #e6a100; }" + Символы.ПС +
+        ".pw-rating-fill { display: block; position: absolute; top: 0; left: 0; height: 100%; overflow: hidden; color: #e6a100; }" + Символы.ПС +
         ".pw-prices { display: flex; align-items: baseline; flex-wrap: wrap; justify-content: var(--pw-price-align); gap: 8px; margin-top: auto; padding-top: 6px; }" + Символы.ПС +
         ".pw-price { font-size: 1.2em; font-weight: 700; white-space: nowrap; }" + Символы.ПС +
         ".pw-old-price { color: var(--pw-muted); font-size: .85em; white-space: nowrap; }" + Символы.ПС +
@@ -467,3 +491,137 @@
         КонецЕсли;
     КонецЦикла;
 КонецПроцедуры
+
+
+// Встроенный просмотр получает обычные CSS-значения из тех же параметров, что и выгрузка.
+Функция СтилиДляПредпросмотра(CSS, Переменные)
+    Для Каждого Объявление Из СтрРазделить(Переменные, ";", Ложь) Цикл
+        Разделитель = СтрНайти(Объявление, ":");
+        ИмяПеременной = Лев(Объявление, Разделитель - 1);
+        ЗначениеПеременной = Сред(Объявление, Разделитель + 1);
+        CSS = СтрЗаменить(CSS, "var(" + ИмяПеременной + ")", ЗначениеПеременной);
+    КонецЦикла;
+    Возврат CSS;
+КонецФункции
+
+
+Функция КодРазмещения(Виджет) Экспорт
+    Если ПустаяСтрока(Виджет.Код) Тогда
+        Возврат "Запишите виджет, чтобы получить код размещения.";
+    КонецЕсли;
+    Возврат "<div data-popmechanic-embed=""" + Экранировать(Виджет.Код) + """></div>";
+КонецФункции
+
+Функция СкриптРазмещения(Виджет, Комплект) Экспорт
+    Если Виджет.СпособРазмещения = "selector" И ПустаяСтрока(Виджет.СелекторРазмещения) Тогда
+        ВызватьИсключение "Укажите CSS-селектор места размещения.";
+    КонецЕсли;
+    Если ПустаяСтрока(Виджет.Код) Тогда
+        ВызватьИсключение "Не задан код виджета.";
+    КонецЕсли;
+    Размещение = Новый Структура("mode,selector,position", Виджет.СпособРазмещения,
+        Виджет.СелекторРазмещения, Виджет.МестоРазмещения);
+    Данные = Новый Структура("key,placement,html,css", Виджет.Код, Размещение, Комплект.HTML, Комплект.CSS);
+    Запись = Новый ЗаписьJSON;
+    Запись.УстановитьСтроку();
+    ЗаписатьJSON(Запись, Данные);
+    Возврат СтрЗаменить(ШаблонСкриптаРазмещения(), "__WIDGET_DATA__", Запись.Закрыть());
+КонецФункции
+
+Функция ШаблонСкриптаРазмещения()
+    Возврат "(function (data) {
+|  'use strict';
+|  const script = document.currentScript;
+|  if (!script) return;
+|  const state = window.ProductWidgetPlacements || (window.ProductWidgetPlacements = new Map());
+|  if (state.has(data.key)) return;
+|  const record = {host: null};
+|  state.set(data.key, record);
+|  const fail = code => document.dispatchEvent(new CustomEvent('productwidgets:placement-error', {
+|    detail: {code, widgetCode: data.key}
+|  }));
+|  const positions = new Set(['before', 'after', 'prepend', 'append', 'replaceChildren', 'replace']);
+|  if (!['marker', 'selector'].includes(data.placement.mode) || !positions.has(data.placement.position)) {
+|    state.delete(data.key); fail('invalid_placement'); return;
+|  }
+|  if (data.placement.mode === 'selector') {
+|    try { document.querySelector(data.placement.selector); }
+|    catch (_) { state.delete(data.key); fail('invalid_selector'); return; }
+|  }
+|  const runtimeURL = new URL('widget.js', script.src).href;
+|  function runtime() {
+|    if (window.ProductWidgets?.init) return Promise.resolve(window.ProductWidgets);
+|    if (!window.ProductWidgetRuntimeLoading) {
+|      window.ProductWidgetRuntimeLoading = new Promise((resolve, reject) => {
+|        const node = document.createElement('script');
+|        node.src = runtimeURL;
+|        if (script.nonce) node.nonce = script.nonce;
+|        node.onload = () => window.ProductWidgets?.init ? resolve(window.ProductWidgets) : reject(Error('runtime'));
+|        node.onerror = () => reject(Error('runtime'));
+|        document.head.append(node);
+|      }).catch(error => { window.ProductWidgetRuntimeLoading = null; throw error; });
+|    }
+|    return window.ProductWidgetRuntimeLoading;
+|  }
+|  function target() {
+|    const candidates = data.placement.mode === 'marker'
+|      ? Array.from(document.querySelectorAll('[data-popmechanic-embed]')).filter(node => node.getAttribute('data-popmechanic-embed') === data.key)
+|      : Array.from(document.querySelectorAll(data.placement.selector));
+|    return candidates.find(node => !node.closest('[data-product-widget-host]')
+|      && !['HTML', 'HEAD', 'BODY', 'SCRIPT', 'STYLE', 'LINK', 'META', 'TITLE', 'IFRAME', 'OBJECT'].includes(node.tagName));
+|  }
+|  let observer, deadline, scheduled, pending = false, stopped = false;
+|  function stop() {
+|    stopped = true;
+|    observer?.disconnect(); clearTimeout(deadline); clearTimeout(scheduled);
+|  }
+|  async function mount() {
+|    if (pending || stopped || record.host?.isConnected) return;
+|    if (!target()) return;
+|    pending = true;
+|    try {
+|      const api = await runtime();
+|      if (stopped) return;
+|      const anchor = target();
+|      if (!anchor) return;
+|      const host = document.createElement('div');
+|      host.dataset.productWidgetHost = data.key;
+|      for (const [name, value] of Object.entries({display: 'block', width: 'calc(100% - 20px)',
+|        margin: '10px', 'box-sizing': 'border-box', 'min-width': '0'})) host.style.setProperty(name, value, 'important');
+|      const style = document.createElement('style');
+|      style.textContent = data.css;
+|      const content = document.createElement('div');
+|      content.innerHTML = data.html;
+|      host.append(style, content);
+|      const position = data.placement.mode === 'marker' ? 'append' : data.placement.position;
+|      let previous;
+|      if (position === 'replaceChildren') {
+|        previous = document.createDocumentFragment();
+|        previous.append(...anchor.childNodes);
+|      }
+|      if (position === 'replace') anchor.replaceWith(host);
+|      else anchor[position](host);
+|      // Preserve the existing bubbling ready event and shop's ProductWidgets.configure adapter.
+|      try { api.init(host); }
+|      catch (error) {
+|        if (position === 'replace') host.replaceWith(anchor);
+|        else { host.remove(); if (previous) anchor.append(previous); }
+|        throw error;
+|      }
+|      record.host = host;
+|    } catch (_) {
+|      stop(); state.delete(data.key); fail('runtime_unavailable');
+|    } finally { pending = false; }
+|  }
+|  observer = new MutationObserver(() => {
+|    if (scheduled) return;
+|    scheduled = setTimeout(() => { scheduled = null; mount(); }, 100);
+|  });
+|  observer.observe(document.documentElement, {childList: true, subtree: true, attributes: true, attributeFilter: ['id', 'class', 'data-popmechanic-embed']});
+|  deadline = setTimeout(() => {
+|    stop();
+|    if (!record.host?.isConnected) { state.delete(data.key); fail('target_unavailable'); }
+|  }, 30000);
+|  mount();
+|})(__WIDGET_DATA__);";
+КонецФункции

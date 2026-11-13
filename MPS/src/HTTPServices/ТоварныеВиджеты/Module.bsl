@@ -27,19 +27,10 @@
     ИначеЕсли ИмяФайла = "preview.html" Тогда
         Возврат ОтветТекст(200, Комплект.Просмотр, "text/html");
     КонецЕсли;
-    // Данные кодируются как JSON, а не вставляются в JavaScript вручную.
-    Скрипт = "(function(){var script=document.currentScript;if(!script)return;var style=document.createElement('style');style.textContent="
-        + СтрокаJSON(Комплект.CSS) + ";document.head.appendChild(style);var host=document.createElement('div');host.innerHTML="
-        + СтрокаJSON(Комплект.HTML) + ";script.parentNode.insertBefore(host,script);if(window.ProductWidgets){window.ProductWidgets.init(host);}else{var runtime=document.createElement('script');runtime.src=new URL('widget.js',script.src).href;document.head.appendChild(runtime);}})();";
+    Скрипт = Справочники.Виджеты.СкриптРазмещения(Виджет, Комплект);
     Возврат ОтветТекст(200, Скрипт, "application/javascript");
 КонецФункции
 
-Функция СтрокаJSON(Текст)
-    Запись = Новый ЗаписьJSON;
-    Запись.УстановитьСтроку();
-    ЗаписатьJSON(Запись, Текст);
-    Возврат Запись.Закрыть();
-КонецФункции
 
 Функция ОтветТекст(Код, Тело, ТипСодержимого)
     Ответ = Новый HTTPСервисОтвет(Код);

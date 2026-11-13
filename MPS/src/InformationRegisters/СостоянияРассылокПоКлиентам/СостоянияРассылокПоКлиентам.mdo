@@ -9,10 +9,10 @@
     <recordType typeId="5029c25c-4256-4936-9f34-33a659d33e79" valueTypeId="6791d5f4-b953-4fe5-9feb-48cd11581541"/>
     <recordManagerType typeId="d1e8e8c2-2f72-4ba7-af71-ba36c1f2843c" valueTypeId="54ccff34-01fd-43f7-8a7a-3eb2f71f581f"/>
   </producedTypes>
-  <name>СостояниеРассылокПоКлиентам</name>
+  <name>СостоянияРассылокПоКлиентам</name>
   <synonym>
     <key>ru</key>
-    <value>Состояние рассылок по клиентам</value>
+    <value>Состояния рассылок по клиентам</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>

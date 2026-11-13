@@ -40,14 +40,14 @@
   <content>Catalog.ВидыПодписок</content>
   <content>InformationRegister.ПодпискиКлиентов</content>
   <content>Enum.СтатусыРассылокПоКлиентам</content>
-  <content>InformationRegister.СостояниеРассылокПоКлиентам</content>
+  <content>InformationRegister.СостоянияРассылокПоКлиентам</content>
   <content>InformationRegister.СоставСпискаПродуктовКлиента</content>
   <content>Enum.СтатусыПрограммЛояльности</content>
   <content>Catalog.НаборыПромокодов</content>
   <content>Catalog.ПрограммыАкций</content>
   <content>Enum.СтатусыСценариев</content>
   <content>Enum.СтатусыРассылок</content>
-  <content>InformationRegister.СостояниеПрограммАкций</content>
+  <content>InformationRegister.СостоянияПрограммАкций</content>
   <content>InformationRegister.СостоянияПерсонализаций</content>
   <content>Catalog.ПродуктовыеРекомендации</content>
   <content>InformationRegister.ЦеныНоменклатуры</content>
@@ -92,7 +92,7 @@
   <content>CommonModule.СлужебныйПКМП</content>
   <content>CommonModule.КомпоновкаИРасписание_ПКМП</content>
   <content>CommonModule.КомпоновкаИРасписание_ПКМПВызовСервера</content>
-  <content>InformationRegister.СостояниеСценариев</content>
+  <content>InformationRegister.СостоянияСценариев</content>
   <content>CommonModule.ГрафическаяСхемаПКМП</content>
   <content>Enum.МетодыHTTP</content>
   <content>Enum.ТипыКаналов</content>
@@ -125,4 +125,8 @@
   <content>InformationRegister.НумераторыПКМП</content>
   <content>Enum.ВидыНумераторовПКМП</content>
   <content>CommonAttribute.ОбъектныйИД</content>
+  <content>DefinedType.КампанииОбъект</content>
+  <content>EventSubscription.УстановкаОбъектногоИДДляКампаний</content>
+  <content>EventSubscription.УстановкаОбъектногоИДДляКлиентов</content>
+  <content>InformationRegister.СостоянияРассылок</content>
 </mdclass:Subsystem>

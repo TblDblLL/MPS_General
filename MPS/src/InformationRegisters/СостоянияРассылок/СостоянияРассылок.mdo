@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d551fa62-25c0-4f3e-addd-bce41ae38d78">
+  <producedTypes>
+    <selectionType typeId="22f86931-c864-49a7-a5c8-7ef1b5c5c9b7" valueTypeId="8942a074-d584-42d2-9fca-64a5c606c9c0"/>
+    <listType typeId="02dd29cb-a7df-4370-be47-b4527fa64d82" valueTypeId="1fc89bed-ac3c-418b-a589-41f8c2eae4b5"/>
+    <managerType typeId="a06b7258-fa08-4186-95c1-aceb7adc2d79" valueTypeId="a9e97862-5125-4a29-83de-7d45083bd720"/>
+    <recordSetType typeId="958130c0-15b8-4331-882a-cb5b0027e94a" valueTypeId="23cc6cde-49fb-447d-bc0c-8dabe2e6463e"/>
+    <recordKeyType typeId="edd642a7-a10d-412f-ad08-752c096897c8" valueTypeId="fb18dace-da17-45f3-95a6-f212f606f51b"/>
+    <recordType typeId="1c866c43-ea49-430b-a5fe-4d1cffda3e8d" valueTypeId="c4472e95-5031-4f02-9eeb-073f0bd928f1"/>
+    <recordManagerType typeId="44027c97-a20a-40a5-ab23-e2957ced5ff1" valueTypeId="e080354e-d491-40b8-9080-4519a77d1d70"/>
+  </producedTypes>
+  <name>СостоянияРассылок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния рассылок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="cdbc0bb3-d529-4be4-ab08-ddb4a2902020">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыРассылок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="49fe79b2-2d9f-49b1-a38a-61b901a8607b">
+    <name>Рассылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рассылка</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Рассылки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -3,7 +3,7 @@
   <name>ОбъектныйИД</name>
   <synonym>
     <key>ru</key>
-    <value>Объектный ИД</value>
+    <value>Идентификатор </value>
   </synonym>
   <type>
     <types>Number</types>

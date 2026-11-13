@@ -121,7 +121,10 @@
       <value>Номенклатура</value>
     </title>
     <id>1</id>
-    <valueType/>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
     <view>
       <common>true</common>
     </view>

@@ -9,10 +9,10 @@
     <recordType typeId="b69afbd7-f72e-4e8c-91d1-c058972deec8" valueTypeId="275cc486-8f77-4bd9-b7b6-e4e41d264174"/>
     <recordManagerType typeId="7148ee39-8b21-44e0-9266-3e3251fd2c16" valueTypeId="3e1f8880-7bc3-4417-a539-ee5f7d6da6fe"/>
   </producedTypes>
-  <name>СостояниеСценариев</name>
+  <name>СостоянияСценариев</name>
   <synonym>
     <key>ru</key>
-    <value>Состояние сценариев</value>
+    <value>Состояния сценариев</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>

@@ -9,10 +9,10 @@
     <recordType typeId="83e2a810-2cba-4244-8a3a-3325f7a7b210" valueTypeId="070fafbb-fd04-46ad-8e87-1b5a1bee9f6d"/>
     <recordManagerType typeId="98d42cdd-d41b-4cd1-b724-d4608dc32e4b" valueTypeId="330ae843-93b7-46a1-a140-63dc01b3d823"/>
   </producedTypes>
-  <name>СостояниеПрограммАкций</name>
+  <name>СостоянияПрограммАкций</name>
   <synonym>
     <key>ru</key>
-    <value>Состояние программ акций</value>
+    <value>Состояния программ акций</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
