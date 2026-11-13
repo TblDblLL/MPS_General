@@ -514,7 +514,6 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SpreadsheetDocumentField</type>
-      <readOnly>true</readOnly>
       <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -532,6 +531,8 @@
         <selectionShowMode>Always</selectionShowMode>
         <drawingSelectionShowMode>Auto</drawingSelectionShowMode>
         <showGroups>true</showGroups>
+        <enableStartDrag>true</enableStartDrag>
+        <enableDrag>true</enableDrag>
       </extInfo>
     </items>
     <visible>true</visible>
