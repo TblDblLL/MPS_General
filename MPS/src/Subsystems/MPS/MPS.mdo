@@ -122,4 +122,7 @@
   <content>CommonPicture.ОбводкаСплошная</content>
   <content>CommonPicture.ОбводкаПунктир</content>
   <content>CommonPicture.ОбводкаМелкийПунктир</content>
+  <content>InformationRegister.НумераторыПКМП</content>
+  <content>Enum.ВидыНумераторовПКМП</content>
+  <content>CommonAttribute.ОбъектныйИД</content>
 </mdclass:Subsystem>

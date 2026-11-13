@@ -985,6 +985,7 @@
   <commonModules>CommonModule.СообщенияВПриложениеПКМП</commonModules>
   <commonModules>CommonModule.МониторЗаданийПКМП</commonModules>
   <commonAttributes>CommonAttribute.ОтредактированныеПредопределенныеРеквизиты</commonAttributes>
+  <commonAttributes>CommonAttribute.ОбъектныйИД</commonAttributes>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ApplicationExtensionsManifest_1_0_0_1</xDTOPackages>
   <xDTOPackages>XDTOPackage.ApplicationExtensionsPermissions_1_0_0_1</xDTOPackages>
@@ -1558,6 +1559,7 @@
   <enums>Enum.МестаЛогирования</enums>
   <enums>Enum.ОкруженияAPNsПКМП</enums>
   <enums>Enum.ВидыРегламентныхЗаданийПКМП</enums>
+  <enums>Enum.ВидыНумераторовПКМП</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализПравДоступа</reports>
@@ -1731,6 +1733,7 @@
   <informationRegisters>InformationRegister.ОчередьPushПКМП</informationRegisters>
   <informationRegisters>InformationRegister.БлокировкиТокеновPushПКМП</informationRegisters>
   <informationRegisters>InformationRegister.СостоянияЗаданийПКМП</informationRegisters>
+  <informationRegisters>InformationRegister.НумераторыПКМП</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.БалльныеСчета</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ЗапасыИПотребности</accumulationRegisters>

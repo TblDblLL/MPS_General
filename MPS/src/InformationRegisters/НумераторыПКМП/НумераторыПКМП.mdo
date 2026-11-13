@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b9ccd1c-0ab8-455f-8f10-6d8f939ab184">
+  <producedTypes>
+    <selectionType typeId="435a3d40-a7bc-46f0-a083-f35bd9ff8be7" valueTypeId="f64aae65-3e7b-4a1a-a9fd-a2009b3e45da"/>
+    <listType typeId="d2563e84-0932-4ea2-8059-2b5feb4f08cb" valueTypeId="207d08bc-1265-4c36-a400-209413f2d050"/>
+    <managerType typeId="895eaf32-74e2-4884-ad13-c0d23d79ca7f" valueTypeId="27fce622-d822-4ad2-989d-27f4531fc967"/>
+    <recordSetType typeId="020eb90a-c938-4bdf-904d-e9a3fddb38dd" valueTypeId="d3495867-54ba-4a55-9b05-681494646c81"/>
+    <recordKeyType typeId="ee2cee41-c578-44d1-8133-540146d80ae4" valueTypeId="0db00b48-1111-4206-b570-639f96a540d3"/>
+    <recordType typeId="8c4a57cc-dd4e-4ec7-8353-5d5cabca4bd1" valueTypeId="80e1e62e-3a78-4574-904d-97d51bad94a8"/>
+    <recordManagerType typeId="d962eaa6-7d84-4b43-bffb-ec9c34f2c3ee" valueTypeId="5785584c-1a3c-4502-9907-2a6b198a13a6"/>
+  </producedTypes>
+  <name>НумераторыПКМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нумераторы ПКМП</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Нумератор</value>
+  </recordPresentation>
+  <resources uuid="086613c1-a007-4f24-8747-5e4dd6350cc9">
+    <name>ОбъектныйИД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объектный ИД</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>32</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="975eaa32-fdd6-4fd8-ada3-7735dee9084d">
+    <name>ВидНумератора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид нумератора</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыНумераторовПКМП</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

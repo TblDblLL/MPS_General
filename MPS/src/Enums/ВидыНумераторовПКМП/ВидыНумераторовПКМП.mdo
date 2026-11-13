@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c68b3d68-f624-4ded-9fff-0fdbd38b4109">
+  <producedTypes>
+    <refType typeId="16b94f33-120a-4842-b16a-b479bc965fad" valueTypeId="f33ac61f-01fb-44ce-bbdc-0d9705eda51c"/>
+    <listType typeId="f5ec506c-f7dc-4b80-b2c8-ead399ccee15" valueTypeId="1bcbc0be-6754-42ad-a803-9d8e18409291"/>
+    <managerType typeId="c68f8028-2408-4744-a9f5-aef1849f2e36" valueTypeId="6394b426-2951-45ab-9e49-12ee4c54b704"/>
+  </producedTypes>
+  <name>ВидыНумераторовПКМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды нумераторов ПКМП</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a3f0593e-ba77-42c9-8619-ee23dd9a0b71">
+    <name>Клиенты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиенты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="88f812e5-fe17-4bb3-b83c-d23d30eb8dbf">
+    <name>Кампании</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кампании</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

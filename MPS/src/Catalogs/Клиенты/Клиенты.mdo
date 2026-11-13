@@ -153,9 +153,8 @@
   </extendedListPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
-  <codeLength>50</codeLength>
+  <codeLength>32</codeLength>
   <descriptionLength>150</descriptionLength>
-  <codeType>String</codeType>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
