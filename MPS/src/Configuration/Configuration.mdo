@@ -1725,6 +1725,7 @@
   <informationRegisters>InformationRegister.СостоянияПерсонализаций</informationRegisters>
   <informationRegisters>InformationRegister.СостоянияПрограммАкций</informationRegisters>
   <informationRegisters>InformationRegister.СостоянияРассылокПоКлиентам</informationRegisters>
+  <informationRegisters>InformationRegister.СостоянияРассылок</informationRegisters>
   <informationRegisters>InformationRegister.СостоянияСценариев</informationRegisters>
   <informationRegisters>InformationRegister.СостоянияЗаданийПКМП</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
@@ -1737,7 +1738,6 @@
   <informationRegisters>InformationRegister.ОчередьPushПКМП</informationRegisters>
   <informationRegisters>InformationRegister.БлокировкиТокеновPushПКМП</informationRegisters>
   <informationRegisters>InformationRegister.НумераторыПКМП</informationRegisters>
-  <informationRegisters>InformationRegister.СостоянияРассылок</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.БалльныеСчета</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ЗапасыИПотребности</accumulationRegisters>

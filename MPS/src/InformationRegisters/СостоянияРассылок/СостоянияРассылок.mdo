@@ -18,6 +18,10 @@
   <editType>InDialog</editType>
   <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Состояние рассылки</value>
+  </recordPresentation>
   <resources uuid="cdbc0bb3-d529-4be4-ab08-ddb4a2902020">
     <name>Статус</name>
     <synonym>
