@@ -25,13 +25,13 @@
     "dynamic-access-method-not-found": {
       "enabled": false
     },
-    "bsl-legacy-check-continue-statement": {
-      "enabled": false
-    },
     "graphical-scheme-legacy-check-for-join-incoming-connections-count": {
       "enabled": false
     },
     "bsl-legacy-check-region-preprocessor": {
+      "enabled": false
+    },
+    "bsl-legacy-check-continue-statement": {
       "enabled": false
     },
     "bsl-legacy-check-static-feature-access-for-unknown-left-part": {
@@ -118,6 +118,9 @@
     "configuration-mobile-application-urls": {
       "enabled": false
     },
+    "common-module-server-call": {
+      "enabled": true
+    },
     "form-named-element-name": {
       "enabled": false
     },
@@ -181,10 +184,10 @@
     "md-ext-legacy-check-adopted-md-object-properties-matching": {
       "enabled": false
     },
-    "bsl-legacy-check-event-handler-statement": {
+    "bsl-legacy-check-mobile-standalone-server-availability": {
       "enabled": false
     },
-    "bsl-legacy-check-mobile-standalone-server-availability": {
+    "bsl-legacy-check-event-handler-statement": {
       "enabled": false
     },
     "graphical-scheme-legacy-check-incoming-to-join-connections": {
@@ -223,9 +226,6 @@
     "md-legacy-check-dimension-type": {
       "enabled": false
     },
-    "structure-consructor-value-type": {
-      "enabled": false
-    },
     "graphical-scheme-legacy-check-for-point-incoming-line-existence": {
       "enabled": false
     },
@@ -235,10 +235,10 @@
     "bsl-legacy-check-local-variables-not-exported": {
       "enabled": false
     },
-    "form-legacy-emf-check": {
+    "bsl-legacy-check-deprecated-method": {
       "enabled": false
     },
-    "bsl-legacy-check-deprecated-method": {
+    "form-legacy-emf-check": {
       "enabled": false
     },
     "graphical-scheme-legacy-check-switch-outgoing-lines": {
@@ -283,10 +283,10 @@
     "bsl-legacy-check-expression-type": {
       "enabled": false
     },
-    "md-legacy-check-name-in-data-source-resource": {
+    "md-legacy-check-commom-picture-unique-name": {
       "enabled": false
     },
-    "md-legacy-check-commom-picture-unique-name": {
+    "md-legacy-check-name-in-data-source-resource": {
       "enabled": false
     },
     "md-legacy-check-sequence-dimension": {
@@ -298,13 +298,13 @@
     "bsl-legacy-check-method-annotations": {
       "enabled": false
     },
-    "bsl-legacy-check-if-preprocessor-part-environments": {
-      "enabled": false
-    },
     "bsl-legacy-check-date-literal": {
       "enabled": false
     },
     "bsl-legacy-check-preprocessors-lines": {
+      "enabled": false
+    },
+    "bsl-legacy-check-if-preprocessor-part-environments": {
       "enabled": false
     },
     "function-return-value-type": {
