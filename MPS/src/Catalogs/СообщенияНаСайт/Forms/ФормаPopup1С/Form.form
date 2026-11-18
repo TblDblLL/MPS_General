@@ -147,7 +147,7 @@
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <picture xsi:type="core:PictureRef">
-          <picture>StdPicture.GenerateReport</picture>
+          <picture>CommonPicture.Запустить</picture>
         </picture>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
@@ -179,7 +179,7 @@
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <picture xsi:type="core:PictureRef">
-          <picture>CommonPicture.Пауза</picture>
+          <picture>CommonPicture.Остановить</picture>
         </picture>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>

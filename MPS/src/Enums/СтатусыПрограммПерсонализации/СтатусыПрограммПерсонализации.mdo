@@ -13,17 +13,17 @@
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
   <enumValues uuid="4371adfe-3b64-40a6-ab12-b24f43db3265">
-    <name>Запущен</name>
+    <name>Запущено</name>
     <synonym>
       <key>ru</key>
-      <value>Запущен</value>
+      <value>Запущено</value>
     </synonym>
   </enumValues>
   <enumValues uuid="8b99c367-7bb5-4f48-a169-57643583321a">
-    <name>Отключен</name>
+    <name>Отключено</name>
     <synonym>
       <key>ru</key>
-      <value>Отключен</value>
+      <value>Отключено</value>
     </synonym>
   </enumValues>
   <enumValues uuid="03b5f30f-1eda-4c7f-9a87-f14aae51ba78">

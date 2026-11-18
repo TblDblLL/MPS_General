@@ -519,6 +519,8 @@
   <commonPictures>CommonPicture.ОбводкаСплошная</commonPictures>
   <commonPictures>CommonPicture.ОбводкаПунктир</commonPictures>
   <commonPictures>CommonPicture.ОбводкаМелкийПунктир</commonPictures>
+  <commonPictures>CommonPicture.Запустить</commonPictures>
+  <commonPictures>CommonPicture.Остановить</commonPictures>
   <commonPictures>CommonPicture.Пауза</commonPictures>
   <sessionParameters>SessionParameter.АвторизованныйПользователь</sessionParameters>
   <sessionParameters>SessionParameter.ВерсииШаблоновОграниченияДоступа</sessionParameters>
@@ -1534,6 +1536,7 @@
   <enums>Enum.СтатусыСценариев</enums>
   <enums>Enum.СтатусыРассылок</enums>
   <enums>Enum.СтатусыПрограммПерсонализации</enums>
+  <enums>Enum.СтатусыПодписок</enums>
   <enums>Enum.ВидыТочекСценария</enums>
   <enums>Enum.ВидыТочкиОжидания</enums>
   <enums>Enum.ВидыТочкиУсловия</enums>
@@ -1543,7 +1546,6 @@
   <enums>Enum.СпособыИзмененияКоличества</enums>
   <enums>Enum.ВидыОграниченияПериодовДействий</enums>
   <enums>Enum.ЕстьНетНеВажно</enums>
-  <enums>Enum.СтатусыПодписок</enums>
   <enums>Enum.ИзмененияСостоянияПродукта</enums>
   <enums>Enum.РежимыРедактирования</enums>
   <enums>Enum.МетодыHTTP</enums>
