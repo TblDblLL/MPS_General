@@ -482,59 +482,6 @@
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
-    <items xsi:type="form:FormField">
-      <name>ВыборПоложенияОкна</name>
-      <id>10190</id>
-      <title>
-        <key>ru</key>
-        <value>Положение окна у клиента · 1–9</value>
-      </title>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>СеткаПоложенияОкна</segments>
-      </dataPath>
-      <titleLocation>Top</titleLocation>
-      <extendedTooltip>
-        <name>ВыборПоложенияОкнаРасширеннаяПодсказка</name>
-        <id>10192</id>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>ВыборПоложенияОкнаКонтекстноеМеню</name>
-        <id>10191</id>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>SpreadsheetDocumentField</type>
-      <editMode>Enter</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:SpreadSheetDocFieldExtInfo">
-        <handlers>
-          <event>OnActivate</event>
-          <name>ПоложениеОкнаПриАктивизации</name>
-        </handlers>
-        <width>28</width>
-        <autoMaxWidth>true</autoMaxWidth>
-        <height>8</height>
-        <autoMaxHeight>true</autoMaxHeight>
-        <pointerType>Special</pointerType>
-        <selectionShowMode>Always</selectionShowMode>
-        <drawingSelectionShowMode>Auto</drawingSelectionShowMode>
-        <showGroups>true</showGroups>
-        <enableStartDrag>true</enableStartDrag>
-        <enableDrag>true</enableDrag>
-      </extInfo>
-    </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -683,36 +630,6 @@
       </extendedTooltip>
       <type>UsualButton</type>
       <commandName>Form.Command.Загрузить</commandName>
-      <representation>Auto</representation>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <placementArea>UserCmds</placementArea>
-      <representationInContextMenu>Auto</representationInContextMenu>
-    </items>
-    <items xsi:type="form:Button">
-      <name>НовыйPopupКнопка</name>
-      <id>1003</id>
-      <title>
-        <key>ru</key>
-        <value>Новый in-app</value>
-      </title>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <extendedTooltip>
-        <name>НовыйPopupКнопкаРасширеннаяПодсказка</name>
-        <id>1283</id>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <type>UsualButton</type>
-      <commandName>Form.Command.НовыйPopup</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -1122,6 +1039,311 @@
         <items xsi:type="form:FormGroup">
           <name>ГруппыНастроекPopup</name>
           <id>1275</id>
+          <items xsi:type="form:FormGroup">
+            <name>НастройкиПоложенияОкна</name>
+            <id>10187</id>
+            <items xsi:type="form:Table">
+              <name>КартаПоложенияОкна</name>
+              <id>10189</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>КартаПоложенияОкна</segments>
+              </dataPath>
+              <titleLocation>None</titleLocation>
+              <items xsi:type="form:FormField">
+                <name>КартаПоложенияОкнаК1</name>
+                <id>10202</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>КартаПоложенияОкна.К1</segments>
+                </dataPath>
+                <extendedTooltip>
+                  <name>КартаПоложенияОкнаК1РасширеннаяПодсказка</name>
+                  <id>10204</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>КартаПоложенияОкнаК1КонтекстноеМеню</name>
+                  <id>10203</id>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <type>LabelField</type>
+                <readOnly>true</readOnly>
+                <horizontalAlign>Center</horizontalAlign>
+                <verticalAlign>Center</verticalAlign>
+                <editMode>EnterOnInput</editMode>
+                <showInHeader>true</showInHeader>
+                <headerHorizontalAlign>Left</headerHorizontalAlign>
+                <showInFooter>true</showInFooter>
+                <extInfo xsi:type="form:LabelFieldExtInfo">
+                  <width>12</width>
+                  <maxWidth>12</maxWidth>
+                  <height>2</height>
+                  <maxHeight>2</maxHeight>
+                  <horizontalStretch>false</horizontalStretch>
+                  <verticalStretch>false</verticalStretch>
+                  <border xsi:type="core:BorderDef">
+                    <width>1</width>
+                  </border>
+                </extInfo>
+              </items>
+              <items xsi:type="form:FormField">
+                <name>КартаПоложенияОкнаК2</name>
+                <id>10205</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>КартаПоложенияОкна.К2</segments>
+                </dataPath>
+                <extendedTooltip>
+                  <name>КартаПоложенияОкнаК2РасширеннаяПодсказка</name>
+                  <id>10207</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>КартаПоложенияОкнаК2КонтекстноеМеню</name>
+                  <id>10206</id>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <type>LabelField</type>
+                <readOnly>true</readOnly>
+                <horizontalAlign>Center</horizontalAlign>
+                <verticalAlign>Center</verticalAlign>
+                <editMode>EnterOnInput</editMode>
+                <showInHeader>true</showInHeader>
+                <headerHorizontalAlign>Left</headerHorizontalAlign>
+                <showInFooter>true</showInFooter>
+                <extInfo xsi:type="form:LabelFieldExtInfo">
+                  <width>12</width>
+                  <maxWidth>12</maxWidth>
+                  <height>2</height>
+                  <maxHeight>2</maxHeight>
+                  <horizontalStretch>false</horizontalStretch>
+                  <verticalStretch>false</verticalStretch>
+                  <border xsi:type="core:BorderDef">
+                    <width>1</width>
+                  </border>
+                </extInfo>
+              </items>
+              <items xsi:type="form:FormField">
+                <name>КартаПоложенияОкнаК3</name>
+                <id>10208</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>КартаПоложенияОкна.К3</segments>
+                </dataPath>
+                <extendedTooltip>
+                  <name>КартаПоложенияОкнаК3РасширеннаяПодсказка</name>
+                  <id>10210</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>КартаПоложенияОкнаК3КонтекстноеМеню</name>
+                  <id>10209</id>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <type>LabelField</type>
+                <readOnly>true</readOnly>
+                <horizontalAlign>Center</horizontalAlign>
+                <verticalAlign>Center</verticalAlign>
+                <editMode>EnterOnInput</editMode>
+                <showInHeader>true</showInHeader>
+                <headerHorizontalAlign>Left</headerHorizontalAlign>
+                <showInFooter>true</showInFooter>
+                <extInfo xsi:type="form:LabelFieldExtInfo">
+                  <width>12</width>
+                  <maxWidth>12</maxWidth>
+                  <height>2</height>
+                  <maxHeight>2</maxHeight>
+                  <horizontalStretch>false</horizontalStretch>
+                  <verticalStretch>false</verticalStretch>
+                  <border xsi:type="core:BorderDef">
+                    <width>1</width>
+                  </border>
+                </extInfo>
+              </items>
+              <commandBarLocation>None</commandBarLocation>
+              <autoCommandBar>
+                <name>КартаПоложенияОкнаКоманднаяПанель</name>
+                <id>10191</id>
+                <horizontalAlign>Left</horizontalAlign>
+                <autoFill>true</autoFill>
+              </autoCommandBar>
+              <handlers>
+                <event>OnActivateCell</event>
+                <name>КартаПоложенияОкнаПриАктивизацииЯчейки</name>
+              </handlers>
+              <searchStringAddition>
+                <name>КартаПоложенияОкнаСтрокаПоиска</name>
+                <id>10193</id>
+                <extendedTooltip>
+                  <name>КартаПоложенияОкнаСтрокаПоискаРасширеннаяПодсказка</name>
+                  <id>10195</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>КартаПоложенияОкнаСтрокаПоискаКонтекстноеМеню</name>
+                  <id>10194</id>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <source>КартаПоложенияОкна</source>
+                <extInfo xsi:type="form:SearchStringAdditionExtInfo">
+                  <autoMaxWidth>true</autoMaxWidth>
+                </extInfo>
+              </searchStringAddition>
+              <viewStatusAddition>
+                <name>КартаПоложенияОкнаСостояниеПросмотра</name>
+                <id>10196</id>
+                <extendedTooltip>
+                  <name>КартаПоложенияОкнаСостояниеПросмотраРасширеннаяПодсказка</name>
+                  <id>10198</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>КартаПоложенияОкнаСостояниеПросмотраКонтекстноеМеню</name>
+                  <id>10197</id>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <type>ViewStatusAddition</type>
+                <source>КартаПоложенияОкна</source>
+                <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
+                  <autoMaxWidth>true</autoMaxWidth>
+                </extInfo>
+              </viewStatusAddition>
+              <searchControlAddition>
+                <name>КартаПоложенияОкнаУправлениеПоиском</name>
+                <id>10199</id>
+                <extendedTooltip>
+                  <name>КартаПоложенияОкнаУправлениеПоискомРасширеннаяПодсказка</name>
+                  <id>10201</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>КартаПоложенияОкнаУправлениеПоискомКонтекстноеМеню</name>
+                  <id>10200</id>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <type>SearchControlAddition</type>
+                <source>КартаПоложенияОкна</source>
+                <extInfo xsi:type="form:SearchControlAdditionExtInfo">
+                  <autoMaxWidth>true</autoMaxWidth>
+                </extInfo>
+              </searchControlAddition>
+              <extendedTooltip>
+                <name>КартаПоложенияОкнаРасширеннаяПодсказка</name>
+                <id>10192</id>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <contextMenu>
+                <name>КартаПоложенияОкнаКонтекстноеМеню</name>
+                <id>10190</id>
+                <autoFill>true</autoFill>
+              </contextMenu>
+              <width>42</width>
+              <maxWidth>42</maxWidth>
+              <height>3</height>
+              <heightInTableRows>3</heightInTableRows>
+              <heightControlVariant>InTableRows</heightControlVariant>
+              <maxRowsCount>3</maxRowsCount>
+              <headerHeight>1</headerHeight>
+              <footerHeight>1</footerHeight>
+              <horizontalLines>true</horizontalLines>
+              <verticalLines>true</verticalLines>
+              <autoAddIncomplete>false</autoAddIncomplete>
+              <autoMarkIncomplete>false</autoMarkIncomplete>
+              <searchOnInput>DontUse</searchOnInput>
+              <initialListView>Auto</initialListView>
+              <fileDragMode>AsFileRef</fileDragMode>
+              <borderColor xsi:type="core:ColorRef">
+                <color>Style.ГруппаВариантовОтчетовЦвет82</color>
+              </borderColor>
+              <searchStringLocation>None</searchStringLocation>
+              <viewStatusLocation>None</viewStatusLocation>
+              <searchControlLocation>None</searchControlLocation>
+              <rowFilter xsi:type="core:UndefinedValue"/>
+            </items>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Положение окна на экране</value>
+            </title>
+            <extendedTooltip>
+              <name>НастройкиПоложенияОкнаРасширеннаяПодсказка</name>
+              <id>10188</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>UsualGroup</type>
+            <extInfo xsi:type="form:UsualGroupExtInfo">
+              <group>HorizontalIfPossible</group>
+              <behavior>Collapsible</behavior>
+              <controlRepresentation>Picture</controlRepresentation>
+              <representation>WeakSeparation</representation>
+              <showLeftMargin>true</showLeftMargin>
+              <united>true</united>
+              <showTitle>true</showTitle>
+              <throughAlign>Auto</throughAlign>
+              <currentRowUse>Auto</currentRowUse>
+            </extInfo>
+          </items>
           <items xsi:type="form:FormGroup">
             <name>ОбщиеНастройкиУстройств</name>
             <id>1711</id>
@@ -30797,10 +31019,14 @@
     </edit>
   </attributes>
   <attributes>
-    <name>СеткаПоложенияОкна</name>
+    <name>КартаПоложенияОкна</name>
+    <title>
+      <key>ru</key>
+      <value>Карта положения окна</value>
+    </title>
     <id>10189</id>
     <valueType>
-      <types>SpreadsheetDocument</types>
+      <types>ValueTable</types>
     </valueType>
     <view>
       <common>true</common>
@@ -30808,7 +31034,57 @@
     <edit>
       <common>true</common>
     </edit>
-    <extInfo xsi:type="form:SpreadsheetDocumentExtInfo"/>
+    <columns>
+      <name>К1</name>
+      <title>
+        <key>ru</key>
+        <value>К1</value>
+      </title>
+      <id>10190</id>
+      <valueType>
+        <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>К2</name>
+      <title>
+        <key>ru</key>
+        <value>К2</value>
+      </title>
+      <id>10191</id>
+      <valueType>
+        <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>К3</name>
+      <title>
+        <key>ru</key>
+        <value>К3</value>
+      </title>
+      <id>10192</id>
+      <valueType>
+        <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
   </attributes>
   <formCommands>
     <name>Опубликовать</name>
@@ -30857,23 +31133,6 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>Загрузить</name>
-      </handler>
-    </action>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>НовыйPopup</name>
-    <title>
-      <key>ru</key>
-      <value>Новый in-app</value>
-    </title>
-    <id>2</id>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>НовыйPopup</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

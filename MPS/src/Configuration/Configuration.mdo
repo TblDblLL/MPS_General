@@ -519,6 +519,7 @@
   <commonPictures>CommonPicture.ОбводкаСплошная</commonPictures>
   <commonPictures>CommonPicture.ОбводкаПунктир</commonPictures>
   <commonPictures>CommonPicture.ОбводкаМелкийПунктир</commonPictures>
+  <commonPictures>CommonPicture.Пауза</commonPictures>
   <sessionParameters>SessionParameter.АвторизованныйПользователь</sessionParameters>
   <sessionParameters>SessionParameter.ВерсииШаблоновОграниченияДоступа</sessionParameters>
   <sessionParameters>SessionParameter.ВидыДоступаСОднойГруппойДляЗначенияДоступа</sessionParameters>
