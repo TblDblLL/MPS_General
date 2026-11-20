@@ -12,18 +12,25 @@
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="334e94ac-9a17-4e2d-b2a9-e8ba2e033395">
+    <name>Черновик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Черновик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f63f64dc-206d-4799-a500-628fef54ec88">
+    <name>Начнется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начнется</value>
+    </synonym>
+  </enumValues>
   <enumValues uuid="029cc757-ca65-4bcd-88a2-6ffc024edea2">
     <name>Запущено</name>
     <synonym>
       <key>ru</key>
       <value>Запущено</value>
-    </synonym>
-  </enumValues>
-  <enumValues uuid="61cc643b-cc0a-4c81-9de4-6ae5f9c5c92a">
-    <name>Остановлено</name>
-    <synonym>
-      <key>ru</key>
-      <value>Остановлено</value>
     </synonym>
   </enumValues>
   <enumValues uuid="9772b660-59b2-444a-8509-5042288d3131">
@@ -33,11 +40,11 @@
       <value>На паузе</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="334e94ac-9a17-4e2d-b2a9-e8ba2e033395">
-    <name>Черновик</name>
+  <enumValues uuid="61cc643b-cc0a-4c81-9de4-6ae5f9c5c92a">
+    <name>Остановлено</name>
     <synonym>
       <key>ru</key>
-      <value>Черновик</value>
+      <value>Остановлено</value>
     </synonym>
   </enumValues>
   <enumValues uuid="0e6dce11-8afd-48a7-a88a-2a30b6b090d5">
@@ -45,13 +52,6 @@
     <synonym>
       <key>ru</key>
       <value>Отключено</value>
-    </synonym>
-  </enumValues>
-  <enumValues uuid="f63f64dc-206d-4799-a500-628fef54ec88">
-    <name>Начнется</name>
-    <synonym>
-      <key>ru</key>
-      <value>Начнется</value>
     </synonym>
   </enumValues>
 </mdclass:Enum>

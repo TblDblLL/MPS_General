@@ -12,6 +12,13 @@
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a1185506-8063-4d6e-b6ab-4b32730a7360">
+    <name>Черновик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Черновик</value>
+    </synonym>
+  </enumValues>
   <enumValues uuid="e3bc0359-71dc-432c-8f5f-a5eb807ce11b">
     <name>ГотовоКЗапуску</name>
     <synonym>
@@ -31,13 +38,6 @@
     <synonym>
       <key>ru</key>
       <value>Остановлено</value>
-    </synonym>
-  </enumValues>
-  <enumValues uuid="a1185506-8063-4d6e-b6ab-4b32730a7360">
-    <name>Черновик</name>
-    <synonym>
-      <key>ru</key>
-      <value>Черновик</value>
     </synonym>
   </enumValues>
 </mdclass:Enum>
