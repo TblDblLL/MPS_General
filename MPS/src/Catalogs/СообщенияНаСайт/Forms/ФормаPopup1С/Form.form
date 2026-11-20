@@ -112,6 +112,7 @@
       <width>10</width>
       <maxWidth>10</maxWidth>
       <autoMaxHeight>true</autoMaxHeight>
+      <horizontalStretch>false</horizontalStretch>
       <extInfo xsi:type="form:LabelDecorationExtInfo">
         <horizontalAlign>Left</horizontalAlign>
       </extInfo>
@@ -192,6 +193,7 @@
         <key>ru</key>
         <value>КППубликации</value>
       </title>
+      <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
         <name>КППубликацииРасширеннаяПодсказка</name>
         <id>10238</id>
@@ -227,6 +229,7 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Статус</segments>
       </dataPath>
+      <titleLocation>None</titleLocation>
       <extendedTooltip>
         <name>СтатусРасширеннаяПодсказка</name>
         <id>10245</id>
@@ -249,6 +252,7 @@
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:LabelFieldExtInfo">
         <autoMaxHeight>true</autoMaxHeight>
+        <horizontalStretch>false</horizontalStretch>
         <font xsi:type="core:FontRef">
           <font>Style.NormalTextFont</font>
           <bold>true</bold>
@@ -1421,10 +1425,9 @@
               </contextMenu>
               <width>42</width>
               <maxWidth>42</maxWidth>
-              <height>3</height>
-              <heightInTableRows>3</heightInTableRows>
-              <heightControlVariant>InTableRows</heightControlVariant>
-              <maxRowsCount>3</maxRowsCount>
+              <height>6</height>
+              <maxHeight>6</maxHeight>
+              <heightControlVariant>InFormRows</heightControlVariant>
               <headerHeight>1</headerHeight>
               <footerHeight>1</footerHeight>
               <horizontalLines>true</horizontalLines>
