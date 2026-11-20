@@ -231,6 +231,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>LabelField</type>
+      <horizontalAlign>Center</horizontalAlign>
       <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -266,7 +267,7 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>HorizontalIfPossible</group>
+      <group>AlwaysHorizontal</group>
       <behavior>Auto</behavior>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>

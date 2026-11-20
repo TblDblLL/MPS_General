@@ -1,5 +1,318 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <items xsi:type="form:FormGroup">
+    <name>ПанелиФормы</name>
+    <id>127</id>
+    <items xsi:type="form:FormGroup">
+      <name>КПФормы</name>
+      <id>129</id>
+      <items xsi:type="form:Button">
+        <name>ЗаписатьИЗакрыть</name>
+        <id>131</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ЗаписатьИЗакрытьРасширеннаяПодсказка</name>
+          <id>132</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.StandardCommand.WriteAndClose</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <items xsi:type="form:Button">
+        <name>Записать</name>
+        <id>133</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ЗаписатьРасширеннаяПодсказка</name>
+          <id>134</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.StandardCommand.Write</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>КПФормы</value>
+      </title>
+      <horizontalStretch>false</horizontalStretch>
+      <extendedTooltip>
+        <name>КПФормыРасширеннаяПодсказка</name>
+        <id>130</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>CommandBar</type>
+      <extInfo xsi:type="form:CommandBarExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </items>
+    <items xsi:type="form:Decoration">
+      <name>Декорация34</name>
+      <id>135</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>Декорация34РасширеннаяПодсказка</name>
+        <id>137</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>Декорация34КонтекстноеМеню</name>
+        <id>136</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>Label</type>
+      <width>10</width>
+      <maxWidth>10</maxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <horizontalStretch>false</horizontalStretch>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormGroup">
+      <name>КППубликации</name>
+      <id>145</id>
+      <items xsi:type="form:Button">
+        <name>Запустить</name>
+        <id>147</id>
+        <title>
+          <key>ru</key>
+          <value>Стартовать</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ЗапуститьРасширеннаяПодсказка</name>
+          <id>148</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.Запустить</commandName>
+        <representation>PictureAndText</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <picture xsi:type="core:PictureRef">
+          <picture>CommonPicture.Запустить</picture>
+        </picture>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <items xsi:type="form:Button">
+        <name>Остановить</name>
+        <id>149</id>
+        <title>
+          <key>ru</key>
+          <value>Остановить</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ОстановитьРасширеннаяПодсказка</name>
+          <id>150</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.Остановить</commandName>
+        <representation>PictureAndText</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <picture xsi:type="core:PictureRef">
+          <picture>CommonPicture.Остановить</picture>
+        </picture>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <items xsi:type="form:Button">
+        <name>Пауза</name>
+        <id>151</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ПаузаРасширеннаяПодсказка</name>
+          <id>152</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.Пауза</commandName>
+        <representation>PictureAndText</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <picture xsi:type="core:PictureRef">
+          <picture>CommonPicture.Пауза</picture>
+        </picture>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>КППубликации</value>
+      </title>
+      <horizontalStretch>false</horizontalStretch>
+      <extendedTooltip>
+        <name>КППубликацииРасширеннаяПодсказка</name>
+        <id>146</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>CommandBar</type>
+      <extInfo xsi:type="form:CommandBarExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Статус</name>
+      <id>156</id>
+      <titleTextColor xsi:type="core:ColorDef">
+        <red>51</red>
+        <green>153</green>
+        <blue>102</blue>
+      </titleTextColor>
+      <titleFont xsi:type="core:FontRef">
+        <font>Style.NormalTextFont</font>
+        <bold>true</bold>
+      </titleFont>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Статус</segments>
+      </dataPath>
+      <titleLocation>None</titleLocation>
+      <extendedTooltip>
+        <name>СтатусРасширеннаяПодсказка</name>
+        <id>158</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СтатусКонтекстноеМеню</name>
+        <id>157</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <horizontalAlign>Center</horizontalAlign>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxHeight>true</autoMaxHeight>
+        <horizontalStretch>false</horizontalStretch>
+        <font xsi:type="core:FontRef">
+          <font>Style.NormalTextFont</font>
+          <bold>true</bold>
+        </font>
+      </extInfo>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Панели формы</value>
+    </title>
+    <extendedTooltip>
+      <name>ПанелиФормыРасширеннаяПодсказка</name>
+      <id>128</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>AlwaysHorizontal</group>
+      <behavior>Auto</behavior>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
   <items xsi:type="form:FormField">
     <name>Код</name>
     <id>1</id>
@@ -1760,34 +2073,10 @@
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
+  <commandBarLocation>None</commandBarLocation>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
-    <items xsi:type="form:Button">
-      <name>ЗапуститьВРаботу</name>
-      <id>10</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <extendedTooltip>
-        <name>ЗапуститьВРаботуРасширеннаяПодсказка</name>
-        <id>11</id>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <commandName>Form.Command.Запустить</commandName>
-      <representation>Auto</representation>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <placementArea>UserCmds</placementArea>
-      <representationInContextMenu>Auto</representationInContextMenu>
-    </items>
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
@@ -2050,6 +2339,23 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>Статус</name>
+    <title>
+      <key>ru</key>
+      <value>Текущий статус</value>
+    </title>
+    <id>16</id>
+    <valueType>
+      <types>EnumRef.СтатусыПрограммЛояльности</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>Запустить</name>
     <title>
@@ -2063,6 +2369,11 @@
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.GenerateReport</picture>
     </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>Запустить</name>
+      </handler>
+    </action>
     <representation>TextPicture</representation>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
@@ -2117,6 +2428,40 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ФильтрОшибок</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>Остановить</name>
+    <title>
+      <key>ru</key>
+      <value>Остановить</value>
+    </title>
+    <id>7</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>Остановить</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>Пауза</name>
+    <title>
+      <key>ru</key>
+      <value>Пауза</value>
+    </title>
+    <id>8</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>Пауза</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
