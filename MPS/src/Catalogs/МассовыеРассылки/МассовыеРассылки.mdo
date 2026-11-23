@@ -181,7 +181,7 @@
     <name>АктуальноЧасов</name>
     <synonym>
       <key>ru</key>
-      <value>Актуально часов</value>
+      <value>Повторять попытки отправки не дольше чем</value>
     </synonym>
     <type>
       <types>Number</types>

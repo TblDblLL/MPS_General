@@ -1724,10 +1724,10 @@
   <informationRegisters>InformationRegister.ПодпискиКлиентов</informationRegisters>
   <informationRegisters>InformationRegister.СоставНоменклатурыПромоакций</informationRegisters>
   <informationRegisters>InformationRegister.СоставСпискаПродуктовКлиента</informationRegisters>
+  <informationRegisters>InformationRegister.СостоянияРассылокПоКлиентам</informationRegisters>
   <informationRegisters>InformationRegister.СостоянияНаборовПромокодов</informationRegisters>
   <informationRegisters>InformationRegister.СостоянияПерсонализаций</informationRegisters>
   <informationRegisters>InformationRegister.СостоянияПрограммАкций</informationRegisters>
-  <informationRegisters>InformationRegister.СостоянияРассылокПоКлиентам</informationRegisters>
   <informationRegisters>InformationRegister.СостоянияРассылок</informationRegisters>
   <informationRegisters>InformationRegister.СостоянияСценариев</informationRegisters>
   <informationRegisters>InformationRegister.СостоянияЗаданийПКМП</informationRegisters>
