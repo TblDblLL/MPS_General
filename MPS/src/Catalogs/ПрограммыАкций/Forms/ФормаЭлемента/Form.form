@@ -260,7 +260,7 @@
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <picture xsi:type="core:PictureRef">
-          <picture>CommonPicture.Остановить</picture>
+          <picture>StdPicture.DialogStop</picture>
         </picture>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
