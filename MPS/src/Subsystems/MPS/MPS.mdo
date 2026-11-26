@@ -130,4 +130,6 @@
   <content>EventSubscription.УстановкаОбъектногоИДДляКлиентов</content>
   <content>InformationRegister.СостоянияРассылок</content>
   <content>CommonAttribute.ЗаполненоКорректно</content>
+  <content>CommonModule.СостоянияПроцессовПКМПКлиентСервер</content>
+  <content>CommonModule.СостоянияПроцессовПКМП</content>
 </mdclass:Subsystem>

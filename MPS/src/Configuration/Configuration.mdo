@@ -977,7 +977,8 @@
   <commonModules>CommonModule.КомпоновкаИРасписание_ПКМПВызовСервера</commonModules>
   <commonModules>CommonModule.ГрафическаяСхемаПКМП</commonModules>
   <commonModules>CommonModule.ГрафическаяСхемаКлиентСерверПКМП</commonModules>
-  <commonModules>CommonModule.УправлениеСостояниямиПроцессовПКМП</commonModules>
+  <commonModules>CommonModule.СостоянияПроцессовПКМП</commonModules>
+  <commonModules>CommonModule.СостоянияПроцессовПКМПКлиентСервер</commonModules>
   <commonModules>CommonModule.МВ_АвторизацияAPI</commonModules>
   <commonModules>CommonModule.МВ_ДиспетчерОпераций</commonModules>
   <commonModules>CommonModule.МВ_ПротоколAPI</commonModules>
