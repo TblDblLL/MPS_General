@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonAttribute xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a561f6e5-56ba-4569-9871-48417eb83863">
+  <name>ЗаполненоКорректно</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнено корректно</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataHistory>Use</dataHistory>
+  <fillValue xsi:type="core:UndefinedValue"/>
+  <content>
+    <metadata>Catalog.СообщенияНаСайт</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.Виджеты</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.ПрограммыАкций</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.АвтоматическиеРассылки</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.НаборыПромокодов</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.МассовыеРассылки</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.Сценарии</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.СообщенияВПриложение</metadata>
+    <use>Use</use>
+  </content>
+  <autoUse>DontUse</autoUse>
+  <dataSeparation>DontUse</dataSeparation>
+  <usersSeparation>DontUse</usersSeparation>
+  <authenticationSeparation>DontUse</authenticationSeparation>
+  <configurationExtensionsSeparation>DontUse</configurationExtensionsSeparation>
+  <fullTextSearch>Use</fullTextSearch>
+</mdclass:CommonAttribute>

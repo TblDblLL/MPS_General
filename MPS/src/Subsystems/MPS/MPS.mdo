@@ -129,4 +129,5 @@
   <content>EventSubscription.УстановкаОбъектногоИДДляКампаний</content>
   <content>EventSubscription.УстановкаОбъектногоИДДляКлиентов</content>
   <content>InformationRegister.СостоянияРассылок</content>
+  <content>CommonAttribute.ЗаполненоКорректно</content>
 </mdclass:Subsystem>
